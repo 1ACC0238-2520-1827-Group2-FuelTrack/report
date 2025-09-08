@@ -10,20 +10,20 @@
 
 🧑‍💻 Ingeniería de software - 2025-02
 
-**Sección:** 
+**Sección: 1827** 
 
-**Docente:** 
+**Docente: David Gerardo Quevedo Velasco** 
 
-**StartUp:** 
+**StartUp: FuelTrack** 
 
-**Producto:** 
+**Producto: FuelTrack Pro** 
 
 <div align='left'>	
 
 ~~~C#
 string[] Integrantes() {
     return new string[] {
-        "🧑‍💻 ",
+        "🧑‍💻 Acuña Tomas, Diego Rolin - U202221436",
         "👩‍💻 Miranda Ayasta, Rogger Faryd - U202319239",
         "👩‍💻 ",
         "👩‍💻 ",
