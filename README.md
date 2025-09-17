@@ -220,6 +220,55 @@ Septiembre del 2025 🗓️
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+<table>
+  <thead>
+    <tr>
+      <th>Foto del Participante</th>
+      <th>Nombres y Apellidos</th>
+      <th>Código de Estudiante</th>
+      <th>Descripción de Carrera</th>
+      <th>Resumen de Conocimientos y Habilidades</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Acuña Tomas, Diego Rolin</td>
+      <td>U202221436</td>
+      <td>Ingenieria de Software</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Miranda Ayasta, Rogger Faryd</td>
+      <td>U202319239</td>
+      <td>Ingenieria de Software</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img src="/assets/Chapters/Chapter-I/marlle.jpg" alt="marlle" width="80"></td>
+      <td>Marllely Anahi Arias Segil</td>
+      <td>u202223984</td>
+      <td>Ingenieria de Software</td>
+      <td>Hola, mi nombre es Marllely Arias Segil. Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), una persona empática, responsable y comprometida con mi crecimiento profesional. Mi objetivo es desarrollarme continuamente y aportar valor en cada proyecto.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Manuel Angel Sanchez Arenas </td>
+      <td>u201817507</td>
+      <td>Ingenieria de Software</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Lynn Jeeferzon Meza Camayo</td>
+      <td>u20201c320</td>
+      <td>Ingenieria de Software</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
@@ -571,7 +620,7 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 </p>  
 
   - **Duración:** 4:44  
-  - **URL de Entrevista:** [Ver video](upc-pre-202501-cc238-1827-FuelTrack-needfinding-sprint-Segmento-1.1.mp4)  
+  - **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EZ-EvmI7ysxAgXLj16UBIEQBy1ZI2B8OWWevJ3a4DKPAaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=glKx5d)  
 
 **Entrevista 2**  
 - **Nombres:** Zahir  
@@ -585,7 +634,7 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 </p>  
 
   - **Duración:** 5:35  
-  - **URL de Entrevista:** [Ver video](upc-pre-202501-cc238-1827-FuelTrack-needfinding-sprint-Segmento-1.2.mp4)  
+  - **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EZ-EvmI7ysxAgXLj16UBIEQBy1ZI2B8OWWevJ3a4DKPAaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=glKx5d)  
 
 **Entrevista 3**  
 - **Nombres:** Jocelyn  
@@ -599,7 +648,7 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 </p>  
 
   - **Duración:** 4:37  
-  - **URL de Entrevista:** [Ver video](upc-pre-202501-cc238-1827-FuelTrack-needfinding-sprint-Segmento-1.3.mp4)  
+  - **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EaNDMuXNpqFOkXswx7NnYUwBI5OI05-SYfsXkSLIujTLhw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mt182n)  
 
 ---
 
@@ -617,7 +666,7 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 </p>  
 
   - **Duración:** 3:10  
-  - **URL de Entrevista:** [Ver video](upc-pre-202501-cc238-1827-FuelTrack-needfinding-sprint-Segmento-2.1.mp4)  
+  - **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/ERB62lcIgA5Dq2k4x8PeXaYBOcfO21rjD5dTdhCHjItp9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aDK43j)  
 
 **Entrevista 2**  
 - **Nombres:** Luciana  
@@ -631,13 +680,237 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 </p>  
 
   - **Duración:** 5:24  
-  - **URL de Entrevista:** [Ver video](upc-pre-202501-cc238-1827-FuelTrack-needfinding-sprint-Segmento-2.2.mp4)  
+  - **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EaS3RVo9lc9Ams7yPEZVSkoBA7bKq1R98Rw21vWZty6jQQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=IpUNrI)  
 
 **Entrevista 3**  
+- **Nombres:** Miguel  
+- **Apellidos:** Gomez  
+- **Edad:** 24  
+- **Distrito:** Villa el Salvador  
+- **Captura de la entrevista**  
 
+<p align="center">
+  <img src="/assets/Chapters/Chapter-II/entrevista3-segmento2.png" alt="Captura entrevista 6" width="400"/>
+</p>  
+
+  - **Duración:** 4:55  
+  - **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EZNQzHmiDDVLqrDDfFRus18BEy1m2wSLCwNUNPL6s_SjaQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uXbPv6)  
 ---
 
-### 2.2.3. Análisis de entrevistas  
+### 2.2.3. Análisis de entrevistas 
+#### **A. Proveedores de Combustible** 
+#### Características Objetivas
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Característica</th>
+      <th>Entrevista 1</th>
+      <th>Entrevista 2</th>
+      <th>Entrevista 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gestión de pedidos</td>
+      <td>Correo y WhatsApp, registrados en Excel</td>
+      <td>Correo → registro manual en sistema interno</td>
+      <td>Sistema comercial en línea</td>
+    </tr>
+    <tr>
+      <td>Uso de sistemas digitales</td>
+      <td>No (Excel y Google Drive)</td>
+      <td>Parcial, requiere digitación manual</td>
+      <td>Sí, plataforma digital completa</td>
+    </tr>
+    <tr>
+      <td>Pasos del proceso</td>
+      <td>Validación, verificación de stock, orden, despacho, entrega</td>
+      <td>Registro, validación, agendamiento, despacho, entrega</td>
+      <td>Registro, validación de stock, programación, despacho, facturación</td>
+    </tr>
+    <tr>
+      <td>Validación de stock</td>
+      <td>Manual con almacén</td>
+      <td>Comunicación con planta</td>
+      <td>Sistema de inventarios en tiempo real</td>
+    </tr>
+    <tr>
+      <td>Reportes generados</td>
+      <td>Volúmenes, facturación mensual, tiempos de entrega (manual)</td>
+      <td>Reportes diarios y mensuales de volúmenes, libros de venta</td>
+      <td>Volúmenes, facturación, consumo por cliente, estadísticas</td>
+    </tr>
+    <tr>
+      <td>Seguimiento de pedidos</td>
+      <td>Manual, clientes llaman o escriben</td>
+      <td>WhatsApp o teléfono</td>
+      <td>Trazabilidad en tiempo real</td>
+    </tr>
+    <tr>
+      <td>Conciliación de pagos</td>
+      <td>Excel (cruce de comprobantes bancarios y facturación)</td>
+      <td>Área de cobranzas (manual)</td>
+      <td>Sistemas financieros internos</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Características Subjetivas
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Aspecto</th>
+      <th>Entrevista 1</th>
+      <th>Entrevista 2</th>
+      <th>Entrevista 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Frustraciones principales</td>
+      <td>Despachos incompletos, falta de stock, demoras por transporte</td>
+      <td>Errores de digitación, discrepancias en pedidos</td>
+      <td>Retrasos en transporte, disponibilidad de cisternas</td>
+    </tr>
+    <tr>
+      <td>Percepción del proceso actual</td>
+      <td>Manual, poco controlado y propenso a errores</td>
+      <td>Manual en gran parte, riesgo de errores humanos</td>
+      <td>Estructurado, pero afectado por factores externos</td>
+    </tr>
+    <tr>
+      <td>Deseo de mejoras</td>
+      <td>Sí, más control, reducción de errores, centralización</td>
+      <td>Sí, automatización y reducción de errores</td>
+      <td>Sí, integración con condiciones de seguridad</td>
+    </tr>
+    <tr>
+      <td>Disposición a integrar plataforma</td>
+      <td>Muy alta</td>
+      <td>Muy alta</td>
+      <td>Alta (condicionada a seguridad e integración)</td>
+    </tr>
+  </tbody>
+</table>
+
+
+El perfil de los proveedores de combustible combina procesos manuales y parcialmente digitalizados, con la excepción de empresas que ya cuentan con sistemas internos avanzados. En cuanto a características objetivas, la mayoría aún depende de registros en Excel, validaciones manuales de stock y seguimiento mediante llamadas o WhatsApp.
+
+Tambien existe consenso en las principales frustraciones: errores por digitación manual, retrasos en la entrega y falta de integración de procesos. Todos los entrevistados expresaron disposición a adoptar una plataforma centralizada; sin embargo, las empresas con mayor madurez digital condicionan la integración a requisitos de seguridad e interoperabilidad con sus sistemas actuales.
+
+#### **B. Empresas Solicitantes**  
+#### Características Objetivas
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Característica</th>
+      <th>Entrevista 1</th>
+      <th>Entrevista 2</th>
+      <th>Entrevista 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Edad promedio</td>
+      <td>28 años</td>
+      <td>23 años</td>
+      <td>24 años</td>
+    </tr>
+    <tr>
+      <td>Cargo/rol</td>
+      <td>Compras</td>
+      <td>Logística</td>
+      <td>Operaciones</td>
+    </tr>
+    <tr>
+      <td>Nivel educativo</td>
+      <td>Licenciada en Administración</td>
+      <td>Universitaria completa</td>
+      <td>Universitario completo</td>
+    </tr>
+    <tr>
+      <td>Herramientas principales</td>
+      <td>Laptop, smartphone</td>
+      <td>Email, WhatsApp, Excel</td>
+      <td>WhatsApp, llamadas, software básico</td>
+    </tr>
+    <tr>
+      <td>Medio actual de solicitud</td>
+      <td>Correo, WhatsApp</td>
+      <td>Teléfono, correo, WhatsApp</td>
+      <td>Correo, WhatsApp, llamadas</td>
+    </tr>
+    <tr>
+      <td>Validación de pedidos</td>
+      <td>Jefe de operaciones</td>
+      <td>Jefe de operaciones</td>
+      <td>Jefe de área</td>
+    </tr>
+    <tr>
+      <td>Autorización de pagos</td>
+      <td>Contabilidad</td>
+      <td>Finanzas/tesorería</td>
+      <td>Tesorería</td>
+    </tr>
+    <tr>
+      <td>Reportes de consumo</td>
+      <td>Semanal</td>
+      <td>Semanal</td>
+      <td>Mensual</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Características Subjetivas
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Aspecto</th>
+      <th>Entrevista 1</th>
+      <th>Entrevista 2</th>
+      <th>Entrevista 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Frustración con métodos manuales</td>
+      <td>Sí</td>
+      <td>Sí</td>
+      <td>Sí</td>
+    </tr>
+    <tr>
+      <td>Problemas con retrasos/entregas incompletas</td>
+      <td>Sí</td>
+      <td>Sí</td>
+      <td>Sí</td>
+    </tr>
+    <tr>
+      <td>Importancia de trazabilidad</td>
+      <td>Muy importante</td>
+      <td>Muy importante</td>
+      <td>Muy importante</td>
+    </tr>
+    <tr>
+      <td>Deseo de mejoras (automatización/plataforma centralizada)</td>
+      <td>Sí</td>
+      <td>Sí</td>
+      <td>Sí</td>
+    </tr>
+    <tr>
+      <td>Percepción de informalidad en proceso actual</td>
+      <td>Sí</td>
+      <td>Sí</td>
+      <td>Sí</td>
+    </tr>
+  </tbody>
+</table>
+
+
+El perfil de las empresas solicitantes entrevistadas corresponde a profesionales jóvenes (23-28 años), con formación universitaria, en roles de logística, compras u operaciones, que gestionan pedidos de combustible de manera manual mediante correo, llamadas o WhatsApp.
+
+En cuanto a <strong>características objetivas</strong>, todas dependen de hojas de cálculo (Excel) y comunicaciones informales, con reportes semanales o mensuales. La validación de pedidos recae siempre en el área operativa y los pagos en contabilidad/tesorería.
+
+En cuanto a <strong>características subjetivas</strong>, hay consenso en las principales frustraciones: falta de automatización, informalidad en la gestión, retrasos frecuentes y pérdida de información. Existe un 100% de coincidencia en la necesidad de una plataforma centralizada y trazabilidad en tiempo real, lo que refuerza la propuesta de valor de implementar un sistema digital de gestión de pedidos.
 
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas
@@ -755,6 +1028,8 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
 ## 2.4. Requirements specification
 
 ### 2.4.1. To Be Scenario Mapping
+
+#### A. Proveedores de Combustible
 <table>
   <thead>
     <tr>
@@ -766,7 +1041,7 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
     </tr>
   </thead>
   <tbody>
-    <tr> 
+    <tr>
       <td><strong>DOING</strong></td>
       <td>Utiliza la plataforma centralizada FuelTracks, con historial de comunicación y notificaciones automáticas.</td>
       <td>Completa un formulario estructurado directamente desde la web o app.</td>
@@ -789,6 +1064,44 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
     </tr>
   </tbody>
 </table>
+
+
+#### B. Empresas Solicitantes
+<table>
+  <thead>
+    <tr>
+      <th>FASES</th>
+      <th>Comunicación</th>
+      <th>Recepción de pedido</th>
+      <th>Gestión y seguimiento</th>
+      <th>Entrega final</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>DOING</strong></td>
+      <td>Recibe notificaciones automáticas de nuevos pedidos desde FuelTrack.</td>
+      <td>Visualiza un pedido estructurado en la plataforma, con toda la información validada.</td>
+      <td>Utiliza el panel de control para organizar la flota y asignar recursos.</td>
+      <td>Registra la entrega con confirmación digital y genera comprobante automático.</td>
+    </tr>
+    <tr>
+      <td><strong>THINKING</strong></td>
+      <td>"Los pedidos me llegan claros y sin errores de comunicación."</td>
+      <td>"Tengo toda la información necesaria en un solo lugar."</td>
+      <td>"Puedo controlar y optimizar mis recursos sin perder tiempo."</td>
+      <td>"La entrega quedó confirmada y registrada automáticamente."</td>
+    </tr>
+    <tr>
+      <td><strong>FEELING</strong></td>
+      <td>Seguridad, orden.</td>
+      <td>Confianza, claridad.</td>
+      <td>Control, eficiencia.</td>
+      <td>Tranquilidad, satisfacción.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### 2.4.2. User Stories
 <table border="1" >
