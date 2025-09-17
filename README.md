@@ -329,7 +329,7 @@ En el contexto actual donde crece cada vez más la demanda por servicios logíst
 
 #### 1.2.2.4. Lean UX Canvas
 
-<img src="/assets/Chapters/Charper-I/LeanUxCanvas.png" alt="Lean UX Canvas" width="500">
+<img src="/assets/Chapters/Chapter-I/LeanUxCanvas.png" alt="Lean UX Canvas" width="500">
 
 
 ## 1.3. Segmentos Objetivo
@@ -368,10 +368,10 @@ En el mercado existen diversas soluciones digitales enfocadas en la gestión de 
   </tr>
   <tr>
   <td colspan="2"><strong></strong></td>
-  <td><strong>FuelTrack</strong><br><img src="/assets/Chapters/Charper-II/logo-fueltrack.jpg" height="120"/></td>
-  <td><strong>Zavgar</strong><br><img src="/assets/Chapters/Charper-II/logo-zavgar.jpg" height="120"/></td>
-  <td><strong>FuelCloud</strong><br><img src="/assets/Chapters/Charper-II/logo-fuelcloud.jpg" height="120"/></td>
-  <td><strong>Wialon</strong><br><img src="/assets/Chapters/Charper-II/logo-wialon.jpg" height="120"/></td>
+  <td><strong>FuelTrack</strong><br><img src="/assets/Chapters/Chapter-II/logo-fueltrack.jpg" height="120"/></td>
+  <td><strong>Zavgar</strong><br><img src="/assets/Chapters/Chapter-II/logo-zavgar.jpg" height="120"/></td>
+  <td><strong>FuelCloud</strong><br><img src="/assets/Chapters/Chapter-II/logo-fuelcloud.jpg" height="120"/></td>
+  <td><strong>Wialon</strong><br><img src="/assets/Chapters/Chapter-II/logo-wialon.jpg" height="120"/></td>
 </tr>
 
   <tr>
@@ -567,7 +567,7 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 - **Captura de la entrevista**  
 
 <p align="center">
-  <img src="/assets/Chapters/Charper-II/entrevista1-segmento1.png" alt="Captura entrevista 1" width="400"/>
+  <img src="/assets/Chapters/Chapter-II/entrevista1-segmento1.png" alt="Captura entrevista 1" width="400"/>
 </p>  
 
   - **Duración:** 4:44  
@@ -581,7 +581,7 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 - **Captura de la entrevista**  
 
 <p align="center">
-  <img src="/assets/Chapters/Charper-II/entrevista2-segmento1.png" alt="Captura entrevista 2" width="400"/>
+  <img src="/assets/Chapters/Chapter-II/entrevista2-segmento1.png" alt="Captura entrevista 2" width="400"/>
 </p>  
 
   - **Duración:** 5:35  
@@ -595,7 +595,7 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 - **Captura de la entrevista**  
 
 <p align="center">
-  <img src="/assets/Chapters/Charper-II/entrevista3-segmento1.png" alt="Captura entrevista 3" width="400"/>
+  <img src="/assets/Chapters/Chapter-II/entrevista3-segmento1.png" alt="Captura entrevista 3" width="400"/>
 </p>  
 
   - **Duración:** 4:37  
@@ -613,7 +613,7 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 - **Captura de la entrevista**  
 
 <p align="center">
-  <img src="/assets/Chapters/Charper-II/entrevista1-segmento2.png" alt="Captura entrevista 4" width="400"/>
+  <img src="/assets/Chapters/Chapter-II/entrevista1-segmento2.png" alt="Captura entrevista 4" width="400"/>
 </p>  
 
   - **Duración:** 3:10  
@@ -627,7 +627,7 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 - **Captura de la entrevista**  
 
 <p align="center">
-  <img src="/assets/Chapters/Charper-II/entrevista2-segmento2.png" alt="Captura entrevista 5" width="400"/>
+  <img src="/assets/Chapters/Chapter-II/entrevista2-segmento2.png" alt="Captura entrevista 5" width="400"/>
 </p>  
 
   - **Duración:** 5:24  
@@ -643,12 +643,12 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 ### 2.3.1. User Personas
 #### A. Proveedores de Combustible
 <p align="center">
-  <img src="/assets/Chapters/Charper-II/userpersona_segmento1.png" alt="User Persona 1" width="400"/>
+  <img src="/assets/Chapters/Chapter-II/userpersona_segmento1.png" alt="User Persona 1" width="400"/>
 </p>
 
 #### B. Empresas Solicitantes
 <p align="center">
-  <img src="/assets/Chapters/Charper-II/userpersona_segmento2.png" alt="User Persona 2" width="400"/>
+  <img src="/assets/Chapters/Chapter-II/userpersona_segmento2.png" alt="User Persona 2" width="400"/>
 </p> 
 
 ### 2.3.2. User Task Matrix.
@@ -668,24 +668,24 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 #### A. Proveedores de Combustible
 En el caso del solicitante, el recorrido empieza con la generación de un pedido por correo o llamada, seguido por la validación manual del depósito, la espera de aprobación por parte del proveedor, la coordinación del despacho, y finalmente el registro manual de la entrega.
 <p align="center">
-  <img src="/assets/Chapters/Charper-II/userjourneymap_userpersona1.png" alt="Journey Mapping 1" width="400"/>
+  <img src="/assets/Chapters/Chapter-II/userjourneymap_userpersona1.png" alt="Journey Mapping 1" width="400"/>
 </p>
 
 #### B. Empresas Solicitantes
 En el caso del proveedor, el flujo parte desde la recepción del pedido, luego incluye la verificación del estado de cuenta, la aprobación manual, la asignación de planta y vehículo, y en muchos casos, la reprogramación por problemas de disponibilidad.
 <p align="center">
-  <img src="/assets/Chapters/Charper-II/userjourneymap_userpersona2.png" alt="Journey Mapping 2" width="400"/>
+  <img src="/assets/Chapters/Chapter-II/userjourneymap_userpersona2.png" alt="Journey Mapping 2" width="400"/>
 </p> 
 
 ### 2.3.4. Empathy Mapping.
 #### A. Proveedores de Combustible
 <p align="center">
-  <img src="/assets/Chapters/Charper-II/empathymap_segmento1.png" alt="Empathy Mapping 1" width="400"/>
+  <img src="/assets/Chapters/Chapter-II/empathymap_segmento1.png" alt="Empathy Mapping 1" width="400"/>
 </p> 
 
 #### B. Empresas Solicitantes
 <p align="center">
-  <img src="/assets/Chapters/Charper-II/empathymap_segmento2.png" alt="Empathy Mapping 2" width="400"/>
+  <img src="/assets/Chapters/Chapter-II/empathymap_segmento2.png" alt="Empathy Mapping 2" width="400"/>
 </p> 
 
 ### 2.3.5. Ubiquitous Language
