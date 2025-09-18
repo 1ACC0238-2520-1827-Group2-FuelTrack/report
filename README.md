@@ -156,20 +156,28 @@ Septiembre del 2025 🗓️
       - [**A. Proveedores de Combustible**](#a-proveedores-de-combustible-1)
       - [**B. Empresas Solicitantes**](#b-empresas-solicitantes-1)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+      - [**A. Proveedores de Combustible**](#a-proveedores-de-combustible-2)
+      - [Características Objetivas](#características-objetivas)
+      - [Características Subjetivas](#características-subjetivas)
+      - [**B. Empresas Solicitantes**](#b-empresas-solicitantes-2)
+      - [Características Objetivas](#características-objetivas-1)
+      - [Características Subjetivas](#características-subjetivas-1)
   - [2.3. Needfinding.](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
-      - [A. Proveedores de Combustible](#a-proveedores-de-combustible-2)
-      - [B. Empresas Solicitantes](#b-empresas-solicitantes-2)
-    - [2.3.2. User Task Matrix.](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
       - [A. Proveedores de Combustible](#a-proveedores-de-combustible-3)
       - [B. Empresas Solicitantes](#b-empresas-solicitantes-3)
-    - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
+    - [2.3.2. User Task Matrix.](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
       - [A. Proveedores de Combustible](#a-proveedores-de-combustible-4)
       - [B. Empresas Solicitantes](#b-empresas-solicitantes-4)
+    - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
+      - [A. Proveedores de Combustible](#a-proveedores-de-combustible-5)
+      - [B. Empresas Solicitantes](#b-empresas-solicitantes-5)
     - [2.3.5. Ubiquitous Language](#235-ubiquitous-language)
   - [2.4. Requirements specification](#24-requirements-specification)
     - [2.4.1. To Be Scenario Mapping](#241-to-be-scenario-mapping)
+      - [A. Proveedores de Combustible](#a-proveedores-de-combustible-6)
+      - [B. Empresas Solicitantes](#b-empresas-solicitantes-6)
     - [2.4.2. User Stories](#242-user-stories)
     - [2.4.3 Impact Mapping](#243-impact-mapping)
     - [2.4.4 Product Backlog](#244-product-backlog)
@@ -177,22 +185,25 @@ Septiembre del 2025 🗓️
     - [2.5.1. EventStorming](#251-eventstorming)
       - [2.5.1.1. Candidate Context Discovery](#2511-candidate-context-discovery)
       - [2.5.1.2. Domain Message Flows Modeling](#2512-domain-message-flows-modeling)
+    - [**Order**](#order)
+    - [**Operators**](#operators)
+    - [**Analytics**](#analytics)
+    - [**Vehicles**](#vehicles)
+    - [**Payments**](#payments)
+    - [**Notifications**](#notifications)
       - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)
+    - [**Order**](#order-1)
+    - [**Operators**](#operators-1)
+    - [**Analytics**](#analytics-1)
+    - [**Vehicles**](#vehicles-1)
+    - [**Payments**](#payments-1)
+    - [**Notifications**](#notifications-1)
     - [2.5.2. Context Mapping](#252-context-mapping)
     - [2.5.3. Software Architecture](#253-software-architecture)
       - [2.5.3.1. Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)
       - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
       - [2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)
   - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
-    - [2.6.x. Bounded Context: ](#26x-bounded-context-)
-      - [2.6.x.1. Domain Layer](#26x1-domain-layer)
-      - [2.6.x.2. Interface Layer](#26x2-interface-layer)
-      - [2.6.x.3. Application Layer](#26x3-application-layer)
-      - [2.6.x.4 Infrastructure Layer](#26x4-infrastructure-layer)
-      - [2.6.x.5. Bounded Context Software Architecture Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)
-      - [2.6.x.6. Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)
-        - [2.6.x.6.1. Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)
-        - [2.6.x.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Video App Validation](#video-app-validation)
@@ -2058,23 +2069,14 @@ Order & Operator → Analytics: tanto Order como Operator proveen información h
 
 ### 2.5.3. Software Architecture
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+![alt text](<assets/Chapters/Chapter-IV/2.5.3.1. Software-Architecture-Context-Diagram.png>)
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+![alt text](<assets/Chapters/Chapter-IV/2.5.3.2. Software-Architecture-Container-Diagrams.png>)
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 ## 2.6. Tactical-Level Domain-Driven Design
-
-### 2.6.x. Bounded Context: <Bounded Context Name>
-
-#### 2.6.x.1. Domain Layer
-#### 2.6.x.2. Interface Layer
-#### 2.6.x.3. Application Layer
-#### 2.6.x.4 Infrastructure Layer
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
-
 
 # Conclusiones
 ## Conclusiones y Recomendaciones
