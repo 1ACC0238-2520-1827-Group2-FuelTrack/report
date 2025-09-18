@@ -209,6 +209,10 @@ Septiembre del 2025 🗓️
       - [2.6.1.2. Interface Layer](#2612-interface-layer)
       - [2.6.1.3. Application Layer](#2613-application-layer)
       - [2.6.1.4 Infrastructure Layer](#2614-infrastructure-layer)
+      - [2.6.1.5. Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.1.6. Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.1.6.1. Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams)
+        - [2.6.1.6.2. Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Video App Validation](#video-app-validation)
@@ -2082,20 +2086,21 @@ Order & Operator → Analytics: tanto Order como Operator proveen información h
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 ## 2.6. Tactical-Level Domain-Driven Design
+
 ### 2.6.1. Bounded Context: Analytics
 
 #### 2.6.1.1. Domain Layer
 Este **bounded context** no define sus propias entidades o agregados, sino que depende de entidades y enums del módulo **Shared**. Las consultas son **read-only**, orientadas a analítica y estadísticas.
 
-| Clase          | Tipo                      | Descripción                                                                                     |
-| -------------- | ------------------------- | ----------------------------------------------------------------------------------------------- |
-| Order          | Entity (de Shared.Models) | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
-| User           | Entity (de Shared.Models) | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
-| Vehicle        | Entity (de Shared.Models) | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
-| Operator       | Entity (de Shared.Models) | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
-| OrderStatus    | Value Object (Enum)       | Se usa para filtrar datos y calcular métricas específicas: pedidos completados.                 |
-| UserRole       | Value Object (Enum)       | Se usa para filtrar datos y calcular métricas específicas: usuarios por rol.                    |
-| OperatorStatus | Value Object (Enum)       | Se usa para filtrar datos y calcular métricas específicas: operadores disponibles.              |
+| Clase        | Tipo                       | Descripción                                                                 |
+|--------------|----------------------------|-----------------------------------------------------------------------------|
+| Order        | Entity (de Shared.Models)   | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
+| User         | Entity (de Shared.Models)   | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
+| Vehicle      | Entity (de Shared.Models)   | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
+| Operator     | Entity (de Shared.Models)   | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
+| OrderStatus  | Value Object (Enum)         | Se usa para filtrar datos y calcular métricas específicas: pedidos completados. |
+| UserRole     | Value Object (Enum)         | Se usa para filtrar datos y calcular métricas específicas: usuarios por rol. |
+| OperatorStatus | Value Object (Enum)       | Se usa para filtrar datos y calcular métricas específicas: operadores disponibles. |
 
 #### 2.6.1.2. Interface Layer
 Contiene el **controlador HTTP** que expone los **endpoints** para obtener las estadísticas por tipo de usuario (Admin, Proveedor, Cliente).
@@ -2104,10 +2109,11 @@ Contiene el **controlador HTTP** que expone los **endpoints** para obtener las e
 | ------------------- | ---------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | AnalyticsController | Controller | - `GetDashboardStats()`<br>- `GetUserStats()`<br>- `GetProviderStats()`<br>- `GetClientStats()` | Expone los endpoints `/dashboard`, `/users`, `/provider` y `/client`. Autenticado y con autorización por roles. Orquesta al servicio `IAnalyticsService`. |
 
+
 #### 2.6.1.3. Application Layer
 Contiene la lógica de **agregación y cálculos** para las estadísticas mostradas en el dashboard.
 
-| Clase             | Tipo                | Métodos Públicos                                                                                                                                                                                       | Descripción                                                                                                                                                              |
+| Clase             | Tipo                | Métodos Públicos | Descripción                                                                                                                                                              |
 | ----------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | IAnalyticsService | Interface           | - `GetDashboardStatsAsync()`<br>- `GetUserStatsAsync()`<br>- `GetProviderStatsAsync()`<br>- `GetClientStatsAsync(int)`                                                                                 | Define el contrato para cualquier implementación que calcule estadísticas analíticas.                                                                                    |
 | AnalyticsService  | Application Service | - Todos los anteriores + métodos privados:<br>  `GetMonthlyRevenueAsync`, `GetMonthlySpendingAsync`, `GetFuelTypeStatsAsync`,<br>  `GetPersonalFuelTypeStatsAsync`, `GetMonthlyUserRegistrationsAsync` | Implementa cálculos agregados como ingresos, pedidos por tipo de combustible, usuarios activos, registros mensuales, etc. No modifica datos ni maneja lógica de negocio. |
@@ -2125,6 +2131,14 @@ Contiene la lógica de **agregación y cálculos** para las estadísticas mostra
 | MonthlyRevenueDto   | DTO auxiliar  | Incluye ingresos y conteo de pedidos por mes (en `DashboardStatsDto`).                                               |
 | FuelTypeStatsDto    | DTO auxiliar  | Contiene estadísticas de uso de tipos de combustible (en `DashboardStatsDto`).                                       |
 | UserRegistrationDto | DTO auxiliar  | Muestra la cantidad de usuarios registrados por mes.                                                                 |
+
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+![alt text](assets/Chapters/Chapter-IV/structurizr-Component-Analytics.png)
+
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
 
 
 
