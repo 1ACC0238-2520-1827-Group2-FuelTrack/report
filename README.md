@@ -2375,7 +2375,7 @@ Contiene la lógica de **gestión de notificaciones** dentro del sistema.
 | CreateNotificationDto | DTO de entrada | `UserId`, `Title`, `Message`, `Type`, `RelatedOrderId`                                          | Datos necesarios para crear una nueva notificación.           |
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
-
+![alt text](assets/Chapters/Chapter-IV/structurizr-Component-notifications.png)
 
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
@@ -2430,7 +2430,7 @@ Contiene la lógica de **gestión de pagos** y **métodos de pago**.
 | PaymentDto             | DTO de salida  | `Id`, `OrderId`, `OrderNumber`, `Amount`, `Status`, `TransactionId`, `ProcessedAt`, `CreatedAt`, `CardHolderName`, `LastFourDigits`, `CardType` | Representa un pago procesado o en curso, con detalles como monto, estado, transacción, etc. |
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
-
+![alt text](assets/Chapters/Chapter-IV/structurizr-Component-payments.png)
 
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
 
