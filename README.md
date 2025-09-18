@@ -207,6 +207,8 @@ Septiembre del 2025 🗓️
     - [2.6.1. Bounded Context: Analytics](#261-bounded-context-analytics)
       - [2.6.1.1. Domain Layer](#2611-domain-layer)
       - [2.6.1.2. Interface Layer](#2612-interface-layer)
+      - [2.6.1.3. Application Layer](#2613-application-layer)
+      - [2.6.1.4 Infrastructure Layer](#2614-infrastructure-layer)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Video App Validation](#video-app-validation)
@@ -2102,6 +2104,27 @@ Contiene el **controlador HTTP** que expone los **endpoints** para obtener las e
 | ------------------- | ---------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | AnalyticsController | Controller | - `GetDashboardStats()`<br>- `GetUserStats()`<br>- `GetProviderStats()`<br>- `GetClientStats()` | Expone los endpoints `/dashboard`, `/users`, `/provider` y `/client`. Autenticado y con autorización por roles. Orquesta al servicio `IAnalyticsService`. |
 
+#### 2.6.1.3. Application Layer
+Contiene la lógica de **agregación y cálculos** para las estadísticas mostradas en el dashboard.
+
+| Clase             | Tipo                | Métodos Públicos                                                                                                                                                                                       | Descripción                                                                                                                                                              |
+| ----------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| IAnalyticsService | Interface           | - `GetDashboardStatsAsync()`<br>- `GetUserStatsAsync()`<br>- `GetProviderStatsAsync()`<br>- `GetClientStatsAsync(int)`                                                                                 | Define el contrato para cualquier implementación que calcule estadísticas analíticas.                                                                                    |
+| AnalyticsService  | Application Service | - Todos los anteriores + métodos privados:<br>  `GetMonthlyRevenueAsync`, `GetMonthlySpendingAsync`, `GetFuelTypeStatsAsync`,<br>  `GetPersonalFuelTypeStatsAsync`, `GetMonthlyUserRegistrationsAsync` | Implementa cálculos agregados como ingresos, pedidos por tipo de combustible, usuarios activos, registros mensuales, etc. No modifica datos ni maneja lógica de negocio. |
+
+#### 2.6.1.4 Infrastructure Layer
+| Clase              | Tipo              | Descripción                                                                                                                            |
+| ------------------ | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| FuelTrackDbContext | EF Core DbContext | Se usa como punto de acceso a los datos persistentes. Permite realizar queries con LINQ sobre Orders, Users, Vehicles, Operators, etc. |
+
+**DTOs usados**
+| Clase               | Tipo          | Descripción                                                                                                          |
+| ------------------- | ------------- | -------------------------------------------------------------------------------------------------------------------- |
+| DashboardStatsDto   | DTO de salida | Contiene datos como total de pedidos, pedidos completados, ingresos, vehículos activos, operadores disponibles, etc. |
+| UserStatsDto        | DTO de salida | Muestra estadísticas de usuarios por rol y actividad.                                                                |
+| MonthlyRevenueDto   | DTO auxiliar  | Incluye ingresos y conteo de pedidos por mes (en `DashboardStatsDto`).                                               |
+| FuelTypeStatsDto    | DTO auxiliar  | Contiene estadísticas de uso de tipos de combustible (en `DashboardStatsDto`).                                       |
+| UserRegistrationDto | DTO auxiliar  | Muestra la cantidad de usuarios registrados por mes.                                                                 |
 
 
 
