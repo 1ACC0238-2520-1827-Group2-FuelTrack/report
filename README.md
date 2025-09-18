@@ -60,8 +60,17 @@ Septiembre del 2025 🗓️
       </ul>
     </td>
     <td> Se han incluído los siguientes capítulos:
-        <ul>
-        </ul></td>
+    Carátula
+    Registro de Versiones del Informe
+    Project Report Collaboration Insights
+    Contenido
+    Student Outcome
+    Capítulo I: Presentación
+    Capítulo II: Requirements Development and Software Solution Design
+    Conclusiones
+    Bibliografía
+    Anexos
+    </td>
   </tr>
   <tr>
     <td>TP1</td>
@@ -313,11 +322,22 @@ Septiembre del 2025 🗓️
       <td></td>
     </tr>
     <tr>
-      <td></td>
+      <td><img src="https://files.catbox.moe/uo7qnb.webp" alt="rogger" width="80"></td>
       <td>Miranda Ayasta, Rogger Faryd</td>
       <td>U202319239</td>
       <td>Ingenieria de Software</td>
-      <td></td>
+      <td>🎓 Soy estudiante de Ingeniería de Software, 
+   actualmente curso el 5.º ciclo de la carrera.
+
+   💻 A lo largo de mi formación he aprendido diversos lenguajes de programación, como:
+   ➡️ C++       
+   ➡️ Python    
+   ➡️ JavaScript
+   ➡️ HTML & CSS
+
+   🤝 Me destaco por mi responsabilidad, mis habilidades 
+   para el trabajo en equipo y mi motivación constante por 
+   seguir aprendiendo 📚.</td>
     </tr>
     <tr>
       <td><img src="/assets/Chapters/Chapter-I/marlle.jpg" alt="marlle" width="80"></td>
