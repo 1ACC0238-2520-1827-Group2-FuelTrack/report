@@ -60,8 +60,17 @@ Septiembre del 2025 🗓️
       </ul>
     </td>
     <td> Se han incluído los siguientes capítulos:
-        <ul>
-        </ul></td>
+    Carátula
+    Registro de Versiones del Informe
+    Project Report Collaboration Insights
+    Contenido
+    Student Outcome
+    Capítulo I: Presentación
+    Capítulo II: Requirements Development and Software Solution Design
+    Conclusiones
+    Bibliografía
+    Anexos
+    </td>
   </tr>
   <tr>
     <td>TP1</td>
@@ -156,20 +165,28 @@ Septiembre del 2025 🗓️
       - [**A. Proveedores de Combustible**](#a-proveedores-de-combustible-1)
       - [**B. Empresas Solicitantes**](#b-empresas-solicitantes-1)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+      - [**A. Proveedores de Combustible**](#a-proveedores-de-combustible-2)
+      - [Características Objetivas](#características-objetivas)
+      - [Características Subjetivas](#características-subjetivas)
+      - [**B. Empresas Solicitantes**](#b-empresas-solicitantes-2)
+      - [Características Objetivas](#características-objetivas-1)
+      - [Características Subjetivas](#características-subjetivas-1)
   - [2.3. Needfinding.](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
-      - [A. Proveedores de Combustible](#a-proveedores-de-combustible-2)
-      - [B. Empresas Solicitantes](#b-empresas-solicitantes-2)
-    - [2.3.2. User Task Matrix.](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
       - [A. Proveedores de Combustible](#a-proveedores-de-combustible-3)
       - [B. Empresas Solicitantes](#b-empresas-solicitantes-3)
-    - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
+    - [2.3.2. User Task Matrix.](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
       - [A. Proveedores de Combustible](#a-proveedores-de-combustible-4)
       - [B. Empresas Solicitantes](#b-empresas-solicitantes-4)
+    - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
+      - [A. Proveedores de Combustible](#a-proveedores-de-combustible-5)
+      - [B. Empresas Solicitantes](#b-empresas-solicitantes-5)
     - [2.3.5. Ubiquitous Language](#235-ubiquitous-language)
   - [2.4. Requirements specification](#24-requirements-specification)
     - [2.4.1. To Be Scenario Mapping](#241-to-be-scenario-mapping)
+      - [A. Proveedores de Combustible](#a-proveedores-de-combustible-6)
+      - [B. Empresas Solicitantes](#b-empresas-solicitantes-6)
     - [2.4.2. User Stories](#242-user-stories)
     - [2.4.3 Impact Mapping](#243-impact-mapping)
     - [2.4.4 Product Backlog](#244-product-backlog)
@@ -177,22 +194,88 @@ Septiembre del 2025 🗓️
     - [2.5.1. EventStorming](#251-eventstorming)
       - [2.5.1.1. Candidate Context Discovery](#2511-candidate-context-discovery)
       - [2.5.1.2. Domain Message Flows Modeling](#2512-domain-message-flows-modeling)
+    - [**Order**](#order)
+    - [**Operators**](#operators)
+    - [**Analytics**](#analytics)
+    - [**Vehicles**](#vehicles)
+    - [**Payments**](#payments)
+    - [**Notifications**](#notifications)
       - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)
+    - [**Order**](#order-1)
+    - [**Operators**](#operators-1)
+    - [**Analytics**](#analytics-1)
+    - [**Vehicles**](#vehicles-1)
+    - [**Payments**](#payments-1)
+    - [**Notifications**](#notifications-1)
     - [2.5.2. Context Mapping](#252-context-mapping)
     - [2.5.3. Software Architecture](#253-software-architecture)
       - [2.5.3.1. Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)
       - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
       - [2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)
   - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
-    - [2.6.x. Bounded Context: ](#26x-bounded-context-)
-      - [2.6.x.1. Domain Layer](#26x1-domain-layer)
-      - [2.6.x.2. Interface Layer](#26x2-interface-layer)
-      - [2.6.x.3. Application Layer](#26x3-application-layer)
-      - [2.6.x.4 Infrastructure Layer](#26x4-infrastructure-layer)
-      - [2.6.x.5. Bounded Context Software Architecture Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)
-      - [2.6.x.6. Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)
-        - [2.6.x.6.1. Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)
-        - [2.6.x.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)
+    - [2.6.1. Bounded Context: Analytics](#261-bounded-context-analytics)
+      - [2.6.1.1. Domain Layer](#2611-domain-layer)
+      - [2.6.1.2. Interface Layer](#2612-interface-layer)
+      - [2.6.1.3. Application Layer](#2613-application-layer)
+      - [2.6.1.4 Infrastructure Layer](#2614-infrastructure-layer)
+      - [2.6.1.5. Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.1.6. Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.1.6.1. Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams)
+        - [2.6.1.6.2. Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram)
+    - [2.6.2. Bounded Context: Operators](#262-bounded-context-operators)
+      - [2.6.2.1. Domain Layer](#2621-domain-layer)
+      - [2.6.2.2. Interface Layer](#2622-interface-layer)
+      - [2.6.2.3. Application Layer](#2623-application-layer)
+      - [2.6.2.4 Infrastructure Layer](#2624-infrastructure-layer)
+      - [2.6.2.5. Bounded Context Software Architecture Component Level Diagrams](#2625-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.2.6. Bounded Context Software Architecture Code Level Diagrams](#2626-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.2.6.1. Bounded Context Domain Layer Class Diagrams](#26261-bounded-context-domain-layer-class-diagrams)
+        - [2.6.2.6.2. Bounded Context Database Design Diagram](#26262-bounded-context-database-design-diagram)
+    - [2.6.3. Bounded Context: Vehicles](#263-bounded-context-vehicles)
+      - [2.6.3.1. Domain Layer](#2631-domain-layer)
+      - [2.6.3.2. Interface Layer](#2632-interface-layer)
+      - [2.6.3.3. Application Layer](#2633-application-layer)
+      - [2.6.3.4 Infrastructure Layer](#2634-infrastructure-layer)
+      - [2.6.3.5. Bounded Context Software Architecture Component Level Diagrams](#2635-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.3.6. Bounded Context Software Architecture Code Level Diagrams](#2636-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.3.6.1. Bounded Context Domain Layer Class Diagrams](#26361-bounded-context-domain-layer-class-diagrams)
+        - [2.6.3.6.2. Bounded Context Database Design Diagram](#26362-bounded-context-database-design-diagram)
+    - [2.6.4. Bounded Context: Users](#264-bounded-context-users)
+      - [2.6.4.1. Domain Layer](#2641-domain-layer)
+      - [2.6.4.2. Interface Layer](#2642-interface-layer)
+      - [2.6.4.3. Application Layer](#2643-application-layer)
+      - [2.6.4.4 Infrastructure Layer](#2644-infrastructure-layer)
+      - [2.6.4.5. Bounded Context Software Architecture Component Level Diagrams](#2645-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)
+        - [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagram)
+    - [2.6.5. Bounded Context: Notifications](#265-bounded-context-notifications)
+      - [2.6.5.1. Domain Layer](#2651-domain-layer)
+      - [2.6.5.2. Interface Layer](#2652-interface-layer)
+      - [2.6.5.3. Application Layer](#2653-application-layer)
+      - [2.6.5.4 Infrastructure Layer](#2654-infrastructure-layer)
+      - [2.6.5.5. Bounded Context Software Architecture Component Level Diagrams](#2655-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.5.6. Bounded Context Software Architecture Code Level Diagrams](#2656-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.5.6.1. Bounded Context Domain Layer Class Diagrams](#26561-bounded-context-domain-layer-class-diagrams)
+        - [2.6.5.6.2. Bounded Context Database Design Diagram](#26562-bounded-context-database-design-diagram)
+    - [2.6.6. Bounded Context: Payments](#266-bounded-context-payments)
+      - [2.6.6.1. Domain Layer](#2661-domain-layer)
+      - [2.6.6.2. Interface Layer](#2662-interface-layer)
+      - [2.6.6.3. Application Layer](#2663-application-layer)
+      - [2.6.6.4 Infrastructure Layer](#2664-infrastructure-layer)
+      - [2.6.6.5. Bounded Context Software Architecture Component Level Diagrams](#2665-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.6.6. Bounded Context Software Architecture Code Level Diagrams](#2666-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.6.6.1. Bounded Context Domain Layer Class Diagrams](#26661-bounded-context-domain-layer-class-diagrams)
+        - [2.6.6.6.2. Bounded Context Database Design Diagram](#26662-bounded-context-database-design-diagram)
+    - [2.6.7. Bounded Context: Orders](#267-bounded-context-orders)
+      - [2.6.7.1. Domain Layer](#2671-domain-layer)
+      - [2.6.7.2. Interface Layer](#2672-interface-layer)
+      - [2.6.7.3. Application Layer](#2673-application-layer)
+      - [2.6.7.4 Infrastructure Layer](#2674-infrastructure-layer)
+      - [2.6.7.5. Bounded Context Software Architecture Component Level Diagrams](#2675-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.7.6. Bounded Context Software Architecture Code Level Diagrams](#2676-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.7.6.1. Bounded Context Domain Layer Class Diagrams](#26761-bounded-context-domain-layer-class-diagrams)
+        - [2.6.7.6.2. Bounded Context Database Design Diagram](#26762-bounded-context-database-design-diagram)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Video App Validation](#video-app-validation)
@@ -239,11 +322,22 @@ Septiembre del 2025 🗓️
       <td></td>
     </tr>
     <tr>
-      <td></td>
+      <td><img src="https://files.catbox.moe/uo7qnb.webp" alt="rogger" width="80"></td>
       <td>Miranda Ayasta, Rogger Faryd</td>
       <td>U202319239</td>
       <td>Ingenieria de Software</td>
-      <td></td>
+      <td>🎓 Soy estudiante de Ingeniería de Software, 
+   actualmente curso el 5.º ciclo de la carrera.
+
+   💻 A lo largo de mi formación he aprendido diversos lenguajes de programación, como:
+   ➡️ C++       
+   ➡️ Python    
+   ➡️ JavaScript
+   ➡️ HTML & CSS
+
+   🤝 Me destaco por mi responsabilidad, mis habilidades 
+   para el trabajo en equipo y mi motivación constante por 
+   seguir aprendiendo 📚.</td>
     </tr>
     <tr>
       <td><img src="/assets/Chapters/Chapter-I/marlle.jpg" alt="marlle" width="80"></td>
@@ -2058,22 +2152,367 @@ Order & Operator → Analytics: tanto Order como Operator proveen información h
 
 ### 2.5.3. Software Architecture
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+![alt text](<assets/Chapters/Chapter-IV/2.5.3.1. Software-Architecture-Context-Diagram.png>)
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+![alt text](<assets/Chapters/Chapter-IV/2.5.3.2. Software-Architecture-Container-Diagrams.png>)
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
-### 2.6.x. Bounded Context: <Bounded Context Name>
+### 2.6.1. Bounded Context: Analytics
 
-#### 2.6.x.1. Domain Layer
-#### 2.6.x.2. Interface Layer
-#### 2.6.x.3. Application Layer
-#### 2.6.x.4 Infrastructure Layer
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.1.1. Domain Layer
+Este **bounded context** no define sus propias entidades o agregados, sino que depende de entidades y enums del módulo **Shared**. Las consultas son **read-only**, orientadas a analítica y estadísticas.
 
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
+| Clase        | Tipo                       | Descripción                                                                 |
+|--------------|----------------------------|-----------------------------------------------------------------------------|
+| Order        | Entity (de Shared.Models)   | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
+| User         | Entity (de Shared.Models)   | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
+| Vehicle      | Entity (de Shared.Models)   | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
+| Operator     | Entity (de Shared.Models)   | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
+| OrderStatus  | Value Object (Enum)         | Se usa para filtrar datos y calcular métricas específicas: pedidos completados. |
+| UserRole     | Value Object (Enum)         | Se usa para filtrar datos y calcular métricas específicas: usuarios por rol. |
+| OperatorStatus | Value Object (Enum)       | Se usa para filtrar datos y calcular métricas específicas: operadores disponibles. |
+
+#### 2.6.1.2. Interface Layer
+Contiene el **controlador HTTP** que expone los **endpoints** para obtener las estadísticas por tipo de usuario (Admin, Proveedor, Cliente).
+
+| Clase               | Tipo       | Métodos Públicos                                                                                | Descripción                                                                                                                                               |
+| ------------------- | ---------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AnalyticsController | Controller | - `GetDashboardStats()`<br>- `GetUserStats()`<br>- `GetProviderStats()`<br>- `GetClientStats()` | Expone los endpoints `/dashboard`, `/users`, `/provider` y `/client`. Autenticado y con autorización por roles. Orquesta al servicio `IAnalyticsService`. |
+
+
+#### 2.6.1.3. Application Layer
+Contiene la lógica de **agregación y cálculos** para las estadísticas mostradas en el dashboard.
+
+| Clase             | Tipo                | Métodos Públicos | Descripción                                                                                                                                                              |
+| ----------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| IAnalyticsService | Interface           | - `GetDashboardStatsAsync()`<br>- `GetUserStatsAsync()`<br>- `GetProviderStatsAsync()`<br>- `GetClientStatsAsync(int)`                                                                                 | Define el contrato para cualquier implementación que calcule estadísticas analíticas.                                                                                    |
+| AnalyticsService  | Application Service | - Todos los anteriores + métodos privados:<br>  `GetMonthlyRevenueAsync`, `GetMonthlySpendingAsync`, `GetFuelTypeStatsAsync`,<br>  `GetPersonalFuelTypeStatsAsync`, `GetMonthlyUserRegistrationsAsync` | Implementa cálculos agregados como ingresos, pedidos por tipo de combustible, usuarios activos, registros mensuales, etc. No modifica datos ni maneja lógica de negocio. |
+
+#### 2.6.1.4 Infrastructure Layer
+| Clase              | Tipo              | Descripción                                                                                                                            |
+| ------------------ | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| FuelTrackDbContext | EF Core DbContext | Se usa como punto de acceso a los datos persistentes. Permite realizar queries con LINQ sobre Orders, Users, Vehicles, Operators, etc. |
+
+**DTOs usados**
+| Clase               | Tipo          | Descripción                                                                                                          |
+| ------------------- | ------------- | -------------------------------------------------------------------------------------------------------------------- |
+| DashboardStatsDto   | DTO de salida | Contiene datos como total de pedidos, pedidos completados, ingresos, vehículos activos, operadores disponibles, etc. |
+| UserStatsDto        | DTO de salida | Muestra estadísticas de usuarios por rol y actividad.                                                                |
+| MonthlyRevenueDto   | DTO auxiliar  | Incluye ingresos y conteo de pedidos por mes (en `DashboardStatsDto`).                                               |
+| FuelTypeStatsDto    | DTO auxiliar  | Contiene estadísticas de uso de tipos de combustible (en `DashboardStatsDto`).                                       |
+| UserRegistrationDto | DTO auxiliar  | Muestra la cantidad de usuarios registrados por mes.                                                                 |
+
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+![alt text](assets/Chapters/Chapter-IV/structurizr-Component-Analytics.png)
+
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+### 2.6.2. Bounded Context: Operators
+
+#### 2.6.2.1. Domain Layer
+En este **bounded context**, no se encuentran entidades o agregados definidos explícitamente dentro del mismo módulo. Sin embargo, se utilizan **entidades** del módulo compartido (**Shared**), en particular:
+
+| Clase    | Tipo   | Descripción                                                                                                                                                                                                              |
+| -------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Operator | Entity | Representa a un operador en el sistema. Incluye atributos como nombre, número de licencia, estado, fecha de creación, etc. Es una entidad persistente, con reglas de validación como la unicidad del número de licencia. |
+
+#### 2.6.2.2. Interface Layer
+Contiene el **controlador HTTP** que expone los **endpoints** relacionados con los operadores.
+
+| Clase               | Tipo       | Métodos Públicos                                                               | Descripción                                                                                                                                                         |
+| ------------------- | ---------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OperatorsController | Controller | - `GetOperatorInfo()`<br>- `GetOperatorStatus()`<br>- `UpdateOperatorStatus()` | Expone los endpoints `/operator/info`, `/operator/status`, y `/operator/update`. Autenticado y con autorización por roles. Orquesta al servicio `IOperatorService`. |
+
+#### 2.6.2.3. Application Layer
+Contiene la lógica de **gestión y actualización** de los operadores en el sistema.
+
+| Clase            | Tipo                | Métodos Públicos                                                                                 | Descripción                                                                                                                                  |
+| ---------------- | ------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| IOperatorService | Interface           | - `GetOperatorInfoAsync()`<br>- `GetOperatorStatusAsync()`<br>- `UpdateOperatorStatusAsync()`    | Define el contrato para cualquier implementación que maneje la lógica de operadores, como obtener datos o actualizar el estado del operador. |
+| OperatorService  | Application Service | - Todos los anteriores + métodos privados:<br>  `ValidateLicenseAsync`, `SetOperatorStatusAsync` | Implementa la lógica para gestionar operadores, incluyendo validaciones y actualizaciones de estado. No modifica datos fuera de su contexto. |
+
+
+#### 2.6.2.4 Infrastructure Layer
+
+| Clase              | Tipo              | Descripción                                                                                                                                                         |
+| ------------------ | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OperatorsDbContext | EF Core DbContext | Se usa como punto de acceso a los datos persistentes relacionados con los operadores. Permite realizar queries con LINQ sobre operadores, sus estados, y licencias. |
+
+**DTOs usados**
+| Clase                | Tipo          | Descripción                                                                               |
+| -------------------- | ------------- | ----------------------------------------------------------------------------------------- |
+| OperatorInfoDto      | DTO de salida | Contiene información detallada de un operador, como nombre, número de licencia, y estado. |
+| OperatorStatusDto    | DTO de salida | Muestra el estado actual de un operador, si está activo o inactivo.                       |
+| LicenseValidationDto | DTO auxiliar  | Contiene detalles sobre la validación de un número de licencia, si es válido o no.        |
+
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+![alt text](assets/Chapters/Chapter-IV/structurizr-Component-Operators.png)
+
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+### 2.6.3. Bounded Context: Vehicles
+Gestiona el ciclo de vida de los vehículos registrados en el sistema: creación, edición, eliminación lógica, y actualizaciones de ubicación en tiempo real. También permite filtrar vehículos disponibles.
+
+#### 2.6.3.1. Domain Layer
+| Clase         | Tipo                   | Descripción                                                                                                             |
+| ------------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Vehicle       | Entity (Shared.Models) | Entidad persistida que representa un vehículo con estado, ubicación, y atributos clave como capacidad, año, placa, etc. |
+| VehicleStatus | Value Object (Enum)    | Representa el estado del vehículo (Available, InUse, etc.).                                                             |
+| Order         | Entity (Shared.Models) | Se usa para verificar si un vehículo está asignado a un pedido activo antes de eliminarlo.                              |
+| OrderStatus   | Value Object (Enum)    | Filtra pedidos activos (Confirmed, InTransit) al validar eliminación de vehículos.                                      |
+
+#### 2.6.3.2. Interface Layer
+Contiene el **controlador HTTP** que expone los **endpoints** para la gestión de vehículos.
+
+| Clase              | Tipo       | Métodos Públicos                                                                                                                                                           | Descripción                                                                                                                               |
+| ------------------ | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| VehiclesController | Controller | - `GetVehicles()`<br>- `GetAvailableVehicles()`<br>- `GetVehicle(int)`<br>- `CreateVehicle()`<br>- `UpdateVehicle()`<br>- `DeleteVehicle()`<br>- `UpdateVehicleLocation()` | Orquesta todas las operaciones del dominio: lectura, escritura, actualización de ubicación. Aplica validación de roles: Admin, Proveedor. |
+
+
+#### 2.6.3.3. Application Layer
+Contiene la lógica de **gestión de vehículos** dentro del sistema.
+| Clase           | Tipo                | Métodos Públicos                                                                                                                                                                                                                               | Descripción                                                                                                   |
+| --------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| IVehicleService | Interface           | - `GetVehiclesAsync()`<br>- `GetVehicleByIdAsync()`<br>- `CreateVehicleAsync()`<br>- `UpdateVehicleAsync()`<br>- `DeleteVehicleAsync()`<br>- `UpdateVehicleLocationAsync()`<br>- `GetAvailableVehiclesAsync()`                                 | Define las operaciones del vehículo como servicio de aplicación.                                              |
+| VehicleService  | Application Service | Implementa todos los métodos del contrato anterior. Contiene la lógica de negocio como:<br>  - Validación de unicidad de placa<br>  - Validación de pedidos activos antes de eliminar<br>  - Actualización de ubicación GPS<br>  - Soft delete | Implementa la lógica de negocio para los vehículos, incluyendo validaciones y reglas específicas del dominio. |
+
+#### 2.6.3.4 Infrastructure Layer
+| Clase              | Tipo              | Descripción                                                                                                                                                                        |
+| ------------------ | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| FuelTrackDbContext | EF Core DbContext | Provee acceso a la base de datos para las entidades **Vehicles** y **Orders**. Todas las operaciones de lectura y escritura se hacen usando LINQ directamente sobre este contexto. |
+
+**DTOs usados**
+| Clase                    | Tipo           | Atributos Clave                                                                                                                      | Descripción                                                          |
+| ------------------------ | -------------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| VehicleDto               | DTO de salida  | `Id`, `LicensePlate`, `Brand`, `Model`, `Year`, `Capacity`, `Status`, `CurrentLatitude`, `CurrentLongitude`, `IsActive`, `CreatedAt` | Proporciona los datos del vehículo para visualización y uso externo. |
+| CreateVehicleDto         | DTO de entrada | `LicensePlate`, `Brand`, `Model`, `Year`, `Capacity`                                                                                 | Datos requeridos para crear o actualizar un vehículo.                |
+| UpdateVehicleLocationDto | DTO de entrada | `Latitude`, `Longitude`                                                                                                              | Usado exclusivamente para actualizar la ubicación de un vehículo.    |
+
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+![alt text](assets/Chapters/Chapter-IV/structurizr-Component-Vehicles.png)
+
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
+
+### 2.6.4. Bounded Context: Users
+Este contexto se encarga de la gestión de usuarios de la plataforma: consulta de usuarios, actualización de perfil, y activación/desactivación. Incluye lógica específica para la obtención del usuario autenticado y el control de acceso según roles (Admin, Proveedor, etc.).
+
+#### 2.6.4.1. Domain Layer
+En este **bounded context**, se apoya en la entidad **User** definida en el modelo compartido y usa **UserRole** como **Value Object (VO)** para aplicar control de acceso y validación.
+
+| Clase    | Tipo                   | Descripción                                                                  |
+| -------- | ---------------------- | ---------------------------------------------------------------------------- |
+| User     | Entity (Shared.Models) | Representa a un usuario del sistema: nombre, email, rol, estado activo, etc. |
+| UserRole | Value Object (Enum)    | Enum que define los roles del sistema: Admin, Proveedor, Cliente, etc.       |
+
+
+#### 2.6.4.2. Interface Layer
+Contiene el **controlador HTTP** que expone los **endpoints** relacionados con los usuarios.
+
+| Clase           | Tipo       | Métodos Públicos                                                                                                                    | Descripción                                                                                                                                                    |
+| --------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UsersController | Controller | - `GetAllUsers()`<br>- `GetUser(int)`<br>- `GetCurrentUserProfile()`<br>- `UpdateCurrentUserProfile()`<br>- `ToggleUserStatus(int)` | Controlador HTTP para operaciones sobre usuarios. Implementa protección por roles. Gestiona el acceso de administradores y la edición del usuario autenticado. |
+
+#### 2.6.4.3. Application Layer
+Contiene la lógica de **gestión de usuarios** dentro del sistema.
+
+| Clase        | Tipo                | Métodos Públicos                                                                                                                                                                                                        | Descripción                                                                                                                                                            |
+| ------------ | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| IUserService | Interface           | - `GetAllUsersAsync()`<br>- `GetUserByIdAsync()`<br>- `UpdateUserAsync()`<br>- `ToggleUserStatusAsync()`<br>- `GetCurrentUserAsync()`                                                                                   | Define los servicios para la gestión de usuarios en el sistema.                                                                                                        |
+| UserService  | Application Service | Implementa todos los métodos del contrato anterior. Contiene lógica como:<br>  - Obtención y actualización del perfil del usuario actual<br>  - Activación y desactivación de usuarios<br>  - Mapeo entre entidad y DTO | Implementa la lógica de negocio relacionada con los usuarios, como la activación y desactivación de cuentas, actualización de perfiles y mapeo entre la entidad y DTO. |
+
+
+#### 2.6.4.4 Infrastructure Layer
+
+| Clase              | Tipo              | Descripción                                                                                                                                                   |
+| ------------------ | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| FuelTrackDbContext | EF Core DbContext | Utilizado por **UserService** para acceder a los datos de la entidad **User**. Todas las operaciones CRUD se ejecutan directamente a través de este contexto. |
+
+
+**DTOs usados**
+| Clase         | Tipo           | Atributos Clave                                                                  | Descripción                                                                                      |
+| ------------- | -------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| UserDto       | DTO de salida  | `Id`, `FirstName`, `LastName`, `Email`, `Phone`, `Role`, `IsActive`, `CreatedAt` | Representa un usuario con información legible para el frontend.                                  |
+| CreateUserDto | DTO de entrada | `FirstName`, `LastName`, `Email`, `Password`, `Phone`, `Role`                    | Usado para registrar nuevos usuarios (aunque no se usa directamente en el controlador mostrado). |
+| UpdateUserDto | DTO de entrada | `FirstName`, `LastName`, `Phone`                                                 | Usado para actualizar el perfil del usuario actual.                                              |
+
+
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+![alt text](assets/Chapters/Chapter-IV/structurizr-Component-Users.png)
+
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
+
+### 2.6.5. Bounded Context: Notifications
+Este contexto se encarga de la gestión de las notificaciones para los usuarios del sistema FuelTrack. Permite consultar, crear, y actualizar el estado de las notificaciones, con control de acceso para roles específicos (Admin, Proveedor). Maneja la lógica de lectura, conteo y asociación con órdenes relacionadas.
+
+#### 2.6.5.1. Domain Layer
+En este **bounded context**, el agregado principal es la entidad **Notification**, que contiene la información y el estado de la notificación, con soporte para relacionarse con **órdenes** cuando corresponda.
+
+| Clase            | Tipo                   | Descripción                                                                  |
+| ---------------- | ---------------------- | ---------------------------------------------------------------------------- |
+| Notification     | Entity (Shared.Models) | Representa una notificación: título, mensaje, tipo, estado de lectura, etc.  |
+| NotificationType | Value Object (Enum)    | Enum que define tipos de notificación (Ej: Info, Warning, OrderUpdate, etc.) |
+
+#### 2.6.5.2. Interface Layer
+Contiene el **controlador HTTP** que expone los **endpoints** para gestionar las notificaciones.
+
+
+| Clase                   | Tipo       | Métodos Públicos                                                                                                                                                          | Descripción                                                                                                           |
+| ----------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| NotificationsController | Controller | - `GetNotifications()`<br>- `GetNotification(int)`<br>- `CreateNotification(CreateNotificationDto)`<br>- `MarkAsRead(int)`<br>- `MarkAllAsRead()`<br>- `GetUnreadCount()` | Controlador HTTP para gestionar notificaciones del usuario autenticado, con roles Admin y Proveedor para la creación. |
+
+#### 2.6.5.3. Application Layer
+Contiene la lógica de **gestión de notificaciones** dentro del sistema.
+
+| Clase                | Tipo                | Métodos Públicos                                                                                                                                                                                                                                                        | Descripción                                                                                                    |
+| -------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| INotificationService | Interface           | - `GetNotificationsAsync(int userId)`<br>- `GetNotificationByIdAsync(int id, int userId)`<br>- `CreateNotificationAsync(CreateNotificationDto)`<br>- `MarkAsReadAsync(int id, int userId)`<br>- `MarkAllAsReadAsync(int userId)`<br>- `GetUnreadCountAsync(int userId)` | Define el contrato de servicios para el BC de notificaciones.                                                  |
+| NotificationService  | Application Service | Implementa `INotificationService`, contiene la lógica de negocio para:<br>  - Consulta y creación de notificaciones<br>  - Marcado de notificaciones como leídas<br>  - Conteo de notificaciones no leídas<br>  - Mapeo entre entidad y DTO                             | Implementa la lógica de negocio de las notificaciones, gestionando su consulta, creación y marcado de lectura. |
+
+
+#### 2.6.5.4 Infrastructure Layer
+| Clase              | Tipo              | Descripción                                                                                                                                                      |
+| ------------------ | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| FuelTrackDbContext | EF Core DbContext | Utilizado por **NotificationService** para acceder a los datos de la entidad **Notification**. Todas las operaciones CRUD se realizan a través de este contexto. |
+
+**DTOs usados**
+
+| Clase                 | Tipo           | Atributos Clave                                                                                 | Descripción                                                   |
+| --------------------- | -------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| NotificationDto       | DTO de salida  | `Id`, `Title`, `Message`, `Type`, `IsRead`, `RelatedOrderId`, `RelatedOrderNumber`, `CreatedAt` | Representa una notificación para ser mostrada en el frontend. |
+| CreateNotificationDto | DTO de entrada | `UserId`, `Title`, `Message`, `Type`, `RelatedOrderId`                                          | Datos necesarios para crear una nueva notificación.           |
+
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+![alt text](assets/Chapters/Chapter-IV/structurizr-Component-notifications.png)
+
+
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.5.6.2. Bounded Context Database Design Diagram
+
+### 2.6.6. Bounded Context: Payments
+Gestiona los métodos de pago y el procesamiento de pagos de los pedidos para usuarios con rol Cliente. Permite la consulta, creación y eliminación de métodos de pago, además de procesar pagos asociados a órdenes. Soporta control de acceso según roles (Cliente, Admin).
+
+#### 2.6.6.1. Domain Layer
+Este **bounded context** gestiona la información relacionada con **pagos** y **métodos de pago** dentro del sistema.
+
+
+| Clase         | Tipo                   | Descripción                                                                                              |
+| ------------- | ---------------------- | -------------------------------------------------------------------------------------------------------- |
+| Payment       | Entity (Shared.Models) | Representa un pago: monto, estado, fecha, método de pago asociado, número de transacción, etc.           |
+| PaymentMethod | Entity (Shared.Models) | Representa un método de pago del usuario: titular, tipo, últimos dígitos, fecha expiración, activo, etc. |
+| PaymentStatus | Value Object (Enum)    | Enum con los estados posibles de un pago: Completed, Failed, Pending, etc.                               |
+
+
+#### 2.6.6.2. Interface Layer
+Contiene el **controlador HTTP** que expone los **endpoints** para gestionar los pagos y métodos de pago.
+
+| Clase              | Tipo       | Métodos Públicos                                                                                                                                                                                | Descripción                                                                                            |
+| ------------------ | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| PaymentsController | Controller | - `GetPaymentMethods()`<br>- `CreatePaymentMethod(CreatePaymentMethodDto)`<br>- `DeletePaymentMethod(int)`<br>- `ProcessPayment(ProcessPaymentDto)`<br>- `GetPayments()`<br>- `GetPayment(int)` | Controlador HTTP para gestionar métodos de pago y pagos. Autorización basada en roles Cliente y Admin. |
+
+
+#### 2.6.6.3. Application Layer
+Contiene la lógica de **gestión de pagos** y **métodos de pago**.
+
+| Clase           | Tipo                | Métodos Públicos                                                                                                                                                                                                                                                                                        | Descripción                                                                                                                |
+| --------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| IPaymentService | Interface           | - `GetPaymentMethodsAsync(int userId)`<br>- `CreatePaymentMethodAsync(CreatePaymentMethodDto, int userId)`<br>- `DeletePaymentMethodAsync(int, int)`<br>- `ProcessPaymentAsync(ProcessPaymentDto, int)`<br>- `GetPaymentsAsync(int? userId = null)`<br>- `GetPaymentByIdAsync(int, int? userId = null)` | Define el contrato de servicios para operaciones con métodos de pago y pagos.                                              |
+| PaymentService  | Application Service | Implementa `IPaymentService`, incluye lógica para:<br>  - Validación de tarjetas<br>  - Procesamiento simulado de pagos<br>  - CRUD en Payment y PaymentMethod                                                                                                                                          | Implementa la lógica de negocio para la gestión de métodos de pago, validaciones, procesamiento de pagos y acceso a datos. |
+
+
+#### 2.6.6.4 Infrastructure Layer
+
+| Clase              | Tipo              | Descripción                                                                                       |
+| ------------------ | ----------------- | ------------------------------------------------------------------------------------------------- |
+| FuelTrackDbContext | EF Core DbContext | Contexto EF Core que maneja el acceso a las tablas **PaymentMethods**, **Payments** y **Orders**. |
+
+**DTOs usados**
+
+| Clase                  | Tipo           | Atributos Clave                                                                                                                                 | Descripción                                                                                 |
+| ---------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| CreatePaymentMethodDto | DTO de entrada | `CardHolderName`, `CardNumber`, `ExpiryMonth`, `ExpiryYear`, `CVV`, `IsDefault`                                                                 | Datos necesarios para registrar un nuevo método de pago.                                    |
+| PaymentMethodDto       | DTO de salida  | `Id`, `CardHolderName`, `LastFourDigits`, `CardType`, `ExpiryDate`, `IsDefault`, `CreatedAt`                                                    | Representa un método de pago para ser mostrado en el frontend.                              |
+| ProcessPaymentDto      | DTO de entrada | `OrderId`, `PaymentMethodId`                                                                                                                    | Datos necesarios para procesar un pago.                                                     |
+| PaymentDto             | DTO de salida  | `Id`, `OrderId`, `OrderNumber`, `Amount`, `Status`, `TransactionId`, `ProcessedAt`, `CreatedAt`, `CardHolderName`, `LastFourDigits`, `CardType` | Representa un pago procesado o en curso, con detalles como monto, estado, transacción, etc. |
+
+#### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
+![alt text](assets/Chapters/Chapter-IV/structurizr-Component-payments.png)
+
+#### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.6.6.2. Bounded Context Database Design Diagram
+
+
+### 2.6.7. Bounded Context: Orders
+Gestiona el ciclo completo de pedidos (órdenes) de combustible, incluyendo creación por clientes, asignación de vehículos y operadores por proveedores, actualización de estados y consulta según roles (Admin, Cliente, Proveedor).
+
+#### 2.6.7.1. Domain Layer
+Este **bounded context** gestiona la información relacionada con **pedidos**, **vehículos** asignados y **operadores** para las entregas.
+
+| Clase          | Tipo                   | Descripción                                                                                      |
+| -------------- | ---------------------- | ------------------------------------------------------------------------------------------------ |
+| Order          | Entity (Shared.Models) | Representa un pedido, con datos como tipo de combustible, cantidad, precio, estado, fechas, etc. |
+| OrderStatus    | Enum (Shared.Models)   | Estados posibles de un pedido: Pending, Confirmed, InTransit, Delivered, Cancelled, etc.         |
+| FuelType       | Enum (Shared.Models)   | Tipos de combustible: Gasoline, Diesel, Premium, etc.                                            |
+| Vehicle        | Entity                 | Vehículo asignable para entregas, con estado (Disponible, En uso, etc.).                         |
+| Operator       | Entity                 | Operador asignado a entregas, con estado.                                                        |
+| VehicleStatus  | Enum                   | Estado del vehículo: Available, InUse, etc.                                                      |
+| OperatorStatus | Enum                   | Estado del operador: Available, OnDelivery, etc.                                                 |
+
+
+#### 2.6.7.2. Interface Layer
+Contiene el **controlador REST** que expone los **endpoints** para gestionar los pedidos, asignación de entregas y cambios de estado.
+
+| Clase            | Tipo       | Métodos Públicos                                                                                                                                                                       | Descripción                                                                                               |
+| ---------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| OrdersController | Controller | - `GetOrders()`<br>- `GetOrder(int)`<br>- `CreateOrder(CreateOrderDto)`<br>- `AssignDelivery(int, AssignDeliveryDto)`<br>- `UpdateOrderStatus(int, int)`<br>- `GetOrdersForProvider()` | Controlador REST protegido con autorización por roles, expone la API para CRUD y operaciones específicas. |
+
+
+#### 2.6.7.3. Application Layer
+Contiene la lógica de **gestión de pedidos** y reglas de negocio relacionadas con asignación de entregas y cambios de estado.
+
+| Clase         | Tipo                | Métodos Públicos                                                                                                                                                                                                                                                                                       | Descripción                                                                                                               |
+| ------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| IOrderService | Interface           | - `GetOrdersAsync(int? userId = null)`<br>- `GetOrderByIdAsync(int id, int? userId = null)`<br>- `CreateOrderAsync(CreateOrderDto, int userId)`<br>- `AssignDeliveryAsync(int orderId, AssignDeliveryDto)`<br>- `UpdateOrderStatusAsync(int orderId, int newStatus)`<br>- `GetOrdersByProviderAsync()` | Define el contrato de servicios para gestionar pedidos, validaciones y reglas de negocio.                                 |
+| OrderService  | Application Service | Implementa `IOrderService` usando **FuelTrackDbContext** para el acceso a datos, gestionando reglas para asignación y estados.                                                                                                                                                                         | Implementa la lógica de negocio para gestionar pedidos, asignaciones de vehículos y operadores, y validaciones de estado. |
+
+
+
+#### 2.6.7.4 Infrastructure Layer
+
+| Clase              | Tipo              | Descripción                                                                                    |
+| ------------------ | ----------------- | ---------------------------------------------------------------------------------------------- |
+| FuelTrackDbContext | EF Core DbContext | Acceso a la base de datos, con tablas **Orders**, **Vehicles**, **Operators**, **Users**, etc. |
+
+**DTOs usados**
+| Clase             | Tipo           | Atributos Clave                                                                                                | Descripción                                                                      |
+| ----------------- | -------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| CreateOrderDto    | DTO de entrada | `FuelType`, `Quantity`, `DeliveryAddress`, `DeliveryLatitude`, `DeliveryLongitude`                             | Datos necesarios para crear un nuevo pedido.                                     |
+| AssignDeliveryDto | DTO de entrada | `VehicleId`, `OperatorId`, `EstimatedDeliveryTime`                                                             | Datos necesarios para asignar un vehículo y un operador a un pedido.             |
+| OrderDto          | DTO de salida  | `Id`, `OrderNumber`, `FuelType`, `Quantity`, `PricePerLiter`, `TotalAmount`, `Status`, `DeliveryAddress`, etc. | Representación detallada de un pedido, con información completa sobre el pedido. |
+
+
+#### 2.6.7.5. Bounded Context Software Architecture Component Level Diagrams
+![alt text](assets/Chapters/Chapter-IV/structurizr-Component-Orders.png)
+
+#### 2.6.7.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.7.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.7.6.2. Bounded Context Database Design Diagram
 
 
 # Conclusiones
