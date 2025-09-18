@@ -1921,12 +1921,140 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
+En esta sección se describe el enfoque utilizado para la toma de decisiones estratégicas en el desarrollo del sistema, aplicando los principios de Domain-Driven Design (DDD). El propósito central fue reconocer y delimitar los límites naturales del dominio, dividiendo la solución en Bounded Contexts.
+
+Para esta descomposición, el equipo hizo uso de herramientas colaborativas como Event Storming, que permitió representar de manera visual y dinámica los flujos de eventos, comandos y actores del dominio; y el Bounded Context Canvas, mediante el cual se definieron los aspectos clave de cada contexto, tales como objetivos, modelos, responsabilidades y sus interacciones con otros.
+
+Este enfoque estratégico no solo favoreció una organización más clara y coherente del sistema, sino que también facilitó la alineación de las decisiones técnicas con las metas del negocio, optimizando la comunicación entre los distintos participantes del proyecto.
+
 ### 2.5.1. EventStorming
+
+En esta sección se expone el proceso de EventStorming aplicado como técnica de exploración del dominio, cuyo objetivo fue identificar los eventos más relevantes del sistema y comprender cómo estos se relacionan con los actores y las reglas de negocio. La dinámica permitió representar de manera visual y secuencial los hechos clave, así como los comandos que los originan, facilitando conversaciones entre los participantes y generando un entendimiento común sobre el comportamiento esperado. Este enfoque posibilitó construir una visión compartida del dominio, sentando las bases para etapas posteriores de modelado más detallado y delimitación de responsabilidades.
+
 #### 2.5.1.1. Candidate Context Discovery
+
+Como resultado del proceso de EventStorming, se identificaron áreas de responsabilidad bien definidas que evolucionaron en bounded contexts candidatos, los cuales agrupan los eventos, comandos y reglas de negocio relacionados. Cada uno de estos contextos representa una parte autónoma del dominio que captura un conjunto específico de funcionalidades y mantiene su propia coherencia interna.
+
+**Order**
+
+Contexto responsable de permitir que los usuarios creen nuevas órdenes de pedido de gasolina, consulten su historial, apliquen filtros y realicen ediciones de pedidos. Aquí se encapsulan las reglas sobre quién puede generar pedidos y en qué condiciones pueden modificarse.
+
+![Order-Context](./assets/Chapters/Chapter-II/order-context.png)
+
+
+**Operators**
+
+Contexto encargado de la gestión de pedidos desde la perspectiva del proveedor. Aquí se definen las operaciones de aceptación o rechazo de órdenes, así como la actualización de sus estados (confirmado, en proceso, entregado, cancelado). Este contexto concentra las reglas sobre la validación y control operativo de los pedidos en función de la disponibilidad y capacidad del proveedor.
+
+![Operators-context](./assets/Chapters/Chapter-II/operators-context.png)
+
+**Analytics**
+
+Contexto orientado al análisis de la información relacionada con pedidos. Permite al proveedor visualizar reportes en forma de gráficos analíticos, aplicar filtros por criterios definidos (fecha, estado, usuario, etc.) y exportar dichos reportes en formatos estándar como PDF y Excel. Su foco está en la generación de valor analítico y en la integración con herramientas externas de gestión.
+
+![Analytics-context](./assets/Chapters/Chapter-II/analitics-context.png)
+
+**Vehicles**
+
+Contexto destinado a la gestión de la flota del proveedor. Permite registrar y mantener vehículos, administrar conductores, validar la disponibilidad de ambos recursos y realizar la asignación de vehículo y chofer a pedidos confirmados. Asimismo, asegura la trazabilidad de las asignaciones y la correcta coordinación logística.
+
+![Vehicles-context](./assets/Chapters/Chapter-II/vehicles-context.png)
+
+**Payments**
+
+Contexto responsable de la gestión de pagos asociados a pedidos confirmados. Incluye el registro de la tarjeta al momento de la transacción, el procesamiento de pagos a través de pasarelas externas, la confirmación o rechazo de los mismos. Este contexto garantiza la seguridad y confiabilidad de las operaciones financieras.
+
+![Payments-context](./assets/Chapters/Chapter-II/payment-context.png)
+
+**Notifications**
+
+Contexto encargado de comunicar de manera oportuna y confiable las actualizaciones de estado de los pedidos a los usuarios. Aquí se concentran las reglas para el envío de notificaciones y la gestión de reintentos automáticos en caso de fallas.
+
+![Notifications-context](./assets/Chapters/Chapter-II/notifications-context.png)
+
+
+link de miro: <https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=333896184497>
+
+
 #### 2.5.1.2. Domain Message Flows Modeling
+
+En esta sección se representan los flujos de mensajes que circulan dentro de cada bounded context y hacia otros contextos relacionados. El Domain Message Flows Modeling permite visualizar cómo los comandos ejecutados por los actores generan eventos de dominio que a su vez son consumidos por sistemas internos o propagados hacia otros bounded contexts.
+
+### **Order**
+
+![Order-flows](./assets/Chapters/Chapter-II/order-flows.png)
+
+### **Operators**
+
+![Operators-flows](./assets/Chapters/Chapter-II/Operator-flow.png)
+
+### **Analytics**
+
+![Analytics-flows](./assets/Chapters/Chapter-II/analitics-flow.png)
+
+### **Vehicles**
+
+![Vehicles-flows](./assets/Chapters/Chapter-II/order-flows.png)
+
+### **Payments**
+
+![Payments-flows](./assets/Chapters/Chapter-II/payment-flows.png)
+
+
+### **Notifications**
+
+![Notifications-flows](./assets/Chapters/Chapter-II/notification-flow.png)
+
+link de miro: <https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=333896184497>
+
 #### 2.5.1.3. Bounded Context Canvases
 
+A continuación, se presentan los canvases de los bounded contexts identificados, los cuales sintetizan el propósito, límites, capacidades principales, reglas de negocio, lenguaje ubicuo, dependencias y una crítica de diseño de cada contexto.
+
+### **Order**
+
+![Order-context](./assets/Chapters/Chapter-II/order-canvas.png)
+
+### **Operators**
+
+![Operators-context](./assets/Chapters/Chapter-II/operator-canvas.png)
+
+### **Analytics**
+
+![Analytics-context](./assets/Chapters/Chapter-II/analytics-canvas.png)
+
+### **Vehicles**
+
+![Vehicles-context](./assets/Chapters/Chapter-II/order-canvas.png)
+
+### **Payments**
+
+![Payments-context](./assets/Chapters/Chapter-II/payment-canvas.png)
+
+
+### **Notifications**
+
+![Notifications-context](./assets/Chapters/Chapter-II/notification-canvas.png)
+
+link de miro: <https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=333896184497>
+
 ### 2.5.2. Context Mapping
+
+El Context Mapping permite representar las relaciones existentes entre los diferentes bounded contexts identificados en el dominio. Mientras que cada bounded context encapsula de forma autónoma sus reglas y responsabilidades, el mapa de contexto hace explícitas las dependencias y los flujos de mensajes que los conectan, estableciendo así una visión global de la interacción entre las distintas áreas del sistema.
+
+Order → Operator: el contexto Order emite el evento PedidoCreado, el cual es consumido por Operator para decidir si aceptar o rechazar el pedido.
+
+Order → Payments: al confirmar un pedido, Order emite PedidoConfirmado, habilitando al contexto Payments para iniciar el flujo de pago.
+
+Operator → Vehicles: los pedidos aceptados en Operator son consumidos por Vehicles, que se encarga de asignar el vehículo y conductor correspondientes.
+
+Operator → Notifications: emite mensajes como PedidoRechazado o EstadoDePedidoActualizado, que son enviados a Notifications para informar al usuario.
+
+Order & Operator → Analytics: tanto Order como Operator proveen información histórica y de estados que alimenta al contexto Analytics, el cual genera reportes y gráficos analíticos.
+
+![Context-Mapping](./assets/Chapters/Chapter-II/Context-mapping.png)
+
+
 
 ### 2.5.3. Software Architecture
 #### 2.5.3.1. Software Architecture Context Level Diagrams
