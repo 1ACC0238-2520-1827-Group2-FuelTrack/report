@@ -213,6 +213,11 @@ Septiembre del 2025 🗓️
       - [2.6.1.6. Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams)
         - [2.6.1.6.1. Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams)
         - [2.6.1.6.2. Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram)
+    - [2.6.2. Bounded Context: Operators](#262-bounded-context-operators)
+      - [2.6.2.1. Domain Layer](#2621-domain-layer)
+      - [2.6.2.2. Interface Layer](#2622-interface-layer)
+      - [2.6.2.3. Application Layer](#2623-application-layer)
+      - [2.6.2.4 Infrastructure Layer](#2624-infrastructure-layer)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Video App Validation](#video-app-validation)
@@ -2138,6 +2143,44 @@ Contiene la lógica de **agregación y cálculos** para las estadísticas mostra
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+### 2.6.2. Bounded Context: Operators
+
+#### 2.6.2.1. Domain Layer
+En este **bounded context**, no se encuentran entidades o agregados definidos explícitamente dentro del mismo módulo. Sin embargo, se utilizan **entidades** del módulo compartido (**Shared**), en particular:
+
+| Clase    | Tipo   | Descripción                                                                                                                                                                                                              |
+| -------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Operator | Entity | Representa a un operador en el sistema. Incluye atributos como nombre, número de licencia, estado, fecha de creación, etc. Es una entidad persistente, con reglas de validación como la unicidad del número de licencia. |
+
+#### 2.6.2.2. Interface Layer
+Contiene el **controlador HTTP** que expone los **endpoints** relacionados con los operadores.
+
+| Clase               | Tipo       | Métodos Públicos                                                               | Descripción                                                                                                                                                         |
+| ------------------- | ---------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OperatorsController | Controller | - `GetOperatorInfo()`<br>- `GetOperatorStatus()`<br>- `UpdateOperatorStatus()` | Expone los endpoints `/operator/info`, `/operator/status`, y `/operator/update`. Autenticado y con autorización por roles. Orquesta al servicio `IOperatorService`. |
+
+#### 2.6.2.3. Application Layer
+Contiene la lógica de **gestión y actualización** de los operadores en el sistema.
+
+| Clase            | Tipo                | Métodos Públicos                                                                                 | Descripción                                                                                                                                  |
+| ---------------- | ------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| IOperatorService | Interface           | - `GetOperatorInfoAsync()`<br>- `GetOperatorStatusAsync()`<br>- `UpdateOperatorStatusAsync()`    | Define el contrato para cualquier implementación que maneje la lógica de operadores, como obtener datos o actualizar el estado del operador. |
+| OperatorService  | Application Service | - Todos los anteriores + métodos privados:<br>  `ValidateLicenseAsync`, `SetOperatorStatusAsync` | Implementa la lógica para gestionar operadores, incluyendo validaciones y actualizaciones de estado. No modifica datos fuera de su contexto. |
+
+
+#### 2.6.2.4 Infrastructure Layer
+
+| Clase              | Tipo              | Descripción                                                                                                                                                         |
+| ------------------ | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OperatorsDbContext | EF Core DbContext | Se usa como punto de acceso a los datos persistentes relacionados con los operadores. Permite realizar queries con LINQ sobre operadores, sus estados, y licencias. |
+
+**DTOs usados**
+| Clase                | Tipo          | Descripción                                                                               |
+| -------------------- | ------------- | ----------------------------------------------------------------------------------------- |
+| OperatorInfoDto      | DTO de salida | Contiene información detallada de un operador, como nombre, número de licencia, y estado. |
+| OperatorStatusDto    | DTO de salida | Muestra el estado actual de un operador, si está activo o inactivo.                       |
+| LicenseValidationDto | DTO auxiliar  | Contiene detalles sobre la validación de un número de licencia, si es válido o no.        |
 
 
 
