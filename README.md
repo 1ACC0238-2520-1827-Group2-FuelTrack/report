@@ -204,6 +204,8 @@ Septiembre del 2025 🗓️
       - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
       - [2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)
   - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
+    - [2.6.1. Bounded Context: Analytics](#261-bounded-context-analytics)
+      - [2.6.1.1. Domain Layer](#2611-domain-layer)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Video App Validation](#video-app-validation)
@@ -2077,6 +2079,23 @@ Order & Operator → Analytics: tanto Order como Operator proveen información h
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 ## 2.6. Tactical-Level Domain-Driven Design
+### 2.6.1. Bounded Context: Analytics
+
+#### 2.6.1.1. Domain Layer
+Este **bounded context** no define sus propias entidades o agregados, sino que depende de entidades y enums del módulo **Shared**. Las consultas son **read-only**, orientadas a analítica y estadísticas.
+
+| Clase          | Tipo                      | Descripción                                                                                     |
+| -------------- | ------------------------- | ----------------------------------------------------------------------------------------------- |
+| Order          | Entity (de Shared.Models) | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
+| User           | Entity (de Shared.Models) | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
+| Vehicle        | Entity (de Shared.Models) | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
+| Operator       | Entity (de Shared.Models) | Entidad accedida por EF Core en las consultas de estadísticas. No se modifica en este contexto. |
+| OrderStatus    | Value Object (Enum)       | Se usa para filtrar datos y calcular métricas específicas: pedidos completados.                 |
+| UserRole       | Value Object (Enum)       | Se usa para filtrar datos y calcular métricas específicas: usuarios por rol.                    |
+| OperatorStatus | Value Object (Enum)       | Se usa para filtrar datos y calcular métricas específicas: operadores disponibles.              |
+
+
+
 
 # Conclusiones
 ## Conclusiones y Recomendaciones
