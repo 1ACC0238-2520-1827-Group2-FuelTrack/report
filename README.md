@@ -206,6 +206,7 @@ Septiembre del 2025 🗓️
   - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
     - [2.6.1. Bounded Context: Analytics](#261-bounded-context-analytics)
       - [2.6.1.1. Domain Layer](#2611-domain-layer)
+      - [2.6.1.2. Interface Layer](#2612-interface-layer)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Video App Validation](#video-app-validation)
@@ -2093,6 +2094,13 @@ Este **bounded context** no define sus propias entidades o agregados, sino que d
 | OrderStatus    | Value Object (Enum)       | Se usa para filtrar datos y calcular métricas específicas: pedidos completados.                 |
 | UserRole       | Value Object (Enum)       | Se usa para filtrar datos y calcular métricas específicas: usuarios por rol.                    |
 | OperatorStatus | Value Object (Enum)       | Se usa para filtrar datos y calcular métricas específicas: operadores disponibles.              |
+
+#### 2.6.1.2. Interface Layer
+Contiene el **controlador HTTP** que expone los **endpoints** para obtener las estadísticas por tipo de usuario (Admin, Proveedor, Cliente).
+
+| Clase               | Tipo       | Métodos Públicos                                                                                | Descripción                                                                                                                                               |
+| ------------------- | ---------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AnalyticsController | Controller | - `GetDashboardStats()`<br>- `GetUserStats()`<br>- `GetProviderStats()`<br>- `GetClientStats()` | Expone los endpoints `/dashboard`, `/users`, `/provider` y `/client`. Autenticado y con autorización por roles. Orquesta al servicio `IAnalyticsService`. |
 
 
 
