@@ -140,6 +140,8 @@ Septiembre del 2025 🗓️
 
 ![alt text](assets/Chapters/Insights/Contirbutors_TB1.png)
 
+![alt text](assets/Chapters/Insights/NetworkGraph_TB1.png)
+
 # Table of Contents
 - [✨ Informe Trabajo Final ✨](#-informe-trabajo-final-)
     - [Universidad Peruana de Ciencias Aplicadas 🎓](#universidad-peruana-de-ciencias-aplicadas-)
