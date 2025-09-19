@@ -40,7 +40,7 @@ Septiembre del 2025 🗓️
 
 # Registro de versiones del Informe
 
-<table>
+<table border>
   <tr>
     <th>Version</th>
     <th>Fecha</th>
@@ -85,8 +85,9 @@ Septiembre del 2025 🗓️
       </ul>
     </td>
     <td> Se han incluído los siguientes capítulos y secciones:
-        <ul>
-        </ul></td>
+      <ul>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>TB2</td>
@@ -101,8 +102,9 @@ Septiembre del 2025 🗓️
       </ul>
     </td>
     <td> Se han incluído los siguientes capítulos y secciones:
-        <ul>
-        </ul></td>
+      <ul>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>TF1</td>
@@ -117,8 +119,9 @@ Septiembre del 2025 🗓️
       </ul>
     </td>
     <td> Se han incluído los siguientes capítulos y secciones:
-        <ul>
-        </ul></td>
+      <ul>
+      </ul>
+    </td>
   </tr>
 </table>
 
@@ -292,13 +295,7 @@ Septiembre del 2025 🗓️
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-# Student Outcomes
-
-        "🧑‍💻 Acuña Tomas, Diego Rolin - U202221436",
-        "👩‍💻 Miranda Ayasta, Rogger Faryd - U202319239",
-        "👩‍💻 Marllely Anahi Arias Segil - u202223984",
-        "👩‍💻 Manuel Angel Sanchez Arenas - u201817507",
-        "👩‍💻 Lynn Jeeferzon Meza Camayo - u20201c320"
+# Student Outcome
 
 <table border>
   <thead>
@@ -349,6 +346,33 @@ Septiembre del 2025 🗓️
 </table>
 
 # Objetivos SMART
+
+**SMART Goal 1**  
+  - **S (Específico):** Desarrollar un sistema web que permita a los usuarios registrar, gestionar y monitorear pedidos de combustible en tiempo real.
+  - **M (Medible):** El sistema deberá permitir registrar al menos 100 pedidos en simultáneo sin pérdida de información.  
+  - **A (Alcanzable):** Utilizando .NET Core y EF Core, con despliegue en infraestructura cloud disponible para el equipo.
+  - **R (Relevante):** Satisface la necesidad de optimizar la logística en la distribución de combustibles.  
+  - **T (Tiempo):** Implementación de la primera versión funcional en un plazo de 8 semanas (2 Sprints).  
+
+---
+
+**SMART Goal 2**
+  - **S (Específico):** Integrar un módulo de gestión de vehículos y operadores para gestionar y monitorear entregas de manera eficiente.
+  - **M (Medible):** Lograr que el 90% de los pedidos se asignen automáticamente a un vehículo y un operador disponible.  
+  - **A (Alcanzable):** Mediante reglas de negocio establecidas en los servicios de dominio respectivo.  
+  - **R (Relevante):** Reduce errores manuales en la logística y aumenta la eficiencia operativa.  
+  - **T (Tiempo):** Finalizado para la fase 2 del proyecto (Semana 16).  
+
+---
+
+**SMART Goal 3**
+  - **S (Específico):** Implementar un sistema de notificaciones que alerte a los usuarios sobre cambios en el estado de sus pedidos.
+  - **M (Medible):** Enviar notificaciones en menos de 5 segundos tras el cambio de estado de un pedido.  
+  - **A (Alcanzable):** Usando un servicio de mensajería interna basado en EF Core y SignalR.
+  - **R (Relevante):** Mejora la experiencia del cliente y la transparencia del proceso de entrega.  
+  - **T (Tiempo):** Disponible al final de la fase de pruebas (Semana 20).  
+
+---
 
 # Capitulo I: Presentación
 
