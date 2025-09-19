@@ -133,6 +133,9 @@ Septiembre del 2025 🗓️
 **Link de los repositorios de la organización:**  
 [https://github.com/orgs/1ACC0238-2520-1827-Group2-FuelTrack/repositories](https://github.com/orgs/1ACC0238-2520-1827-Group2-FuelTrack/repositories)
 
+**Link del Event Storming**
+[https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021](https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021)
+
   - [ ] TB1
   - [ ] TP1
   - [ ] TB2
@@ -314,7 +317,7 @@ Septiembre del 2025 🗓️
         <b>Marllely Arias</b><br>
         TB1: A través del desarrollo del capítulo dos, trabajé en el análisis competitivo, el needfinding y las entrevistas, lo que me permitió adquirir nuevas perspectivas y herramientas que aportan directamente a mi formación profesional y al avance de mi proyecto en soluciones de ingeniería de software.<br>
         <b>Rogger Miranda</b><br>
-        TB1: -<br>
+        TB1: Durante el desarrollo del startup y el producto, me di cuenta de la importancia de repasar conceptos fundamentales y de estar siempre dispuesto a adoptar nuevas herramientas y metodologías. En este caso, implementé diagramas C4 (de contexto y componentes), lo que permitió mejorar la claridad y organización de la arquitectura del sistema. Esta experiencia me recordó que, aunque algunos aspectos del trabajo puedan parecer rutinarios, siempre es útil revisarlos y estar preparado para aprender lo necesario para mejorar la calidad y el alcance de los proyectos<br>
         <b>Lynn Meza</b><br>
         TB1: Durante este hito actualicé y apliqué conceptos clave de Domain-Driven Design para mi desarrollo profesional y el proyecto: facilité un Event Storming para depurar el Lenguaje Ubicuo y extraer eventos, comandos y políticas; descubrí y definí Bounded Contexts mediante sus Canvases; y modelé Domain Message Flows que explicitan contratos de integración y decisiones de orquestación/coreografía.-<br>
       </td>
@@ -337,6 +340,9 @@ Septiembre del 2025 🗓️
         TB1: -<br>
         <b>Lynn Meza</b><br>
         TB1: Asumí el aprendizaje permanente mientras desarrollé el modelado del dominio: facilité el Event Storming, delimité Bounded Contexts y redacté sus Canvas, y diseñé los Domain Message Flows. Para lograrlo me actualicé con documentación. El resultado fue una arquitectura más modular, integraciones claras y criterios de prueba trazables, elevando la calidad técnica del proyecto.-<br>
+        <b>Rogger Faryd Miranda Ayasta</b><br>
+        TB1: A lo largo del desarrollo del proyecto, me di cuenta de que el aprendizaje constante es fundamental para mejorar el desempeño profesional y desarrollar soluciones efectivas en ingeniería de software. Al enfrentarme a tareas como el diseño de la arquitectura del sistema y la implementación de diagramas C4, comprendí que la adopción de nuevas herramientas y metodologías es crucial para optimizar el proceso. Esta experiencia me reafirmó que, para tener éxito en el campo, es necesario seguir aprendiendo y adaptándose continuamente a nuevas tecnologías y enfoques.
+        <br>
       </td>
       <td>
         CONCLUSION CRITERIO 2
@@ -3702,6 +3708,10 @@ Contiene la lógica de **gestión de pedidos** y reglas de negocio relacionadas 
 
 # Conclusiones
 ## Conclusiones y Recomendaciones
+El proyecto FuelTrack logró importantes avances en la definición del problema, análisis del usuario y diseño conceptual de la solución. A través de entrevistas, herramientas de Lean UX y ejercicios de Needfinding, se validaron necesidades reales del mercado y se delineó una propuesta alineada con los usuarios. Se definieron requisitos clave mediante User Stories e Impact Mapping, y se modeló la arquitectura del sistema utilizando Domain-Driven Design, EventStorming y diagramas C4. Aunque el producto aún no está desarrollado, esta etapa sentó una base sólida para futuras fases de diseño y construcción, con decisiones respaldadas por validación temprana y un enfoque centrado en el usuario.
+
+Para los próximos avances, se recomienda crear prototipos interactivos que permitan validar las funcionalidades clave y la experiencia de usuario de manera temprana. También es esencial refinar la arquitectura del sistema para garantizar su escalabilidad y flexibilidad a medida que se agreguen nuevas funcionalidades. Las pruebas de usabilidad continuas con usuarios reales proporcionarán retroalimentación valiosa para mejorar la interfaz, mientras que el monitoreo de competidores permitirá ajustar la propuesta de valor en función de las tendencias del mercado. Finalmente, se debe adoptar un enfoque de desarrollo incremental, priorizando las funcionalidades más críticas y expandiendo gradualmente el sistema.
+
 ## Video App Validation
 ## Video About the product
 ## Video About the team
@@ -3712,3 +3722,17 @@ Contiene la lógica de **gestión de pedidos** y reglas de negocio relacionadas 
 [¿Qué es la gestión de pedidos?](https://www.ibm.com/es-es/think/topics/order-management)
 
 # Anexos
+**Link del repositorio del informe:**  
+[https://github.com/1ACC0238-2520-1827-Group2-FuelTrack/report](https://github.com/1ACC0238-2520-1827-Group2-FuelTrack/report)
+
+**Link de los repositorios de la organización:**  
+[https://github.com/orgs/1ACC0238-2520-1827-Group2-FuelTrack/repositories](https://github.com/orgs/1ACC0238-2520-1827-Group2-FuelTrack/repositories)
+
+**Link del Event Storming**
+[https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021](https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021)
+
+**Link del backend**
+[https://fueltrack-api.onrender.com/swagger/index.html](https://fueltrack-api.onrender.com/swagger/index.html)
+
+**Link de la landing**
+[https://fueltrack-landing-page-dcpypy9w5.vercel.app/](https://fueltrack-landing-page-dcpypy9w5.vercel.app/)
