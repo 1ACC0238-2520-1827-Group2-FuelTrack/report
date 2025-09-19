@@ -312,7 +312,7 @@ Septiembre del 2025 🗓️
         <b>Manuel Sanchez</b><br>
         TB1: Los componentes que conforman la infraestructura de nuestro sistema me llevaron a actualizarme sobre las buenas practicas para un correcto despliegue. <br>
         <b>Marllely Arias</b><br>
-        TB1: -<br>
+        TB1: A través del desarrollo del capítulo dos, trabajé en el análisis competitivo, el needfinding y las entrevistas, lo que me permitió adquirir nuevas perspectivas y herramientas que aportan directamente a mi formación profesional y al avance de mi proyecto en soluciones de ingeniería de software.<br>
         <b>Rogger Miranda</b><br>
         TB1: -<br>
         <b>Lynn Meza</b><br>
@@ -327,8 +327,8 @@ Septiembre del 2025 🗓️
       <td>
         <b>Diego Acuña</b><br>
         TB1: Al desarrollar el trabajo, tuve que aprender a usar herramientas para la creación de diagramas ER y UML que nunca había utilizado anteriormente. También repasé conocimientos ya adquiridos pero de gran importancia. Sobre todo, tuve que aprender todo lo que conlleva el mercado de combustibles, tanto su gestión como su logística. Estar abierto a aprender nuevas tecnologías y aspectos más allá de la informática, pero relacionados con el proyecto, ayuda a determinar si tu solución será útil o no para tus posibles clientes.<br>
-        <b>Giorgio Marzouk Awad Vargas</b><br>
-        TB1: -<br>
+        <b>Marllely Arias Segil</b><br>
+        TB1: Al trabajar en el capítulo dos, donde realicé el análisis competitivo, el needfinding y las entrevistas, comprendí que cada etapa del proyecto en soluciones de ingeniería de software exige actualizarme y seguir aprendiendo, ya que los retos y necesidades del entorno cambian constantemente.<br>
         <b>Manuel Sanchez</b><br>
         TB1: Al actualizar nuestro backend, me di cuenta que no solo la práctica, sino también el aprendizaje debe ser constante para complementar mis habilidades adquiridas y desempeñarme mejor en el desarrollo de soluciones. <br>
         <b>Saul Ortega Muñoz</b><br>
