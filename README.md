@@ -340,6 +340,9 @@ Septiembre del 2025 🗓️
         TB1: -<br>
         <b>Lynn Meza</b><br>
         TB1: Asumí el aprendizaje permanente mientras desarrollé el modelado del dominio: facilité el Event Storming, delimité Bounded Contexts y redacté sus Canvas, y diseñé los Domain Message Flows. Para lograrlo me actualicé con documentación. El resultado fue una arquitectura más modular, integraciones claras y criterios de prueba trazables, elevando la calidad técnica del proyecto.-<br>
+        <b>Rogger Faryd Miranda Ayasta</b><br>
+        TB1: A lo largo del desarrollo del proyecto, me di cuenta de que el aprendizaje constante es fundamental para mejorar el desempeño profesional y desarrollar soluciones efectivas en ingeniería de software. Al enfrentarme a tareas como el diseño de la arquitectura del sistema y la implementación de diagramas C4, comprendí que la adopción de nuevas herramientas y metodologías es crucial para optimizar el proceso. Esta experiencia me reafirmó que, para tener éxito en el campo, es necesario seguir aprendiendo y adaptándose continuamente a nuevas tecnologías y enfoques.
+        <br>
       </td>
       <td>
         CONCLUSION CRITERIO 2
