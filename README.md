@@ -321,7 +321,7 @@ Septiembre del 2025 🗓️
         <b>Rogger Miranda</b><br>
         TB1: -<br>
         <b>Lynn Meza</b><br>
-        TB1: -<br>
+        TB1: Durante este hito actualicé y apliqué conceptos clave de Domain-Driven Design para mi desarrollo profesional y el proyecto: facilité un Event Storming para depurar el Lenguaje Ubicuo y extraer eventos, comandos y políticas; descubrí y definí Bounded Contexts mediante sus Canvases; y modelé Domain Message Flows que explicitan contratos de integración y decisiones de orquestación/coreografía.-<br>
       </td>
       <td>
         CONCLUSION CRITERIO 1
@@ -338,6 +338,8 @@ Septiembre del 2025 🗓️
         TB1: -<br>
         <b>Alberto Alejandro Ponce Perales</b><br>
         TB1: -<br>
+        <b>Lynn Meza</b><br>
+        TB1: Asumí el aprendizaje permanente mientras desarrollé el modelado del dominio: facilité el Event Storming, delimité Bounded Contexts y redacté sus Canvas, y diseñé los Domain Message Flows. Para lograrlo me actualicé con documentación. El resultado fue una arquitectura más modular, integraciones claras y criterios de prueba trazables, elevando la calidad técnica del proyecto.-<br>
       </td>
       <td>
         CONCLUSION CRITERIO 2
@@ -417,7 +419,7 @@ Septiembre del 2025 🗓️
       <td>Lynn Jeeferzon Meza Camayo</td>
       <td>u20201c320</td>
       <td>Ingenieria de Software</td>
-      <td></td>
+      <td>Hola, mi nombre es Lynn Jeeferzon Meza Camayo. Soy estudiante de Ingenería de Software. Me considero una persona perseverante, resiliente e interesado por el mundo tecnológico y cuento con habilidades para formar parte de ello con lo cual tambien coopero de manera responsable.</td>
     </tr>
   </tbody>
 </table>
