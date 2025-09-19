@@ -415,7 +415,7 @@ Septiembre del 2025 🗓️
       <td>Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Trato de mantenerme actualizado con las últimas tecnologías siempre que puedo y poder desempeñarme correctamente en todos los ámbitos que mi carrera demanda.</td>
     </tr>
     <tr>
-      <td></td>
+      <td><img src="./assets/Chapters/Chapter-II/Lynn Meza-Integrante.png" alt="Foto de Lynn Meza" width="80"></td>
       <td>Lynn Jeeferzon Meza Camayo</td>
       <td>u20201c320</td>
       <td>Ingenieria de Software</td>
