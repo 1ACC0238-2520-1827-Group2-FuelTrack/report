@@ -2159,6 +2159,15 @@ Order & Operator → Analytics: tanto Order como Operator proveen información h
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
+En esta sección presentaremos la disposición física de los principales componentes desplegados de la infraestructura del sistema en un diagrama para mostrar las conexiones entre estos.
+
+En nuestro sistema Fueltrack, contamos con 3 componentes:
+- Landing Page: Sitio estático desplegado en Vercel. 
+- Backend: Como servicio web en Render (.NETCore).
+- Base de datos: servicio PostgreSQL administrado en Render.
+
+![Software Architecture Deployment Diagram](<assets/Chapters/Chapter-II/software-architecture-deployment-diagram.png>)
+
 ## 2.6. Tactical-Level Domain-Driven Design
 
 ### 2.6.1. Bounded Context: Analytics
