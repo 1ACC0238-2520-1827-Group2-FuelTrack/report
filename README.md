@@ -317,7 +317,7 @@ Septiembre del 2025 🗓️
         <b>Marllely Arias</b><br>
         TB1: -<br>
         <b>Rogger Miranda</b><br>
-        TB1: -<br>
+        TB1: Durante el desarrollo del startup y el producto, me di cuenta de la importancia de repasar conceptos fundamentales y de estar siempre dispuesto a adoptar nuevas herramientas y metodologías. En este caso, implementé diagramas C4 (de contexto y componentes), lo que permitió mejorar la claridad y organización de la arquitectura del sistema. Esta experiencia me recordó que, aunque algunos aspectos del trabajo puedan parecer rutinarios, siempre es útil revisarlos y estar preparado para aprender lo necesario para mejorar la calidad y el alcance de los proyectos<br>
         <b>Lynn Meza</b><br>
         TB1: Durante este hito actualicé y apliqué conceptos clave de Domain-Driven Design para mi desarrollo profesional y el proyecto: facilité un Event Storming para depurar el Lenguaje Ubicuo y extraer eventos, comandos y políticas; descubrí y definí Bounded Contexts mediante sus Canvases; y modelé Domain Message Flows que explicitan contratos de integración y decisiones de orquestación/coreografía.-<br>
       </td>
