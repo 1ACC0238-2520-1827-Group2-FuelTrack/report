@@ -136,10 +136,11 @@ Septiembre del 2025 🗓️
 **Link del Event Storming**
 [https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021](https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021)
 
-  - [ ] TB1
-  - [ ] TP1
-  - [ ] TB2
-  - [ ] TF1
+![alt text](assets/Chapters/Insights/Summary_TB1.png)
+
+![alt text](assets/Chapters/Insights/Contirbutors_TB1.png)
+
+![alt text](assets/Chapters/Insights/NetworkGraph_TB1.png)
 
 # Table of Contents
 - [✨ Informe Trabajo Final ✨](#-informe-trabajo-final-)
@@ -334,10 +335,6 @@ Septiembre del 2025 🗓️
         TB1: Al trabajar en el capítulo dos, donde realicé el análisis competitivo, el needfinding y las entrevistas, comprendí que cada etapa del proyecto en soluciones de ingeniería de software exige actualizarme y seguir aprendiendo, ya que los retos y necesidades del entorno cambian constantemente.<br>
         <b>Manuel Sanchez</b><br>
         TB1: Al actualizar nuestro backend, me di cuenta que no solo la práctica, sino también el aprendizaje debe ser constante para complementar mis habilidades adquiridas y desempeñarme mejor en el desarrollo de soluciones. <br>
-        <b>Saul Ortega Muñoz</b><br>
-        TB1: -<br>
-        <b>Alberto Alejandro Ponce Perales</b><br>
-        TB1: -<br>
         <b>Lynn Meza</b><br>
         TB1: Asumí el aprendizaje permanente mientras desarrollé el modelado del dominio: facilité el Event Storming, delimité Bounded Contexts y redacté sus Canvas, y diseñé los Domain Message Flows. Para lograrlo me actualicé con documentación. El resultado fue una arquitectura más modular, integraciones claras y criterios de prueba trazables, elevando la calidad técnica del proyecto.-<br>
         <b>Rogger Faryd Miranda Ayasta</b><br>
