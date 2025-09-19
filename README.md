@@ -136,10 +136,7 @@ Septiembre del 2025 🗓️
 **Link del Event Storming**
 [https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021](https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021)
 
-  - [ ] TB1
-  - [ ] TP1
-  - [ ] TB2
-  - [ ] TF1
+![alt text](assets/Chapters/Insights/Summary_TB1.png)
 
 # Table of Contents
 - [✨ Informe Trabajo Final ✨](#-informe-trabajo-final-)
