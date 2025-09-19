@@ -335,10 +335,6 @@ Septiembre del 2025 🗓️
         TB1: -<br>
         <b>Manuel Sanchez</b><br>
         TB1: Al actualizar nuestro backend, me di cuenta que no solo la práctica, sino también el aprendizaje debe ser constante para complementar mis habilidades adquiridas y desempeñarme mejor en el desarrollo de soluciones. <br>
-        <b>Saul Ortega Muñoz</b><br>
-        TB1: -<br>
-        <b>Alberto Alejandro Ponce Perales</b><br>
-        TB1: -<br>
         <b>Lynn Meza</b><br>
         TB1: Asumí el aprendizaje permanente mientras desarrollé el modelado del dominio: facilité el Event Storming, delimité Bounded Contexts y redacté sus Canvas, y diseñé los Domain Message Flows. Para lograrlo me actualicé con documentación. El resultado fue una arquitectura más modular, integraciones claras y criterios de prueba trazables, elevando la calidad técnica del proyecto.-<br>
         <b>Rogger Faryd Miranda Ayasta</b><br>
