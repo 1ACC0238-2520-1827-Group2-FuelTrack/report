@@ -133,6 +133,9 @@ Septiembre del 2025 🗓️
 **Link de los repositorios de la organización:**  
 [https://github.com/orgs/1ACC0238-2520-1827-Group2-FuelTrack/repositories](https://github.com/orgs/1ACC0238-2520-1827-Group2-FuelTrack/repositories)
 
+**Link del Event Storming**
+[https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021](https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021)
+
   - [ ] TB1
   - [ ] TP1
   - [ ] TB2
@@ -3712,3 +3715,17 @@ Contiene la lógica de **gestión de pedidos** y reglas de negocio relacionadas 
 [¿Qué es la gestión de pedidos?](https://www.ibm.com/es-es/think/topics/order-management)
 
 # Anexos
+**Link del repositorio del informe:**  
+[https://github.com/1ACC0238-2520-1827-Group2-FuelTrack/report](https://github.com/1ACC0238-2520-1827-Group2-FuelTrack/report)
+
+**Link de los repositorios de la organización:**  
+[https://github.com/orgs/1ACC0238-2520-1827-Group2-FuelTrack/repositories](https://github.com/orgs/1ACC0238-2520-1827-Group2-FuelTrack/repositories)
+
+**Link del Event Storming**
+[https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021](https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021)
+
+**Link del backend**
+[https://fueltrack-api.onrender.com/swagger/index.html](https://fueltrack-api.onrender.com/swagger/index.html)
+
+**Link de la landing**
+[https://fueltrack-landing-page-dcpypy9w5.vercel.app/](https://fueltrack-landing-page-dcpypy9w5.vercel.app/)
