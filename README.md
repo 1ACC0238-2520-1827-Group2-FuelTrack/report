@@ -144,7 +144,7 @@ Septiembre del 2025 🗓️
 - [Registro de versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Table of Contents](#table-of-contents)
-- [Student Outcomes](#student-outcomes)
+- [Student Outcome](#student-outcome)
 - [Objetivos SMART](#objetivos-smart)
 - [Capitulo I: Presentación](#capitulo-i-presentación)
   - [1.1. Startup Profile](#11-startup-profile)
@@ -398,11 +398,11 @@ Septiembre del 2025 🗓️
   </thead>
   <tbody>
     <tr>
-      <td></td>
+      <td><img src="./assets/Chapters/Chapter-I/foto-diego.png" alt="marlle" width="80"></td>
       <td>Acuña Tomas, Diego Rolin</td>
       <td>U202221436</td>
       <td>Ingenieria de Software</td>
-      <td></td>
+      <td>Soy Diego Acuña, tengo 23 años y estudió la carrera de ingeniería de software. Actualmente me encuentro en el 7mo ciclo de la carrera. Considero que soy responsable, y una persona abierta a las ideas y comentarios de mis compañeros. También me considero curioso pues aprendo lenguajes por mi cuenta como Matlab y Python, sin embargo también estudio por mi cuenta para mis cursos por ello me considero diestro en frameworks como Angular, al mismo tiempo que aprendí lenguajes como SQL, C++, Java, HTML, CSS y C#.</td>
     </tr>
     <tr>
       <td><img src="https://files.catbox.moe/uo7qnb.webp" alt="rogger" width="80"></td>
