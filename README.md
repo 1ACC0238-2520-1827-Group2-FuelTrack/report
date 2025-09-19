@@ -2031,16 +2031,15 @@ Como resultado del proceso de EventStorming, se identificaron áreas de responsa
 
 **Order**
 
-Contexto responsable de permitir que los usuarios creen nuevas órdenes de pedido de gasolina, consulten su historial, apliquen filtros y realicen ediciones de pedidos. Aquí se encapsulan las reglas sobre quién puede generar pedidos y en qué condiciones pueden modificarse.
+Este bounded context encapsula toda la lógica relacionada con los pedidos. Sin embargo, debido a la diferencia de actores involucrados (Empresar - proveedor), se divide en dos áreas de responsabilidad expuestas mediante distintos endpoints:
+
+  - Orders: Contexto orientado a las empresas, quienes pueden crear nuevas órdenes de pedido de gasolina, consultar su historial, aplicar filtros y realizar ediciones de pedidos. Aquí se encapsulan las reglas sobre quién puede generar pedidos y en qué condiciones pueden modificarse.
 
 ![Order-Context](./assets/Chapters/Chapter-II/order-context.png)
 
+  - **Order Management**: Contexto orientado a los proveedores, quienes tienen la capacidad de aceptar o rechazar órdenes, así como de actualizar sus estados (confirmado, en proceso, entregado, cancelado). Este subcomponente concentra las reglas sobre validación y control operativo de los pedidos en función de la disponibilidad y capacidad del proveedor.
 
-**Operators**
-
-Contexto encargado de la gestión de pedidos desde la perspectiva del proveedor. Aquí se definen las operaciones de aceptación o rechazo de órdenes, así como la actualización de sus estados (confirmado, en proceso, entregado, cancelado). Este contexto concentra las reglas sobre la validación y control operativo de los pedidos en función de la disponibilidad y capacidad del proveedor.
-
-![Operators-context](./assets/Chapters/Chapter-II/operators-context.png)
+![Order-Context](./assets/Chapters/Chapter-II/order-managament-context.png)
 
 **Analytics**
 
@@ -2076,11 +2075,7 @@ En esta sección se representan los flujos de mensajes que circulan dentro de ca
 
 ### **Order**
 
-![Order-flows](./assets/Chapters/Chapter-II/order-flows.png)
-
-### **Operators**
-
-![Operators-flows](./assets/Chapters/Chapter-II/Operator-flow.png)
+![Order-flows](./assets/Chapters/Chapter-II/order-v2-flow.png)
 
 ### **Analytics**
 
@@ -2097,7 +2092,7 @@ En esta sección se representan los flujos de mensajes que circulan dentro de ca
 
 ### **Notifications**
 
-![Notifications-flows](./assets/Chapters/Chapter-II/notification-flow.png)
+![Notifications-flows](./assets/Chapters/Chapter-II/notification-flow-v2.png)
 
 link de miro: <https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=333896184497>
 
@@ -2109,9 +2104,8 @@ A continuación, se presentan los canvases de los bounded contexts identificados
 
 ![Order-context](./assets/Chapters/Chapter-II/order-canvas.png)
 
-### **Operators**
 
-![Operators-context](./assets/Chapters/Chapter-II/operator-canvas.png)
+![Order-Management-context](./assets/Chapters/Chapter-II/order-managament-canvas.png)
 
 ### **Analytics**
 
@@ -2136,17 +2130,17 @@ link de miro: <https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=3338961844
 
 El Context Mapping permite representar las relaciones existentes entre los diferentes bounded contexts identificados en el dominio. Mientras que cada bounded context encapsula de forma autónoma sus reglas y responsabilidades, el mapa de contexto hace explícitas las dependencias y los flujos de mensajes que los conectan, estableciendo así una visión global de la interacción entre las distintas áreas del sistema.
 
-Order → Operator: el contexto Order emite el evento PedidoCreado, el cual es consumido por Operator para decidir si aceptar o rechazar el pedido.
+Order → Order Management: el contexto Order emite el evento PedidoCreado, el cual es consumido por Operator para decidir si aceptar o rechazar el pedido.
 
 Order → Payments: al confirmar un pedido, Order emite PedidoConfirmado, habilitando al contexto Payments para iniciar el flujo de pago.
 
-Operator → Vehicles: los pedidos aceptados en Operator son consumidos por Vehicles, que se encarga de asignar el vehículo y conductor correspondientes.
+Order Management → Vehicles: los pedidos aceptados en Operator son consumidos por Vehicles, que se encarga de asignar el vehículo y conductor correspondientes.
 
-Operator → Notifications: emite mensajes como PedidoRechazado o EstadoDePedidoActualizado, que son enviados a Notifications para informar al usuario.
+Order Management→ Notifications: emite mensajes como PedidoRechazado o EstadoDePedidoActualizado, que son enviados a Notifications para informar al usuario.
 
-Order & Operator → Analytics: tanto Order como Operator proveen información histórica y de estados que alimenta al contexto Analytics, el cual genera reportes y gráficos analíticos.
+Order & Order Management → Analytics: tanto Order como Operator proveen información histórica y de estados que alimenta al contexto Analytics, el cual genera reportes y gráficos analíticos.
 
-![Context-Mapping](./assets/Chapters/Chapter-II/Context-mapping.png)
+![Context-Mapping](./assets/Chapters/Chapter-II/Context-mapping-v2.png)
 
 
 
