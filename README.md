@@ -1102,7 +1102,7 @@ En cuanto a <strong>características subjetivas</strong>, hay consenso en las pr
 
 ### 2.3.2. User Task Matrix.
 
-<table>
+<table border>
   <thead>
     <tr>
       <th>Tarea</th>
@@ -2119,7 +2119,7 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
 </table>
 
 ### 2.4.3 Impact Mapping
-<img src="" alt="Impact Map">
+<img src="./assets/Chapters/Chapter-II/impact-mapping.png" alt="Impact Map" width="500">
 
 ### 2.4.4 Product Backlog
 <table border>
@@ -2546,16 +2546,16 @@ Contiene la lógica de **agregación y cálculos** para las estadísticas mostra
 </table>
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams](./assets/Chapters/Chapter-IV/structurizr-Component-Analytics.png)
+![Analytics Component Level Diagrams](./assets/Chapters/Chapter-IV/structurizr-Component-Analytics.png)
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-![alt text](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/AnalyticsDomainLayerClassDiagram.png)
+![Analytics Class Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/AnalyticsDomainLayerClassDiagram.png)
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
-![alt text](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackAnalytics.png)
+![Analytics Design Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackAnalytics.png)
 
 ### 2.6.2. Bounded Context: Operators
 
@@ -2709,16 +2709,16 @@ Contiene la lógica de **gestión y actualización** de los operadores en el sis
 </table>
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
-![alt text](assets/Chapters/Chapter-IV/structurizr-Component-Operators.png)
+![Operators Level Diagrams](assets/Chapters/Chapter-IV/structurizr-Component-Operators.png)
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-![alt text](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/OperatorDomainLayerClassDiagram.png)
+![Operators Class Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/OperatorDomainLayerClassDiagram.png)
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
-![alt text](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackOperatorsOrders.png)
+![Operators Design Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackOperatorsOrders.png)
 
 ### 2.6.3. Bounded Context: Vehicles
 Gestiona el ciclo de vida de los vehículos registrados en el sistema: creación, edición, eliminación lógica, y actualizaciones de ubicación en tiempo real. También permite filtrar vehículos disponibles.
@@ -2915,17 +2915,17 @@ Contiene la lógica de **gestión de vehículos** dentro del sistema.
 </table>
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
-![Bounded Context Software Architecture Component Level Diagrams](./assets/Chapters/Chapter-IV/structurizr-Component-Vehicles.png)
+![Vehicles Level Diagrams](./assets/Chapters/Chapter-IV/structurizr-Component-Vehicles.png)
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 
-![alt text](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/VehicleDomainLayerClassDiagram.png)
+![Vehicles Class Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/VehicleDomainLayerClassDiagram.png)
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
-![alt text](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackVehiclesOrders.png)
+![Vehicles Design Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackVehiclesOrders.png)
 
 ### 2.6.4. Bounded Context: Users
 Este contexto se encarga de la gestión de usuarios de la plataforma: consulta de usuarios, actualización de perfil, y activación/desactivación. Incluye lógica específica para la obtención del usuario autenticado y el control de acceso según roles (Admin, Proveedor, etc.).
@@ -3090,16 +3090,16 @@ Contiene la lógica de **gestión de usuarios** dentro del sistema.
 </table>
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
-![Users Bounded Context Software Architecture Component Level Diagrams](./assets/Chapters/Chapter-IV/structurizr-Component-Users.png)
+![Users Level Diagrams](./assets/Chapters/Chapter-IV/structurizr-Component-Users.png)
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
-![alt text](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/UserDomainLayerClassDiagram.png)
+![Users Class Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/UserDomainLayerClassDiagram.png)
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
-![alt text](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackUsers.png)
+![Users Design Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackUsers.png)
 
 ### 2.6.5. Bounded Context: Notifications
 Este contexto se encarga de la gestión de las notificaciones para los usuarios del sistema FuelTrack. Permite consultar, crear, y actualizar el estado de las notificaciones, con control de acceso para roles específicos (Admin, Proveedor). Maneja la lógica de lectura, conteo y asociación con órdenes relacionadas.
@@ -3259,17 +3259,17 @@ Contiene la lógica de **gestión de notificaciones** dentro del sistema.
 </table>
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
-![Notifications Bounded Context Software Architecture Component Level Diagrams](assets/Chapters/Chapter-IV/structurizr-Component-notifications.png)
+![Notifications Level Diagrams](assets/Chapters/Chapter-IV/structurizr-Component-notifications.png)
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 
-![alt text](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/NotificationDomainLayerClassDiagram.png)
+![Notifications Class Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/NotificationDomainLayerClassDiagram.png)
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
-![alt text](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackNotifications.png)
+![Notifications Design Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackNotifications.png)
 
 ### 2.6.6. Bounded Context: Payments
 Gestiona los métodos de pago y el procesamiento de pagos de los pedidos para usuarios con rol Cliente. Permite la consulta, creación y eliminación de métodos de pago, además de procesar pagos asociados a órdenes. Soporta control de acceso según roles (Cliente, Admin).
@@ -3478,17 +3478,17 @@ Contiene la lógica de **gestión de pagos** y **métodos de pago**.
 </table>
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
-![Payments Bounded Context Software Architecture Component Level Diagrams](assets/Chapters/Chapter-IV/structurizr-Component-payments.png)
+![Payments Level Diagrams](assets/Chapters/Chapter-IV/structurizr-Component-payments.png)
 
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
 
-![alt text](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/PaymentDomainLayerClassDiagram.png)
+![Payments Class Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/PaymentDomainLayerClassDiagram.png)
 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 
-![alt text](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackOrdersPayments.png)
+![Payments Design Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackOrdersPayments.png)
 
 ### 2.6.7. Bounded Context: Orders
 Gestiona el ciclo completo de pedidos (órdenes) de combustible, incluyendo creación por clientes, asignación de vehículos y operadores por proveedores, actualización de estados y consulta según roles (Admin, Cliente, Proveedor).
@@ -3687,16 +3687,16 @@ Contiene la lógica de **gestión de pedidos** y reglas de negocio relacionadas 
 </table>
 
 #### 2.6.7.5. Bounded Context Software Architecture Component Level Diagrams
-![Orders Bounded Context Software Architecture Component Level Diagrams](./assets/Chapters/Chapter-IV/structurizr-Component-Orders.png)
+![Orders Level Diagrams](./assets/Chapters/Chapter-IV/structurizr-Component-Orders.png)
 
 #### 2.6.7.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.7.6.1. Bounded Context Domain Layer Class Diagrams
 
-![alt text](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/OrderDomainLayerClassDiagram.png)
+![Orders Class Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/OrderDomainLayerClassDiagram.png)
 
 ##### 2.6.7.6.2. Bounded Context Database Design Diagram
 
-![alt text](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackOperatorsVehiclesOrders.png)
+![Orders Design Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackOperatorsVehiclesOrders.png)
 
 # Conclusiones
 ## Conclusiones y Recomendaciones
