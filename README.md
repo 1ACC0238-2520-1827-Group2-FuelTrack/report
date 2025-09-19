@@ -3705,6 +3705,10 @@ Contiene la lógica de **gestión de pedidos** y reglas de negocio relacionadas 
 
 # Conclusiones
 ## Conclusiones y Recomendaciones
+El proyecto FuelTrack logró importantes avances en la definición del problema, análisis del usuario y diseño conceptual de la solución. A través de entrevistas, herramientas de Lean UX y ejercicios de Needfinding, se validaron necesidades reales del mercado y se delineó una propuesta alineada con los usuarios. Se definieron requisitos clave mediante User Stories e Impact Mapping, y se modeló la arquitectura del sistema utilizando Domain-Driven Design, EventStorming y diagramas C4. Aunque el producto aún no está desarrollado, esta etapa sentó una base sólida para futuras fases de diseño y construcción, con decisiones respaldadas por validación temprana y un enfoque centrado en el usuario.
+
+Para los próximos avances, se recomienda crear prototipos interactivos que permitan validar las funcionalidades clave y la experiencia de usuario de manera temprana. También es esencial refinar la arquitectura del sistema para garantizar su escalabilidad y flexibilidad a medida que se agreguen nuevas funcionalidades. Las pruebas de usabilidad continuas con usuarios reales proporcionarán retroalimentación valiosa para mejorar la interfaz, mientras que el monitoreo de competidores permitirá ajustar la propuesta de valor en función de las tendencias del mercado. Finalmente, se debe adoptar un enfoque de desarrollo incremental, priorizando las funcionalidades más críticas y expandiendo gradualmente el sistema.
+
 ## Video App Validation
 ## Video About the product
 ## Video About the team
