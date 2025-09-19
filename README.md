@@ -308,7 +308,7 @@ Septiembre del 2025 🗓️
       <td width="35%"><b>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software.</b></td>
       <td>
         <b>Diego Acuña</b><br>
-        TB1: -<br>
+        TB1: Durante el desarrollo del startup y el producto, tuve que repasar conceptos básicos como Lean UX. En particular, necesité investigar nuevas tecnologías para crear diagramas ER y UML directamente desde Visual Studio Code. Esta experiencia me enseñó que, aunque hayas realizado algo muchas veces, siempre es necesario repasar conceptos, incluso los más básicos. Además, debo estar preparado para adquirir nuevos conocimientos que me permitan completar satisfactoriamente cualquier proyecto de software.<br>
         <b>Manuel Sanchez</b><br>
         TB1: Los componentes que conforman la infraestructura de nuestro sistema me llevaron a actualizarme sobre las buenas practicas para un correcto despliegue. <br>
         <b>Marllely Arias</b><br>
@@ -325,6 +325,8 @@ Septiembre del 2025 🗓️
     <tr>
       <td><b>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software</b></td>
       <td>
+        <b>Diego Acuña</b><br>
+        TB1: Al desarrollar el trabajo, tuve que aprender a usar herramientas para la creación de diagramas ER y UML que nunca había utilizado anteriormente. También repasé conocimientos ya adquiridos pero de gran importancia. Sobre todo, tuve que aprender todo lo que conlleva el mercado de combustibles, tanto su gestión como su logística. Estar abierto a aprender nuevas tecnologías y aspectos más allá de la informática, pero relacionados con el proyecto, ayuda a determinar si tu solución será útil o no para tus posibles clientes.<br>
         <b>Giorgio Marzouk Awad Vargas</b><br>
         TB1: -<br>
         <b>Manuel Sanchez</b><br>
