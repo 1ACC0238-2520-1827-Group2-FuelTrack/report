@@ -3844,6 +3844,31 @@ Estas etiquetas están diseñadas para que los usuarios puedan navegar de manera
 
 
 #### 3.1.2.4. Searching Systems
+Para garantizar una experiencia de usuario fluida, rápida y centrada en la interacción móvil, se ha diseñado un sistema de navegación y búsqueda adaptado principalmente a la **versión móvil** de la plataforma. Las decisiones de diseño están enfocadas en ofrecer una interfaz clara, accesible mediante gestos táctiles, y optimizada para pantallas pequeñas, sin descuidar la compatibilidad con la versión web o de escritorio.
+
+**🔹 Menú de navegación**
+
+En la aplicación móvil se implementará un menú tipo hamburguesa o barra de navegación inferior (bottom tab bar), dependiendo de la plataforma (iOS / Android). Este menú proporcionará acceso rápido a:
+
+- Características clave de la app
+- Registro e inicio de sesión
+- Seguimiento de pedidos y depósitos
+
+Esto asegura que tanto nuevos usuarios como usuarios recurrentes puedan navegar sin fricción, minimizando el número de toques necesarios para acceder a las funciones principales.
+
+**🔹 Navegación visual guiada**
+
+La aplicación organizará su contenido en bloques visuales verticales, adaptados al scroll táctil. Esta estructura permite al usuario recorrer de forma fluida las distintas secciones funcionales, guiado por jerarquías visuales claras y elementos interactivos táctiles, como tarjetas, botones grandes e iconografía reconocible.
+
+**🔹 Diseño responsive enfocado en móviles**
+
+El enfoque está puesto en la experiencia móvil. Las pantallas se ajustarán automáticamente a diferentes resoluciones y relaciones de aspecto, manteniendo:
+
+- Legibilidad en pantallas pequeñas
+- Interacción optimizada para uso con una sola mano
+- Navegación simple y directa sin sobrecarga visual
+
+
 #### 3.1.2.5. Navigation Systems
 
 
