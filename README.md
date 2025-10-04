@@ -3870,6 +3870,24 @@ El enfoque está puesto en la experiencia móvil. Las pantallas se ajustarán au
 
 
 #### 3.1.2.5. Navigation Systems
+En la aplicación móvil, se ha diseñado un sistema de navegación que permite a los usuarios —especialmente a los proveedores— acceder de forma eficiente a la información clave relacionada con sus pedidos. La estructura de navegación está enfocada en ofrecer accesos rápidos, búsqueda intuitiva y filtros inteligentes, todo optimizado para una experiencia táctil fluida
+
+**🔹 Búsqueda por texto**
+- Los usuarios tendrán una lista de pedidos donde podrán buscar dentro de cada categoría, razón social, número de pedido, nombre del banco y otros datos.
+
+- Habrá un buscador simple para encontrar pedidos registrados o pendientes, que mostrará resultados según el tipo de información que se detecte automáticamente.
+  
+- Además, habrá un botón llamado “Búsqueda avanzada” para realizar búsquedas más específicas, completando todos los campos requeridos.
+
+**🔹 Filtros por categorías automáticas**
+Junto a la búsqueda textual, se integrará un sistema de filtros dinámicos basado en las categorías existentes dentro del sistema.
+
+- Los usuarios contarán con un sistema automático de filtros basado en las categorías existentes.
+- Por ejemplo, el sistema filtrará todas las ubicaciones detectadas en los pedidos registrados o pendientes, y el usuario podrá seleccionar las que desee aplicar.
+
+**📲 Experiencia adaptada a la navegación móvil**
+
+Toda la navegación y búsqueda estará diseñada para funcionar bien en dispositivos móviles, con interacción táctil sencilla y fácil acceso a las funciones.
 
 
 
