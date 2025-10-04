@@ -292,8 +292,6 @@ Septiembre del 2025 🗓️
   - [3.1. Product design](#31-product-design)
     - [3.1.1. Style Guidelines](#311-style-guidelines)
       - [3.1.1.1.General Style Guidelines](#3111general-style-guidelines)
-    - [3.1.2. Information Architecture](#312-information-architecture)
-      - [3.1.2.1. Organization Systems](#3121-organization-systems)
       - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
       - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
       - [3.1.2.4. Searching Systems](#3124-searching-systems)
@@ -3718,9 +3716,26 @@ Contiene la lógica de **gestión de pedidos** y reglas de negocio relacionadas 
 #  Capítulo III: Solution UI/UX Design
 ## 3.1. Product design
 ### 3.1.1. Style Guidelines
+En esta sección se presentan los estándares que definen el formato y el diseño de la solución, asegurando la calidad en su implementación.
+
 #### 3.1.1.1.General Style Guidelines
-### 3.1.2. Information Architecture
-#### 3.1.2.1. Organization Systems
+Con estas decisiones en el diseño visual buscamos reflejar innovación que incentive a la formalidad en los procesos de comercialización, es asi como demostramos modernidad y calidad, valores que van alineados a nuestro proyecto
+
+> **Color**
+ Seleccionamos esta gama de colores porque armoniza con el diseño del logo y refleja la temática de nuestra aplicación, asegurando la identidad de la marca.
+![alt text](assets/Chapters/Chapter-III/Color-palette.jpg)
+
+> **Tipografia**
+ Seleccionamos esta tipografía por su excelente legibilidad en diversos entornos, lo que nos permite diferenciarnos frente a la competencia y aportar una identidad única a nuestra marca.
+ ![alt text](assets/Chapters/Chapter-III/Tipography.jpg)
+
+> **Branding**
+ El nombre de nuestro producto es FuelTrack, contamos con un logo que representa claramente nuestro rubro, dandole un toque moderno y simple, ademas usar colores que seran caractristicos en nuestra empresa y amigables a la vista de nuestros clientes
+ ![alt text](assets/Chapters/Chapter-III/logo-fueltrack.jpg)
+
+
+
+
 #### 3.1.2.2. Labelling Systems
 #### 3.1.2.3. SEO Tags and Meta Tags
 #### 3.1.2.4. Searching Systems
