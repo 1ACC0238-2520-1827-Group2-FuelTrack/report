@@ -292,6 +292,8 @@ Septiembre del 2025 🗓️
   - [3.1. Product design](#31-product-design)
     - [3.1.1. Style Guidelines](#311-style-guidelines)
       - [3.1.1.1.General Style Guidelines](#3111general-style-guidelines)
+    - [3.1.2. Information Architecture](#312-information-architecture)
+      - [3.1.2.1. Organization Systems](#3121-organization-systems)
       - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
       - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
       - [3.1.2.4. Searching Systems](#3124-searching-systems)
@@ -3733,8 +3735,10 @@ Con estas decisiones en el diseño visual buscamos reflejar innovación que ince
  El nombre de nuestro producto es FuelTrack, contamos con un logo que representa claramente nuestro rubro, dandole un toque moderno y simple, ademas usar colores que seran caractristicos en nuestra empresa y amigables a la vista de nuestros clientes
  ![alt text](assets/Chapters/Chapter-III/logo-fueltrack.jpg)
 
+### 3.1.2. Information Architecture
+La arquitectura de información se diseñó para guiar al usuario de forma lógica a través de las funciones esenciales de FuelTrack, facilitando la navegación y reduciendo la curva de aprendizaje.
 
-
+#### 3.1.2.1. Organization Systems
 
 #### 3.1.2.2. Labelling Systems
 #### 3.1.2.3. SEO Tags and Meta Tags
