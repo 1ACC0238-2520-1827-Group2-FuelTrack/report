@@ -74,7 +74,7 @@ Septiembre del 2025 🗓️
   </tr>
   <tr>
     <td>TP1</td>
-    <td>10/04/2025</td>
+    <td>4/10/2025</td>
     <td>
       <ul> 
         <li>Lynn Jeeferzon Meza Camayo</li> 
