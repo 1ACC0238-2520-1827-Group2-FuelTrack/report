@@ -74,7 +74,7 @@ Septiembre del 2025 🗓️
   </tr>
   <tr>
     <td>TP1</td>
-    <td></td>
+    <td>4/10/2025</td>
     <td>
       <ul> 
         <li>Lynn Jeeferzon Meza Camayo</li> 
@@ -84,9 +84,7 @@ Septiembre del 2025 🗓️
         <li>Diego Rolin Acuña Tomas</li>
       </ul>
     </td>
-    <td> Se han incluído los siguientes capítulos y secciones:
-      <ul>
-      </ul>
+    <td> Se han incluído las mejoras indicadas por el docente de la entrega anterior. Además, en esta entrega se agregaron apartados como  Capítulo III: Solution UI/UX Design, Capítulo IV: Product Implementation & Validation y el Sprint 1, Conclusiones, Bibliografía y Anexos
     </td>
   </tr>
   <tr>
@@ -288,6 +286,16 @@ Septiembre del 2025 🗓️
       - [2.6.7.6. Bounded Context Software Architecture Code Level Diagrams](#2676-bounded-context-software-architecture-code-level-diagrams)
         - [2.6.7.6.1. Bounded Context Domain Layer Class Diagrams](#26761-bounded-context-domain-layer-class-diagrams)
         - [2.6.7.6.2. Bounded Context Database Design Diagram](#26762-bounded-context-database-design-diagram)
+- [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
+  - [3.1. Product design](#31-product-design)
+    - [3.1.1. Style Guidelines](#311-style-guidelines)
+      - [3.1.1.1.General Style Guidelines](#3111general-style-guidelines)
+    - [3.1.2. Information Architecture](#312-information-architecture)
+      - [3.1.2.1. Organization Systems](#3121-organization-systems)
+      - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
+      - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
+      - [3.1.2.4. Searching Systems](#3124-searching-systems)
+      - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Video App Validation](#video-app-validation)
@@ -318,7 +326,9 @@ Septiembre del 2025 🗓️
         <b>Marllely Arias</b><br>
         TB1: A través del desarrollo del capítulo dos, trabajé en el análisis competitivo, el needfinding y las entrevistas, lo que me permitió adquirir nuevas perspectivas y herramientas que aportan directamente a mi formación profesional y al avance de mi proyecto en soluciones de ingeniería de software.<br>
         <b>Rogger Miranda</b><br>
-        TB1: Durante el desarrollo del startup y el producto, me di cuenta de la importancia de repasar conceptos fundamentales y de estar siempre dispuesto a adoptar nuevas herramientas y metodologías. En este caso, implementé diagramas C4 (de contexto y componentes), lo que permitió mejorar la claridad y organización de la arquitectura del sistema. Esta experiencia me recordó que, aunque algunos aspectos del trabajo puedan parecer rutinarios, siempre es útil revisarlos y estar preparado para aprender lo necesario para mejorar la calidad y el alcance de los proyectos<br>
+        TB1: Durante el desarrollo del startup y el producto, me di cuenta de la importancia de repasar conceptos fundamentales y de estar siempre dispuesto a adoptar nuevas herramientas y metodologías. En este caso, implementé diagramas C4 (de contexto y componentes), lo que permitió mejorar la claridad y organización de la arquitectura del sistema. Esta experiencia me recordó que, aunque algunos aspectos del trabajo puedan parecer rutinarios, siempre es útil revisarlos y estar preparado para aprender lo necesario para mejorar la calidad y el alcance de los proyectos
+        TP1: Durante el desarrollo del producto y el informe, me di cuenta la importancia de poder estar actualizado en conceptos, tecnicas y teconologias para el correcto desarrollo de la solución de manera agil y eficaz. En esta oportunidad fue muy importante entender conceptos de SEO, entender el funcionamiento de las tecnologias respectivas para el avance tanto de la landing como del backend, conceptos de UX/UI, etc.
+        <br>
         <b>Lynn Meza</b><br>
         TB1: Durante este hito actualicé y apliqué conceptos clave de Domain-Driven Design para mi desarrollo profesional y el proyecto: facilité un Event Storming para depurar el Lenguaje Ubicuo y extraer eventos, comandos y políticas; descubrí y definí Bounded Contexts mediante sus Canvases; y modelé Domain Message Flows que explicitan contratos de integración y decisiones de orquestación/coreografía.-<br>
       </td>
@@ -339,6 +349,7 @@ Septiembre del 2025 🗓️
         TB1: Asumí el aprendizaje permanente mientras desarrollé el modelado del dominio: facilité el Event Storming, delimité Bounded Contexts y redacté sus Canvas, y diseñé los Domain Message Flows. Para lograrlo me actualicé con documentación. El resultado fue una arquitectura más modular, integraciones claras y criterios de prueba trazables, elevando la calidad técnica del proyecto.-<br>
         <b>Rogger Faryd Miranda Ayasta</b><br>
         TB1: A lo largo del desarrollo del proyecto, me di cuenta de que el aprendizaje constante es fundamental para mejorar el desempeño profesional y desarrollar soluciones efectivas en ingeniería de software. Al enfrentarme a tareas como el diseño de la arquitectura del sistema y la implementación de diagramas C4, comprendí que la adopción de nuevas herramientas y metodologías es crucial para optimizar el proceso. Esta experiencia me reafirmó que, para tener éxito en el campo, es necesario seguir aprendiendo y adaptándose continuamente a nuevas tecnologías y enfoques.
+        TP1: En esta oportunidad para el desarrollo  del producto y el informe, me di cuenta la importancia de conocer y aprender conceptos, tecnicas y teconologias para el correcto desarrollo de la solución de manera agil y eficaz. Fue de mucha importancia aprender sobre de Tags y MetaTags, conocerconceptos de UX/UI, etc.
         <br>
       </td>
       <td>
@@ -3702,6 +3713,184 @@ Contiene la lógica de **gestión de pedidos** y reglas de negocio relacionadas 
 ##### 2.6.7.6.2. Bounded Context Database Design Diagram
 
 ![Orders Design Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackOperatorsVehiclesOrders.png)
+
+
+
+#  Capítulo III: Solution UI/UX Design
+## 3.1. Product design
+### 3.1.1. Style Guidelines
+En esta sección se presentan los estándares que definen el formato y el diseño de la solución, asegurando la calidad en su implementación.
+
+#### 3.1.1.1.General Style Guidelines
+Con estas decisiones en el diseño visual buscamos reflejar innovación que incentive a la formalidad en los procesos de comercialización, es asi como demostramos modernidad y calidad, valores que van alineados a nuestro proyecto
+
+> **Color**
+ Seleccionamos esta gama de colores porque armoniza con el diseño del logo y refleja la temática de nuestra aplicación, asegurando la identidad de la marca.
+![alt text](assets/Chapters/Chapter-III/Color-palette.jpg)
+
+> **Tipografia**
+ Seleccionamos esta tipografía por su excelente legibilidad en diversos entornos, lo que nos permite diferenciarnos frente a la competencia y aportar una identidad única a nuestra marca.
+ ![alt text](assets/Chapters/Chapter-III/Tipography.jpg)
+
+> **Branding**
+ El nombre de nuestro producto es FuelTrack, contamos con un logo que representa claramente nuestro rubro, dandole un toque moderno y simple, ademas usar colores que seran caractristicos en nuestra empresa y amigables a la vista de nuestros clientes
+ ![alt text](assets/Chapters/Chapter-III/logo-fueltrack.jpg)
+
+### 3.1.2. Information Architecture
+La arquitectura de información se diseñó para guiar al usuario de forma lógica a través de las funciones esenciales de FuelTrack, facilitando la navegación y reduciendo la curva de aprendizaje.
+
+#### 3.1.2.1. Organization Systems
+El Sistema de Organización de FuelTrack tiene como objetivo facilitar la interacción fluida entre los usuarios (compradores y proveedores) y la plataforma mediante una jerarquía visual clara. Esta jerarquía destaca las funciones clave —como la gestión de pedidos de combustible, el registro de depósitos y la carga de documentos— permitiendo que los usuarios accedan rápidamente a las acciones más importantes desde la pantalla principal.
+
+ - **Agrupación lógica de funciones:** Las funcionalidades están organizadas por bloques temáticos (“Record Deposits”, “Upload Documents”, “Track Orders”), lo que permite a los usuarios identificar rápidamente las opciones disponibles y su propósito.
+
+ - **Accesibilidad inmediata:** La interfaz principal resalta las opciones más utilizadas mediante una disposición vertical y centrada, optimizada principalmente para dispositivos móviles.
+
+ - **Menú de navegación:** Se mantiene fijo en la parte superior para facilitar el acceso constante a secciones clave como "How it Works", "Pricing" y "Sign Up".
+
+ - **Reducción de fricción:** Al minimizar la cantidad de clicks necesarios para ejecutar acciones comunes, el sistema organiza la información de forma que prioriza la eficiencia y la experiencia del usuario.
+
+Este sistema organizativo asegura que tanto usuarios nuevos como recurrentes puedan navegar por FuelTrack con facilidad, incrementando la productividad y reduciendo los errores de operación.
+
+#### 3.1.2.2. Labelling Systems
+Las etiquetas que utilizaremos para la página serán diseñadas para ser claras, directas y fáciles de entender, enfocándose en la eficiencia y simplicidad para usuarios con distintos niveles de experiencia tecnológica.
+
+**Principios generales**
+
+- Se limita el uso de 2-3 palabras por ítem.
+- Se mantiene la consistencia terminológica en todas las pantallas.
+- Las etiquetas son descriptivas y responden a acciones directas, estados o categorías claras.
+
+Algunas de las etiquetas principales de nuestras secciones serán las siguientes:
+
+**Gestión de Pedidos**
+- `Nuevo Pedido`
+- `Estado de Pedido`
+- `Historial de Pedidos`
+- `Ver Detalles`
+- `Confirmar Entrega`
+
+**Pagos y Facturación**
+- `Métodos de Pago`
+- `Mis Facturas`
+- `Resumen de Pagos`
+- `Confirmar Pago`
+
+**Reportes**
+- `Reporte de Pedidos`
+- `Reporte de Pagos`
+- `Resumen de Actividad`
+- `Generar Informe`
+- `Navegación general`
+
+**Inicio**
+- `Mi Cuenta`
+- `Soporte`
+- `Cerrar Sesión`
+
+**Asociaciones y agrupaciones**
+- Las etiquetas se agrupan en módulos lógicos (por ejemplo: pedidos, pagos, reportes) con un menú lateral y dashboard central de fácil acceso.
+  
+- Las acciones están asociadas a sus contextos inmediatos: por ejemplo, `Nuevo Pedido` solo aparece cuando se selecciona la opción `Gestión de Pedidos`.
+  
+- Los mensajes del sistema son claros y directos: `Pedido Confirmado`, `Pago Realizado`, `Entrega Programada`.
+
+Estas etiquetas están diseñadas para que los usuarios puedan navegar de manera sencilla y sin confusiones, optimizando la experiencia para empresas que desean una solución eficiente y fácil de usar.
+
+#### 3.1.2.3. SEO Tags and Meta Tags
+¡Perfecto! Aquí tienes el apartado **"SEO Tags and Meta Tags"** para **Landing Page**, **Web Application** y **Mobile App**, todo en formato Markdown, con títulos en inglés como pediste, y descripciones en español. También he cuidado el formato para que se vea ordenado y profesional:
+
+🖥️ **Landing Page**
+
+* **Title (SEO Tag):**
+  `FuelTrack | Simplify Fuel Order Management`
+
+* **Description (Meta Tag):**
+  Optimiza tu proceso de pedidos de combustible con FuelTrack: una plataforma centralizada para compradores y proveedores donde puedes registrar depósitos, subir documentos y hacer seguimiento de pedidos.
+
+* **Keywords (Meta Tag):**
+  `Fuel, Track, Ordering, Fuel management, Supplier platform, Track fuel orders, Fuel deposits, Order management software`
+
+* **Author (Meta Tag):**
+  `FuelTrack Team`
+
+
+💻 **Web Application**
+
+* **Title (SEO Tag):**
+  `FuelTrack | Manage Fuel Orders and Deposits`
+
+* **Description (Meta Tag):**
+  Accede a tu panel de control para registrar depósitos, gestionar documentos y monitorear el estado de los pedidos de combustible en tiempo real.
+
+* **Keywords (Meta Tag):**
+  `Fuel order tracking, Deposit management, Supplier dashboard, Fuel logistics, FuelTrack Web App`
+
+* **Author (Meta Tag):**
+  `FuelTrack Team`
+
+📱 **Mobile App**
+
+* **Title (SEO Tag):**
+  `FuelTrack Mobile | Fuel Orders On the Go`
+
+* **Description (Meta Tag):**
+  Administra tus pedidos de combustible, depósitos y documentos desde cualquier lugar con la app móvil de FuelTrack. Mantente actualizado estés donde estés.
+
+* **Keywords (Meta Tag):**
+  `Fuel mobile app, FuelTrack app, Mobile fuel management, Fuel orders on mobile, Deposit tracking app, Fuel logistics mobile, Fuel supplier app`
+
+* **Author (Meta Tag):**
+  `FuelTrack Team`
+
+
+#### 3.1.2.4. Searching Systems
+Para garantizar una experiencia de usuario fluida, rápida y centrada en la interacción móvil, se ha diseñado un sistema de navegación y búsqueda adaptado principalmente a la **versión móvil** de la plataforma. Las decisiones de diseño están enfocadas en ofrecer una interfaz clara, accesible mediante gestos táctiles, y optimizada para pantallas pequeñas, sin descuidar la compatibilidad con la versión web o de escritorio.
+
+**🔹 Menú de navegación**
+
+En la aplicación móvil se implementará un menú tipo hamburguesa o barra de navegación inferior (bottom tab bar), dependiendo de la plataforma (iOS / Android). Este menú proporcionará acceso rápido a:
+
+- Características clave de la app
+- Registro e inicio de sesión
+- Seguimiento de pedidos y depósitos
+
+Esto asegura que tanto nuevos usuarios como usuarios recurrentes puedan navegar sin fricción, minimizando el número de toques necesarios para acceder a las funciones principales.
+
+**🔹 Navegación visual guiada**
+
+La aplicación organizará su contenido en bloques visuales verticales, adaptados al scroll táctil. Esta estructura permite al usuario recorrer de forma fluida las distintas secciones funcionales, guiado por jerarquías visuales claras y elementos interactivos táctiles, como tarjetas, botones grandes e iconografía reconocible.
+
+**🔹 Diseño responsive enfocado en móviles**
+
+El enfoque está puesto en la experiencia móvil. Las pantallas se ajustarán automáticamente a diferentes resoluciones y relaciones de aspecto, manteniendo:
+
+- Legibilidad en pantallas pequeñas
+- Interacción optimizada para uso con una sola mano
+- Navegación simple y directa sin sobrecarga visual
+
+
+#### 3.1.2.5. Navigation Systems
+En la aplicación móvil, se ha diseñado un sistema de navegación que permite a los usuarios —especialmente a los proveedores— acceder de forma eficiente a la información clave relacionada con sus pedidos. La estructura de navegación está enfocada en ofrecer accesos rápidos, búsqueda intuitiva y filtros inteligentes, todo optimizado para una experiencia táctil fluida
+
+**🔹 Búsqueda por texto**
+- Los usuarios tendrán una lista de pedidos donde podrán buscar dentro de cada categoría, razón social, número de pedido, nombre del banco y otros datos.
+
+- Habrá un buscador simple para encontrar pedidos registrados o pendientes, que mostrará resultados según el tipo de información que se detecte automáticamente.
+  
+- Además, habrá un botón llamado “Búsqueda avanzada” para realizar búsquedas más específicas, completando todos los campos requeridos.
+
+**🔹 Filtros por categorías automáticas**
+Junto a la búsqueda textual, se integrará un sistema de filtros dinámicos basado en las categorías existentes dentro del sistema.
+
+- Los usuarios contarán con un sistema automático de filtros basado en las categorías existentes.
+- Por ejemplo, el sistema filtrará todas las ubicaciones detectadas en los pedidos registrados o pendientes, y el usuario podrá seleccionar las que desee aplicar.
+
+**📲 Experiencia adaptada a la navegación móvil**
+
+Toda la navegación y búsqueda estará diseñada para funcionar bien en dispositivos móviles, con interacción táctil sencilla y fácil acceso a las funciones.
+
+
 
 # Conclusiones
 ## Conclusiones y Recomendaciones
