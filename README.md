@@ -3752,6 +3752,50 @@ El Sistema de Organización de FuelTrack tiene como objetivo facilitar la intera
 Este sistema organizativo asegura que tanto usuarios nuevos como recurrentes puedan navegar por FuelTrack con facilidad, incrementando la productividad y reduciendo los errores de operación.
 
 #### 3.1.2.2. Labelling Systems
+Las etiquetas que utilizaremos para la página serán diseñadas para ser claras, directas y fáciles de entender, enfocándose en la eficiencia y simplicidad para usuarios con distintos niveles de experiencia tecnológica.
+
+**Principios generales**
+
+- Se limita el uso de 2-3 palabras por ítem.
+- Se mantiene la consistencia terminológica en todas las pantallas.
+- Las etiquetas son descriptivas y responden a acciones directas, estados o categorías claras.
+
+Algunas de las etiquetas principales de nuestras secciones serán las siguientes:
+
+**Gestión de Pedidos**
+- `Nuevo Pedido`
+- `Estado de Pedido`
+- `Historial de Pedidos`
+- `Ver Detalles`
+- `Confirmar Entrega`
+
+**Pagos y Facturación**
+- `Métodos de Pago`
+- `Mis Facturas`
+- `Resumen de Pagos`
+- `Confirmar Pago`
+
+**Reportes**
+- `Reporte de Pedidos`
+- `Reporte de Pagos`
+- `Resumen de Actividad`
+- `Generar Informe`
+- `Navegación general`
+
+**Inicio**
+- `Mi Cuenta`
+- `Soporte`
+- `Cerrar Sesión`
+
+**Asociaciones y agrupaciones**
+- Las etiquetas se agrupan en módulos lógicos (por ejemplo: pedidos, pagos, reportes) con un menú lateral y dashboard central de fácil acceso.
+  
+- Las acciones están asociadas a sus contextos inmediatos: por ejemplo, `Nuevo Pedido` solo aparece cuando se selecciona la opción `Gestión de Pedidos`.
+  
+- Los mensajes del sistema son claros y directos: `Pedido Confirmado`, `Pago Realizado`, `Entrega Programada`.
+
+Estas etiquetas están diseñadas para que los usuarios puedan navegar de manera sencilla y sin confusiones, optimizando la experiencia para empresas que desean una solución eficiente y fácil de usar.
+
 #### 3.1.2.3. SEO Tags and Meta Tags
 #### 3.1.2.4. Searching Systems
 #### 3.1.2.5. Navigation Systems
