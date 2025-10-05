@@ -991,6 +991,31 @@ El perfil de los proveedores de combustible combina procesos manuales y parcialm
 
 Tambien existe consenso en las principales frustraciones: errores por digitación manual, retrasos en la entrega y falta de integración de procesos. Todos los entrevistados expresaron disposición a adoptar una plataforma centralizada; sin embargo, las empresas con mayor madurez digital condicionan la integración a requisitos de seguridad e interoperabilidad con sus sistemas actuales.
 
+#### Analisis Estadistico
+##### Grafico 1:
+<p align="center">
+  <img src="./assets/Chapters/Chapter-II/Graph1_Segmento1.png" alt="Grafico 1" width="400"/>
+</p>  
+
+El gráfico muestra que el 66.7% de los proveedores mantiene procesos manuales o parcialmente digitalizados, mientras que solo el 33.3% ha implementado sistemas integrales.
+Esto evidencia una brecha tecnológica significativa en la mayoría del segmento.
+
+##### Grafico 2:
+<p align="center">
+  <img src="./assets/Chapters/Chapter-II/Graph2_Segmento1.png" alt="Grafico 2" width="400"/>
+</p> 
+
+Las frustraciones más frecuentes son los errores humanos y los retrasos en la entrega (100% de los casos), seguidas por la falta de stock (66.7%).
+Esto confirma la necesidad de automatización e integración para reducir estos problemas.
+
+##### Grafico 3:
+<p align="center">
+  <img src="./assets/Chapters/Chapter-II/Graph3_Segmento1.png" alt="Grafico 3" width="400"/>
+</p>
+
+El gráfico refleja una predisposición total (100%) de los proveedores a implementar soluciones tecnológicas, aunque con distintos grados de entusiasmo.
+Esto demuestra una alta aceptación del cambio digital dentro del sector.
+
 #### **B. Empresas Solicitantes**  
 #### Características Objetivas
 <table border="1" cellspacing="0" cellpadding="5">
@@ -1104,16 +1129,38 @@ En cuanto a <strong>características objetivas</strong>, todas dependen de hojas
 
 En cuanto a <strong>características subjetivas</strong>, hay consenso en las principales frustraciones: falta de automatización, informalidad en la gestión, retrasos frecuentes y pérdida de información. Existe un 100% de coincidencia en la necesidad de una plataforma centralizada y trazabilidad en tiempo real, lo que refuerza la propuesta de valor de implementar un sistema digital de gestión de pedidos.
 
+#### Analisis Estadistico
+##### Grafico 1:
+<p align="center">
+  <img src="./assets/Chapters/Chapter-II/Graph1_Segmento2.png" alt="Grafico 1" width="400"/>
+</p>  
+
+El 100% de las empresas solicitantes utiliza canales informales (WhatsApp y correo), evidenciando la ausencia de sistemas estructurados de pedidos y la alta dependencia de la comunicación directa con los proveedores.
+
+##### Grafico 2:
+<p align="center">
+  <img src="./assets/Chapters/Chapter-II/Graph2_Segmento2.png" alt="Grafico 2" width="400"/>
+</p>  
+
+Las tres frustraciones se repiten en todos los entrevistados (100%), confirmando que la falta de control y trazabilidad es un problema transversal que afecta directamente la eficiencia del proceso.
+
+##### Grafico 3:
+<p align="center">
+  <img src="./assets/Chapters/Chapter-II/Graph3_Segmento2.png" alt="Grafico 3" width="400"/>
+</p>  
+
+El 100% de las empresas solicitantes mostró una actitud positiva hacia la automatización y digitalización del proceso de pedidos, lo que respalda la viabilidad de implementar una plataforma centralizada.
+
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas
 #### A. Proveedores de Combustible
 <p align="center">
-  <img src="./assets/Chapters/Chapter-II/userpersona_segmento1.png" alt="User Persona 1" width="400"/>
+  <img src="./assets/Chapters/Chapter-II/userPersona_Segmento1.png" alt="User Persona 1" width="400"/>
 </p>
 
 #### B. Empresas Solicitantes
 <p align="center">
-  <img src="./assets/Chapters/Chapter-II/userpersona_segmento2.png" alt="User Persona 2" width="400"/>
+  <img src="./assets/Chapters/Chapter-II/userPersona_Segmento2.png" alt="User Persona 2" width="400"/>
 </p> 
 
 ### 2.3.2. User Task Matrix.
