@@ -1155,12 +1155,12 @@ El 100% de las empresas solicitantes mostró una actitud positiva hacia la autom
 ### 2.3.1. User Personas
 #### A. Proveedores de Combustible
 <p align="center">
-  <img src="./assets/Chapters/Chapter-II/userPersona_Segmento1.png" alt="User Persona 1" width="400"/>
+  <img src="./assets/Chapters/Chapter-II/userPersonaSegmento1.png" alt="User Persona 1" width="400"/>
 </p>
 
 #### B. Empresas Solicitantes
 <p align="center">
-  <img src="./assets/Chapters/Chapter-II/userPersona_Segmento2.png" alt="User Persona 2" width="400"/>
+  <img src="./assets/Chapters/Chapter-II/userPersonaSegmento2.png" alt="User Persona 2" width="400"/>
 </p> 
 
 ### 2.3.2. User Task Matrix.
