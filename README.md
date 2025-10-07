@@ -4347,6 +4347,8 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
+En este Sprint 1 no se implementaron pruebas unitarias ni de integración, ya que el enfoque principal fue el desarrollo inicial de la Landing Page y los endpoints básicos de la API. Sin embargo, se realizaron pruebas para verificar la usabilidad de la Landing Page en diferentes dispositivos y navegadores, así como pruebas funcionales de los endpoints implementados para asegurar que respondieran adecuadamente a las solicitudes.
+
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
 En el sprint 1 se diseñó el primer modelo de la landing page. Esta cuenta con diferentes secciones para acceso de los usuarios. Algunas evidencias son:
