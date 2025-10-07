@@ -3937,7 +3937,438 @@ Junto a la búsqueda textual, se integrará un sistema de filtros dinámicos bas
 
 Toda la navegación y búsqueda estará diseñada para funcionar bien en dispositivos móviles, con interacción táctil sencilla y fácil acceso a las funciones.
 
+### 4.2.1. Sprint 1
 
+#### 4.2.1.1. Sprint Planning 1
+
+<table border>
+    <tr align="center">
+        <td><strong>Sprint #</strong></td>
+        <td><strong>Sprint 1</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Date</td>
+        <td>23/09/2025</td>
+    </tr>
+    <tr align="center">
+        <td>Time</td>
+        <td>10:00 AM</td>
+    </tr>
+    <tr align="center">
+        <td>Location</td>
+        <td>Meet</td>
+    </tr>
+    <tr align="center">
+        <td>Prepared by</td>
+        <td>Rogger Miranda</td>
+    </tr>
+    <tr align="center">
+        <td>Attendess (to planning meeting)</td>
+        <td>
+          Acuña Tomas, Diego Rolin - U202221436<br>
+          Miranda Ayasta, Rogger Faryd - U202319239<br>
+          Arias Segil, Marllely Anahi - U202223984<br>
+          Sanchez Arenas, Manuel Angel - U201817507<br>
+          Meza Camayo, Lynn Jeeferzon - U20201C320
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 0 Review Summary</td>
+        <td>No hubo sprint previo</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 0 Retrospective Summary</td>
+        <td>No hubo sprint previo</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+        <td align="center">Sprint 1 Goal</td>
+        <td> Implementar las correcciones en la Landing Page para un nuevo despliegue.
+        Desarrollo de las primeras vistas core de la mobile application:
+        • Login (Client & Supplier)
+        • Client Order List View
+        • Client Detailed Order View
+        • Create Order View
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Velocity</td>
+        <td>12</td>
+    </tr>
+    <tr align="center">
+        <td>Sum of Story Point</td>
+        <td>22</td>
+    </tr>
+</table>
+
+#### 4.2.1.2. Sprint Backlog 1
+
+<table border>
+    <tr align="center">
+        <td colspan="2"><strong>Sprint #</strong></td>
+        <td colspan="6"><strong>Sprint 1</strong></td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"><strong>User Story</strong></td>
+        <td colspan="6"><strong>Work-Item / Task</strong></td>
+    </tr>
+    <tr align="center">
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Id</strong></td>
+        <td><strong>Description</strong></td>
+        <td><strong>Estimation (Hours)</strong></td>
+        <td><strong>Assigned to</strong></td>
+        <td><strong>Status (To do / In process / To review / Done)</strong></td>
+    </tr>
+    <tr align="center">
+        <td>US-01</td>
+        <td>Crear nuevo pedido</td>
+        <td>W-01</td>
+        <td>Como usuario de una empresa solicitante, quiero poder registrar un pedido directamente desde la plataforma agilizar el proceso y evitar llamadas.</td>
+        <td>5 horas</td>
+        <td>Manuel Sanchez</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-02</td>
+        <td>Consultar historial de pedidos</td>
+        <td>W-02</td>
+        <td>Como solicitante, quiero poder consultar mi historial de pedidos anteriores, y poder ver cada uno con información detallada. Además, debo ser capaz de filtrar y ordenar el historial según características específicas de los pedidos.</td>
+        <td>3 horas</td>
+        <td>Manuel Sanchez</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-05</td>
+        <td>Actualización de un pedido</td>
+        <td>W-03</td>
+        <td>Como proveedor de combustible, quiero poder actualizar el estado e información de los pedidos en tiempo real, para mantener a mis clientes informados y organizar mejor mis entregas.</td>
+        <td>5 horas</td>
+        <td>Lynn Meza</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-06</td>
+        <td>Notificaciones a clientes sobre cambios</td>
+        <td>W-04</td>
+        <td>Como proveedor, quiero que mis clientes reciban notificaciones automáticas cuando actualizo un pedido, para que estén al tanto del progreso sin tener que llamarlos.</td>
+        <td>4 horas</td>
+        <td>Diego Acuña</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-13</td>
+        <td>Visualización del landing page</td>
+        <td>W-06</td>
+        <td>Como usuario de la plataforma, quiero que el sistema muestre un landing page informativo para que los interesados conozcan los beneficios antes de registrarse.</td>
+        <td>7 horas</td>
+        <td>Marllely Arias</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>TS-01</td>
+        <td>Implementar endpoint REST para pedidos</td>
+        <td>W-07</td>
+        <td>Como desarrollador, quiero implementar un endpoint RESTful para registrar pedidos, para que la aplicación frontend pueda enviar solicitudes válidas al backend.</td>
+        <td>4 horas</td>
+        <td>Manuel Sanchez</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>TS-02</td>
+        <td>Servicio de autenticación y token</td>
+        <td>W-08</td>
+        <td>Como desarrollador, quiero implementar un servicio de autenticación con generación de tokens, para proteger las rutas privadas de la plataforma.</td>
+        <td>5 horas</td>
+        <td>Rogger Miranda</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-14</td>
+        <td>Ver sección Home</td>
+        <td>W-09</td>
+        <td>Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de FuelTrack para comprender rápidamente el objetivo del sistema.</td>
+        <td>3 horas</td>
+        <td>Marllely Arias</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-15</td>
+        <td>Ver sección About Us</td>
+        <td>W-10</td>
+        <td>Como desarrollador, quiero implementar un servicio de autenticación con generación de tokens, para proteger las rutas privadas de la plataforma.</td>
+        <td>3 horas</td>
+        <td>Marllely Arias</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-16</td>
+        <td>Ver sección How it works?</td>
+        <td>W-11</td>
+        <td>Como visitante de ambos segmentos, quiero entender cómo funciona FuelTrack paso a paso para evaluar si se ajusta a mis necesidades.</td>
+        <td>3 horas</td>
+        <td>Marllely Arias</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>TS-05</td>
+        <td>Endpoint: Login</td>
+        <td>W-12</td>
+        <td>Como developer, quiero un endpoint para autenticar usuarios.</td>
+        <td>5 horas</td>
+        <td>Rogger Miranda</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>TS-06</td>
+        <td>Endpoint: Recuperar contraseña</td>
+        <td>W-13</td>
+        <td>Como developer, quiero un endpoint para que permita enviar correo de recuperación.</td>
+        <td>- horas</td>
+        <td>Diego Acuña</td>
+        <td>In Process</td>
+    </tr>
+    <tr align="center">
+        <td>TS-07</td>
+        <td>Endpoint: Logout</td>
+        <td>W-14</td>
+        <td>Como developer, quiero un endpoint para cerrar sesión.</td>
+        <td>8 horas</td>
+        <td>Rogger Miranda</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-24</td>
+        <td>Asignar vehículo a pedido</td>
+        <td>W-15</td>
+        <td>Como proveedor, quiero asignar un vehículo a un pedido aprobado para organizar la logística.</td>
+        <td>6 horas</td>
+        <td>Lynn Meza</td>
+        <td>Done</td>
+    </tr>
+</table>
+
+#### 4.2.1.3. Development Evidence for Sprint Review
+
+Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Page de Fueltrack junto a la API, cumpliendo con las User Stories determinadas. Se trabajó en la maquetación de las secciones principales, implementación de estilos CSS, diseño responsive para diferentes dispositivos y subida de los cambios al repositorio grupal. Además, trabajamos en el desarrollo de los endpoints necesarios para la funcionalidad básica de la aplicación móvil, incluyendo autenticación y, listado y actualización de pedidos.
+
+<table border>
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Rama</th>
+      <th>ID de Commit</th>
+      <th>Mensaje de Commit</th>
+      <th>Descripción del Commit</th>
+      <th>Fecha de Commit</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/landing-page</td>
+    <td>main</td>
+    <td>61b7f30</td>
+    <td>feat: base HTML and scripts for internationalization and style scrolling</td>
+    <td>-</td>
+    <td>17/09/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/landing-page</td>
+    <td>main</td>
+    <td>f736a38</td>
+    <td>feat: Integradas secciones Benefits, Features y Testimonials</td>
+    <td>-</td>
+    <td>17/09/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/landing-page</td>
+    <td>main</td>
+    <td>1279281</td>
+    <td>feat: section pricing, contact and footer</td>
+    <td>-</td>
+    <td>17/09/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/landing-page</td>
+    <td>main</td>
+    <td>5cd6ee3</td>
+    <td>Stats section, about/video section, How It Works Section</td>
+    <td>-</td>
+    <td>17/09/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/landing-page</td>
+    <td>main</td>
+    <td>49e591e</td>
+    <td>styles: style file added</td>
+    <td>-</td>
+    <td>17/09/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/landing-page</td>
+    <td>main</td>
+    <td>c64084c</td>
+    <td>feat: Hero Section added</td>
+    <td>-</td>
+    <td>18/09/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/backend</td>
+    <td>main</td>
+    <td>b345722</td>
+    <td>feat: full web services implementation</td>
+    <td>-</td>
+    <td>18/09/2025</td>
+  </tr>
+</tbody>
+</table>
+
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+#### 4.2.1.5. Execution Evidence for Sprint Review
+
+En el sprint 1 se diseñó el primer modelo de la landing page. Esta cuenta con diferentes secciones para acceso de los usuarios. Algunas evidencias son:
+
+- **Home:** Presenta de manera rápida el propósito y valor de FuelTrack para captar la atención del visitante.
+![Home](assets/Chapters/Chapter-V/home.png)
+
+- **About Us:** Explica quiénes somos y nuestra misión para generar confianza.
+![About Us 1](assets/Chapters/Chapter-V/about-us-1.png)
+![About Us 2](assets/Chapters/Chapter-V/about-us-2.png)
+
+- **Benefits:** Explica los beneficios de implementar Fueltrack en el área logística de la empresa.
+![How it works?](assets/Chapters/Chapter-V/benefits.png)
+
+- **How it works?:** Describe de forma sencilla y visual el funcionamiento de FuelTrack paso a paso.
+![How it works?](assets/Chapters/Chapter-V/how-it-works.png)
+
+- **Testimonials:** Muestra algunas de las empresas o usuarios que confían en FuelTrack como referencia de credibilidad.
+![Our Clients](assets/Chapters/Chapter-V/testimonials.png)
+
+- **Pricing:** Propone planes y precios que puedan acomodarse a las necesidades del usuario.
+![Join](assets/Chapters/Chapter-V/pricing.png)
+
+- **Contact Us:** Ofrece un formulario y datos de contacto directo para resolver dudas o solicitar soporte.
+![Contact Us](assets/Chapters/Chapter-V/contact.png)
+
+Igualmente, se implementaron los primeros endpoints de la API RESTful para la gestión de pedidos y autenticación de usuarios. Algunas evidencias son:
+
+- **Endpoint para crear un nuevo pedido:**
+![Create Order Endpoint](assets/Chapters/Chapter-V/create-order-endpoint.png)
+
+- **Endpoint para listar pedidos de un usuario:**
+![List Orders Endpoint](assets/Chapters/Chapter-V/list-orders-endpoint.png)
+
+- **Endpoint para iniciar sesión:**
+![Login Endpoint](assets/Chapters/Chapter-V/login-endpoint.png)
+
+- **Endpoint para cerrar sesión:**
+![Logout Endpoint](assets/Chapters/Chapter-V/logout-endpoint.png)
+
+- **Endpoint asignar vehículo a un pedido:**
+![Assign Vehicle Endpoint](assets/Chapters/Chapter-V/assign-vehicle-endpoint.png)
+
+- **Endpoint asignar conductor a un pedido:**
+![Assign Driver Endpoint](assets/Chapters/Chapter-V/assign-driver-endpoint.png)
+
+- **Endpoint para notificar al usuario:**
+![Notify User Endpoint](assets/Chapters/Chapter-V/notify-user-endpoint.png)
+
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 1 se completó la documentación de los Web Services correspondientes a las funcionalidades de gestión de pedidos y autenticación de usuarios. En esta sección se describen los endpoints implementados, las operaciones soportadas, y el alcance funcional previsto conforme a la especificación OpenAPI, acompañados de evidencias visuales que muestran el resultado de las pruebas realizadas con datos de ejemplo:
+
+<table border>
+  <thead>
+    <tr>
+      <th>Endpoint Simulado (Fake API)</th>
+      <th>Operaciones CRUD Soportadas</th>
+      <th>Futuro Alcance con OpenAPI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/Users/</td>
+      <td>GET, PUT, PATCH</td>
+      <td>Consulta y actualización de información de usuarios.</td>
+    </tr>
+    <tr>
+      <td>/api/Vehicles/</td>
+      <td>GET, POST, PUT, DELETE</td>
+      <td>Gestión completa de vehículos: creación, consulta, edición, eliminación de vehículos.</td>
+    </tr>
+    <tr>
+      <td>/api/Notifications/</td>
+      <td>GET, POST, PATCH</td>
+      <td>Gestión de notificaciones: Listar y crear notificaciones, marcar como leídas y contar las notificaciones no leídas.</td>
+    </tr>
+    <tr>
+      <td>/api/Orders/</td>
+      <td>GET, POST, PATCH</td>
+      <td>Gestión parcial: listado, creación y actualización de pedidos.</td>
+    </tr>
+    <tr>
+      <td>/api/Auth/</td>
+      <td>POST</td>
+      <td>Acciones de autenticación: inicio de sesión, cierre de sesión y gestión de tokens.</td>
+    </tr>
+    <tr>
+      <td>/api/Operators/</td>
+      <td>GET, POST, PUT, DELETE</td>
+      <td>Gestión de operadores: creación, consulta, actualización y eliminación de operadores de transporte.</td>
+    </tr>
+  </tbody>
+</table>
+
+Adicionalmente, se desplego la estructura de los Web Services mediante la herramienta Swagger UI, lo que permitió validar la definición y comportamiento de los endpoints simulados:
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/IZqOB8Q.jpeg"  width="100%" />
+</div>
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+Este proyecto utilizó diversas herramientas para el desarrollo del backend de la aplicación web. A continuación, se detallan las principales herramientas empleadas:
+
+- **Git**: Sistema de control de versiones utilizado para gestionar el código.
+
+- **GitFlow**: Flujo de trabajo colaborativo implementado en el desarrollo del proyecto.
+
+- **GitHub**: Plataforma colaborativa donde se almacenó y gestionó los repositorios remotos del backend.
+
+- **Render**: Plataforma de despliegue en la nube usada para alojar el backend de la aplicación.
+
+Enlaces de despliegue:
+- **Backend**: [FuelTrack Backend](https://fueltrack-api.onrender.com/swagger/index.html)
+
+Evidencia de despliegue del backend en Render:
+![Deployment Visual Evidence of Analytics](assets/Chapters/Chapter-V/deployment-evidence.png)
+
+#### 4.2.1.8. Team Collaboration Insigths during Sprint
+
+<p>
+  <strong>Resumen:</strong><br>
+  El equipo colaboró mediante GitHub, WhatsApp y Google Meet durante el Sprint. Las actividades principales se centraron en el desarrollo y despliegue de los web services.
+</p>
+
+<h4>Evidencia de Colaboración:</h4>
+<ul>
+  <li>Identificación y descripción de commits en GitHub mostrando contribuciones del equipo.</li>
+  <li>Implementación de los endpoints documentados para garantizar el cumplimiento y la satisfacción de las User Stories.</li>
+</ul>
+
+<h4>Principales Herramientas de Comunicación:</h4>
+<ul>
+  <li>GitHub (control de versiones y manejo de issues)</li>
+  <li>WhatsApp (comunicación diaria y aclaraciones rápidas)</li>
+  <li>Google Meet (reuniones de planificación de sprint)</li>
+</ul>
 
 # Conclusiones
 ## Conclusiones y Recomendaciones
