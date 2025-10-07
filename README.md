@@ -180,9 +180,17 @@ Septiembre del 2025 🗓️
       - [**A. Proveedores de Combustible**](#a-proveedores-de-combustible-2)
       - [Características Objetivas](#características-objetivas)
       - [Características Subjetivas](#características-subjetivas)
+      - [Analisis Estadistico](#analisis-estadistico)
+        - [Grafico 1:](#grafico-1)
+        - [Grafico 2:](#grafico-2)
+        - [Grafico 3:](#grafico-3)
       - [**B. Empresas Solicitantes**](#b-empresas-solicitantes-2)
       - [Características Objetivas](#características-objetivas-1)
       - [Características Subjetivas](#características-subjetivas-1)
+      - [Analisis Estadistico](#analisis-estadistico-1)
+        - [Grafico 1:](#grafico-1-1)
+        - [Grafico 2:](#grafico-2-1)
+        - [Grafico 3:](#grafico-3-1)
   - [2.3. Needfinding.](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
       - [A. Proveedores de Combustible](#a-proveedores-de-combustible-3)
@@ -296,6 +304,15 @@ Septiembre del 2025 🗓️
       - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
       - [3.1.2.4. Searching Systems](#3124-searching-systems)
       - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
+    - [4.2.1. Sprint 1](#421-sprint-1)
+      - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+      - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
+      - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+      - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+      - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+      - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+      - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
+      - [4.2.1.8. Team Collaboration Insigths during Sprint](#4218-team-collaboration-insigths-during-sprint)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Video App Validation](#video-app-validation)
@@ -498,13 +515,11 @@ El sector de distribución de combustibles enfrenta serias ineficiencias debido 
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Nuestra plataforma, FuelTracks, ofrece una solución para la gestión de pedidos de combustible entre empresas solicitantes y proveedores. El objetivo de este startup es reemplazar los métodos informales que se usan actualmente, tales como las llamadas, correos electrónicos y aplicaciones de mensajería, por un sistema digital y centralizada que permita mejorar principalmente la trazabilidad de los pedidos en tiempo real.
+Nuestro servicio, FuelTrack, busca optimizar la gestión de pedidos de combustible, conectando a empresas solicitantes con sus proveedores a través de una plataforma digital centralizada. El objetivo es modernizar un proceso que hoy depende de métodos manuales.
 
-Luego de analizar la metodología utilizada actualmente en el mercado de combustibles, identificamos un desafío crítico que puede resolver nuestra propuesta: la dependencia de las empresas del sector en canales desorganizados y no integrados, lo cual suele generar errores en los pedidos, retrasos en las entregas y duplicación de esfuerzo. Esta falta de un sistema centralizado impacta negativamente la eficiencia de las operaciones de los proveedores además de reducir la satisfacción de los clientes.
+Hemos observado que el uso de canales informales y desorganizados (como llamadas, correos y mensajería) para gestionar los pedidos es un factor crítico que afecta directamente la eficiencia del sector. Actualmente, esta falta de un sistema integrado provoca errores en los pedidos, retrasos en las entregas y una notable falta de visibilidad en tiempo real sobre el estado de las operaciones.
 
-En el contexto actual donde crece cada vez más la demanda por servicios logísticos ágiles e infalibles, es necesaria una plataforma que facilite y compacte el proceso de gestión de pedidos. Con esta, las empresas evitarán pérdidas operativas y se reducirán en gran medida las malas experiencias de los clientes.
-
-¿Cómo podríamos diseñar una solución digital que centralice y automatice la gestión de pedidos de combustible, integrando a proveedores y solicitantes en una misma plataforma, para reducir errores y aumentar la eficiencia operativa?
+¿Cómo podríamos mejorar la eficiencia del proceso de gestión de pedidos para que tanto proveedores como empresas solicitantes puedan cumplir sus objetivos y aumentar su satisfacción con el servicio?
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -548,25 +563,25 @@ En el contexto actual donde crece cada vez más la demanda por servicios logíst
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Hypothesis Statement 01:**
-* *Creemos* que la centralización de los pedidos en nuestra plataforma reducirá el ratio de errores causados por problemas de coordinación entre las empresas solicitantes y los proveedores.
-* *Sabremos* que hemos tenido éxito
-* *Cuando* luego de los primeros tres meses de uso se reporte que más de un 70% de los pedidos realizados fueron confirmados sin necesidad de correcciones posteriores.
+**Hypothesis Statement 01: Reducción de Errores**
+* *Creemos que* al implementar una plataforma centralizada para la gestión de pedidos, los encargados logísticos podrán reducir significativamente los errores causados por la mala comunicación.
+* *Sabremos que* hemos tenido éxito
+* *Cuando veamos* que la tasa de pedidos que requieren modificaciones después de ser creados disminuya en un 70% durante los primeros tres meses.
 
-**Hypothesis Statement 02:**
-* *Creemos* que ofrecer más herramientas para el control y seguimiento de pedidos mejorará la satisfacción de los clientes solicitantes.
-* *Sabremos* que hemos tenido éxito
-* *Cuando* se observe una reducción del 30% en llamadas de seguimiento.
+**Hypothesis Statement 02: Satisfacción del Cliente**
+* *Creemos que* al ofrecer una función de seguimiento de pedidos en tiempo real, mejoraremos la confianza y satisfacción de las empresas solicitantes.
+* *Sabremos que* hemos tenido éxito
+* *Cuando veamos* que el número de llamadas y correos de clientes preguntando por el estado de su pedido se reduzca en un 30%.
 
-**Hypothesis Statement 03:**
-* *Creemos* que la plataforma permitirá a los proveedores optimizar el proceso de gestión de los pedidos y reducir el tiempo que toma cumplir con cada uno.
-* *Sabremos* que hemos tenido éxito
-* *Cuando* los proveedores logren reducir en un 20% el tiempo promedio entre confirmación y entrega de pedidos.
+**Hypothesis Statement 03: Eficiencia del Proveedor**
+* *Creemos que* al automatizar la recepción y organización de pedidos en la plataforma, los proveedores optimizarán su proceso logístico.
+* *Sabremos que* hemos tenido éxito
+* *Cuando veamos* que el tiempo promedio desde que un pedido es confirmado hasta que es entregado se reduzca en un 20%.
 
-**Hypothesis Statement 04:**
-* *Creemos* que las notificaciones automáticas sobre el estado de los pedidos reducirán la necesidad de una gran cantidad de operadores comerciales de alta disponibilidad.
-* *Sabremos* que hemos tenido éxito
-* *Cuando* las solicitudes de información por parte de clientes disminuyan en un 40% y el tiempo promedio de atención se reduzca en un 60% tras el primer trimestre de uso.
+**Hypothesis Statement 04: Optimización de Recursos** 
+* *Creemos que* al integrar notificaciones automáticas sobre el estado de los pedidos, reduciremos la carga de trabajo del personal de atención al cliente.
+* *Sabremos que* hemos tenido éxito
+* *Cuando veamos* que las solicitudes de información gestionadas manualmente por los operadores comerciales disminuyan en un 40% tras el primer trimestre de uso.
 
 
 #### 1.2.2.4. Lean UX Canvas
