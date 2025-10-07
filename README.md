@@ -3960,19 +3960,22 @@ En esta sección se presentan los Wireframes del Landing Page de FuelTrack, tant
 ![landing-page-wireframe](assets/Chapters/Chapter-III/web_wireframe.png)
 
 **Mobile Web Browser**
-![landing-movil1-wireframe](assets/Chapters/Chapter-III/iPhone16-1.png)
-![landing-movil2-wireframe](assets/Chapters/Chapter-III/iPhone16-2.png)
-![landing-movil3-wireframe](assets/Chapters/Chapter-III/iPhone16-3.png)
-![landing-movil4-wireframe](assets/Chapters/Chapter-III/iPhone16-4.png)
-![landing-movil5-wireframe](assets/Chapters/Chapter-III/iPhone16-5.png)
-![landing-movil6-wireframe](assets/Chapters/Chapter-III/iPhone16-6.png)
-![landing-movil8-wireframe](assets/Chapters/Chapter-III/iPhone16-8.png)
-![landing-movil9-wireframe](assets/Chapters/Chapter-III/iPhone16-9.png)
-![landing-movil10-wireframe](assets/Chapters/Chapter-III/iPhone16-10.png)
-![landing-movil11-wireframe](assets/Chapters/Chapter-III/iPhone16-11.png)
-![landing-movil12-wireframe](assets/Chapters/Chapter-III/iPhone16-12.png)
-![landing-movil14-wireframe](assets/Chapters/Chapter-III/iPhone16-14.png)
-![landing-movil15-wireframe](assets/Chapters/Chapter-III/iPhone16-15.png)
+<div align="center">
+<img src="assets/Chapters/Chapter-III/iPhone16-1.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-2.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-3.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-4.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-5.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-6.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-8.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-9.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-10.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-11.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-12.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-14.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-15.png" width="250">
+</div>
+
 #### 3.1.3.2. Landing Page Mock-ups
 Esta sección muestra los Mock-ups del Landing Page de FuelTrack, en sus versiones para Desktop y Mobile. Aquí se refleja la propuesta visual final del diseño, evidenciando la aplicación de los principios y elementos de diseño.
 
@@ -3980,52 +3983,64 @@ Esta sección muestra los Mock-ups del Landing Page de FuelTrack, en sus version
 ![landing-page-mockUps](assets/Chapters/Chapter-III/web_mockUps.png)
 
 **Mobile Web Browser**
-![landing-movil1-mockUps](assets/Chapters/Chapter-III/iPhone16-24.png)
-![landing-movil2-mockUps](assets/Chapters/Chapter-III/iPhone16-25.png)
-![landing-movil3-mockUps](assets/Chapters/Chapter-III/iPhone16-26.png)
-![landing-movil4-mockUps](assets/Chapters/Chapter-III/iPhone16-17.png)
-![landing-movil5-mockUps](assets/Chapters/Chapter-III/iPhone16-18.png)
-![landing-movil6-mockUps](assets/Chapters/Chapter-III/iPhone16-23.png)
-![landing-movil8-mockUps](assets/Chapters/Chapter-III/iPhone16-30.png)
-![landing-movil9-mockUps](assets/Chapters/Chapter-III/iPhone16-31.png)
-![landing-movil10-mockUps](assets/Chapters/Chapter-III/iPhone16-22.png)
-![landing-movil11-mockUps](assets/Chapters/Chapter-III/iPhone16-21.png)
-![landing-movil12-mockUps](assets/Chapters/Chapter-III/iPhone16-29.png)
-![landing-movil14-mockUps](assets/Chapters/Chapter-III/iPhone16-19.png)
-![landing-movil15-mockUps](assets/Chapters/Chapter-III/iPhone16-20.png)
-![landing-movil16-mockUps](assets/Chapters/Chapter-III/iPhone16-27.png)
-![landing-movil17-mockUps](assets/Chapters/Chapter-III/iPhone16-28.png)
+
+<div align="center">
+<img src="assets/Chapters/Chapter-III/iPhone16-24.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-25.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-26.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-17.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-18.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-23.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-30.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-31.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-22.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-21.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-29.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-19.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-20.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-27.png" width="250">
+<img src="assets/Chapters/Chapter-III/iPhone16-28.png" width="250">
+</div>
+
 
 ### 3.1.4. Mobile Applications UX/UI Design 
 #### 3.1.4.1. Mobile Applications Wireframes
 En esta sección se presentan los Wireframes de las aplicaciones móviles de FuelTrack, diseñados para mostrar la estructura y disposición de los elementos de la interfaz. Reflejan la aplicación de los principios y elementos de diseño, la arquitectura de información y el diseño inclusivo, utilizando las herramientas indicadas para su elaboración.
-![ui-movil1-wireframe](assets/Chapters/Chapter-III/w01.png)
-![ui-movil2-wireframe](assets/Chapters/Chapter-III/w02.png)
-![ui-movil3-wireframe](assets/Chapters/Chapter-III/w03.png)
-![ui-movil4-wireframe](assets/Chapters/Chapter-III/w04.png)
-![ui-movil5-wireframe](assets/Chapters/Chapter-III/w05.png)
-![ui-movil6-wireframe](assets/Chapters/Chapter-III/w06.png)
-![ui-movil8-wireframe](assets/Chapters/Chapter-III/w07.png)
-![ui-movil9-wireframe](assets/Chapters/Chapter-III/w08.png)
-![ui-movil10-wireframe](assets/Chapters/Chapter-III/w09.png)
-![ui-movil11-wireframe](assets/Chapters/Chapter-III/w10.png)
-![ui-movil12-wireframe](assets/Chapters/Chapter-III/w11.png)
-![ui-movil12-wireframe](assets/Chapters/Chapter-III/w12.png)
+
+<div align="center">
+<img src="assets/Chapters/Chapter-III/w01.png" width="250">
+<img src="assets/Chapters/Chapter-III/w02.png" width="250">
+<img src="assets/Chapters/Chapter-III/w03.png" width="250">
+<img src="assets/Chapters/Chapter-III/w04.png" width="250">
+<img src="assets/Chapters/Chapter-III/w05.png" width="250">
+<img src="assets/Chapters/Chapter-III/w06.png" width="250">
+<img src="assets/Chapters/Chapter-III/w07.png" width="250">
+<img src="assets/Chapters/Chapter-III/w08.png" width="250">
+<img src="assets/Chapters/Chapter-III/w09.png" width="250">
+<img src="assets/Chapters/Chapter-III/w10.png" width="250">
+<img src="assets/Chapters/Chapter-III/w11.png" width="250">
+<img src="assets/Chapters/Chapter-III/w12.png" width="250">
+</div>
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 #### 3.1.4.3. Mobile Applications Mock-ups
-![ui-movil1-mockUps](assets/Chapters/Chapter-III/u01.png)
-![ui-movil2-mockUps](assets/Chapters/Chapter-III/u02.png)
-![ui-movil3-mockUps](assets/Chapters/Chapter-III/u03.png)
-![ui-movil4-mockUps](assets/Chapters/Chapter-III/u04.png)
-![ui-movil5-mockUps](assets/Chapters/Chapter-III/u05.png)
-![ui-movil6-mockUps](assets/Chapters/Chapter-III/u06.png)
-![ui-movil8-mockUps](assets/Chapters/Chapter-III/u07.png)
-![ui-movil9-mockUps](assets/Chapters/Chapter-III/u08.png)
-![ui-movil10-mockUps](assets/Chapters/Chapter-III/u09.png)
-![ui-movil11-mockUps](assets/Chapters/Chapter-III/u10.png)
-![ui-movil12-mockUps](assets/Chapters/Chapter-III/u11.png)
-![ui-movil12-mockUps](assets/Chapters/Chapter-III/u12.png)
+Esta sección muestra los Mock-ups de las aplicaciones móviles de FuelTrack, donde se representa la propuesta visual final.
+
+<div align="center">
+<img src="assets/Chapters/Chapter-III/u01.png" width="250">
+<img src="assets/Chapters/Chapter-III/u02.png" width="250">
+<img src="assets/Chapters/Chapter-III/u03.png" width="250">
+<img src="assets/Chapters/Chapter-III/u04.png" width="250">
+<img src="assets/Chapters/Chapter-III/u05.png" width="250">
+<img src="assets/Chapters/Chapter-III/u06.png" width="250">
+<img src="assets/Chapters/Chapter-III/u07.png" width="250">
+<img src="assets/Chapters/Chapter-III/u08.png" width="250">
+<img src="assets/Chapters/Chapter-III/u09.png" width="250">
+<img src="assets/Chapters/Chapter-III/u10.png" width="250">
+<img src="assets/Chapters/Chapter-III/u11.png" width="250">
+<img src="assets/Chapters/Chapter-III/u12.png" width="250">
+</div>
+
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 #### 3.1.4.5. Mobile Applications Prototyping
