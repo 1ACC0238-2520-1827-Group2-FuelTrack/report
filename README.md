@@ -316,6 +316,7 @@ Septiembre del 2025 🗓️
 - [Capítulo IV:  Product Implementation \& Validation](#capítulo-iv--product-implementation--validation)
   - [4.1 Software Configuration Management](#41-software-configuration-management)
     - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+    - [**Software Deployment**](#software-deployment)
     - [4.1.2. Source Code Management](#412-source-code-management)
     - [4.1.3. Source Code Style Guide \& Conventions](#413-source-code-style-guide--conventions)
     - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
@@ -4104,16 +4105,15 @@ El stack tecnológico seleccionado para la construcción de *FuelTrack Pro* se c
 | *Android (Kotlin)* | Sistema operativo y lenguaje de programación para el desarrollo de la aplicación móvil nativa.    | `https://developer.android.com/`                |
 | *Jetpack Compose*  | Toolkit de UI moderno para construir la interfaz de usuario de la aplicación Android nativa.      | `https://developer.android.com/jetpack/compose` |
 
-**Software Deployment**
+### **Software Deployment**
 
 La infraestructura para el despliegue y operación de los servicios de *FuelTrack Pro* se gestiona a través de las siguientes plataformas en la nube.
 
-| Herramienta      | Propósito en el Proyecto                                                                   | Enlace                                   |
-| :--------------- | :----------------------------------------------------------------------------------------- | :--------------------------------------- |
-| *Render*         | Plataforma en la nube para el despliegue y hosting del backend (API REST).                 | `https://render.com/`                    |
-| *Vercel*         | Plataforma para el despliegue y hosting de la aplicación web (landing page).               | `https://vercel.com/`                    |
-| *Neon*           | Proveedor de base de datos PostgreSQL serverless para el almacenamiento persistente de los datos. | `https://neon.tech/`                     |
-| *Android Studio* | Entorno de desarrollo integrado (IDE) para la compilación y despliegue de la aplicación móvil.   | `https://developer.android.com/studio`   |
+| Herramienta      | Propósito en el Proyecto                                                            | Enlace                                   |
+| :--------------- | :---------------------------------------------------------------------------------- | :--------------------------------------- |
+| *Render*         | Plataforma en la nube para el despliegue y hosting del backend (API REST) y la base de datos PostgreSQL. | `https://render.com/`                    |
+| *Vercel*         | Plataforma para el despliegue y hosting de la aplicación web (landing page).        | `https://vercel.com/`                    |
+| *Android Studio* | Entorno de desarrollo integrado (IDE) para la compilación y despliegue de la aplicación móvil. | `https://developer.android.com/studio`   |
 
 **Software Documentation**
 
@@ -4262,15 +4262,14 @@ En esta sección se especifica la configuración y el proceso de despliegue para
 
 <h4>Backend (.NET API)</h4>
 
-**Consideraciones antes del despliegiegue:**
-*   La base de datos en *Neon* debe estar creada y accesible.
+**Consideraciones antes del despliegue:**
+*   La base de datos en *Render* debe estar creada y accesible.
 *   Se debe tener a la mano el string de conexión de la base de datos para configurarlo en el entorno de producción.
 *   El proyecto debe contener un `Dockerfile` para que Render pueda construir y ejecutar la aplicación en un contenedor.
 
 **Requerimientos para el despliegue:**
 *   Repositorio de GitHub con el código fuente del Backend (.NET).
 *   Una cuenta activa en *Render*.
-*   Una cuenta activa en *Neon* con la base de datos del proyecto.
 
 **Pasos para el despliegue en Render:**
 1.  Ingresar al panel de control de Render.
@@ -4278,10 +4277,10 @@ En esta sección se especifica la configuración y el proceso de despliegue para
 3.  Conectar y seleccionar el repositorio de GitHub correspondiente al Backend (`backend`).
 4.  Configurar el nombre del servicio (e.g., `fueltrack-pro-api`).
 5.  Render detectará el `Dockerfile` y lo seleccionará como entorno de ejecución.
-6.  Ir a la sección "Environment" y añadir una nueva variable de entorno para el string de conexión de la base de datos (e.g., `ConnectionStrings__DefaultConnection` con el valor proporcionado por Neon).
+6.  Ir a la sección "Environment" y añadir una nueva variable de entorno para el string de conexión de la base de datos (e.g., `ConnectionStrings__DefaultConnection` con el valor proporcionado por Render).
 7.  Hacer clic en "Create Web Service" para iniciar el despliegue.
 8.  Render construirá la imagen Docker y desplegará el servicio. Una vez completado, se podrá acceder a la API a través de la URL pública generada.
-
+   
 <h4>Aplicación Móvil (Android)</h4>
 
 **Consideraciones antes del despliegue (en dispositivo de prueba):**
