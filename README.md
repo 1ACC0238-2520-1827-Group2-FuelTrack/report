@@ -304,16 +304,22 @@ Septiembre del 2025 🗓️
       - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
       - [3.1.2.4. Searching Systems](#3124-searching-systems)
       - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
-    - [3.1.3. Landing Page UI Design](#3965-Landing-Page-UI-Design)
-      - [3.1.3.1. Landing Page Wireframe](#3966-Landing-Page-ireframe)
-      - [3.1.3.2. Landing Page Mock-up](#3989-Landing-Page-Mock-up)
-    - [3.1.4. Mobile Applications UX/UI Design](#4015-Mobile-Applications)
-      - [3.1.4.1. Mobile Applications Wireframes ](#4016-Mobile -Applications-Wireframes)
-      - [3.1.4.2. Mobile Applications Wireflow Diagrams]
-      - [3.1.4.3. Mobile Applications Mock-ups](#4035-Mobile-Applications-Mock-ups)
-      - [3.1.4.4. Mobile Applications User Flow Diagrams]
-      - [3.1.4.5. Mobile Applications Prototyping]
-
+    - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
+      - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
+      - [3.1.3.2. Landing Page Mock-ups](#3132-landing-page-mock-ups)
+    - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
+      - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+      - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+      - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+      - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+      - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+- [Capítulo IV:  Product Implementation \& Validation](#capítulo-iv--product-implementation--validation)
+  - [4.1 Software Configuration Management](#41-software-configuration-management)
+    - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+    - [4.1.2. Source Code Management](#412-source-code-management)
+    - [4.1.3. Source Code Style Guide \& Conventions](#413-source-code-style-guide--conventions)
+    - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+  - [4.2. Landing Page \& Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
     - [4.2.1. Sprint 1](#421-sprint-1)
       - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
       - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
@@ -4052,6 +4058,252 @@ Esta sección muestra los Mock-ups de las aplicaciones móviles de FuelTrack, do
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 #### 3.1.4.5. Mobile Applications Prototyping
+
+
+# Capítulo IV:  Product Implementation & Validation
+
+## 4.1 Software Configuration Management 
+
+En esta sección se establecerán todas las decisiones, reglas y procesos que el equipo seguirá para la creación y despliegue de FuelTrack Pro. El objetivo principal de estas convenciones es garantizar la integridad, calidad y consistencia del software a lo largo de todo su ciclo de vida, desde el desarrollo inicial hasta su mantenimiento futuro.
+
+### 4.1.1. Software Development Environment Configuration
+
+Para garantizar un ciclo de vida de desarrollo consistente y colaborativo para *FuelTrack Pro*, el equipo ha adoptado el siguiente conjunto de herramientas y plataformas estandarizadas. A continuación, se detalla cada producto, su propósito específico dentro del proyecto y el enlace de acceso o descarga correspondiente.
+
+**Project Management**
+
+Para la planificación, seguimiento y comunicación del equipo, se utilizan las siguientes herramientas, asegurando una organización centralizada y una coordinación fluida.
+
+| Herramienta | Propósito en el Proyecto                                                                   | Enlace                      |
+| :---------- | :----------------------------------------------------------------------------------------- | :-------------------------- |
+| *GitHub*    | Repositorio central de código fuente, gestión de versiones y colaboración en el desarrollo.    | `https://github.com/`       |
+| *Trello*    | Planificación de sprints, gestión de tareas (historias de usuario, bugs) y seguimiento del progreso. | `https://trello.com/`       |
+| *Discord*   | Canal principal para discusiones técnicas y sincronizaciones diarias.                        | `https://discord.com/`      |
+| *Google Meet*| Canal adicional para reuniones de equipo y presentaciones formales.                         | `https://meet.google.com/`  |
+| *WhatsApp*  | Comunicación rápida y coordinación ágil para asuntos urgentes o de baja formalidad.          | `https://www.whatsapp.com/` |
+
+**Product UX/UI Design**
+
+El diseño de la experiencia e interfaz de usuario se centraliza en Figma, permitiendo un ciclo de diseño iterativo y colaborativo.
+
+| Herramienta | Propósito en el Proyecto                                                                                     | Enlace                  |
+| :---------- | :----------------------------------------------------------------------------------------------------------- | :---------------------- |
+| *Figma*   | Diseño de la experiencia (UX) e interfaz (UI), incluyendo wireframes, mockups y el prototipo interactivo de la aplicación web. | `https://www.figma.com/` |
+
+
+**Software Development**
+
+El stack tecnológico seleccionado para la construcción de *FuelTrack Pro* se compone de las siguientes herramientas y frameworks, cubriendo el desarrollo backend, frontend y móvil.
+
+| Herramienta        | Propósito en el Proyecto                                                                      | Enlace                                          |
+| :----------------- | :-------------------------------------------------------------------------------------------- | :---------------------------------------------- |
+| *.NET (C#)*        | Framework backend para la construcción de la API RESTful y la lógica de negocio.                | `https://dotnet.microsoft.com/`                 |
+| *HTML*             | Lenguaje de marcado para la estructura y contenido de la aplicación web (landing page).         | `https://developer.mozilla.org/es/docs/Web/HTML`|
+| *CSS*              | Lenguaje de hojas de estilo para el diseño y la presentación visual de la interfaz web.         | `https://developer.mozilla.org/es/docs/Web/CSS` |
+| *JavaScript*       | Lenguaje de programación para la interactividad y lógica del lado del cliente en la web.        | `https://developer.mozilla.org/es/docs/Web/JavaScript` |
+| *Android (Kotlin)* | Sistema operativo y lenguaje de programación para el desarrollo de la aplicación móvil nativa.    | `https://developer.android.com/`                |
+| *Jetpack Compose*  | Toolkit de UI moderno para construir la interfaz de usuario de la aplicación Android nativa.      | `https://developer.android.com/jetpack/compose` |
+
+**Software Deployment**
+
+La infraestructura para el despliegue y operación de los servicios de *FuelTrack Pro* se gestiona a través de las siguientes plataformas en la nube.
+
+| Herramienta      | Propósito en el Proyecto                                                                   | Enlace                                   |
+| :--------------- | :----------------------------------------------------------------------------------------- | :--------------------------------------- |
+| *Render*         | Plataforma en la nube para el despliegue y hosting del backend (API REST).                 | `https://render.com/`                    |
+| *Vercel*         | Plataforma para el despliegue y hosting de la aplicación web (landing page).               | `https://vercel.com/`                    |
+| *Neon*           | Proveedor de base de datos PostgreSQL serverless para el almacenamiento persistente de los datos. | `https://neon.tech/`                     |
+| *Android Studio* | Entorno de desarrollo integrado (IDE) para la compilación y despliegue de la aplicación móvil.   | `https://developer.android.com/studio`   |
+
+**Software Documentation**
+
+La creación y mantenimiento de la documentación del proyecto se realiza utilizando herramientas que facilitan la escritura y el control de versiones.
+
+| Herramienta | Propósito en el Proyecto                                                                  | Enlace                         |
+| :---------- | :---------------------------------------------------------------------------------------- | :----------------------------- |
+| *Markdown*| Lenguaje de marcado ligero para escribir toda la documentación técnica y funcional del proyecto. | `https://www.markdownguide.org/` |
+| *GitHub*  | Plataforma para versionar y colaborar en la documentación del proyecto junto al código fuente. | `https://github.com/`          |
+
+### 4.1.2. Source Code Management
+
+Para la gestión del código fuente de *FuelTrack Pro*, se utiliza *GitHub* como plataforma centralizada y *Git* como sistema de control de versiones. La estructura de repositorios del proyecto es la siguiente:
+
+| Producto              | Repositorio           | Enlace                                          |
+| :-------------------- | :-------------------- | :---------------------------------------------- |
+| Backend               | `backend`             | `https://github.com/1ACC0238-2520-1827-Group2-FuelTrack/backend` |
+| Landing Page          | `landing-page`        | `https://github.com/1ACC0238-2520-1827-Group2-FuelTrack/landing-page` |
+| Mobile Application    | `mobile-app`          | `https://github.com/1ACC0238-2520-1827-Group2-FuelTrack/mobile-app`  |
+
+
+<h4>Flujo de Trabajo: GitFlow</h4>
+
+El equipo adopta el modelo de ramificación *GitFlow* de Vincent Driessen para asegurar un proceso de desarrollo ordenado y predecible. Este flujo de trabajo define un conjunto estricto de ramas con roles específicos.
+
+*   **`main`**: Esta rama refleja el estado actual del código en *producción*. Solo se fusionan en ella las ramas `release` y `hotfix`. Cada commit en `main` debe ser una nueva versión etiquetada (tag) siguiendo Semantic Versioning.
+*   **`develop`**: Es la rama principal de integración para el desarrollo. Contiene los últimos cambios y funcionalidades completadas que se incluirán en el próximo lanzamiento. Sirve como base para crear las ramas `feature`.
+
+<h4>Convenciones para Nombres de Ramas</h4>
+
+Para mantener la consistencia, se han definido las siguientes convenciones para nombrar las ramas:
+
+*   **Feature Branches:** Se crean a partir de `develop` para trabajar en nuevas funcionalidades.
+    *   *Convención:* `feature/[TICKET-ID]-[descripcion-corta]`
+
+*   **Release Branches:** Se crean a partir de `develop` cuando se decide iniciar un nuevo ciclo de lanzamiento. En esta rama se realizan los últimos ajustes, pruebas y correcciones de bugs menores antes de pasar a producción.
+    *   *Convención:* `release/v[version]`
+
+*   **Hotfix Branches:** Se crean a partir de `main` para solucionar errores críticos (`bugs`) detectados en producción. Estas correcciones se fusionan tanto en `main` como en `develop` para asegurar que el bug no reaparezca en futuros lanzamientos.
+    *   *Convención:* `hotfix/[TICKET-ID]-[descripcion-corta]`
+
+<h4>Convención para Mensajes de Commit (Conventional Commits)</h4>
+
+Todos los mensajes de commit deben seguir la especificación de *Conventional Commits*. Esta convención mejora la legibilidad del historial y permite automatizar la generación de changelogs.
+
+**Formato:** `<tipo>[ámbito opcional]: <descripción>`
+
+*   **Tipos de commit principales:**
+    *   `feat`: Para una nueva funcionalidad (`feature`).
+    *   `fix`: Para la corrección de un error (`bug`).
+    *   `docs`: Cambios exclusivos en la documentación.
+    *   `style`: Cambios de formato que no afectan la lógica (espacios, punto y coma, etc.).
+    *   `refactor`: Cambios en el código que no corrigen un error ni añaden una funcionalidad.
+    *   `test`: Añadir o corregir pruebas.
+    *   `chore`: Actualizaciones de tareas de build, configuración, etc.
+
+*   **Ejemplos de commits:**
+    *   `feat(auth): permitir inicio de sesión con correo y contraseña`
+    *   `fix(api): corregir cálculo de impuestos en la creación de pedidos`
+    *   `docs(readme): actualizar instrucciones de instalación`
+
+<h4>Versionado Semántico (Semantic Versioning 2.0.0)</h4>
+
+Cada lanzamiento en la rama `main` se etiquetará con una versión siguiendo el formato `MAJOR.MINOR.PATCH`.
+
+*   **`MAJOR`**: Se incrementa cuando se introducen cambios incompatibles con la API (breaking changes).
+*   **`MINOR`**: Se incrementa cuando se añaden funcionalidades de forma retrocompatible.
+*   **`PATCH`**: Se incrementa cuando se realizan correcciones de errores de forma retrocompatible.
+
+Para versiones de pre-lanzamiento, se pueden usar sufijos como `-alpha`, `-beta` o `-rc` (Release Candidate).
+*   **Ejemplo:** `v1.0.0-beta.1`
+
+### 4.1.3. Source Code Style Guide & Conventions
+
+Para asegurar la calidad, legibilidad y mantenibilidad del código de **FuelTrack Pro**, el equipo se compromete a seguir las siguientes guías de estilo y convenciones para cada tecnología del proyecto.
+
+<h4>Backend: .NET (C#)</h4>
+
+*   **Nomenclatura:**
+    *   *Clases, Interfaces, Propiedades y Métodos:* `PascalCase`.
+    *   *Variables locales y parámetros de métodos:* `camelCase`.
+    *   *Campos privados:* `_camelCase`.
+
+
+*   **Estructura del Proyecto:**
+    *   *Organización por capas:* Se seguirá una arquitectura limpia, separando las responsabilidades en proyectos distintos (e.g., `Domain`, `Application`, `Infrastructure`, `Api`).
+    *   *Inyección de Dependencias (DI):* Utilizar DI para desacoplar las capas, especialmente para inyectar servicios y repositorios en los controladores.
+    *   *Nombres de archivo:* El nombre del archivo (`.cs`) debe coincidir exactamente con el nombre de la clase pública que contiene.
+
+<h4>Landing Page: HTML, CSS y JavaScript</h4>
+
+*   **HTML:**
+    *   *Semántica:* Utilizar etiquetas semánticas de HTML5 siempre que sea posible (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`).
+    *   *Accesibilidad:* Proveer atributos `alt` descriptivos para todas las imágenes (`<img>`).
+
+*   **CSS:**
+    *   *Nomenclatura:* Utilizar la metodología **BEM (Block, Element, Modifier)** para nombrar las clases, evitando conflictos y mejorando la legibilidad.
+    *   *Organización:** Agrupar las propiedades CSS por función (Posicionamiento, Modelo de caja, Tipografía, Visual, Otros).
+
+*   **JavaScript:**
+    *   *Sintaxis:* Utilizar sintaxis moderna (ES6+), prefiriendo `const` y `let` sobre `var`, y usando funciones de flecha (`=>`).
+    *   *Nomenclatura:* `camelCase` para variables y funciones. `PascalCase` para clases.
+
+<h4>Mobile: Android (Kotlin) & Jetpack Compose</h4>
+
+*   **Kotlin (General):**
+    *   *Nomenclatura:*
+        *   Clases y Objetos: `PascalCase`.
+        *   Funciones y Variables: `camelCase`.
+        *   Constantes (`const val`): `UPPER_SNAKE_CASE`.
+    *   *Estructura:* Seguir la arquitectura recomendada por Google (MVVM), separando la lógica de la UI con `ViewModel`, `UseCase` y `Repository`.
+
+*   **Jetpack Compose:**
+    *   *Componentes Composable:* Nombrar las funciones con `PascalCase` (e.g., `SubmitButton()`).
+    *   *Rendimiento:* Evitar cálculos o lógica de negocio pesada dentro de las funciones `@Composable` para prevenir recomposiciones innecesarias.
+
+<h4>Convenciones Generales (Todo el Proyecto)</h4>
+
+*   **Comentarios:** El código debe ser auto-explicativo. Usar comentarios solo para explicar el "porqué" de una lógica compleja, no el "qué". Todos los comentarios deben estar en *inglés*.
+*   **Commits:** Seguir la especificación de *Conventional Commits* (`feat:`, `fix:`, `docs:`, `chore:`, etc.) para mantener un historial limpio y legible.
+*   **Formato:** Utilizar un formateador de código automático (como el integrado en Visual Studio, VS Code o Android Studio) para mantener un estilo consistente en todo el proyecto.
+
+### 4.1.4. Software Deployment Configuration
+
+En esta sección se especifica la configuración y el proceso de despliegue para cada uno de los componentes de la solución *FuelTrack Pro*. Los siguientes pasos describen cómo, a partir de los repositorios de código fuente, se logra la publicación de la Landing Page, el Backend y la Aplicación Móvil.
+
+<h4>Landing Page (HTML/CSS/JS)</h4>
+
+**Consideraciones antes del despliegue:**
+*   Verificar que todos los enlaces internos y externos funcionen correctamente.
+*   Asegurarse de que el diseño sea completamente responsivo y se visualice correctamente en diferentes tamaños de pantalla.
+*   Comprobar que no haya errores de carga de recursos (imágenes, scripts, hojas de estilo) en la consola del navegador.
+
+**Requerimientos para el despliegue:**
+*   Repositorio de GitHub con el código fuente de la Landing Page.
+*   Una cuenta activa en *Vercel*.
+
+**Pasos para el despliegue en Vercel:**
+1.  Ingresar al panel de control de Vercel.
+2.  Hacer clic en "Add New..." y seleccionar "Project".
+3.  Importar el repositorio de GitHub correspondiente a la Landing Page (`landing-page`).
+4.  Vercel detectará automáticamente que es un proyecto estático. No se requiere configuración adicional para HTML/CSS/JS.
+5.  Hacer clic en el botón "Deploy".
+6.  Esperar a que Vercel complete el proceso de build y despliegue.
+7.  Acceder a la URL pública generada por Vercel para verificar que la Landing Page esté operativa.
+
+<h4>Backend (.NET API)</h4>
+
+**Consideraciones antes del despliegiegue:**
+*   La base de datos en *Neon* debe estar creada y accesible.
+*   Se debe tener a la mano el string de conexión de la base de datos para configurarlo en el entorno de producción.
+*   El proyecto debe contener un `Dockerfile` para que Render pueda construir y ejecutar la aplicación en un contenedor.
+
+**Requerimientos para el despliegue:**
+*   Repositorio de GitHub con el código fuente del Backend (.NET).
+*   Una cuenta activa en *Render*.
+*   Una cuenta activa en *Neon* con la base de datos del proyecto.
+
+**Pasos para el despliegue en Render:**
+1.  Ingresar al panel de control de Render.
+2.  Hacer clic en "New" y seleccionar "Web Service".
+3.  Conectar y seleccionar el repositorio de GitHub correspondiente al Backend (`backend`).
+4.  Configurar el nombre del servicio (e.g., `fueltrack-pro-api`).
+5.  Render detectará el `Dockerfile` y lo seleccionará como entorno de ejecución.
+6.  Ir a la sección "Environment" y añadir una nueva variable de entorno para el string de conexión de la base de datos (e.g., `ConnectionStrings__DefaultConnection` con el valor proporcionado por Neon).
+7.  Hacer clic en "Create Web Service" para iniciar el despliegue.
+8.  Render construirá la imagen Docker y desplegará el servicio. Una vez completado, se podrá acceder a la API a través de la URL pública generada.
+
+<h4>Aplicación Móvil (Android)</h4>
+
+**Consideraciones antes del despliegue (en dispositivo de prueba):**
+*   El Backend (.NET API) debe estar desplegado en Render y su URL pública debe ser accesible.
+*   La URL de la API debe estar correctamente configurada en el código fuente de la aplicación móvil antes de compilar.
+
+**Requerimientos para el despliegue:**
+*   Un dispositivo físico con sistema operativo Android.
+*   El archivo APK (Android Package Kit) compilado y firmado de la aplicación.
+*   El cable USB para conectar el dispositivo a la computadora.
+
+**Pasos para la instalación en un dispositivo de prueba:**
+1.  En el dispositivo Android, activar las "Opciones de desarrollador".
+2.  Dentro de las opciones de desarrollador, habilitar la "Depuración por USB".
+3.  Conectar el dispositivo a la computadora mediante el cable USB.
+4.  Abrir el proyecto en *Android Studio*.
+5.  Seleccionar el dispositivo conectado en la lista de dispositivos de destino.
+6.  Hacer clic en el botón "Run 'app'" (icono de play) en la barra de herramientas.
+7.  Android Studio compilará el código, generará el APK y lo instalará automáticamente en el dispositivo.
+8.  Una vez instalado, abrir la aplicación en el dispositivo y verificar que se conecte correctamente con el backend y que todas las funcionalidades operen como se espera.
+
+## 4.2. Landing Page & Mobile Application Implementation
 
 ### 4.2.1. Sprint 1
 
