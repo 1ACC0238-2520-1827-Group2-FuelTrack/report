@@ -4279,7 +4279,7 @@ Esta sección muestra los Mock-ups de las aplicaciones móviles de FuelTrack, do
 
 #### **Gestión de Órdenes (Order Management)**
 <p align="center">
-  <img src="assets/Chapters/Chapter-III/u14.png" alt="ui-movil14-mockup" width="250">
+  <img src="assets/Chapters/Chapter-III/u14.png" alt="ui-movil14-mockup" width="250"><br>
   <em>Vista donde el proveedor consulta, acepta y gestiona las órdenes recibidas.</em>
 </p>
 
@@ -4336,7 +4336,15 @@ Este flujo detalla los pasos para subir comprobantes bancarios o documentos de r
 
 
 #### 3.1.4.5. Mobile Applications Prototyping
+En esta sección se presentan los prototipos interactivos para Desktop y Mobile, los cuales muestran los principales flujos de navegación definidos en los User Flows.
 
+**Prototipo Mobile:**  
+![Prototipo1](assets/Chapters/Chapter-III/prototipoMobile.png)
+[Link video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EbkMNcIxgANFoQdpHLdylroBBPLTV772gJn62IVS69h6Iw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=o4wVdD)
+
+**Prototipo Web:** 
+![Prototipo2](assets/Chapters/Chapter-III/prototipoWeb.png)
+[Link video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EQy0y4y9E5pKkOL-pwOFqkEBLzXdX8GCbsUCoJKIBjpaaw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0xWg0h)
 
 # Capítulo IV:  Product Implementation & Validation
 
