@@ -4000,7 +4000,6 @@ Esta sección muestra los Mock-ups del Landing Page de FuelTrack, en sus version
 ![landing-page-mockUps](assets/Chapters/Chapter-III/web_mockUps.png)
 
 **Mobile Web Browser**
-
 <p align="center">
   <img src="assets/Chapters/Chapter-III/iPhone16-24.png" alt="landing-movil1-mockUps" width="250"><br>
   <img src="assets/Chapters/Chapter-III/iPhone16-25.png" alt="landing-movil2-mockUps" width="250"><br>
@@ -4024,6 +4023,7 @@ Esta sección muestra los Mock-ups del Landing Page de FuelTrack, en sus version
 En esta sección se presentan los Wireframes de las aplicaciones móviles de FuelTrack, diseñados para mostrar la estructura y disposición de los elementos de la interfaz. Reflejan la aplicación de los principios y elementos de diseño, la arquitectura de información y el diseño inclusivo, utilizando las herramientas indicadas para su elaboración.
 
 <p align="center">
+  <img src="assets/Chapters/Chapter-III/w00.png" alt="ui-movil1-wireframe" width="250"><br>
   <img src="assets/Chapters/Chapter-III/w01.png" alt="ui-movil1-wireframe" width="250"><br>
   <img src="assets/Chapters/Chapter-III/w02.png" alt="ui-movil2-wireframe" width="250"><br>
   <img src="assets/Chapters/Chapter-III/w03.png" alt="ui-movil3-wireframe" width="250"><br>
@@ -4036,12 +4036,92 @@ En esta sección se presentan los Wireframes de las aplicaciones móviles de Fue
   <img src="assets/Chapters/Chapter-III/w10.png" alt="ui-movil10-wireframe" width="250"><br>
   <img src="assets/Chapters/Chapter-III/w11.png" alt="ui-movil11-wireframe" width="250"><br>
   <img src="assets/Chapters/Chapter-III/w12.png" alt="ui-movil12-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/w13.png" alt="ui-movil13-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/w14.png" alt="ui-movil14-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/w15.png" alt="ui-movil15-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/w16.png" alt="ui-movil16-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/w17.png" alt="ui-movil17-wireframe" width="250"><br>
 </p>
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+---
+
+### **User Goal 01: Crear una nueva orden de combustible**
+
+**Descripción:**  
+El usuario cliente desea generar una nueva orden de combustible ingresando los detalles del producto, forma de pago y confirmando la solicitud.  
+Este flujo permite registrar un pedido dentro del sistema **FuelTrack**.
+
+**Task Flow:**  
+![Task Flow - Crear orden](assets/Chapters/Chapter-III/taskFlow01.png)
+
+**Wireflow:**  
+![Wireflow - Crear orden](assets/Chapters/Chapter-III/wireFlow01.png)
+
+**Explicación del flujo:**  
+El flujo inicia en la pantalla de órdenes (**w05**). El usuario crea una nueva orden (**w06–w08**) llenando toda la información requerida.  
+Finalmente, confirma la creación en (**w09**), donde el sistema valida los datos y genera la orden.
+
+---
+
+### **User Goal 02: Visualizar historial de órdenes**
+
+**Descripción:**  
+El usuario desea consultar el listado de órdenes registradas y revisar los detalles de cada una.  
+Este flujo facilita el seguimiento del estado de los pedidos (**pendiente**, **aprobado** o **entregado**).
+
+**Task Flow:**  
+![Task Flow - Historial de órdenes](assets/Chapters/Chapter-III/taskFlow02.png)
+
+**Wireflow:**  
+![Wireflow - Historial de órdenes](assets/Chapters/Chapter-III/wireFlow02.png)
+
+**Explicación del flujo:**  
+El flujo comienza en el listado general (**w05**). El usuario puede desplazarse entre las órdenes y, al seleccionar una, el sistema muestra la información detallada en la pantalla (**w06**).
+
+---
+
+### **User Goal 03: Registrar proveedor**
+
+**Descripción:**  
+El administrador desea registrar un nuevo proveedor en el sistema para habilitar su acceso a la plataforma.  
+Este flujo permite crear cuentas de proveedores con los datos de empresa, RUC y credenciales.
+
+**Task Flow:**  
+![Task Flow - Registrar proveedor](assets/Chapters/Chapter-III/taskFlow03.png)
+
+**Wireflow:**  
+![Wireflow - Registrar proveedor](assets/Chapters/Chapter-III/wireFlow03.png)
+
+**Explicación del flujo:**  
+El proceso comienza con la selección del tipo de usuario (**w10**). Luego, el administrador completa los campos de registro (**w11**).  
+Tras la validación exitosa, el sistema redirige al panel principal (**w12**) y muestra las opciones de gestión del proveedor (**w13–w14**).
+
+---
+
+### **User Goal 05: Cargar comprobantes o documentos de pago**
+
+**Descripción:**  
+El usuario desea subir archivos de comprobantes bancarios o documentos de respaldo de sus transacciones.  
+Este flujo facilita la carga de archivos en formato **PDF**, **XLS** o similar.
+
+**Task Flow:**  
+![Task Flow - Cargar comprobantes](assets/Chapters/Chapter-III/taskFlow04.png)
+
+**Wireflow:**  
+![Wireflow - Cargar comprobantes](assets/Chapters/Chapter-III/wireFlow04.png)
+
+**Explicación del flujo:**  
+El flujo inicia en la sección de pagos (**w15**), donde el usuario elige **“Load bank statement”**.  
+Luego, se muestra la zona de carga (**w17**), donde puede seleccionar y subir los archivos.  
+Al completar el proceso, los documentos quedan vinculados a la orden correspondiente.
+
 #### 3.1.4.3. Mobile Applications Mock-ups
 Esta sección muestra los Mock-ups de las aplicaciones móviles de FuelTrack, donde se representa la propuesta visual final.
 
+<p align="center">
+<img src="assets/Chapters/Chapter-III/u00.png" alt="ui-movil1-wireframe" width="250"><br>
 <img src="assets/Chapters/Chapter-III/u01.png" alt="ui-movil1-wireframe" width="250"><br>
 <img src="assets/Chapters/Chapter-III/u02.png" alt="ui-movil2-wireframe" width="250"><br>
 <img src="assets/Chapters/Chapter-III/u03.png" alt="ui-movil3-wireframe" width="250"><br>
@@ -4054,10 +4134,17 @@ Esta sección muestra los Mock-ups de las aplicaciones móviles de FuelTrack, do
 <img src="assets/Chapters/Chapter-III/u10.png" alt="ui-movil10-wireframe" width="250"><br>
 <img src="assets/Chapters/Chapter-III/u11.png" alt="ui-movil11-wireframe" width="250"><br>
 <img src="assets/Chapters/Chapter-III/u12.png" alt="ui-movil12-wireframe" width="250"><br>
-
-
+<img src="assets/Chapters/Chapter-III/w13.png" alt="ui-movil13-wireframe" width="250"><br>
+<img src="assets/Chapters/Chapter-III/u14.png" alt="ui-movil14-wireframe" width="250"><br>
+<img src="assets/Chapters/Chapter-III/w15.png" alt="ui-movil15-wireframe" width="250"><br>
+<img src="assets/Chapters/Chapter-III/u16.png" alt="ui-movil16-wireframe" width="250"><br>
+<img src="assets/Chapters/Chapter-III/w17.png" alt="ui-movil17-wireframe" width="250"><br>
+</p>
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+En esta sección se presentan los diagramas de flujo de usuario para la aplicacion moviles de FuelTrack, los cuales muestran el recorrido que sigue un usuario dentro de la plataforma.
+
+
 #### 3.1.4.5. Mobile Applications Prototyping
 
 
