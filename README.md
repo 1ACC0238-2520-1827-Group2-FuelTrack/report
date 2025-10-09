@@ -4280,7 +4280,6 @@ Esta sección muestra los Mock-ups de las aplicaciones móviles de FuelTrack, do
 #### **Gestión de Órdenes (Order Management)**
 <p align="center">
   <img src="assets/Chapters/Chapter-III/u14.png" alt="ui-movil14-mockup" width="250">
-  <img src="assets/Chapters/Chapter-III/u15.png" alt="ui-movil15-mockup" width="250"><br>
   <em>Vista donde el proveedor consulta, acepta y gestiona las órdenes recibidas.</em>
 </p>
 
@@ -4307,11 +4306,15 @@ El flujo muestra el proceso mediante el cual el usuario genera una nueva orden d
 #### **User Goal 02: Visualizar historial de órdenes**
 
 **User Flow 2:**  
+
 ![img](assets/Chapters/Chapter-III/userFlow02.png)
 
 **Explicación del flujo:**  
+
 Este flujo representa la consulta del historial de órdenes registradas. El usuario accede al listado general, navega entre los pedidos y selecciona una orden específica para revisar su información y estado actual dentro del sistema.
+
 ---
+
 
 #### **User Goal 03: Registrar proveedor**
 
