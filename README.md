@@ -358,7 +358,9 @@ Septiembre del 2025 🗓️
         <b>Manuel Sanchez</b><br>
         TB1: Los componentes que conforman la infraestructura de nuestro sistema me llevaron a actualizarme sobre las buenas practicas para un correcto despliegue. <br>
         <b>Marllely Arias</b><br>
-        TB1: A través del desarrollo del capítulo dos, trabajé en el análisis competitivo, el needfinding y las entrevistas, lo que me permitió adquirir nuevas perspectivas y herramientas que aportan directamente a mi formación profesional y al avance de mi proyecto en soluciones de ingeniería de software.<br>
+        TB1: A través del desarrollo del capítulo dos, trabajé en el análisis competitivo, el needfinding y las entrevistas, lo que me permitió adquirir nuevas perspectivas y herramientas que aportan directamente a mi formación profesional y al avance de mi proyecto en soluciones de ingeniería de software.
+        TP1 Durante esta entrega reforcé mis conocimientos en diseño UX/UI, aplicando principios de diseño, arquitectura de información y diseño inclusivo. Desarrollé wireframes, mockups y prototipos interactivos, lo cual fortaleció mis habilidades para proponer soluciones digitales efectivas.
+        <br>
         <b>Rogger Miranda</b><br>
         TB1: Durante el desarrollo del startup y el producto, me di cuenta de la importancia de repasar conceptos fundamentales y de estar siempre dispuesto a adoptar nuevas herramientas y metodologías. En este caso, implementé diagramas C4 (de contexto y componentes), lo que permitió mejorar la claridad y organización de la arquitectura del sistema. Esta experiencia me recordó que, aunque algunos aspectos del trabajo puedan parecer rutinarios, siempre es útil revisarlos y estar preparado para aprender lo necesario para mejorar la calidad y el alcance de los proyectos
         TP1: Durante el desarrollo del producto y el informe, me di cuenta la importancia de poder estar actualizado en conceptos, tecnicas y teconologias para el correcto desarrollo de la solución de manera agil y eficaz. En esta oportunidad fue muy importante entender conceptos de SEO, entender el funcionamiento de las tecnologias respectivas para el avance tanto de la landing como del backend, conceptos de UX/UI, etc.
@@ -376,7 +378,9 @@ Septiembre del 2025 🗓️
         <b>Diego Acuña</b><br>
         TB1: Al desarrollar el trabajo, tuve que aprender a usar herramientas para la creación de diagramas ER y UML que nunca había utilizado anteriormente. También repasé conocimientos ya adquiridos pero de gran importancia. Sobre todo, tuve que aprender todo lo que conlleva el mercado de combustibles, tanto su gestión como su logística. Estar abierto a aprender nuevas tecnologías y aspectos más allá de la informática, pero relacionados con el proyecto, ayuda a determinar si tu solución será útil o no para tus posibles clientes.<br>
         <b>Marllely Arias Segil</b><br>
-        TB1: Al trabajar en el capítulo dos, donde realicé el análisis competitivo, el needfinding y las entrevistas, comprendí que cada etapa del proyecto en soluciones de ingeniería de software exige actualizarme y seguir aprendiendo, ya que los retos y necesidades del entorno cambian constantemente.<br>
+        TB1: Al trabajar en el capítulo dos, donde realicé el análisis competitivo, el needfinding y las entrevistas, comprendí que cada etapa del proyecto en soluciones de ingeniería de software exige actualizarme y seguir aprendiendo, ya que los retos y necesidades del entorno cambian constantemente.
+        TP: Este proyecto me permitió ver la importancia de seguir aprendiendo nuevas herramientas y enfoques en diseño y tecnología. Investigar y aplicar buenas prácticas en UX/UI fue clave para mejorar mi desempeño y adaptarme a los retos del desarrollo de software.
+        <br>
         <b>Manuel Sanchez</b><br>
         TB1: Al actualizar nuestro backend, me di cuenta que no solo la práctica, sino también el aprendizaje debe ser constante para complementar mis habilidades adquiridas y desempeñarme mejor en el desarrollo de soluciones. <br>
         <b>Lynn Meza</b><br>
@@ -4336,15 +4340,18 @@ Este flujo detalla los pasos para subir comprobantes bancarios o documentos de r
 
 
 #### 3.1.4.5. Mobile Applications Prototyping
+
 En esta sección se presentan los prototipos interactivos para Desktop y Mobile, los cuales muestran los principales flujos de navegación definidos en los User Flows.
 
 **Prototipo Mobile:**  
-![Prototipo1](assets/Chapters/Chapter-III/prototipoMobile.png)
-[Link video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EbkMNcIxgANFoQdpHLdylroBBPLTV772gJn62IVS69h6Iw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=o4wVdD)
+<img src="assets/Chapters/Chapter-III/prototipoMobile.png" alt="Prototipo Mobile" width="300"/>
 
-**Prototipo Web:** 
-![Prototipo2](assets/Chapters/Chapter-III/prototipoWeb.png)
-[Link video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EQy0y4y9E5pKkOL-pwOFqkEBLzXdX8GCbsUCoJKIBjpaaw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0xWg0h)
+[Ver video del prototipo Mobile](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EbkMNcIxgANFoQdpHLdylroBBPLTV772gJn62IVS69h6Iw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=o4wVdD)
+
+**Prototipo Web:**  
+<img src="assets/Chapters/Chapter-III/prototipoWeb.png" alt="Prototipo Web" width="300"/>
+
+[Ver video del prototipo Web](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EQy0y4y9E5pKkOL-pwOFqkEBLzXdX8GCbsUCoJKIBjpaaw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0xWg0h)
 
 # Capítulo IV:  Product Implementation & Validation
 
