@@ -4344,14 +4344,20 @@ Este flujo detalla los pasos para subir comprobantes bancarios o documentos de r
 En esta sección se presentan los prototipos interactivos para Desktop y Mobile, los cuales muestran los principales flujos de navegación definidos en los User Flows.
 
 **Prototipo Mobile:**  
-<img src="assets/Chapters/Chapter-III/prototipoMobile.png" alt="Prototipo Mobile" width="300"/>
+<div align="center">
+  <img src="assets/Chapters/Chapter-III/prototipoMobile.png" alt="Prototipo Mobile" width="250"/>
+</div>
 
-[Ver video del prototipo Mobile](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EbkMNcIxgANFoQdpHLdylroBBPLTV772gJn62IVS69h6Iw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=o4wVdD)
+🔗 [Ver video del prototipo Mobile](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EbkMNcIxgANFoQdpHLdylroBBPLTV772gJn62IVS69h6Iw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=o4wVdD)
+
+---
 
 **Prototipo Web:**  
-<img src="assets/Chapters/Chapter-III/prototipoWeb.png" alt="Prototipo Web" width="300"/>
+<div align="center">
+  <img src="assets/Chapters/Chapter-III/prototipoWeb.png" alt="Prototipo Web" width="600"/>
+</div>
 
-[Ver video del prototipo Web](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EQy0y4y9E5pKkOL-pwOFqkEBLzXdX8GCbsUCoJKIBjpaaw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0xWg0h)
+🔗 [Ver video del prototipo Web](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EQy0y4y9E5pKkOL-pwOFqkEBLzXdX8GCbsUCoJKIBjpaaw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0xWg0h)
 
 # Capítulo IV:  Product Implementation & Validation
 
