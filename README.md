@@ -4022,32 +4022,107 @@ Esta sección muestra los Mock-ups del Landing Page de FuelTrack, en sus version
 #### 3.1.4.1. Mobile Applications Wireframes
 En esta sección se presentan los Wireframes de las aplicaciones móviles de FuelTrack, diseñados para mostrar la estructura y disposición de los elementos de la interfaz. Reflejan la aplicación de los principios y elementos de diseño, la arquitectura de información y el diseño inclusivo, utilizando las herramientas indicadas para su elaboración.
 
-<p align="center">
-  <img src="assets/Chapters/Chapter-III/w00.png" alt="ui-movil1-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w01.png" alt="ui-movil1-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w02.png" alt="ui-movil2-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w03.png" alt="ui-movil3-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w04.png" alt="ui-movil4-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w05.png" alt="ui-movil5-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w06.png" alt="ui-movil6-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w07.png" alt="ui-movil7-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w08.png" alt="ui-movil8-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w09.png" alt="ui-movil9-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w10.png" alt="ui-movil10-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w11.png" alt="ui-movil11-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w12.png" alt="ui-movil12-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w13.png" alt="ui-movil13-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w14.png" alt="ui-movil14-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w15.png" alt="ui-movil15-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w16.png" alt="ui-movil16-wireframe" width="250"><br>
-  <img src="assets/Chapters/Chapter-III/w17.png" alt="ui-movil17-wireframe" width="250"><br>
-</p>
+---
 
-#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+#### **Bienvenida al aplicativo**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w00.png" alt="ui-movil-bienvenida" width="250"><br>
+  <em>Pantalla de bienvenida que introduce al usuario a la aplicación FuelTrack.</em>
+</p>
 
 ---
 
-### **User Goal 01: Crear una nueva orden de combustible**
+#### **Sección Cliente**
+
+#### **Inicio de Sesión (Cliente)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w01.png" alt="ui-movil1-wireframe" width="250"><br>
+  <em>El usuario cliente accede al sistema ingresando su correo y contraseña.</em>
+</p>
+
+#### **Crear Cuenta (Cliente)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w02.png" alt="ui-movil2-wireframe" width="250"><br>
+  <em>Formulario para registrar un nuevo cliente en la plataforma.</em>
+</p>
+
+#### **Apartado Principal (Cliente)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w03.png" alt="ui-movil3-wireframe" width="250"><br>
+  <em>Panel principal donde el cliente puede acceder a sus órdenes y opciones del sistema.</em>
+</p>
+
+#### **Menú Principal (Cliente)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w04.png" alt="ui-movil4-wireframe" width="250"><br>
+  <em>Menú lateral con accesos a secciones como “Orders”, “Profile” y “Settings”.</em>
+</p>
+
+#### **Listado de Órdenes (Cliente)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w05.png" alt="ui-movil5-wireframe" width="250"><br>
+  <em>Vista donde se muestran las órdenes activas y completadas del cliente.</em>
+</p>
+
+#### **Visualización de una Orden**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w06.png" alt="ui-movil6-wireframe" width="250"><br>
+  <em>Detalle de una orden específica.</em>
+</p>
+
+#### **Creación de una Orden**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w07.png" alt="ui-movil7-wireframe" width="250">
+  <img src="assets/Chapters/Chapter-III/w08.png" alt="ui-movil8-wireframe" width="250">
+  <img src="assets/Chapters/Chapter-III/w09.png" alt="ui-movil9-wireframe" width="250"><br>
+  <em>Secuencia de pantallas donde el cliente registra una nueva orden de combustible.</em>
+</p>
+
+---
+
+#### **Sección Proveedor**
+
+#### **Inicio de Sesión (Proveedor)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w10.png" alt="ui-movil10-wireframe" width="250"><br>
+  <em>El proveedor inicia sesión con sus credenciales registradas.</em>
+</p>
+
+#### **Crear Cuenta (Proveedor)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w11.png" alt="ui-movil11-wireframe" width="250"><br>
+  <em>Formulario para registrar una nueva cuenta de proveedor con RUC y razón social.</em>
+</p>
+
+#### **Apartado Principal (Proveedor)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w12.png" alt="ui-movil12-wireframe" width="250"><br>
+  <em>Panel donde el proveedor puede visualizar sus órdenes.</em>
+</p>
+
+#### **Menú Principal (Proveedor)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w13.png" alt="ui-movil13-wireframe" width="250"><br>
+  <em>Menú lateral con opciones de navegación para gestión de órdenes y conciliaciones.</em>
+</p>
+
+#### **Gestión de Órdenes (Order Management)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w14.png" alt="ui-movil14-wireframe" width="250">
+  
+  <em>Vista donde el proveedor consulta y gestiona las órdenes asignadas por clientes.</em>
+</p>
+
+#### **Conciliaciones (Subir comprobantes)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w15.png" alt="ui-movil15-wireframe" width="250">
+  <img src="assets/Chapters/Chapter-III/w17.png" alt="ui-movil17-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/w16.png" alt="ui-movil16-wireframe" width="250"><br>
+  <em>Flujo de carga de comprobantes bancarios mediante la función “Load Bank Statement”.</em>
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+#### **User Goal 01: Crear una nueva orden de combustible**
 
 **Descripción:**  
 El usuario cliente desea generar una nueva orden de combustible ingresando los detalles del producto, forma de pago y confirmando la solicitud.  
@@ -4065,7 +4140,7 @@ Finalmente, confirma la creación en (**w09**), donde el sistema valida los dato
 
 ---
 
-### **User Goal 02: Visualizar historial de órdenes**
+#### **User Goal 02: Visualizar historial de órdenes**
 
 **Descripción:**  
 El usuario desea consultar el listado de órdenes registradas y revisar los detalles de cada una.  
@@ -4082,7 +4157,7 @@ El flujo comienza en el listado general (**w05**). El usuario puede desplazarse 
 
 ---
 
-### **User Goal 03: Registrar proveedor**
+#### **User Goal 03: Registrar proveedor**
 
 **Descripción:**  
 El administrador desea registrar un nuevo proveedor en el sistema para habilitar su acceso a la plataforma.  
@@ -4100,7 +4175,7 @@ Tras la validación exitosa, el sistema redirige al panel principal (**w12**) y 
 
 ---
 
-### **User Goal 05: Cargar comprobantes o documentos de pago**
+#### **User Goal 04: Cargar comprobantes o documentos de pago**
 
 **Descripción:**  
 El usuario desea subir archivos de comprobantes bancarios o documentos de respaldo de sus transacciones.  
@@ -4120,25 +4195,100 @@ Al completar el proceso, los documentos quedan vinculados a la orden correspondi
 #### 3.1.4.3. Mobile Applications Mock-ups
 Esta sección muestra los Mock-ups de las aplicaciones móviles de FuelTrack, donde se representa la propuesta visual final.
 
+#### **Bienvenida al aplicativo**
 <p align="center">
-<img src="assets/Chapters/Chapter-III/u00.png" alt="ui-movil1-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/u01.png" alt="ui-movil1-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/u02.png" alt="ui-movil2-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/u03.png" alt="ui-movil3-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/u04.png" alt="ui-movil4-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/u05.png" alt="ui-movil5-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/u06.png" alt="ui-movil6-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/u07.png" alt="ui-movil7-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/u08.png" alt="ui-movil8-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/u09.png" alt="ui-movil9-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/u10.png" alt="ui-movil10-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/u11.png" alt="ui-movil11-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/u12.png" alt="ui-movil12-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/w13.png" alt="ui-movil13-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/u14.png" alt="ui-movil14-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/w15.png" alt="ui-movil15-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/u16.png" alt="ui-movil16-wireframe" width="250"><br>
-<img src="assets/Chapters/Chapter-III/w17.png" alt="ui-movil17-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/u00.png" alt="ui-movil-bienvenida" width="250"><br>
+  <em>Pantalla de bienvenida que introduce al usuario a la aplicación FuelTrack.</em>
+</p>
+
+---
+
+#### **Sección Cliente**
+
+#### **Inicio de Sesión (Cliente)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u01.png" alt="ui-movil1-mockup" width="250"><br>
+  <em>El usuario cliente accede al sistema ingresando sus credenciales.</em>
+</p>
+
+#### **Crear Cuenta (Cliente)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u02.png" alt="ui-movil2-mockup" width="250"><br>
+  <em>Formulario de registro para crear una cuenta de cliente en la aplicación.</em>
+</p>
+
+#### **Apartado Principal (Cliente)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u03.png" alt="ui-movil3-mockup" width="250"><br>
+  <em>Vista principal donde el cliente puede gestionar sus órdenes y acceder a las secciones del sistema.</em>
+</p>
+
+#### **Menú Principal (Cliente)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u04.png" alt="ui-movil4-mockup" width="250"><br>
+  <em>Menú lateral con accesos a “Orders”, “Profile” y “Settings”.</em>
+</p>
+
+#### **Listado de Órdenes (Cliente)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u05.png" alt="ui-movil5-mockup" width="250"><br>
+  <em>Vista donde se muestran todas las órdenes activas y completadas del cliente.</em>
+</p>
+
+#### **Visualización de una Orden**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u06.png" alt="ui-movil6-mockup" width="250"><br>
+  <em>El cliente puede ver los detalles de una orden específica, incluyendo el estado.</em>
+</p>
+
+#### **Creación de una Orden**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u07.png" alt="ui-movil7-mockup" width="250">
+  <img src="assets/Chapters/Chapter-III/u08.png" alt="ui-movil8-mockup" width="250">
+  <img src="assets/Chapters/Chapter-III/u09.png" alt="ui-movil9-mockup" width="250"><br>
+  <em>Secuencia donde el cliente ingresa los datos del pedido, confirma y envía la orden.</em>
+</p>
+
+---
+
+#### **Sección Proveedor**
+
+#### **Inicio de Sesión (Proveedor)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u10.png" alt="ui-movil10-mockup" width="250"><br>
+  <em>El proveedor inicia sesión con su correo y contraseña registrados.</em>
+</p>
+
+#### **Crear Cuenta (Proveedor)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u11.png" alt="ui-movil11-mockup" width="250"><br>
+  <em>Formulario donde el proveedor registra su empresa con datos como RUC y razón social.</em>
+</p>
+
+#### **Apartado Principal (Proveedor)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u12.png" alt="ui-movil12-mockup" width="250"><br>
+  <em>Panel principal con acceso a órdenes, conciliaciones y configuración.</em>
+</p>
+
+#### **Menú Principal (Proveedor)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u13.png" alt="ui-movil13-mockup" width="250"><br>
+  <em>Menú lateral con opciones de gestión como “Orders”, “Conciliations” y “Settings”.</em>
+</p>
+
+#### **Gestión de Órdenes (Order Management)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u14.png" alt="ui-movil14-mockup" width="250">
+  <img src="assets/Chapters/Chapter-III/u15.png" alt="ui-movil15-mockup" width="250"><br>
+  <em>Vista donde el proveedor consulta, acepta y gestiona las órdenes recibidas.</em>
+</p>
+
+#### **Conciliaciones (Subir Comprobantes)**
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u16.png" alt="ui-movil16-mockup" width="250">
+  <img src="assets/Chapters/Chapter-III/u17.png" alt="ui-movil17-mockup" width="250"><br>
+  <em>Flujo donde el proveedor carga documentos bancarios o comprobantes mediante la opción “Load Bank Statement”.</em>
 </p>
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
