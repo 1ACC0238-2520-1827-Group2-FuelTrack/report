@@ -4292,7 +4292,44 @@ Esta sección muestra los Mock-ups de las aplicaciones móviles de FuelTrack, do
 </p>
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
-En esta sección se presentan los diagramas de flujo de usuario para la aplicacion moviles de FuelTrack, los cuales muestran el recorrido que sigue un usuario dentro de la plataforma.
+Se presentan los User Flows correspondientes a los principales objetivos del usuario (User Goals) identificados para el sistema. Cada flujo integra las vistas representativas mediante Mock-ups, evidenciando el recorrido del usuario dentro de la aplicación.
+
+#### **User Goal 01: Crear una nueva orden de combustible**
+
+**User Flow 1:**  
+![img](assets/Chapters/Chapter-III/userFlow01.png)
+
+**Explicación del flujo:**  
+El flujo muestra el proceso mediante el cual el usuario genera una nueva orden desde la sección Orders. Completa los campos requeridos en las etapas de detalles y pagos, y finalmente confirma la solicitud. El sistema valida la información y registra la orden correctamente.
+
+---
+
+#### **User Goal 02: Visualizar historial de órdenes**
+
+**User Flow 2:**  
+![img](assets/Chapters/Chapter-III/userFlow02.png)
+
+**Explicación del flujo:**  
+Este flujo representa la consulta del historial de órdenes registradas. El usuario accede al listado general, navega entre los pedidos y selecciona una orden específica para revisar su información y estado actual dentro del sistema.
+---
+
+#### **User Goal 03: Registrar proveedor**
+
+**User Flow 3:**  
+![img](assets/Chapters/Chapter-III/userFlow03.png)
+
+**Explicación del flujo:**  
+El flujo describe el proceso que realiza el administrador para registrar un nuevo proveedor. Tras seleccionar el tipo de usuario, completa los datos requeridos del registro. Luego, el sistema valida la información y redirige al panel principal, mostrando las opciones disponibles.
+
+---
+
+#### **User Goal 04: Cargar comprobantes o documentos de pago**
+
+**User Flow 4:**  
+![img](assets/Chapters/Chapter-III/userFlow04.png)
+
+**Explicación del flujo:**  
+Este flujo detalla los pasos para subir comprobantes bancarios o documentos de respaldo. El usuario accede a la sección Conciliations, selecciona la opción de carga, adjunta los archivos y confirma la operación. El sistema asocia los documentos con la orden correspondiente.
 
 
 #### 3.1.4.5. Mobile Applications Prototyping
