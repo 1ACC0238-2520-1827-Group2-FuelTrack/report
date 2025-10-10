@@ -10,17 +10,17 @@
 
 🧑‍💻 Ingeniería de software - 202520
 
-**Sección: 1827** 
+**Sección: 1827**
 
-**Docente: David Gerardo Quevedo Velasco** 
+**Docente: David Gerardo Quevedo Velasco**
 
-**StartUp: FuelTrack** 
+**StartUp: FuelTrack**
 
-**Producto: FuelTrack Pro** 
+**Producto: FuelTrack Pro**
 
-<div align='left'>	
+<div align='left'>
 
-~~~kotlin
+```kotlin
 fun Integrantes(): Array<String> {
     return arrayOf(
         "🧑‍💻 Acuña Tomas, Diego Rolin - U202221436",
@@ -30,7 +30,7 @@ fun Integrantes(): Array<String> {
         "👩‍💻 Lynn Jeeferzon Meza Camayo - u20201c320"
     )
 }
-~~~
+```
 
 </div>
 
@@ -141,8 +141,9 @@ Septiembre del 2025 🗓️
 ![alt text](assets/Chapters/Insights/NetworkGraph_TB1.png)
 
 # Table of Contents
+
 - [✨ Informe Trabajo Final ✨](#-informe-trabajo-final-)
-    - [Universidad Peruana de Ciencias Aplicadas 🎓](#universidad-peruana-de-ciencias-aplicadas-)
+  - [Universidad Peruana de Ciencias Aplicadas 🎓](#universidad-peruana-de-ciencias-aplicadas-)
 - [Registro de versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Table of Contents](#table-of-contents)
@@ -361,30 +362,33 @@ Septiembre del 2025 🗓️
 
 # Objetivos SMART
 
-**SMART Goal 1**  
-  - **S (Específico):** Desarrollar un sistema web que permita a los usuarios registrar, gestionar y monitorear pedidos de combustible en tiempo real.
-  - **M (Medible):** El sistema deberá permitir registrar al menos 100 pedidos en simultáneo sin pérdida de información.  
-  - **A (Alcanzable):** Utilizando .NET Core y EF Core, con despliegue en infraestructura cloud disponible para el equipo.
-  - **R (Relevante):** Satisface la necesidad de optimizar la logística en la distribución de combustibles.  
-  - **T (Tiempo):** Implementación de la primera versión funcional en un plazo de 8 semanas (2 Sprints).  
+**SMART Goal 1**
+
+- **S (Específico):** Desarrollar un sistema web que permita a los usuarios registrar, gestionar y monitorear pedidos de combustible en tiempo real.
+- **M (Medible):** El sistema deberá permitir registrar al menos 100 pedidos en simultáneo sin pérdida de información.
+- **A (Alcanzable):** Utilizando .NET Core y EF Core, con despliegue en infraestructura cloud disponible para el equipo.
+- **R (Relevante):** Satisface la necesidad de optimizar la logística en la distribución de combustibles.
+- **T (Tiempo):** Implementación de la primera versión funcional en un plazo de 8 semanas (2 Sprints).
 
 ---
 
 **SMART Goal 2**
-  - **S (Específico):** Integrar un módulo de gestión de vehículos y operadores para gestionar y monitorear entregas de manera eficiente.
-  - **M (Medible):** Lograr que el 90% de los pedidos se asignen automáticamente a un vehículo y un operador disponible.  
-  - **A (Alcanzable):** Mediante reglas de negocio establecidas en los servicios de dominio respectivo.  
-  - **R (Relevante):** Reduce errores manuales en la logística y aumenta la eficiencia operativa.  
-  - **T (Tiempo):** Finalizado para la fase 2 del proyecto (Semana 16).  
+
+- **S (Específico):** Integrar un módulo de gestión de vehículos y operadores para gestionar y monitorear entregas de manera eficiente.
+- **M (Medible):** Lograr que el 90% de los pedidos se asignen automáticamente a un vehículo y un operador disponible.
+- **A (Alcanzable):** Mediante reglas de negocio establecidas en los servicios de dominio respectivo.
+- **R (Relevante):** Reduce errores manuales en la logística y aumenta la eficiencia operativa.
+- **T (Tiempo):** Finalizado para la fase 2 del proyecto (Semana 16).
 
 ---
 
 **SMART Goal 3**
-  - **S (Específico):** Implementar un sistema de notificaciones que alerte a los usuarios sobre cambios en el estado de sus pedidos.
-  - **M (Medible):** Enviar notificaciones en menos de 5 segundos tras el cambio de estado de un pedido.  
-  - **A (Alcanzable):** Usando un servicio de mensajería interna basado en EF Core y SignalR.
-  - **R (Relevante):** Mejora la experiencia del cliente y la transparencia del proceso de entrega.  
-  - **T (Tiempo):** Disponible al final de la fase de pruebas (Semana 20).  
+
+- **S (Específico):** Implementar un sistema de notificaciones que alerte a los usuarios sobre cambios en el estado de sus pedidos.
+- **M (Medible):** Enviar notificaciones en menos de 5 segundos tras el cambio de estado de un pedido.
+- **A (Alcanzable):** Usando un servicio de mensajería interna basado en EF Core y SignalR.
+- **R (Relevante):** Mejora la experiencia del cliente y la transparencia del proceso de entrega.
+- **T (Tiempo):** Disponible al final de la fase de pruebas (Semana 20).
 
 ---
 
@@ -428,37 +432,39 @@ Septiembre del 2025 🗓️
       <td>🎓 Soy estudiante de Ingeniería de Software, 
    actualmente curso el 5.º ciclo de la carrera.
 
-   💻 A lo largo de mi formación he aprendido diversos lenguajes de programación, como:
-   ➡️ C++       
-   ➡️ Python    
-   ➡️ JavaScript
-   ➡️ HTML & CSS
+💻 A lo largo de mi formación he aprendido diversos lenguajes de programación, como:
+➡️ C++  
+ ➡️ Python  
+ ➡️ JavaScript
+➡️ HTML & CSS
 
-   🤝 Me destaco por mi responsabilidad, mis habilidades 
-   para el trabajo en equipo y mi motivación constante por 
-   seguir aprendiendo 📚.</td>
-    </tr>
-    <tr>
-      <td><img src="./assets/Chapters/Chapter-I/marlle.jpg" alt="marlle" width="80"></td>
-      <td>Marllely Anahi Arias Segil</td>
-      <td>u202223984</td>
-      <td>Ingenieria de Software</td>
-      <td>Hola, mi nombre es Marllely Arias Segil. Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), una persona empática, responsable y comprometida con mi crecimiento profesional. Mi objetivo es desarrollarme continuamente y aportar valor en cada proyecto.</td>
-    </tr>
-    <tr>
-      <td><img src="./assets/Chapters/Chapter-I/foto-manuel.jpg" alt="Foto de Manuel Sanchez" width="80"></td>
-      <td>Manuel Angel Sanchez Arenas </td>
-      <td>u201817507</td>
-      <td>Ingenieria de Software</td>
-      <td>Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Trato de mantenerme actualizado con las últimas tecnologías siempre que puedo y poder desempeñarme correctamente en todos los ámbitos que mi carrera demanda.</td>
-    </tr>
-    <tr>
-      <td><img src="./assets/Chapters/Chapter-II/Lynn Meza-Integrante.png" alt="Foto de Lynn Meza" width="80"></td>
-      <td>Lynn Jeeferzon Meza Camayo</td>
-      <td>u20201c320</td>
-      <td>Ingenieria de Software</td>
-      <td>Hola, mi nombre es Lynn Jeeferzon Meza Camayo. Soy estudiante de Ingenería de Software. Me considero una persona perseverante, resiliente e interesado por el mundo tecnológico y cuento con habilidades para formar parte de ello con lo cual tambien coopero de manera responsable.</td>
-    </tr>
+🤝 Me destaco por mi responsabilidad, mis habilidades
+para el trabajo en equipo y mi motivación constante por
+seguir aprendiendo 📚.</td>
+
+</tr>
+<tr>
+<td><img src="./assets/Chapters/Chapter-I/marlle.jpg" alt="marlle" width="80"></td>
+<td>Marllely Anahi Arias Segil</td>
+<td>u202223984</td>
+<td>Ingenieria de Software</td>
+<td>Hola, mi nombre es Marllely Arias Segil. Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), una persona empática, responsable y comprometida con mi crecimiento profesional. Mi objetivo es desarrollarme continuamente y aportar valor en cada proyecto.</td>
+</tr>
+<tr>
+<td><img src="./assets/Chapters/Chapter-I/foto-manuel.jpg" alt="Foto de Manuel Sanchez" width="80"></td>
+<td>Manuel Angel Sanchez Arenas </td>
+<td>u201817507</td>
+<td>Ingenieria de Software</td>
+<td>Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Trato de mantenerme actualizado con las últimas tecnologías siempre que puedo y poder desempeñarme correctamente en todos los ámbitos que mi carrera demanda.</td>
+</tr>
+<tr>
+<td><img src="./assets/Chapters/Chapter-II/Lynn Meza-Integrante.png" alt="Foto de Lynn Meza" width="80"></td>
+<td>Lynn Jeeferzon Meza Camayo</td>
+<td>u20201c320</td>
+<td>Ingenieria de Software</td>
+<td>Hola, mi nombre es Lynn Jeeferzon Meza Camayo. Soy estudiante de Ingenería de Software. Me considero una persona perseverante, resiliente e interesado por el mundo tecnológico y cuento con habilidades para formar parte de ello con lo cual tambien coopero de manera responsable.</td>
+</tr>
+
   </tbody>
 </table>
 
@@ -473,26 +479,25 @@ El sector de distribución de combustibles enfrenta serias ineficiencias debido 
 **Técnica 5W+2H**
 
 **What? (¿Qué?)**
-  La problemática principal es la falta de un sistema centralizado y digital para gestionar los pedidos de combustible, lo que genera errores humanos, duplicación de esfuerzos y retrasos en las entregas.
-  
-* **When? (¿Cuándo?)**
+La problemática principal es la falta de un sistema centralizado y digital para gestionar los pedidos de combustible, lo que genera errores humanos, duplicación de esfuerzos y retrasos en las entregas.
+
+- **When? (¿Cuándo?)**
   El problema se presenta constantemente en el proceso de gestión de pedidos, especialmente cuando hay un alto volumen de solicitudes o múltiples pedidos a coordinar.
 
-* **Where? (¿Dónde?)**
+- **Where? (¿Dónde?)**
   El problema ocurre en empresas solicitantes de combustible y proveedores, tanto en áreas urbanas como rurales, donde la infraestructura digital aún no está optimizada.
 
-* **Who? (¿Quién?)**
+- **Who? (¿Quién?)**
   Los principales afectados son las empresas solicitantes (medianas y grandes), los proveedores de combustible y los encargados de la logística y gestión de pedidos.
 
-* **Why? (¿Por qué?)**
+- **Why? (¿Por qué?)**
   El problema radica en la falta de integración entre los métodos actuales de gestión (como correos y aplicaciones de mensajería), que dificultan un control centralizado y preciso de los pedidos.
 
-* **How? (¿Cómo?)**
+- **How? (¿Cómo?)**
   Los procesos actuales son desorganizados, utilizando diversas plataformas desconectadas, lo que impide tener un flujo de trabajo eficiente y controlado.
 
-* **How Much? (¿Cuánto?)**
+- **How Much? (¿Cuánto?)**
   La magnitud del problema es considerable, pues cada día se pierden horas valiosas debido a la ineficiencia y los errores, lo que incrementa los costos operativos y puede generar pérdidas económicas significativas. Según IBM (2023), “la gestión de pedidos afecta prácticamente a todos los sistemas y procesos de la cadena de suministro. La mayoría de las empresas ya no integran la gestión de pedidos dentro de su organización, sino que involucran a múltiples socios, como proveedores de piezas y componentes, servicios de ensamblaje y embalaje o centros de distribución — lo que facilita la pérdida de visibilidad y control del pedido. Esto da lugar a costosos procesos manuales para completar y entregar el pedido sin errores.”
-
 
 ### 1.2.2. Lean UX Process
 
@@ -510,69 +515,70 @@ En el contexto actual donde crece cada vez más la demanda por servicios logíst
 
 **Business Assumptions (Suposiciones de Negocio)**
 
-  * Las empresas proveedoras tienen en la adopción de nuevas tecnologías para automatizar multiples procesos de gestión con el fin de tener un servicio más eficiente y reducir el número de operadores comerciales que necesitan.
-  * Las empresas están buscando formas de reducir errores y retrasos logísticos para optimizar sus costos operativos.
-  * Los proveedores estan dispuestos a invertir para mejorar su nivel de servicio y aumentar su competitividad en el mercado.
-  * Las empresas usuarias apreciarán tener un mayor control de sus órdenes y ser capaces de seguirlas en una plataforma centralizada.
-  
-  * La dificil trazabilidad de los pedidos y la posibilidad de fallas en la comunicación hace que dejar los métodos informales sea una necesidad crítica para el sector en general.
+- Las empresas proveedoras tienen en la adopción de nuevas tecnologías para automatizar multiples procesos de gestión con el fin de tener un servicio más eficiente y reducir el número de operadores comerciales que necesitan.
+- Las empresas están buscando formas de reducir errores y retrasos logísticos para optimizar sus costos operativos.
+- Los proveedores estan dispuestos a invertir para mejorar su nivel de servicio y aumentar su competitividad en el mercado.
+- Las empresas usuarias apreciarán tener un mayor control de sus órdenes y ser capaces de seguirlas en una plataforma centralizada.
+
+- La dificil trazabilidad de los pedidos y la posibilidad de fallas en la comunicación hace que dejar los métodos informales sea una necesidad crítica para el sector en general.
 
 **User Assumptions (Suposiciones de Usuario)**
 
-* *¿Quién es el usuario?*
+- _¿Quién es el usuario?_
   Los usuarios principales serían los encargados logísticos de los proovedores y las empresas compradoras de combustible.
 
-* *¿Dónde encaja nuestro producto en su trabajo o vida?*
+- _¿Dónde encaja nuestro producto en su trabajo o vida?_
   FuelTracks encajaría en el día a día de los usuarios como una plataforma de gestión centralizada, que ayudaría a coordinar, rastrear y organizar pedidos de combustible de forma confiable. Reemplazando así los sistemas dispersos que se utilizan hoy en día.
 
-* *¿Qué problemas tiene nuestro producto que resolver?*
+- _¿Qué problemas tiene nuestro producto que resolver?_
   FuelTracks debe resolver la desorganización causada por métodos informales de venta, reducir errores humanos y mejorar la experiencia del cliente.
 
-* *¿Cuándo y cómo es nuestro producto usado?*
+- _¿Cuándo y cómo es nuestro producto usado?_
   Será utilizado diariamente por solicitantes y los proveedores por igual. Por el lado de los usuarios solicitantes, usarán la plataforma para registrar y monitorear pedidos de combustible, y por el lado de proveedores para gestionar la recepción, programación y entrega de dichos pedidos.
 
-* *¿Qué características son importantes?*
+- _¿Qué características son importantes?_
   El seguimiento de pedidos en tiempo real, actualizaciones de estado mediante notificiaciones, historial de entregas, paneles de control y una interfaz clara y rápida.
 
-* *¿Cómo debe verse nuestro producto y cómo debe comportarse?*
+- _¿Cómo debe verse nuestro producto y cómo debe comportarse?_
   El producto debe presentar una interfaz limpia y profesional. Adaptada al perfil corporativo de los clientes objetivos. Debe ser eficiente, permitiendo la creación, modificación y seguimiento de pedidos en pocos clics. También debe ser altamente confiable, debido al alto valor y magnitud de las órdenes que se realizarán en la plataforma
 
 **Feature Assumptions**
 
-* Creemos que al proporcionar una plataforma centralizada con trazabilidad en tiempo real, ayudaremos a las empresas a reducir errores y mejorar la eficiencia logística.
-* Creemos que al ofrecer una interfaz clara y rápida con funciones de seguimiento, aumentaremos la adopción entre proveedores y solicitantes.
-* Creemos que al automatizar la gestión de pedidos, los usuarios reducirán su dependencia de métodos informales y ganarán en control y visibilidad.
-* Creemos que al integrar notificaciones en tiempo real sobre estados de pedido, mejoraremos la coordinación entre actores y reduciremos los retrasos.
-*  Creemos que al incluir visualización de métricas, facilitaremos la toma de decisiones y la optimización operativa de los proveedores.
-
+- Creemos que al proporcionar una plataforma centralizada con trazabilidad en tiempo real, ayudaremos a las empresas a reducir errores y mejorar la eficiencia logística.
+- Creemos que al ofrecer una interfaz clara y rápida con funciones de seguimiento, aumentaremos la adopción entre proveedores y solicitantes.
+- Creemos que al automatizar la gestión de pedidos, los usuarios reducirán su dependencia de métodos informales y ganarán en control y visibilidad.
+- Creemos que al integrar notificaciones en tiempo real sobre estados de pedido, mejoraremos la coordinación entre actores y reduciremos los retrasos.
+- Creemos que al incluir visualización de métricas, facilitaremos la toma de decisiones y la optimización operativa de los proveedores.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 **Hypothesis Statement 01:**
-* *Creemos* que la centralización de los pedidos en nuestra plataforma reducirá el ratio de errores causados por problemas de coordinación entre las empresas solicitantes y los proveedores.
-* *Sabremos* que hemos tenido éxito
-* *Cuando* luego de los primeros tres meses de uso se reporte que más de un 70% de los pedidos realizados fueron confirmados sin necesidad de correcciones posteriores.
+
+- _Creemos_ que la centralización de los pedidos en nuestra plataforma reducirá el ratio de errores causados por problemas de coordinación entre las empresas solicitantes y los proveedores.
+- _Sabremos_ que hemos tenido éxito
+- _Cuando_ luego de los primeros tres meses de uso se reporte que más de un 70% de los pedidos realizados fueron confirmados sin necesidad de correcciones posteriores.
 
 **Hypothesis Statement 02:**
-* *Creemos* que ofrecer más herramientas para el control y seguimiento de pedidos mejorará la satisfacción de los clientes solicitantes.
-* *Sabremos* que hemos tenido éxito
-* *Cuando* se observe una reducción del 30% en llamadas de seguimiento.
+
+- _Creemos_ que ofrecer más herramientas para el control y seguimiento de pedidos mejorará la satisfacción de los clientes solicitantes.
+- _Sabremos_ que hemos tenido éxito
+- _Cuando_ se observe una reducción del 30% en llamadas de seguimiento.
 
 **Hypothesis Statement 03:**
-* *Creemos* que la plataforma permitirá a los proveedores optimizar el proceso de gestión de los pedidos y reducir el tiempo que toma cumplir con cada uno.
-* *Sabremos* que hemos tenido éxito
-* *Cuando* los proveedores logren reducir en un 20% el tiempo promedio entre confirmación y entrega de pedidos.
+
+- _Creemos_ que la plataforma permitirá a los proveedores optimizar el proceso de gestión de los pedidos y reducir el tiempo que toma cumplir con cada uno.
+- _Sabremos_ que hemos tenido éxito
+- _Cuando_ los proveedores logren reducir en un 20% el tiempo promedio entre confirmación y entrega de pedidos.
 
 **Hypothesis Statement 04:**
-* *Creemos* que las notificaciones automáticas sobre el estado de los pedidos reducirán la necesidad de una gran cantidad de operadores comerciales de alta disponibilidad.
-* *Sabremos* que hemos tenido éxito
-* *Cuando* las solicitudes de información por parte de clientes disminuyan en un 40% y el tiempo promedio de atención se reduzca en un 60% tras el primer trimestre de uso.
 
+- _Creemos_ que las notificaciones automáticas sobre el estado de los pedidos reducirán la necesidad de una gran cantidad de operadores comerciales de alta disponibilidad.
+- _Sabremos_ que hemos tenido éxito
+- _Cuando_ las solicitudes de información por parte de clientes disminuyan en un 40% y el tiempo promedio de atención se reduzca en un 60% tras el primer trimestre de uso.
 
 #### 1.2.2.4. Lean UX Canvas
 
 <img src="./assets/Chapters/Chapter-I/LeanUxCanvas.png" alt="Lean UX Canvas" width="500">
-
 
 ## 1.3. Segmentos Objetivo
 
@@ -580,26 +586,29 @@ En el contexto actual donde crece cada vez más la demanda por servicios logíst
 
 Empresas medianas y grandes que requieren de combustible de forma constante para el desarrollo de sus operaciones. Utilizan este recurso para alimentar maquinaria, vehículos o equipos, y buscan procesos más ágiles, ordenados y confiables para su gestión de pedidos. Además, mantienen un contrato de exclusividad con un proveedor de combustible, lo que les permite tener un flujo constante de pedidos y una relación comercial estable.
 
-*Necesidades:*
-* Asegurar el abastecimiento oportuno de combustible.
-* Reducir errores derivados de la informalidad en los procesos.
-* Mantener constante comunicación con proveedores.
-  
+_Necesidades:_
+
+- Asegurar el abastecimiento oportuno de combustible.
+- Reducir errores derivados de la informalidad en los procesos.
+- Mantener constante comunicación con proveedores.
+
 **B. Proveedores de combustible**
 Son empresas dedicadas a la distribución de combustibles, atendiendo principalmente a clientes corporativos o industriales. Buscan herramientas que les permitan, optimizar sus operaciones y diferenciarse en un mercado cada vez más competitivo.
 
-*Motivaciones:*
-* Mejorar la experiencia del cliente mediante canales digitales.
-* Reducir errores en la entrega por información incompleta o mal gestionada.
-* Optimizar la planificación logística y distribución.
+_Motivaciones:_
 
+- Mejorar la experiencia del cliente mediante canales digitales.
+- Reducir errores en la entrega por información incompleta o mal gestionada.
+- Optimizar la planificación logística y distribución.
 
-# Capítulo II: Requirements Development and Software Solution Design 
+# Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores.
+
 En el mercado existen diversas soluciones digitales enfocadas en la gestión de combustible y flotas que compiten de manera directa o indirecta con **FuelTrack**. Entre ellas destaca **Zavgar**, una plataforma SaaS que ayuda a las empresas con flotas vehiculares a optimizar costos y controlar el consumo de combustible. Otro competidor importante es **FuelCloud**, que ofrece una solución integrada de hardware y software para garantizar seguridad y precisión en el despacho de combustible, principalmente en empresas con tanques propios. Finalmente, **Wialon** se presenta como una plataforma internacional de gestión de flotas que combina monitoreo GPS, análisis operativos y control de combustible, dirigida a compañías logísticas y de transporte.
 
 ### 2.1.1. Análisis competitivo.
+
 <table border="2">
   <tr>
     <th colspan="6" style="text-align:left">Competitive Analysis Landscape</th>
@@ -706,12 +715,12 @@ En el mercado existen diversas soluciones digitales enfocadas en la gestión de 
   </tr>
 </table>
 
-
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
 **FuelTrack** aplicará diversas estrategias para afrontar la competencia y aprovechar las oportunidades que ofrece el sector.
 
 #### a. Diferenciación a través de especialización
+
 Una de las principales estrategias de **FuelTrack** es la **especialización en el flujo completo de pedido de combustible**. A diferencia de soluciones como **Zavgar**, que están orientadas principalmente al control y análisis del consumo de combustible en flotas, nuestra plataforma se enfoca en las **interacciones B2B** entre empresas solicitantes y proveedores. Esto nos permite ofrecer un **control dedicado del pedido**, **gestión de la logística**, y **reportes detallados de consumo y entregas**, lo cual no está presente en la mayoría de las plataformas competidoras.
 
 - **Táctica**: Desarrollar funcionalidades para la **validación automática de pagos**, **gestión de stock en tiempo real** y la **optimización del transporte** logrando la automatización de procesos que solo eran logrados de forma manual. Esto crea una ventaja frente a competidores como **FuelCloud**, que se centran más en el control físico del combustible y menos en la administración a nivel operativo.
@@ -723,28 +732,34 @@ El sistema de **FuelTrack** está diseñado para ofrecer una **experiencia de us
 - **Táctica**: Diseñar una **interfaz intuitiva y consistente** que permita a los usuarios acceder a reportes de consumo, validar pedidos y coordinar logística con facilidad. Además, ofrecer **soporte y formación continua** para asegurar que los usuarios aprovechen al máximo todas las funcionalidades del sistema.
 
 #### c. Flexibilidad en precios y modelo SaaS escalable
+
 El modelo de precios de **FuelTrack** ofrece **planes escalables basados en suscripción**, lo que hace que sea más accesible para medianas y grandes empresas. Esto es más competitivo frente a **Wialon**, que puede no ser una opción viable para empresas que solo requieren una solución de pedidos de combustible. También es más asequible que **FuelCloud**, que requiere una inversión considerable en hardware, instalación y mantenimiento.
 
 - **Táctica**: Ofrecer un modelo de suscripción flexible y **precios competitivos**, con **múltiples niveles de suscripción** adaptados a las necesidades de diferentes empresas. Esto permitirá que empresas de menor tamaño puedan acceder a la plataforma sin comprometer su presupuesto, a la vez que se asegura el crecimiento a largo plazo a medida que la empresa crece.
 
 #### d. Aprovechamiento de la digitalización en la logística
+
 El sector de la logística está experimentando una transformación digital acelerada. **FuelTrack** se aprovechará de esta tendencia buscando la integración de la plataforma con otras soluciones logísticas (como los sistemas de gestión de vehículos o flotas). De esta forma podemos ofrecer una solución más completa y eficiente.
 
 - **Táctica**: Colaborar con empresas de **gestión de flotas** para optimizar el proceso de asignación de vehículos, cisternas y choferes. También se considerará la posibilidad de integrar **sensores IoT** en los camiones de reparto para un control más preciso sobre el combustible transportado y la entrega.
 
 #### e. Expansión hacia mercados internacionales
+
 Si bien **FuelTrack** está inicialmente orientada a empresas locales, el modelo de negocio y la flexibilidad de la plataforma la hacen ideal para expandirse a **mercados internacionales**. Competidores como **Wialon** ya tienen presencia en mercados globales, pero su enfoque en empresas grandes y sus altos costos de implementación pueden ser una barrera para empresas de menor tamaño, limitando su alcance.
 
 - **Táctica**: Iniciar la expansión en mercados emergentes donde la digitalización en la logística es una necesidad creciente. Esto incluirá la **localización de la plataforma** (idioma, moneda, regulaciones locales) para facilitar la adaptabilidad de los nuevos mercados.
 
 ## 2.2. Entrevistas.
+
 ### 2.2.1. Diseño de entrevistas.
 
-Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevistas diferenciadas según el segmento objetivo: 
+Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevistas diferenciadas según el segmento objetivo:
+
 - Proveedores de combustible
 - Empresas con contratos de suministro (clientes corporativos)
 
 ---
+
 #### A. Proveedores de Combustible
 
 **Preguntas:**
@@ -759,7 +774,6 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 8. ¿Qué problemas suelen ocurrir en el proceso de atención de pedidos empresariales?
 9. ¿Cómo se realiza la conciliación de pagos con los clientes?
 10. ¿Estarían dispuestos a integrar su sistema actual con una plataforma SaaS que unifique y centralice estos procesos?
-
 
 **Preguntas complementarias:**
 
@@ -797,102 +811,112 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 
 ---
 
-### 2.2.2. Registro de entrevistas  
+### 2.2.2. Registro de entrevistas
 
-#### **A. Proveedores de Combustible**  
+#### **A. Proveedores de Combustible**
 
-**Entrevista 1**  
-- **Nombres:** Kevin  
-- **Apellidos:** Chacon  
-- **Edad:** 30  
-- **Distrito:** Lima  
-- **Captura de la entrevista**  
+**Entrevista 1**
+
+- **Nombres:** Kevin
+- **Apellidos:** Chacon
+- **Edad:** 30
+- **Distrito:** Lima
+- **Captura de la entrevista**
 
 <p align="center">
   <img src="./assets/Chapters/Chapter-II/entrevista1-segmento1.png" alt="Captura entrevista 1" width="400"/>
-</p>  
+</p>
 
-  - **Duración:** 4:44  
-  - **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EZ-EvmI7ysxAgXLj16UBIEQBy1ZI2B8OWWevJ3a4DKPAaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=glKx5d)  
+- **Duración:** 4:44
+- **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EZ-EvmI7ysxAgXLj16UBIEQBy1ZI2B8OWWevJ3a4DKPAaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=glKx5d)
 
-**Entrevista 2**  
-- **Nombres:** Zahir  
-- **Apellidos:** Sanchez  
-- **Edad:** 25  
-- **Distrito:** Lima  
-- **Captura de la entrevista**  
+**Entrevista 2**
+
+- **Nombres:** Zahir
+- **Apellidos:** Sanchez
+- **Edad:** 25
+- **Distrito:** Lima
+- **Captura de la entrevista**
 
 <p align="center">
   <img src="./assets/Chapters/Chapter-II/entrevista2-segmento1.png" alt="Captura entrevista 2" width="400"/>
-</p>  
+</p>
 
-  - **Duración:** 5:35  
-  - **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EZ-EvmI7ysxAgXLj16UBIEQBy1ZI2B8OWWevJ3a4DKPAaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=glKx5d)  
+- **Duración:** 5:35
+- **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EZ-EvmI7ysxAgXLj16UBIEQBy1ZI2B8OWWevJ3a4DKPAaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=glKx5d)
 
-**Entrevista 3**  
-- **Nombres:** Jocelyn  
-- **Apellidos:** Almerco  
-- **Edad:** 22  
-- **Distrito:** Lima  
-- **Captura de la entrevista**  
+**Entrevista 3**
+
+- **Nombres:** Jocelyn
+- **Apellidos:** Almerco
+- **Edad:** 22
+- **Distrito:** Lima
+- **Captura de la entrevista**
 
 <p align="center">
   <img src="./assets/Chapters/Chapter-II/entrevista3-segmento1.png" alt="Captura entrevista 3" width="400"/>
-</p>  
+</p>
 
-  - **Duración:** 4:37  
-  - **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EaNDMuXNpqFOkXswx7NnYUwBI5OI05-SYfsXkSLIujTLhw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mt182n)  
+- **Duración:** 4:37
+- **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EaNDMuXNpqFOkXswx7NnYUwBI5OI05-SYfsXkSLIujTLhw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mt182n)
 
 ---
 
-#### **B. Empresas Solicitantes**  
+#### **B. Empresas Solicitantes**
 
-**Entrevista 1**  
-- **Nombres:** Carla  
-- **Apellidos:** Espejo  
-- **Edad:** 28  
-- **Distrito:** Lima  
-- **Captura de la entrevista**  
+**Entrevista 1**
+
+- **Nombres:** Carla
+- **Apellidos:** Espejo
+- **Edad:** 28
+- **Distrito:** Lima
+- **Captura de la entrevista**
 
 <p align="center">
   <img src="./assets/Chapters/Chapter-II/entrevista1-segmento2.png" alt="Captura entrevista 4" width="400"/>
-</p>  
+</p>
 
-  - **Duración:** 3:10  
-  - **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/ERB62lcIgA5Dq2k4x8PeXaYBOcfO21rjD5dTdhCHjItp9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aDK43j)  
+- **Duración:** 3:10
+- **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/ERB62lcIgA5Dq2k4x8PeXaYBOcfO21rjD5dTdhCHjItp9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aDK43j)
 
-**Entrevista 2**  
-- **Nombres:** Luciana  
-- **Apellidos:** Sanchez  
-- **Edad:** 23  
-- **Distrito:** Lima  
-- **Captura de la entrevista**  
+**Entrevista 2**
+
+- **Nombres:** Luciana
+- **Apellidos:** Sanchez
+- **Edad:** 23
+- **Distrito:** Lima
+- **Captura de la entrevista**
 
 <p align="center">
   <img src="./assets/Chapters/Chapter-II/entrevista2-segmento2.png" alt="Captura entrevista 5" width="400"/>
-</p>  
+</p>
 
-  - **Duración:** 5:24  
-  - **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EaS3RVo9lc9Ams7yPEZVSkoBA7bKq1R98Rw21vWZty6jQQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=IpUNrI)  
+- **Duración:** 5:24
+- **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EaS3RVo9lc9Ams7yPEZVSkoBA7bKq1R98Rw21vWZty6jQQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=IpUNrI)
 
-**Entrevista 3**  
-- **Nombres:** Miguel  
-- **Apellidos:** Gomez  
-- **Edad:** 24  
-- **Distrito:** Villa el Salvador  
-- **Captura de la entrevista**  
+**Entrevista 3**
+
+- **Nombres:** Miguel
+- **Apellidos:** Gomez
+- **Edad:** 24
+- **Distrito:** Villa el Salvador
+- **Captura de la entrevista**
 
 <p align="center">
   <img src="./assets/Chapters/Chapter-II/entrevista3-segmento2.png" alt="Captura entrevista 6" width="400"/>
-</p>  
+</p>
 
-  - **Duración:** 4:55  
-  - **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EZNQzHmiDDVLqrDDfFRus18BEy1m2wSLCwNUNPL6s_SjaQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uXbPv6)  
+- **Duración:** 4:55
+- **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EZNQzHmiDDVLqrDDfFRus18BEy1m2wSLCwNUNPL6s_SjaQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uXbPv6)
+
 ---
 
-### 2.2.3. Análisis de entrevistas 
-#### **A. Proveedores de Combustible** 
+### 2.2.3. Análisis de entrevistas
+
+#### **A. Proveedores de Combustible**
+
 #### Características Objetivas
+
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
     <tr>
@@ -949,6 +973,7 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 </table>
 
 #### Características Subjetivas
+
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
     <tr>
@@ -986,13 +1011,14 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
   </tbody>
 </table>
 
-
 El perfil de los proveedores de combustible combina procesos manuales y parcialmente digitalizados, con la excepción de empresas que ya cuentan con sistemas internos avanzados. En cuanto a características objetivas, la mayoría aún depende de registros en Excel, validaciones manuales de stock y seguimiento mediante llamadas o WhatsApp.
 
 Tambien existe consenso en las principales frustraciones: errores por digitación manual, retrasos en la entrega y falta de integración de procesos. Todos los entrevistados expresaron disposición a adoptar una plataforma centralizada; sin embargo, las empresas con mayor madurez digital condicionan la integración a requisitos de seguridad e interoperabilidad con sus sistemas actuales.
 
-#### **B. Empresas Solicitantes**  
+#### **B. Empresas Solicitantes**
+
 #### Características Objetivas
+
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
     <tr>
@@ -1055,6 +1081,7 @@ Tambien existe consenso en las principales frustraciones: errores por digitació
 </table>
 
 #### Características Subjetivas
+
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
     <tr>
@@ -1105,16 +1132,20 @@ En cuanto a <strong>características objetivas</strong>, todas dependen de hojas
 En cuanto a <strong>características subjetivas</strong>, hay consenso en las principales frustraciones: falta de automatización, informalidad en la gestión, retrasos frecuentes y pérdida de información. Existe un 100% de coincidencia en la necesidad de una plataforma centralizada y trazabilidad en tiempo real, lo que refuerza la propuesta de valor de implementar un sistema digital de gestión de pedidos.
 
 ## 2.3. Needfinding.
+
 ### 2.3.1. User Personas
+
 #### A. Proveedores de Combustible
+
 <p align="center">
   <img src="./assets/Chapters/Chapter-II/userpersona_segmento1.png" alt="User Persona 1" width="400"/>
 </p>
 
 #### B. Empresas Solicitantes
+
 <p align="center">
   <img src="./assets/Chapters/Chapter-II/userpersona_segmento2.png" alt="User Persona 2" width="400"/>
-</p> 
+</p>
 
 ### 2.3.2. User Task Matrix.
 
@@ -1189,30 +1220,39 @@ En cuanto a <strong>características subjetivas</strong>, hay consenso en las pr
 </table>
 
 ### 2.3.3. User Journey Mapping.
+
 #### A. Proveedores de Combustible
+
 En el caso del solicitante, el recorrido empieza con la generación de un pedido por correo o llamada, seguido por la validación manual del depósito, la espera de aprobación por parte del proveedor, la coordinación del despacho, y finalmente el registro manual de la entrega.
+
 <p align="center">
   <img src="./assets/Chapters/Chapter-II/userjourneymap_userpersona1.png" alt="Journey Mapping 1" width="400"/>
 </p>
 
 #### B. Empresas Solicitantes
+
 En el caso del proveedor, el flujo parte desde la recepción del pedido, luego incluye la verificación del estado de cuenta, la aprobación manual, la asignación de planta y vehículo, y en muchos casos, la reprogramación por problemas de disponibilidad.
+
 <p align="center">
   <img src="./assets/Chapters/Chapter-II/userjourneymap_userpersona2.png" alt="Journey Mapping 2" width="400"/>
-</p> 
+</p>
 
 ### 2.3.4. Empathy Mapping.
+
 #### A. Proveedores de Combustible
+
 <p align="center">
   <img src="./assets/Chapters/Chapter-II/empathymap_segmento1.png" alt="Empathy Mapping 1" width="400"/>
-</p> 
+</p>
 
 #### B. Empresas Solicitantes
+
 <p align="center">
   <img src="./assets/Chapters/Chapter-II/empathymap_segmento2.png" alt="Empathy Mapping 2" width="400"/>
-</p> 
+</p>
 
 ### 2.3.5. Ubiquitous Language
+
 <table border="1" cellspacing="0" cellpadding="5">
   <tr>
     <th>Término</th>
@@ -1281,6 +1321,7 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
 ### 2.4.1. To Be Scenario Mapping
 
 #### A. Proveedores de Combustible
+
 <table border>
   <thead>
     <tr>
@@ -1317,6 +1358,7 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
 </table>
 
 #### B. Empresas Solicitantes
+
 <table border>
   <thead>
     <tr>
@@ -1353,6 +1395,7 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
 </table>
 
 ### 2.4.2. User Stories
+
 <table border>
   <thead>
     <tr>
@@ -1389,7 +1432,6 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
     </tr>
   </tbody>
 </table>
-
 
 <table border="1">
   <thead>
@@ -2135,9 +2177,11 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
 </table>
 
 ### 2.4.3 Impact Mapping
+
 <img src="./assets/Chapters/Chapter-II/impact-mapping.png" alt="Impact Map" width="500">
 
 ### 2.4.4 Product Backlog
+
 <table border>
   <thead>
     <tr>
@@ -2273,11 +2317,11 @@ Como resultado del proceso de EventStorming, se identificaron áreas de responsa
 
 Este bounded context encapsula toda la lógica relacionada con los pedidos. Sin embargo, debido a la diferencia de actores involucrados (Empresar - proveedor), se divide en dos áreas de responsabilidad expuestas mediante distintos endpoints:
 
-  - Orders: Contexto orientado a las empresas, quienes pueden crear nuevas órdenes de pedido de gasolina, consultar su historial, aplicar filtros y realizar ediciones de pedidos. Aquí se encapsulan las reglas sobre quién puede generar pedidos y en qué condiciones pueden modificarse.
+- Orders: Contexto orientado a las empresas, quienes pueden crear nuevas órdenes de pedido de gasolina, consultar su historial, aplicar filtros y realizar ediciones de pedidos. Aquí se encapsulan las reglas sobre quién puede generar pedidos y en qué condiciones pueden modificarse.
 
 ![Order-Context](./assets/Chapters/Chapter-II/order-context.png)
 
-  - **Order Management**: Contexto orientado a los proveedores, quienes tienen la capacidad de aceptar o rechazar órdenes, así como de actualizar sus estados (confirmado, en proceso, entregado, cancelado). Este subcomponente concentra las reglas sobre validación y control operativo de los pedidos en función de la disponibilidad y capacidad del proveedor.
+- **Order Management**: Contexto orientado a los proveedores, quienes tienen la capacidad de aceptar o rechazar órdenes, así como de actualizar sus estados (confirmado, en proceso, entregado, cancelado). Este subcomponente concentra las reglas sobre validación y control operativo de los pedidos en función de la disponibilidad y capacidad del proveedor.
 
 ![Order-Context](./assets/Chapters/Chapter-II/order-managament-context.png)
 
@@ -2305,9 +2349,7 @@ Contexto encargado de comunicar de manera oportuna y confiable las actualizacion
 
 ![Notifications-context](./assets/Chapters/Chapter-II/notifications-context.png)
 
-
 link de miro: <https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=333896184497>
-
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
@@ -2328,7 +2370,6 @@ En esta sección se representan los flujos de mensajes que circulan dentro de ca
 ### **Payments**
 
 ![Payments-flows](./assets/Chapters/Chapter-II/payment-flows.png)
-
 
 ### **Notifications**
 
@@ -2381,10 +2422,13 @@ Order & Order Management → Analytics: tanto Order como Operator proveen inform
 ![Context-Mapping](./assets/Chapters/Chapter-II/Context-mapping-v2.png)
 
 ### 2.5.3. Software Architecture
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+
 ![alt text](<assets/Chapters/Chapter-IV/2.5.3.1. Software-Architecture-Context-Diagram.png>)
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+
 ![alt text](<assets/Chapters/Chapter-IV/2.5.3.2. Software-Architecture-Container-Diagrams.png>)
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
@@ -2392,17 +2436,19 @@ Order & Order Management → Analytics: tanto Order como Operator proveen inform
 En esta sección presentaremos la disposición física de los principales componentes desplegados de la infraestructura del sistema en un diagrama para mostrar las conexiones entre estos.
 
 En nuestro sistema Fueltrack, contamos con 3 componentes:
-- Landing Page: Sitio estático desplegado en Vercel. 
+
+- Landing Page: Sitio estático desplegado en Vercel.
 - Backend: Como servicio web en Render (.NETCore).
 - Base de datos: servicio PostgreSQL administrado en Render.
 
-![Software Architecture Deployment Diagram](<assets/Chapters/Chapter-II/software-architecture-deployment-diagram.png>)
+![Software Architecture Deployment Diagram](assets/Chapters/Chapter-II/software-architecture-deployment-diagram.png)
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
 ### 2.6.1. Bounded Context: Analytics
 
 #### 2.6.1.1. Domain Layer
+
 Este **bounded context** no define sus propias entidades o agregados, sino que depende de entidades y enums del módulo **Shared**. Las consultas son **read-only**, orientadas a analítica y estadísticas.
 
 <table border>
@@ -2453,6 +2499,7 @@ Este **bounded context** no define sus propias entidades o agregados, sino que d
 </table>
 
 #### 2.6.1.2. Interface Layer
+
 Contiene el **controlador HTTP** que expone los **endpoints** para obtener las estadísticas por tipo de usuario (Admin, Proveedor, Cliente).
 
 <table border>
@@ -2483,12 +2530,13 @@ Contiene el **controlador HTTP** que expone los **endpoints** para obtener las e
 </table>
 
 #### 2.6.1.3. Application Layer
+
 Contiene la lógica de **agregación y cálculos** para las estadísticas mostradas en el dashboard.
 
-| Clase             | Tipo                | Métodos Públicos | Descripción                                                                                                                                                              |
-| ----------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| IAnalyticsService | Interface           | - `GetDashboardStatsAsync()`<br>- `GetUserStatsAsync()`<br>- `GetProviderStatsAsync()`<br>- `GetClientStatsAsync(int)`                                                                                 | Define el contrato para cualquier implementación que calcule estadísticas analíticas.                                                                                    |
-| AnalyticsService  | Application Service | - Todos los anteriores + métodos privados:<br>  `GetMonthlyRevenueAsync`, `GetMonthlySpendingAsync`, `GetFuelTypeStatsAsync`,<br>  `GetPersonalFuelTypeStatsAsync`, `GetMonthlyUserRegistrationsAsync` | Implementa cálculos agregados como ingresos, pedidos por tipo de combustible, usuarios activos, registros mensuales, etc. No modifica datos ni maneja lógica de negocio. |
+| Clase             | Tipo                | Métodos Públicos                                                                                                                                                                                     | Descripción                                                                                                                                                              |
+| ----------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| IAnalyticsService | Interface           | - `GetDashboardStatsAsync()`<br>- `GetUserStatsAsync()`<br>- `GetProviderStatsAsync()`<br>- `GetClientStatsAsync(int)`                                                                               | Define el contrato para cualquier implementación que calcule estadísticas analíticas.                                                                                    |
+| AnalyticsService  | Application Service | - Todos los anteriores + métodos privados:<br> `GetMonthlyRevenueAsync`, `GetMonthlySpendingAsync`, `GetFuelTypeStatsAsync`,<br> `GetPersonalFuelTypeStatsAsync`, `GetMonthlyUserRegistrationsAsync` | Implementa cálculos agregados como ingresos, pedidos por tipo de combustible, usuarios activos, registros mensuales, etc. No modifica datos ni maneja lógica de negocio. |
 
 #### 2.6.1.4 Infrastructure Layer
 
@@ -2562,9 +2610,11 @@ Contiene la lógica de **agregación y cálculos** para las estadísticas mostra
 </table>
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
 ![Analytics Component Level Diagrams](./assets/Chapters/Chapter-IV/structurizr-Component-Analytics.png)
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
 ![Analytics Class Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/AnalyticsDomainLayerClassDiagram.png)
@@ -2576,6 +2626,7 @@ Contiene la lógica de **agregación y cálculos** para las estadísticas mostra
 ### 2.6.2. Bounded Context: Operators
 
 #### 2.6.2.1. Domain Layer
+
 En este **bounded context**, no se encuentran entidades o agregados definidos explícitamente dentro del mismo módulo. Sin embargo, se utilizan **entidades** del módulo compartido (**Shared**), en particular:
 
 <table border>
@@ -2599,6 +2650,7 @@ En este **bounded context**, no se encuentran entidades o agregados definidos ex
 </table>
 
 #### 2.6.2.2. Interface Layer
+
 Contiene el **controlador HTTP** que expone los **endpoints** relacionados con los operadores.
 
 <table border>
@@ -2628,6 +2680,7 @@ Contiene el **controlador HTTP** que expone los **endpoints** relacionados con l
 </table>
 
 #### 2.6.2.3. Application Layer
+
 Contiene la lógica de **gestión y actualización** de los operadores en el sistema.
 
 <table border>
@@ -2691,6 +2744,7 @@ Contiene la lógica de **gestión y actualización** de los operadores en el sis
 </table>
 
 **DTOs usados**
+
 <table border>
   <thead>
     <tr>
@@ -2725,9 +2779,11 @@ Contiene la lógica de **gestión y actualización** de los operadores en el sis
 </table>
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
 ![Operators Level Diagrams](assets/Chapters/Chapter-IV/structurizr-Component-Operators.png)
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
 ![Operators Class Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/OperatorDomainLayerClassDiagram.png)
@@ -2737,6 +2793,7 @@ Contiene la lógica de **gestión y actualización** de los operadores en el sis
 ![Operators Design Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackOperatorsOrders.png)
 
 ### 2.6.3. Bounded Context: Vehicles
+
 Gestiona el ciclo de vida de los vehículos registrados en el sistema: creación, edición, eliminación lógica, y actualizaciones de ubicación en tiempo real. También permite filtrar vehículos disponibles.
 
 #### 2.6.3.1. Domain Layer
@@ -2782,6 +2839,7 @@ Gestiona el ciclo de vida de los vehículos registrados en el sistema: creación
 </table>
 
 #### 2.6.3.2. Interface Layer
+
 Contiene el **controlador HTTP** que expone los **endpoints** para la gestión de vehículos.
 
 <table border>
@@ -2815,6 +2873,7 @@ Contiene el **controlador HTTP** que expone los **endpoints** para la gestión d
 </table>
 
 #### 2.6.3.3. Application Layer
+
 Contiene la lógica de **gestión de vehículos** dentro del sistema.
 
 <table border>
@@ -2931,6 +2990,7 @@ Contiene la lógica de **gestión de vehículos** dentro del sistema.
 </table>
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
 ![Vehicles Level Diagrams](./assets/Chapters/Chapter-IV/structurizr-Component-Vehicles.png)
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
@@ -2944,9 +3004,11 @@ Contiene la lógica de **gestión de vehículos** dentro del sistema.
 ![Vehicles Design Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackVehiclesOrders.png)
 
 ### 2.6.4. Bounded Context: Users
+
 Este contexto se encarga de la gestión de usuarios de la plataforma: consulta de usuarios, actualización de perfil, y activación/desactivación. Incluye lógica específica para la obtención del usuario autenticado y el control de acceso según roles (Admin, Proveedor, etc.).
 
 #### 2.6.4.1. Domain Layer
+
 En este **bounded context**, se apoya en la entidad **User** definida en el modelo compartido y usa **UserRole** como **Value Object (VO)** para aplicar control de acceso y validación.
 
 <table border>
@@ -2976,6 +3038,7 @@ En este **bounded context**, se apoya en la entidad **User** definida en el mode
 </table>
 
 #### 2.6.4.2. Interface Layer
+
 Contiene el **controlador HTTP** que expone los **endpoints** relacionados con los usuarios.
 
 <table border>
@@ -3007,6 +3070,7 @@ Contiene el **controlador HTTP** que expone los **endpoints** relacionados con l
 </table>
 
 #### 2.6.4.3. Application Layer
+
 Contiene la lógica de **gestión de usuarios** dentro del sistema.
 
 <table border>
@@ -3106,9 +3170,11 @@ Contiene la lógica de **gestión de usuarios** dentro del sistema.
 </table>
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
 ![Users Level Diagrams](./assets/Chapters/Chapter-IV/structurizr-Component-Users.png)
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
 ![Users Class Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/UserDomainLayerClassDiagram.png)
@@ -3118,9 +3184,11 @@ Contiene la lógica de **gestión de usuarios** dentro del sistema.
 ![Users Design Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackUsers.png)
 
 ### 2.6.5. Bounded Context: Notifications
+
 Este contexto se encarga de la gestión de las notificaciones para los usuarios del sistema FuelTrack. Permite consultar, crear, y actualizar el estado de las notificaciones, con control de acceso para roles específicos (Admin, Proveedor). Maneja la lógica de lectura, conteo y asociación con órdenes relacionadas.
 
 #### 2.6.5.1. Domain Layer
+
 En este **bounded context**, el agregado principal es la entidad **Notification**, que contiene la información y el estado de la notificación, con soporte para relacionarse con **órdenes** cuando corresponda.
 
 <table border>
@@ -3146,6 +3214,7 @@ En este **bounded context**, el agregado principal es la entidad **Notification*
 </table>
 
 #### 2.6.5.2. Interface Layer
+
 Contiene el **controlador HTTP** que expone los **endpoints** para gestionar las notificaciones.
 
 <table border>
@@ -3178,6 +3247,7 @@ Contiene el **controlador HTTP** que expone los **endpoints** para gestionar las
 </table>
 
 #### 2.6.5.3. Application Layer
+
 Contiene la lógica de **gestión de notificaciones** dentro del sistema.
 
 <table border>
@@ -3221,6 +3291,7 @@ Contiene la lógica de **gestión de notificaciones** dentro del sistema.
 </table>
 
 #### 2.6.5.4 Infrastructure Layer
+
 <table border>
   <thead>
     <tr>
@@ -3275,6 +3346,7 @@ Contiene la lógica de **gestión de notificaciones** dentro del sistema.
 </table>
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+
 ![Notifications Level Diagrams](assets/Chapters/Chapter-IV/structurizr-Component-notifications.png)
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
@@ -3288,9 +3360,11 @@ Contiene la lógica de **gestión de notificaciones** dentro del sistema.
 ![Notifications Design Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackNotifications.png)
 
 ### 2.6.6. Bounded Context: Payments
+
 Gestiona los métodos de pago y el procesamiento de pagos de los pedidos para usuarios con rol Cliente. Permite la consulta, creación y eliminación de métodos de pago, además de procesar pagos asociados a órdenes. Soporta control de acceso según roles (Cliente, Admin).
 
 #### 2.6.6.1. Domain Layer
+
 Este **bounded context** gestiona la información relacionada con **pagos** y **métodos de pago** dentro del sistema.
 
 <table border>
@@ -3327,6 +3401,7 @@ Este **bounded context** gestiona la información relacionada con **pagos** y **
 </table>
 
 #### 2.6.6.2. Interface Layer
+
 Contiene el **controlador HTTP** que expone los **endpoints** para gestionar los pagos y métodos de pago.
 
 <table border>
@@ -3359,6 +3434,7 @@ Contiene el **controlador HTTP** que expone los **endpoints** para gestionar los
 </table>
 
 #### 2.6.6.3. Application Layer
+
 Contiene la lógica de **gestión de pagos** y **métodos de pago**.
 
 <table border>
@@ -3494,6 +3570,7 @@ Contiene la lógica de **gestión de pagos** y **métodos de pago**.
 </table>
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
+
 ![Payments Level Diagrams](assets/Chapters/Chapter-IV/structurizr-Component-payments.png)
 
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
@@ -3507,9 +3584,11 @@ Contiene la lógica de **gestión de pagos** y **métodos de pago**.
 ![Payments Design Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackOrdersPayments.png)
 
 ### 2.6.7. Bounded Context: Orders
+
 Gestiona el ciclo completo de pedidos (órdenes) de combustible, incluyendo creación por clientes, asignación de vehículos y operadores por proveedores, actualización de estados y consulta según roles (Admin, Cliente, Proveedor).
 
 #### 2.6.7.1. Domain Layer
+
 Este **bounded context** gestiona la información relacionada con **pedidos**, **vehículos** asignados y **operadores** para las entregas.
 
 <table border>
@@ -3575,6 +3654,7 @@ Este **bounded context** gestiona la información relacionada con **pedidos**, *
 </table>
 
 #### 2.6.7.2. Interface Layer
+
 Contiene el **controlador REST** que expone los **endpoints** para gestionar los pedidos, asignación de entregas y cambios de estado.
 
 <table border>
@@ -3607,6 +3687,7 @@ Contiene el **controlador REST** que expone los **endpoints** para gestionar los
 </table>
 
 #### 2.6.7.3. Application Layer
+
 Contiene la lógica de **gestión de pedidos** y reglas de negocio relacionadas con asignación de entregas y cambios de estado.
 
 <table border>
@@ -3703,9 +3784,11 @@ Contiene la lógica de **gestión de pedidos** y reglas de negocio relacionadas 
 </table>
 
 #### 2.6.7.5. Bounded Context Software Architecture Component Level Diagrams
+
 ![Orders Level Diagrams](./assets/Chapters/Chapter-IV/structurizr-Component-Orders.png)
 
 #### 2.6.7.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.7.6.1. Bounded Context Domain Layer Class Diagrams
 
 ![Orders Class Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/OrderDomainLayerClassDiagram.png)
@@ -3714,45 +3797,50 @@ Contiene la lógica de **gestión de pedidos** y reglas de negocio relacionadas 
 
 ![Orders Design Diagrams](assets/Chapters/Chapter-II/Bounded-Context-Diagrams/FuelTrackOperatorsVehiclesOrders.png)
 
+# Capítulo III: Solution UI/UX Design
 
-
-#  Capítulo III: Solution UI/UX Design
 ## 3.1. Product design
+
 ### 3.1.1. Style Guidelines
+
 En esta sección se presentan los estándares que definen el formato y el diseño de la solución, asegurando la calidad en su implementación.
 
 #### 3.1.1.1.General Style Guidelines
+
 Con estas decisiones en el diseño visual buscamos reflejar innovación que incentive a la formalidad en los procesos de comercialización, es asi como demostramos modernidad y calidad, valores que van alineados a nuestro proyecto
 
 > **Color**
- Seleccionamos esta gama de colores porque armoniza con el diseño del logo y refleja la temática de nuestra aplicación, asegurando la identidad de la marca.
-![alt text](assets/Chapters/Chapter-III/Color-palette.jpg)
+> Seleccionamos esta gama de colores porque armoniza con el diseño del logo y refleja la temática de nuestra aplicación, asegurando la identidad de la marca.
+> ![alt text](assets/Chapters/Chapter-III/Color-palette.jpg)
 
 > **Tipografia**
- Seleccionamos esta tipografía por su excelente legibilidad en diversos entornos, lo que nos permite diferenciarnos frente a la competencia y aportar una identidad única a nuestra marca.
- ![alt text](assets/Chapters/Chapter-III/Tipography.jpg)
+> Seleccionamos esta tipografía por su excelente legibilidad en diversos entornos, lo que nos permite diferenciarnos frente a la competencia y aportar una identidad única a nuestra marca.
+> ![alt text](assets/Chapters/Chapter-III/Tipography.jpg)
 
 > **Branding**
- El nombre de nuestro producto es FuelTrack, contamos con un logo que representa claramente nuestro rubro, dandole un toque moderno y simple, ademas usar colores que seran caractristicos en nuestra empresa y amigables a la vista de nuestros clientes
- ![alt text](assets/Chapters/Chapter-III/logo-fueltrack.jpg)
+> El nombre de nuestro producto es FuelTrack, contamos con un logo que representa claramente nuestro rubro, dandole un toque moderno y simple, ademas usar colores que seran caractristicos en nuestra empresa y amigables a la vista de nuestros clientes
+> ![alt text](assets/Chapters/Chapter-III/logo-fueltrack.jpg)
 
 ### 3.1.2. Information Architecture
+
 La arquitectura de información se diseñó para guiar al usuario de forma lógica a través de las funciones esenciales de FuelTrack, facilitando la navegación y reduciendo la curva de aprendizaje.
 
 #### 3.1.2.1. Organization Systems
+
 El Sistema de Organización de FuelTrack tiene como objetivo facilitar la interacción fluida entre los usuarios (compradores y proveedores) y la plataforma mediante una jerarquía visual clara. Esta jerarquía destaca las funciones clave —como la gestión de pedidos de combustible, el registro de depósitos y la carga de documentos— permitiendo que los usuarios accedan rápidamente a las acciones más importantes desde la pantalla principal.
 
- - **Agrupación lógica de funciones:** Las funcionalidades están organizadas por bloques temáticos (“Record Deposits”, “Upload Documents”, “Track Orders”), lo que permite a los usuarios identificar rápidamente las opciones disponibles y su propósito.
+- **Agrupación lógica de funciones:** Las funcionalidades están organizadas por bloques temáticos (“Record Deposits”, “Upload Documents”, “Track Orders”), lo que permite a los usuarios identificar rápidamente las opciones disponibles y su propósito.
 
- - **Accesibilidad inmediata:** La interfaz principal resalta las opciones más utilizadas mediante una disposición vertical y centrada, optimizada principalmente para dispositivos móviles.
+- **Accesibilidad inmediata:** La interfaz principal resalta las opciones más utilizadas mediante una disposición vertical y centrada, optimizada principalmente para dispositivos móviles.
 
- - **Menú de navegación:** Se mantiene fijo en la parte superior para facilitar el acceso constante a secciones clave como "How it Works", "Pricing" y "Sign Up".
+- **Menú de navegación:** Se mantiene fijo en la parte superior para facilitar el acceso constante a secciones clave como "How it Works", "Pricing" y "Sign Up".
 
- - **Reducción de fricción:** Al minimizar la cantidad de clicks necesarios para ejecutar acciones comunes, el sistema organiza la información de forma que prioriza la eficiencia y la experiencia del usuario.
+- **Reducción de fricción:** Al minimizar la cantidad de clicks necesarios para ejecutar acciones comunes, el sistema organiza la información de forma que prioriza la eficiencia y la experiencia del usuario.
 
 Este sistema organizativo asegura que tanto usuarios nuevos como recurrentes puedan navegar por FuelTrack con facilidad, incrementando la productividad y reduciendo los errores de operación.
 
 #### 3.1.2.2. Labelling Systems
+
 Las etiquetas que utilizaremos para la página serán diseñadas para ser claras, directas y fáciles de entender, enfocándose en la eficiencia y simplicidad para usuarios con distintos niveles de experiencia tecnológica.
 
 **Principios generales**
@@ -3764,6 +3852,7 @@ Las etiquetas que utilizaremos para la página serán diseñadas para ser claras
 Algunas de las etiquetas principales de nuestras secciones serán las siguientes:
 
 **Gestión de Pedidos**
+
 - `Nuevo Pedido`
 - `Estado de Pedido`
 - `Historial de Pedidos`
@@ -3771,12 +3860,14 @@ Algunas de las etiquetas principales de nuestras secciones serán las siguientes
 - `Confirmar Entrega`
 
 **Pagos y Facturación**
+
 - `Métodos de Pago`
 - `Mis Facturas`
 - `Resumen de Pagos`
 - `Confirmar Pago`
 
 **Reportes**
+
 - `Reporte de Pedidos`
 - `Reporte de Pagos`
 - `Resumen de Actividad`
@@ -3784,67 +3875,67 @@ Algunas de las etiquetas principales de nuestras secciones serán las siguientes
 - `Navegación general`
 
 **Inicio**
+
 - `Mi Cuenta`
 - `Soporte`
 - `Cerrar Sesión`
 
 **Asociaciones y agrupaciones**
+
 - Las etiquetas se agrupan en módulos lógicos (por ejemplo: pedidos, pagos, reportes) con un menú lateral y dashboard central de fácil acceso.
-  
 - Las acciones están asociadas a sus contextos inmediatos: por ejemplo, `Nuevo Pedido` solo aparece cuando se selecciona la opción `Gestión de Pedidos`.
-  
 - Los mensajes del sistema son claros y directos: `Pedido Confirmado`, `Pago Realizado`, `Entrega Programada`.
 
 Estas etiquetas están diseñadas para que los usuarios puedan navegar de manera sencilla y sin confusiones, optimizando la experiencia para empresas que desean una solución eficiente y fácil de usar.
 
 #### 3.1.2.3. SEO Tags and Meta Tags
+
 ¡Perfecto! Aquí tienes el apartado **"SEO Tags and Meta Tags"** para **Landing Page**, **Web Application** y **Mobile App**, todo en formato Markdown, con títulos en inglés como pediste, y descripciones en español. También he cuidado el formato para que se vea ordenado y profesional:
 
 🖥️ **Landing Page**
 
-* **Title (SEO Tag):**
+- **Title (SEO Tag):**
   `FuelTrack | Simplify Fuel Order Management`
 
-* **Description (Meta Tag):**
+- **Description (Meta Tag):**
   Optimiza tu proceso de pedidos de combustible con FuelTrack: una plataforma centralizada para compradores y proveedores donde puedes registrar depósitos, subir documentos y hacer seguimiento de pedidos.
 
-* **Keywords (Meta Tag):**
+- **Keywords (Meta Tag):**
   `Fuel, Track, Ordering, Fuel management, Supplier platform, Track fuel orders, Fuel deposits, Order management software`
 
-* **Author (Meta Tag):**
+- **Author (Meta Tag):**
   `FuelTrack Team`
-
 
 💻 **Web Application**
 
-* **Title (SEO Tag):**
+- **Title (SEO Tag):**
   `FuelTrack | Manage Fuel Orders and Deposits`
 
-* **Description (Meta Tag):**
+- **Description (Meta Tag):**
   Accede a tu panel de control para registrar depósitos, gestionar documentos y monitorear el estado de los pedidos de combustible en tiempo real.
 
-* **Keywords (Meta Tag):**
+- **Keywords (Meta Tag):**
   `Fuel order tracking, Deposit management, Supplier dashboard, Fuel logistics, FuelTrack Web App`
 
-* **Author (Meta Tag):**
+- **Author (Meta Tag):**
   `FuelTrack Team`
 
 📱 **Mobile App**
 
-* **Title (SEO Tag):**
+- **Title (SEO Tag):**
   `FuelTrack Mobile | Fuel Orders On the Go`
 
-* **Description (Meta Tag):**
+- **Description (Meta Tag):**
   Administra tus pedidos de combustible, depósitos y documentos desde cualquier lugar con la app móvil de FuelTrack. Mantente actualizado estés donde estés.
 
-* **Keywords (Meta Tag):**
+- **Keywords (Meta Tag):**
   `Fuel mobile app, FuelTrack app, Mobile fuel management, Fuel orders on mobile, Deposit tracking app, Fuel logistics mobile, Fuel supplier app`
 
-* **Author (Meta Tag):**
+- **Author (Meta Tag):**
   `FuelTrack Team`
 
-
 #### 3.1.2.4. Searching Systems
+
 Para garantizar una experiencia de usuario fluida, rápida y centrada en la interacción móvil, se ha diseñado un sistema de navegación y búsqueda adaptado principalmente a la **versión móvil** de la plataforma. Las decisiones de diseño están enfocadas en ofrecer una interfaz clara, accesible mediante gestos táctiles, y optimizada para pantallas pequeñas, sin descuidar la compatibilidad con la versión web o de escritorio.
 
 **🔹 Menú de navegación**
@@ -3869,15 +3960,15 @@ El enfoque está puesto en la experiencia móvil. Las pantallas se ajustarán au
 - Interacción optimizada para uso con una sola mano
 - Navegación simple y directa sin sobrecarga visual
 
-
 #### 3.1.2.5. Navigation Systems
+
 En la aplicación móvil, se ha diseñado un sistema de navegación que permite a los usuarios —especialmente a los proveedores— acceder de forma eficiente a la información clave relacionada con sus pedidos. La estructura de navegación está enfocada en ofrecer accesos rápidos, búsqueda intuitiva y filtros inteligentes, todo optimizado para una experiencia táctil fluida
 
 **🔹 Búsqueda por texto**
+
 - Los usuarios tendrán una lista de pedidos donde podrán buscar dentro de cada categoría, razón social, número de pedido, nombre del banco y otros datos.
 
 - Habrá un buscador simple para encontrar pedidos registrados o pendientes, que mostrará resultados según el tipo de información que se detecte automáticamente.
-  
 - Además, habrá un botón llamado “Búsqueda avanzada” para realizar búsquedas más específicas, completando todos los campos requeridos.
 
 **🔹 Filtros por categorías automáticas**
@@ -3890,24 +3981,166 @@ Junto a la búsqueda textual, se integrará un sistema de filtros dinámicos bas
 
 Toda la navegación y búsqueda estará diseñada para funcionar bien en dispositivos móviles, con interacción táctil sencilla y fácil acceso a las funciones.
 
+## 4.3. Validation Interviews
+
+### 4.3.1. Diseño de Entrevistas
+
+Preguntas relacionadas al Landing Page
+
+¿La información presentada en la pagina principal le resulta clara y fácil de entender para su negocio?
+¿Cómo calificarías la facilidad de navegación de la plataforma?
+¿Consideras que se deberia añadir alguna información adicional?
+¿Qué tan confiable le pareció la página al primer vistazo?
+¿El formulario de contacto o registro le inspiró confianza para dejar sus datos?
+¿Qué lo motivaría a registrarse o probar la plataforma después de visitar la página?
+
+### 4.3.2. Registro de Entrevistas
+
+**A) Empresa Solicitante:**
+
+**Entrevista 1**
+
+- **Nombres:** Dennis
+- **Apellidos:** Castañeda Vilcapoma
+- **Edad:** 23
+- **Distrito:** San Juan de Lurigancho
+- **Captura de la entrevista**
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/interview-validation-solicitante-3.png" alt="Captura entrevista 6" width="400"/>
+</p>
+
+- **Duración:** 9:33
+- **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/ESEt8NVZpiBFrdi2rDsF-vIB0Y6cHCpU9fuDeLdgXp--Kw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5iADbQ)
+
+**Entrevista 2**
+
+- **Nombres:** Cris
+- **Apellidos:** Meza Camayo
+- **Edad:** 20
+- **Distrito:** Chupaca-Junín
+- **Captura de la entrevista**
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/interview-validation-solicitante-1.png" alt="Captura entrevista 6" width="400"/>
+</p>
+
+- **Duración:** 7:57
+- **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/ESwzEeIMh0FEmNXho8kKSNoBXHyIshzIDZcbqELwDhoSmQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=wsfV0j)
+
+---
+
+**Entrevista 3**
+
+- **Nombres:** Piero
+- **Apellidos:** Ricaldi Solis
+- **Edad:** 23
+- **Distrito:** Puente Piedra
+- **Captura de la entrevista**
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/interview-validation-solicitante-2.png" alt="Captura entrevista 6" width="400"/>
+</p>
+
+- **Duración:** 3:58
+- **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EU1GcCmh0udAs0919oZr62QBu4hQor3AQKfTIjWmflYBfw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=gUdCYh)
+
+### 4.3.3. Evaluaciones según heurísticas
+
+La evaluación heurística identifica problemas de usabilidad comparando la interfaz con principios reconocidos.
+
+SITE o APP A EVALUAR: FuelTrap — Landing Page
+
+TAREAS A EVALUAR
+
+1. La propuesta de valor en el “hero”
+2. Navegar por las secciones de la landing usando el menú y enlaces internos
+3. Explorar el bloque de Precios/Planes y distinguir el plan recomendado.
+4. Revisar el footer
+5. Verificar la experiencia móvil (≈360–390 px) y escritorio (≥1280 px).
+6. Comprobar accesibilidad básica: navegación por teclado, foco visible, textos alternativos en imágenes relevantes y contraste suficiente.
+
+NO INCLUIDO EN ESTA EVALUACIÓN
+
+Registro/Login completos, recuperación de contraseña.
+Operaciones dentro del producto.
+Procesos de pago/facturación, integración con pasarelas.
+
+ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descriptión                                                                                                                                                                                    |
+| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: Puede ser fácilmente superador por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                  |
+| 2     | Problema menor: Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3     | Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                |
+| 4     | Problema muy grave: Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                              |
+
+TABLA RESUMEN:
+
+| #   | Problema                                                                                                                             | Escala de severidad | Heurística/Principio violada(o)                                                                  |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------ | :-----------------: | ------------------------------------------------------------------------------------------------ |
+| 1   | Los botones del hero (“Conócenos más” / “Ver demo”) no redirigen y solo refrescan la página.                                         |          3          | Information Architecture: Is it usable?                                                          |
+| 2   | Faltan anclas/destinos internos de los botones de la seccion Planes.                                                                 |          3          | Information Architecture: Is it findable?                                                        |
+| 3   | En móvil, la landing **no es suficientemente responsiva** (desbordes/solapamientos, objetivos táctiles pequeños, scroll horizontal). |          3          | Inclusive Design: Experiencias comparables; Accesibilidad: WCAG 1.4.10 Reflow, 2.5.5 Target Size |
+
+DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #1: Los botones del hero (“Conócenos más” / “Ver demo”) no redirigen y solo refrescan la página**
+
+Severidad: 3
+Heurística violada: Information Architecture - Is it usable?
+
+Problema:
+Al hacer clic en los botones del hero, la página se actualiza o no realiza navegación alguna. Esto impide acceder rápidamente a la información clave (sección “Sobre nosotros” o una demo funcional), rompiendo el flujo de exploración inicial.
+
+Recomendación:
+Asignar destinos válidos y coherentes con el texto del botón (p. ej., #nosotros, #demo o ruta /demo), habilitar scroll suave y actualizar la URL (ancla o ruta) para dar feedback de navegación. Verificar el comportamiento con analítica (eventos de clic) y estados :focus/:active visibles. (Incluir además una captura de pantalla ilustrando el problema).
+
+PROBLEMA #2: Faltan anclas/destinos internos de los botones de la sección “Planes”
+Severidad: 3
+Heurística violada: Information Architecture - Is it findable?
+
+Problema:
+Los botones de la sección “Planes” (“Empezar ahora” , “Comprar prueba”) no llevan al flujo esperado (lead/checkout) y, en algunos casos, retornan al inicio. Esto dificulta encontrar y completar la acción principal de conversión.
+
+Recomendación:
+Definir rutas o anclas claras que conecten cada botón con su destino. 
+
+PROBLEMA #3: En móvil, la landing no es suficientemente responsiva (desbordes/solapamientos, objetivos táctiles pequeños, scroll horizontal)
+
+Severidad: 3
+
+Heurística violada: Inclusive Design - Experiencias comparables; Accesibilidad - WCAG 1.4.10 Reflow, 2.5.5 Target Size
+Problema:
+En vistas ~360–390 px se presentan textos e imágenes que se desbordan, elementos superpuestos, objetivos táctiles < 44×44 px y presencia de scroll horizontal, afectando lectura, navegación y clics en botones.
+Recomendación:
+Aplicar diseño mobile-first: tipografías y spacing en rem, imágenes fluidas (max-width: 100%), rejillas adaptativas (1 columna en móvil), breakpoints adecuados, evitar anchos/altos fijos y garantizar tamaño mínimo 44×44 px en objetivos táctiles.
 
 
 # Conclusiones
+
 ## Conclusiones y Recomendaciones
+
 El proyecto FuelTrack logró importantes avances en la definición del problema, análisis del usuario y diseño conceptual de la solución. A través de entrevistas, herramientas de Lean UX y ejercicios de Needfinding, se validaron necesidades reales del mercado y se delineó una propuesta alineada con los usuarios. Se definieron requisitos clave mediante User Stories e Impact Mapping, y se modeló la arquitectura del sistema utilizando Domain-Driven Design, EventStorming y diagramas C4. Aunque el producto aún no está desarrollado, esta etapa sentó una base sólida para futuras fases de diseño y construcción, con decisiones respaldadas por validación temprana y un enfoque centrado en el usuario.
 
 Para los próximos avances, se recomienda crear prototipos interactivos que permitan validar las funcionalidades clave y la experiencia de usuario de manera temprana. También es esencial refinar la arquitectura del sistema para garantizar su escalabilidad y flexibilidad a medida que se agreguen nuevas funcionalidades. Las pruebas de usabilidad continuas con usuarios reales proporcionarán retroalimentación valiosa para mejorar la interfaz, mientras que el monitoreo de competidores permitirá ajustar la propuesta de valor en función de las tendencias del mercado. Finalmente, se debe adoptar un enfoque de desarrollo incremental, priorizando las funcionalidades más críticas y expandiendo gradualmente el sistema.
 
 ## Video App Validation
+
 ## Video About the product
+
 ## Video About the team
 
 # Glosario
 
 # Bibliografía
+
 [¿Qué es la gestión de pedidos?](https://www.ibm.com/es-es/think/topics/order-management)
 
 # Anexos
+
 **Link del repositorio del informe:**  
 [https://github.com/1ACC0238-2520-1827-Group2-FuelTrack/report](https://github.com/1ACC0238-2520-1827-Group2-FuelTrack/report)
 
