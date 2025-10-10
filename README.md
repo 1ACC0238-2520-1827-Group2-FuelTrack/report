@@ -547,11 +547,17 @@ La problemática principal es la falta de un sistema centralizado y digital para
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Nuestro servicio, FuelTrack, busca optimizar la gestión de pedidos de combustible, conectando a empresas solicitantes con sus proveedores a través de una plataforma digital centralizada. El objetivo es modernizar un proceso que hoy depende de métodos manuales.
+**Solicitantes de Combustible (Empresas Compradoras)**
+- **Problema:** Empresas de sectores industriales, mineros y de construcción coordinan sus pedidos de combustible mediante canales informales (llamadas, correos, mensajería), lo que genera desorganización, errores y ausencia de trazabilidad. 
+- **Impacto:** Incertidumbre sobre el estado de los despachos y posibles interrupciones en sus operaciones debido a errores por mala coordinación.  
+- **Riesgo:** La facilidad a la adaptación puede verse afectada si la plataforma no es intuitiva o no se adapta a procesos actuales.  
+- **How Might We...?:** ¿Cómo podemos diseñar una experiencia que permita registrar y gestionar pedidos en menos de 3 minutos, con tasa de error <5% y adopción del 80% en el primer mes?  
 
-Hemos observado que el uso de canales informales y desorganizados (como llamadas, correos y mensajería) para gestionar los pedidos es un factor crítico que afecta directamente la eficiencia del sector. Actualmente, esta falta de un sistema integrado provoca errores en los pedidos, retrasos en las entregas y una notable falta de visibilidad en tiempo real sobre el estado de las operaciones.
-
-¿Cómo podríamos mejorar la eficiencia del proceso de gestión de pedidos para que tanto proveedores como empresas solicitantes puedan cumplir sus objetivos y aumentar su satisfacción con el servicio?
+**Proveedores de Combustible (Empresas Distribuidoras)**
+- **Problema:** Gestionan múltiples pedidos, conciliaciones y despachos con procesos manuales, lo que aumenta la carga administrativa (asumida por los operadores del área) y el riesgo de errores logísticos.  
+- **Impacto:** Baja eficiencia operativa y menor satisfacción del cliente.  
+- **Riesgo:** Posible resistencia a la implementación si los beneficios no son inmediatos.  
+- **How Might We...?:** ¿Cómo podemos demostrar que nuestra plataforma reduce el tiempo de gestión en un 40%, disminuye errores logísticos en un 60% y mejora la satisfacción del cliente en +1 punto en encuestas durante los primeros 3 meses?
 
 #### 1.2.2.2. Lean UX Assumptions
 
