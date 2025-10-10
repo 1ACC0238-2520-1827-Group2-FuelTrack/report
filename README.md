@@ -4013,6 +4013,8 @@ Preguntas relacionadas al Landing Page
 - **Duración:** 9:33
 - **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/ESEt8NVZpiBFrdi2rDsF-vIB0Y6cHCpU9fuDeLdgXp--Kw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5iADbQ)
 
+--- 
+
 **Entrevista 2**
 
 - **Nombres:** Cris
@@ -4098,7 +4100,7 @@ Al hacer clic en los botones del hero, la página se actualiza o no realiza nave
 Recomendación:
 Asignar destinos válidos y coherentes con el texto del botón (p. ej., #nosotros, #demo o ruta /demo), habilitar scroll suave y actualizar la URL (ancla o ruta) para dar feedback de navegación. Verificar el comportamiento con analítica (eventos de clic) y estados :focus/:active visibles. (Incluir además una captura de pantalla ilustrando el problema).
 
-PROBLEMA #2: Faltan anclas/destinos internos de los botones de la sección “Planes”
+**PROBLEMA #2:** Faltan anclas/destinos internos de los botones de la sección “Planes”
 Severidad: 3
 Heurística violada: Information Architecture - Is it findable?
 
@@ -4108,7 +4110,7 @@ Los botones de la sección “Planes” (“Empezar ahora” , “Comprar prueba
 Recomendación:
 Definir rutas o anclas claras que conecten cada botón con su destino. 
 
-PROBLEMA #3: En móvil, la landing no es suficientemente responsiva (desbordes/solapamientos, objetivos táctiles pequeños, scroll horizontal)
+**PROBLEMA #3:** En móvil, la landing no es suficientemente responsiva (desbordes/solapamientos, objetivos táctiles pequeños, scroll horizontal)
 
 Severidad: 3
 
