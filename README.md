@@ -2,15 +2,19 @@
 
 <div align="center">
 
-# ✨ Informe Trabajo Final ✨
-
 <img src="./assets/Banner-UPC.png" alt="Banner UPC">
 
-### Universidad Peruana de Ciencias Aplicadas 🎓
+### Universidad Peruana de Ciencias Aplicadas
 
-🧑‍💻 Ingeniería de software - 202520
+Ingeniería de software
 
-**Sección: 1827**
+**Periodo: 202520**
+
+**Código: 1ACC0238**
+
+**Nombre del Curso: Aplicaciones para Dispositivos Móviles**
+
+**NCR: 1827**
 
 **Docente: David Gerardo Quevedo Velasco**
 
@@ -18,23 +22,20 @@
 
 **Producto: FuelTrack Pro**
 
-<div align='left'>
+**Integrantes:**
 
-```kotlin
-fun Integrantes(): Array<String> {
-    return arrayOf(
-        "🧑‍💻 Acuña Tomas, Diego Rolin - U202221436",
-        "👩‍💻 Miranda Ayasta, Rogger Faryd - U202319239",
-        "👩‍💻 Marllely Anahi Arias Segil - u202223984",
-        "👩‍💻 Manuel Angel Sanchez Arenas - u201817507",
-        "👩‍💻 Lynn Jeeferzon Meza Camayo - u20201c320"
-    )
-}
-```
+*U202221436 - Acuña Tomas, Diego Rolin*
 
-</div>
+*U202223984 - Arias Segil, Marllely Anahi*
 
-Septiembre del 2025 🗓️
+*U20201c320 - Meza Camayo, Lynn Jeeferzon*
+
+*U202319239 - Miranda Ayasta, Rogger Faryd*
+
+*U201817507 - Sanchez Arenas, Manuel Angel*
+
+
+**Septiembre del 2025**
 
 </div>
 
@@ -142,8 +143,6 @@ Septiembre del 2025 🗓️
 
 # Table of Contents
 
-- [✨ Informe Trabajo Final ✨](#-informe-trabajo-final-)
-  - [Universidad Peruana de Ciencias Aplicadas 🎓](#universidad-peruana-de-ciencias-aplicadas-)
 - [Registro de versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Table of Contents](#table-of-contents)
@@ -310,9 +309,49 @@ Septiembre del 2025 🗓️
       - [3.1.3.2. Landing Page Mock-ups](#3132-landing-page-mock-ups)
     - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
       - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+      - [**Bienvenida al aplicativo**](#bienvenida-al-aplicativo)
+      - [**Sección Cliente**](#sección-cliente)
+      - [**Inicio de Sesión (Cliente)**](#inicio-de-sesión-cliente)
+      - [**Crear Cuenta (Cliente)**](#crear-cuenta-cliente)
+      - [**Apartado Principal (Cliente)**](#apartado-principal-cliente)
+      - [**Menú Principal (Cliente)**](#menú-principal-cliente)
+      - [**Listado de Órdenes (Cliente)**](#listado-de-órdenes-cliente)
+      - [**Visualización de una Orden**](#visualización-de-una-orden)
+      - [**Creación de una Orden**](#creación-de-una-orden)
+      - [**Sección Proveedor**](#sección-proveedor)
+      - [**Inicio de Sesión (Proveedor)**](#inicio-de-sesión-proveedor)
+      - [**Crear Cuenta (Proveedor)**](#crear-cuenta-proveedor)
+      - [**Apartado Principal (Proveedor)**](#apartado-principal-proveedor)
+      - [**Menú Principal (Proveedor)**](#menú-principal-proveedor)
+      - [**Gestión de Órdenes (Order Management)**](#gestión-de-órdenes-order-management)
+      - [**Conciliaciones (Subir comprobantes)**](#conciliaciones-subir-comprobantes)
       - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+      - [**User Goal 01: Crear una nueva orden de combustible**](#user-goal-01-crear-una-nueva-orden-de-combustible)
+      - [**User Goal 02: Visualizar historial de órdenes**](#user-goal-02-visualizar-historial-de-órdenes)
+      - [**User Goal 03: Registrar proveedor**](#user-goal-03-registrar-proveedor)
+      - [**User Goal 04: Cargar comprobantes o documentos de pago**](#user-goal-04-cargar-comprobantes-o-documentos-de-pago)
       - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+      - [**Bienvenida al aplicativo**](#bienvenida-al-aplicativo-1)
+      - [**Sección Cliente**](#sección-cliente-1)
+      - [**Inicio de Sesión (Cliente)**](#inicio-de-sesión-cliente-1)
+      - [**Crear Cuenta (Cliente)**](#crear-cuenta-cliente-1)
+      - [**Apartado Principal (Cliente)**](#apartado-principal-cliente-1)
+      - [**Menú Principal (Cliente)**](#menú-principal-cliente-1)
+      - [**Listado de Órdenes (Cliente)**](#listado-de-órdenes-cliente-1)
+      - [**Visualización de una Orden**](#visualización-de-una-orden-1)
+      - [**Creación de una Orden**](#creación-de-una-orden-1)
+      - [**Sección Proveedor**](#sección-proveedor-1)
+      - [**Inicio de Sesión (Proveedor)**](#inicio-de-sesión-proveedor-1)
+      - [**Crear Cuenta (Proveedor)**](#crear-cuenta-proveedor-1)
+      - [**Apartado Principal (Proveedor)**](#apartado-principal-proveedor-1)
+      - [**Menú Principal (Proveedor)**](#menú-principal-proveedor-1)
+      - [**Gestión de Órdenes (Order Management)**](#gestión-de-órdenes-order-management-1)
+      - [**Conciliaciones (Subir Comprobantes)**](#conciliaciones-subir-comprobantes-1)
       - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+      - [**User Goal 01: Crear una nueva orden de combustible**](#user-goal-01-crear-una-nueva-orden-de-combustible-1)
+      - [**User Goal 02: Visualizar historial de órdenes**](#user-goal-02-visualizar-historial-de-órdenes-1)
+      - [**User Goal 03: Registrar proveedor**](#user-goal-03-registrar-proveedor-1)
+      - [**User Goal 04: Cargar comprobantes o documentos de pago**](#user-goal-04-cargar-comprobantes-o-documentos-de-pago-1)
       - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
 - [Capítulo IV:  Product Implementation \& Validation](#capítulo-iv--product-implementation--validation)
   - [4.1 Software Configuration Management](#41-software-configuration-management)
@@ -331,6 +370,10 @@ Septiembre del 2025 🗓️
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insigths during Sprint](#4218-team-collaboration-insigths-during-sprint)
+  - [4.3. Validation Interviews](#43-validation-interviews)
+    - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
+    - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Video App Validation](#video-app-validation)
