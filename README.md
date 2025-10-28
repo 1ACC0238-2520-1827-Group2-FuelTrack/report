@@ -6,13 +6,11 @@
 
 ### Universidad Peruana de Ciencias Aplicadas
 
-Ingeniería de software
+Ingeniería de Software
 
 **Periodo: 202520**
 
-**Código: 1ACC0238**
-
-**Nombre del Curso: Aplicaciones para Dispositivos Móviles**
+**1ACC0238 Aplicaciones para Dispositivos Móviles**
 
 **NCR: 1827**
 
@@ -35,7 +33,7 @@ Ingeniería de software
 *U201817507 - Sanchez Arenas, Manuel Angel*
 
 
-**Septiembre del 2025**
+**Septiembre 2025**
 
 </div>
 
