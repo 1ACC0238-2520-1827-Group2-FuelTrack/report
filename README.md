@@ -2,7 +2,10 @@
 
 <div align="center">
 
-<img src="./assets/Banner-UPC.png" alt="Banner UPC">
+
+<div style="text-align: center; transform: scale(0.7);">
+    <img src="./assets/logo-upc.png" alt="Banner UPC">
+</div>
 
 ### Universidad Peruana de Ciencias Aplicadas
 
