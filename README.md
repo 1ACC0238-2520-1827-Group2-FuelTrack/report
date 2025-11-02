@@ -615,19 +615,11 @@ La problemática principal es la falta de un sistema centralizado y digital para
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-**Solicitantes de Combustible (Empresas Compradoras)**
+Las empresas solicitantes de combustible y los proveedores de combustible buscan mantener una operación fluida y segura, garantizando la disponibilidad del recurso sin interrupciones, una gestión ordenada de pedidos y un control adecuado sobre los despachos y entregas. Su objetivo actual es coordinar eficazmente la demanda y el suministro de combustible para no afectar sus actividades productivas.
 
-- **Problema:** Empresas de sectores industriales, mineros y de construcción coordinan sus pedidos de combustible mediante canales informales (llamadas, correos, mensajería), lo que genera desorganización, errores y ausencia de trazabilidad.
-- **Impacto:** Incertidumbre sobre el estado de los despachos y posibles interrupciones en sus operaciones debido a errores por mala coordinación.
-- **Riesgo:** La facilidad a la adaptación puede verse afectada si la plataforma no es intuitiva o no se adapta a procesos actuales.
-- **How Might We...?:** ¿Cómo podemos diseñar una experiencia que permita registrar y gestionar pedidos en menos de 3 minutos, con tasa de error <5% y adopción del 80% en el primer mes?
+Sin embargo, los procesos actuales se realizan mediante canales informales como llamadas, correos o mensajería, lo que genera desorganización, duplicidad de información, errores logísticos y ausencia de trazabilidad. Esto provoca incertidumbre sobre los despachos, sobrecarga administrativa en los proveedores y una reducción en la eficiencia operativa y la satisfacción del cliente.
 
-**Proveedores de Combustible (Empresas Distribuidoras)**
-
-- **Problema:** Gestionan múltiples pedidos, conciliaciones y despachos con procesos manuales, lo que aumenta la carga administrativa (asumida por los operadores del área) y el riesgo de errores logísticos.
-- **Impacto:** Baja eficiencia operativa y menor satisfacción del cliente.
-- **Riesgo:** Posible resistencia a la implementación si los beneficios no son inmediatos.
-- **How Might We...?:** ¿Cómo podemos demostrar que nuestra plataforma reduce el tiempo de gestión en un 40%, disminuye errores logísticos en un 60% y mejora la satisfacción del cliente en +1 punto en encuestas durante los primeros 3 meses?
+Tanto las empresas solicitantes como los proveedores buscan optimizar la gestión de pedidos y despachos, reducir errores y aumentar la eficiencia, mediante un sistema que se adapte a sus procesos actuales, facilite la trazabilidad y mejore la coordinación entre ambas partes sin requerir grandes cambios en su forma de trabajo.
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -646,10 +638,10 @@ La problemática principal es la falta de un sistema centralizado y digital para
   Los usuarios principales serían los encargados logísticos de los proovedores y las empresas compradoras de combustible.
 
 - _¿Dónde encaja nuestro producto en su trabajo o vida?_
-  FuelTracks encajaría en el día a día de los usuarios como una plataforma de gestión centralizada, que ayudaría a coordinar, rastrear y organizar pedidos de combustible de forma confiable. Reemplazando así los sistemas dispersos que se utilizan hoy en día.
+  FuelTrack encajaría en el día a día de los usuarios como una plataforma de gestión centralizada, que ayudaría a coordinar, rastrear y organizar pedidos de combustible de forma confiable. Reemplazando así los sistemas dispersos que se utilizan hoy en día.
 
 - _¿Qué problemas tiene nuestro producto que resolver?_
-  FuelTracks debe resolver la desorganización causada por métodos informales de venta, reducir errores humanos y mejorar la experiencia del cliente.
+  FuelTrack debe resolver la desorganización causada por métodos informales de venta, reducir errores humanos y mejorar la experiencia del cliente.
 
 - _¿Cuándo y cómo es nuestro producto usado?_
   Será utilizado diariamente por solicitantes y los proveedores por igual. Por el lado de los usuarios solicitantes, usarán la plataforma para registrar y monitorear pedidos de combustible, y por el lado de proveedores para gestionar la recepción, programación y entrega de dichos pedidos.
@@ -700,7 +692,10 @@ La problemática principal es la falta de un sistema centralizado y digital para
 
 #### 1.2.2.4. Lean UX Canvas
 
-<img src="./assets/Chapters/Chapter-I/LeanUxCanvas.png" alt="Lean UX Canvas" width="500">
+<p align="center">
+  <img src="./assets/Chapters/Chapter-I/LeanUxCanvas.png" alt="Lean UX Canvas" width="500">
+</p>
+
 
 ## 1.3. Segmentos Objetivo
 
@@ -715,14 +710,16 @@ _Necesidades:_
 - Mantener constante comunicación con proveedores.
 
 **B. Proveedores de combustible**
+
 Son empresas dedicadas a la distribución de combustibles, atendiendo principalmente a clientes corporativos o industriales. Buscan herramientas que les permitan, optimizar sus operaciones y diferenciarse en un mercado cada vez más competitivo.
 
-_Motivaciones:_
+_Necesidades:_
 
 - Mejorar la experiencia del cliente mediante canales digitales.
 - Reducir errores en la entrega por información incompleta o mal gestionada.
 - Optimizar la planificación logística y distribución.
 
+----
 # Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores.
@@ -1511,7 +1508,7 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
   <tbody>
     <tr>
       <td><strong>DOING</strong></td>
-      <td>Utiliza la plataforma centralizada FuelTracks, con historial de comunicación y notificaciones automáticas.</td>
+      <td>Utiliza la plataforma centralizada FuelTrack, con historial de comunicación y notificaciones automáticas.</td>
       <td>Completa un formulario estructurado directamente desde la web o app.</td>
       <td>Revisa el panel de seguimiento con estado del pedido en tiempo real.</td>
       <td>Recibe una confirmación automática con hora estimada y firma digital.</td>
