@@ -2,15 +2,20 @@
 
 <div align="center">
 
-# ✨ Informe Trabajo Final ✨
 
-<img src="./assets/Banner-UPC.png" alt="Banner UPC">
+<div style="text-align: center; transform: scale(0.7);">
+    <img src="./assets/logo-upc.png" alt="Banner UPC">
+</div>
 
-### Universidad Peruana de Ciencias Aplicadas 🎓
+### Universidad Peruana de Ciencias Aplicadas
 
-🧑‍💻 Ingeniería de software - 202520
+Ingeniería de Software
 
-**Sección: 1827**
+**Periodo: 202520**
+
+**1ACC0238 Aplicaciones para Dispositivos Móviles**
+
+**NCR: 1827**
 
 **Docente: David Gerardo Quevedo Velasco**
 
@@ -18,23 +23,20 @@
 
 **Producto: FuelTrack Pro**
 
-<div align='left'>
+**Integrantes:**
 
-```kotlin
-fun Integrantes(): Array<String> {
-    return arrayOf(
-        "🧑‍💻 Acuña Tomas, Diego Rolin - U202221436",
-        "👩‍💻 Miranda Ayasta, Rogger Faryd - U202319239",
-        "👩‍💻 Marllely Anahi Arias Segil - u202223984",
-        "👩‍💻 Manuel Angel Sanchez Arenas - u201817507",
-        "👩‍💻 Lynn Jeeferzon Meza Camayo - u20201c320"
-    )
-}
-```
+*U202221436 - Acuña Tomas, Diego Rolin*
 
-</div>
+*U202223984 - Arias Segil, Marllely Anahi*
 
-Septiembre del 2025 🗓️
+*U20201c320 - Meza Camayo, Lynn Jeeferzon*
+
+*U202319239 - Miranda Ayasta, Rogger Faryd*
+
+*U201817507 - Sanchez Arenas, Manuel Angel*
+
+
+**Septiembre 2025**
 
 </div>
 
@@ -148,8 +150,6 @@ Septiembre del 2025 🗓️
 
 # Table of Contents
 
-- [✨ Informe Trabajo Final ✨](#-informe-trabajo-final-)
-    - [Universidad Peruana de Ciencias Aplicadas 🎓](#universidad-peruana-de-ciencias-aplicadas-)
 - [Registro de versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Table of Contents](#table-of-contents)
