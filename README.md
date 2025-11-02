@@ -2,17 +2,18 @@
 
 <div align="center">
 
-<img src="./assets/Banner-UPC.png" alt="Banner UPC">
+
+<div style="text-align: center; transform: scale(0.7);">
+    <img src="./assets/logo-upc.png" alt="Banner UPC">
+</div>
 
 ### Universidad Peruana de Ciencias Aplicadas
 
-Ingeniería de software
+Ingeniería de Software
 
 **Periodo: 202520**
 
-**Código: 1ACC0238**
-
-**Nombre del Curso: Aplicaciones para Dispositivos Móviles**
+**1ACC0238 Aplicaciones para Dispositivos Móviles**
 
 **NCR: 1827**
 
@@ -35,7 +36,7 @@ Ingeniería de software
 *U201817507 - Sanchez Arenas, Manuel Angel*
 
 
-**Septiembre del 2025**
+**Septiembre 2025**
 
 </div>
 
@@ -140,6 +141,12 @@ Ingeniería de software
 ![alt text](assets/Chapters/Insights/Contirbutors_TB1.png)
 
 ![alt text](assets/Chapters/Insights/NetworkGraph_TB1.png)
+
+**TP1**
+
+![alt text](assets/Chapters/Insights/Summary_TP1.png)
+
+![alt text](assets/Chapters/Insights/Contirbutors_TP1.png)
 
 # Table of Contents
 
