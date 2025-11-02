@@ -364,7 +364,14 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
     - [**Software Deployment**](#software-deployment)
     - [4.1.2. Source Code Management](#412-source-code-management)
     - [4.1.3. Source Code Style Guide \& Conventions](#413-source-code-style-guide--conventions)
+      - [Backend: .NET (C#)](#backend-net-c)
+      - [Landing Page: HTML, CSS y JavaScript](#landing-page-html-css-y-javascript)
+      - [Mobile: Android (Kotlin) \& Jetpack Compose](#mobile-android-kotlin--jetpack-compose)
+      - [Convenciones Generales (Todo el Proyecto)](#convenciones-generales-todo-el-proyecto)
     - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+      - [Landing Page (HTML/CSS/JS)](#landing-page-htmlcssjs)
+      - [Backend (.NET API)](#backend-net-api)
+      - [Aplicación Móvil (Android)](#aplicación-móvil-android)
   - [4.2. Landing Page \& Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
     - [4.2.1. Sprint 1](#421-sprint-1)
       - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
@@ -375,10 +382,10 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insigths during Sprint](#4218-team-collaboration-insigths-during-sprint)
-  - [4.3. Validation Interviews](#43-validation-interviews)
+  - [4.3. Entrevistas de Validación](#43-entrevistas-de-validación)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
-    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
+    - [4.3.3. Evaluaciones según Heurísticas](#433-evaluaciones-según-heurísticas)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Video App Validation](#video-app-validation)
@@ -4683,15 +4690,17 @@ Cada lanzamiento en la rama `main` se etiquetará con una versión siguiendo el 
 - **`MINOR`**: Se incrementa cuando se añaden funcionalidades de forma retrocompatible.
 - **`PATCH`**: Se incrementa cuando se realizan correcciones de errores de forma retrocompatible.
 
-Para versiones de pre-lanzamiento, se pueden usar sufijos como `-alpha`, `-beta` o `-rc` (Release Candidate).
+Para versiones de desarrollo o pre-lanzamiento, se utilizarán versiones adicionales de la siguiente manera:
 
-- **Ejemplo:** `v1.0.0-beta.1`
+- **`alpha`**: Versión inicial, sin estabilidad garantizada.
+- **`beta`**: Versión casi estable, pero aún con características no completamente testeadas.
+- **`rc` (Release Candidate)**: Versión candidata a ser lanzada, con pocas correcciones pendientes.
 
 ### 4.1.3. Source Code Style Guide & Conventions
 
 Para asegurar la calidad, legibilidad y mantenibilidad del código de **FuelTrack Pro**, el equipo se compromete a seguir las siguientes guías de estilo y convenciones para cada tecnología del proyecto.
 
-<h4>Backend: .NET (C#)</h4>
+#### Backend: .NET (C#)
 
 - **Nomenclatura:**
 
@@ -4704,7 +4713,7 @@ Para asegurar la calidad, legibilidad y mantenibilidad del código de **FuelTrac
   - _Inyección de Dependencias (DI):_ Utilizar DI para desacoplar las capas, especialmente para inyectar servicios y repositorios en los controladores.
   - _Nombres de archivo:_ El nombre del archivo (`.cs`) debe coincidir exactamente con el nombre de la clase pública que contiene.
 
-<h4>Landing Page: HTML, CSS y JavaScript</h4>
+#### Landing Page: HTML, CSS y JavaScript
 
 - **HTML:**
 
@@ -4714,13 +4723,13 @@ Para asegurar la calidad, legibilidad y mantenibilidad del código de **FuelTrac
 - **CSS:**
 
   - _Nomenclatura:_ Utilizar la metodología **BEM (Block, Element, Modifier)** para nombrar las clases, evitando conflictos y mejorando la legibilidad.
-  - \*Organización:\*\* Agrupar las propiedades CSS por función (Posicionamiento, Modelo de caja, Tipografía, Visual, Otros).
+  - _Organización:_ Agrupar las propiedades CSS por función (Posicionamiento, Modelo de caja, Tipografía, Visual, Otros).
 
 - **JavaScript:**
   - _Sintaxis:_ Utilizar sintaxis moderna (ES6+), prefiriendo `const` y `let` sobre `var`, y usando funciones de flecha (`=>`).
   - _Nomenclatura:_ `camelCase` para variables y funciones. `PascalCase` para clases.
 
-<h4>Mobile: Android (Kotlin) & Jetpack Compose</h4>
+#### Mobile: Android (Kotlin) & Jetpack Compose
 
 - **Kotlin (General):**
 
@@ -4734,7 +4743,7 @@ Para asegurar la calidad, legibilidad y mantenibilidad del código de **FuelTrac
   - _Componentes Composable:_ Nombrar las funciones con `PascalCase` (e.g., `SubmitButton()`).
   - _Rendimiento:_ Evitar cálculos o lógica de negocio pesada dentro de las funciones `@Composable` para prevenir recomposiciones innecesarias.
 
-<h4>Convenciones Generales (Todo el Proyecto)</h4>
+#### Convenciones Generales (Todo el Proyecto)
 
 - **Comentarios:** El código debe ser auto-explicativo. Usar comentarios solo para explicar el "porqué" de una lógica compleja, no el "qué". Todos los comentarios deben estar en _inglés_.
 - **Commits:** Seguir la especificación de _Conventional Commits_ (`feat:`, `fix:`, `docs:`, `chore:`, etc.) para mantener un historial limpio y legible.
@@ -4744,7 +4753,7 @@ Para asegurar la calidad, legibilidad y mantenibilidad del código de **FuelTrac
 
 En esta sección se especifica la configuración y el proceso de despliegue para cada uno de los componentes de la solución _FuelTrack Pro_. Los siguientes pasos describen cómo, a partir de los repositorios de código fuente, se logra la publicación de la Landing Page, el Backend y la Aplicación Móvil.
 
-<h4>Landing Page (HTML/CSS/JS)</h4>
+#### Landing Page (HTML/CSS/JS)
 
 **Consideraciones antes del despliegue:**
 
@@ -4767,7 +4776,7 @@ En esta sección se especifica la configuración y el proceso de despliegue para
 6.  Esperar a que Vercel complete el proceso de build y despliegue.
 7.  Acceder a la URL pública generada por Vercel para verificar que la Landing Page esté operativa.
 
-<h4>Backend (.NET API)</h4>
+#### Backend (.NET API)
 
 **Consideraciones antes del despliegue:**
 
@@ -4791,7 +4800,7 @@ En esta sección se especifica la configuración y el proceso de despliegue para
 7.  Hacer clic en "Create Web Service" para iniciar el despliegue.
 8.  Render construirá la imagen Docker y desplegará el servicio. Una vez completado, se podrá acceder a la API a través de la URL pública generada.
 
-<h4>Aplicación Móvil (Android)</h4>
+#### Aplicación Móvil (Android)
 
 **Consideraciones antes del despliegue (en dispositivo de prueba):**
 
@@ -5253,18 +5262,18 @@ Evidencia de despliegue del backend en Render:
   <li>Google Meet (reuniones de planificación de sprint)</li>
 </ul>
 
-## 4.3. Validation Interviews
+## 4.3. Entrevistas de Validación
 
 ### 4.3.1. Diseño de Entrevistas
 
-Preguntas relacionadas al Landing Page
+Preguntas relacionadas con la Landing Page:
 
-¿La información presentada en la pagina principal le resulta clara y fácil de entender para su negocio?
-¿Cómo calificarías la facilidad de navegación de la plataforma?
-¿Consideras que se deberia añadir alguna información adicional?
-¿Qué tan confiable le pareció la página al primer vistazo?
-¿El formulario de contacto o registro le inspiró confianza para dejar sus datos?
-¿Qué lo motivaría a registrarse o probar la plataforma después de visitar la página?
+1. ¿La información presentada en la página principal le resulta clara y fácil de entender para su negocio?
+2. ¿Cómo calificarías la facilidad de navegación de la plataforma?
+3. ¿Consideras que se debería añadir alguna información adicional?
+4. ¿Qué tan confiable le pareció la página al primer vistazo?
+5. ¿El formulario de contacto o registro le inspiró confianza para dejar sus datos?
+6. ¿Qué lo motivaría a registrarse o probar la plataforma después de visitar la página?
 
 ### 4.3.2. Registro de Entrevistas
 
@@ -5276,14 +5285,14 @@ Preguntas relacionadas al Landing Page
 - **Apellidos:** Castañeda Vilcapoma
 - **Edad:** 23
 - **Distrito:** San Juan de Lurigancho
-- **Captura de la entrevista**
+- **Captura de la entrevista:**
 
 <p align="center">
   <img src="./assets/Chapters/Chapter-IV/interview-validation-solicitante-3.png" alt="Captura entrevista 6" width="400"/>
 </p>
 
 - **Duración:** 9:33
-- **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/ESEt8NVZpiBFrdi2rDsF-vIB0Y6cHCpU9fuDeLdgXp--Kw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5iADbQ)
+- **URL de la Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/ESEt8NVZpiBFrdi2rDsF-vIB0Y6cHCpU9fuDeLdgXp--Kw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5iADbQ)
 
 ---
 
@@ -5293,14 +5302,14 @@ Preguntas relacionadas al Landing Page
 - **Apellidos:** Meza Camayo
 - **Edad:** 20
 - **Distrito:** Chupaca-Junín
-- **Captura de la entrevista**
+- **Captura de la entrevista:**
 
 <p align="center">
   <img src="./assets/Chapters/Chapter-IV/interview-validation-solicitante-1.png" alt="Captura entrevista 6" width="400"/>
 </p>
 
 - **Duración:** 7:57
-- **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/ESwzEeIMh0FEmNXho8kKSNoBXHyIshzIDZcbqELwDhoSmQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=wsfV0j)
+- **URL de la Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/ESwzEeIMh0FEmNXho8kKSNoBXHyIshzIDZcbqELwDhoSmQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=wsfV0j)
 
 ---
 
@@ -5310,87 +5319,93 @@ Preguntas relacionadas al Landing Page
 - **Apellidos:** Ricaldi Solis
 - **Edad:** 23
 - **Distrito:** Puente Piedra
-- **Captura de la entrevista**
+- **Captura de la entrevista:**
 
 <p align="center">
   <img src="./assets/Chapters/Chapter-IV/interview-validation-solicitante-2.png" alt="Captura entrevista 6" width="400"/>
 </p>
 
 - **Duración:** 3:58
-- **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EU1GcCmh0udAs0919oZr62QBu4hQor3AQKfTIjWmflYBfw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=gUdCYh)
+- **URL de la Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EU1GcCmh0udAs0919oZr62QBu4hQor3AQKfTIjWmflYBfw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=gUdCYh)
 
-### 4.3.3. Evaluaciones según heurísticas
+### 4.3.3. Evaluaciones según Heurísticas
 
 La evaluación heurística identifica problemas de usabilidad comparando la interfaz con principios reconocidos.
 
-SITE o APP A EVALUAR: FuelTrap — Landing Page
+**Sitio o App a Evaluar:** FuelTrap — Landing Page
 
-TAREAS A EVALUAR
+**Tareas a Evaluar:**
 
-1. La propuesta de valor en el “hero”
-2. Navegar por las secciones de la landing usando el menú y enlaces internos
+1. La propuesta de valor en el “hero”.
+2. Navegar por las secciones de la landing usando el menú y enlaces internos.
 3. Explorar el bloque de Precios/Planes y distinguir el plan recomendado.
-4. Revisar el footer
-5. Verificar la experiencia móvil (≈360–390 px) y escritorio (≥1280 px).
+4. Revisar el footer.
+5. Verificar la experiencia móvil (~360–390 px) y escritorio (≥1280 px).
 6. Comprobar accesibilidad básica: navegación por teclado, foco visible, textos alternativos en imágenes relevantes y contraste suficiente.
 
-NO INCLUIDO EN ESTA EVALUACIÓN
+**No Incluido en Esta Evaluación:**
 
-Registro/Login completos, recuperación de contraseña.
-Operaciones dentro del producto.
-Procesos de pago/facturación, integración con pasarelas.
+- Registro/Login completos, recuperación de contraseña.
+- Operaciones dentro del producto.
+- Procesos de pago/facturación, integración con pasarelas.
 
-ESCALA DE SEVERIDAD:
+**Escala de Severidad:**
 
-Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
-| Nivel | Descriptión                                                                                                                                                                                    |
-| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1     | Problema superficial: Puede ser fácilmente superador por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                  |
-| 2     | Problema menor: Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
-| 3     | Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                |
-| 4     | Problema muy grave: Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                              |
+| Nivel | Descripción                                                                                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: Puede ser fácilmente superado por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                    |
+| 2     | Problema menor: Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                  |
+| 4     | Problema muy grave: Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
 
-TABLA RESUMEN:
+**Tabla Resumen:**
 
-| #   | Problema                                                                                                                             | Escala de severidad | Heurística/Principio violada(o)                                                                  |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------ | :-----------------: | ------------------------------------------------------------------------------------------------ |
-| 1   | Los botones del hero (“Conócenos más” / “Ver demo”) no redirigen y solo refrescan la página.                                         |          3          | Information Architecture: Is it usable?                                                          |
-| 2   | Faltan anclas/destinos internos de los botones de la seccion Planes.                                                                 |          3          | Information Architecture: Is it findable?                                                        |
-| 3   | En móvil, la landing **no es suficientemente responsiva** (desbordes/solapamientos, objetivos táctiles pequeños, scroll horizontal). |          3          | Inclusive Design: Experiencias comparables; Accesibilidad: WCAG 1.4.10 Reflow, 2.5.5 Target Size |
+| #   | Problema                                                                                                                             | Severidad | Heurística/Principio Violado                                                                     |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------ | :-------: | ------------------------------------------------------------------------------------------------ |
+| 1   | Los botones del "hero" (“Conócenos más” / “Ver demo”) no redirigen y solo refrescan la página.                                       |     3     | Arquitectura de la Información: ¿Es usable?                                                      |
+| 2   | Faltan anclas/destinos internos en los botones de la sección "Planes".                                                               |     3     | Arquitectura de la Información: ¿Es encontrable?                                                 |
+| 3   | En móvil, la landing **no es suficientemente responsiva** (desbordes/solapamientos, objetivos táctiles pequeños, scroll horizontal). |     3     | Diseño Inclusivo: Experiencias comparables; Accesibilidad: WCAG 1.4.10 Reflow, 2.5.5 Target Size |
 
-DESCRIPCIÓN DE PROBLEMAS
+**Descripción de Problemas:**
 
-**PROBLEMA #1: Los botones del hero (“Conócenos más” / “Ver demo”) no redirigen y solo refrescan la página**
+**PROBLEMA #1: Los botones del "hero" (“Conócenos más” / “Ver demo”) no redirigen y solo refrescan la página**
 
-Severidad: 3
-Heurística violada: Information Architecture - Is it usable?
+- **Severidad:** 3
+- **Heurística violada:** Arquitectura de la Información - ¿Es usable?
 
-Problema:
+**Problema:**  
 Al hacer clic en los botones del hero, la página se actualiza o no realiza navegación alguna. Esto impide acceder rápidamente a la información clave (sección “Sobre nosotros” o una demo funcional), rompiendo el flujo de exploración inicial.
 
-Recomendación:
-Asignar destinos válidos y coherentes con el texto del botón (p. ej., #nosotros, #demo o ruta /demo), habilitar scroll suave y actualizar la URL (ancla o ruta) para dar feedback de navegación. Verificar el comportamiento con analítica (eventos de clic) y estados :focus/:active visibles. (Incluir además una captura de pantalla ilustrando el problema).
+**Recomendación:**  
+Asignar destinos válidos y coherentes con el texto del botón (por ejemplo, #nosotros, #demo o ruta /demo), habilitar scroll suave y actualizar la URL (ancla o ruta) para dar feedback de navegación. Verificar el comportamiento con analítica (eventos de clic) y estados :focus/:active visibles. (Incluir además una captura de pantalla ilustrando el problema).
 
-**PROBLEMA #2:** Faltan anclas/destinos internos de los botones de la sección “Planes”
-Severidad: 3
-Heurística violada: Information Architecture - Is it findable?
+---
 
-Problema:
+**PROBLEMA #2: Faltan anclas/destinos internos en los botones de la sección “Planes”**
+
+- **Severidad:** 3
+- **Heurística violada:** Arquitectura de la Información - ¿Es encontrable?
+
+**Problema:**  
 Los botones de la sección “Planes” (“Empezar ahora” , “Comprar prueba”) no llevan al flujo esperado (lead/checkout) y, en algunos casos, retornan al inicio. Esto dificulta encontrar y completar la acción principal de conversión.
 
-Recomendación:
+**Recomendación:**  
 Definir rutas o anclas claras que conecten cada botón con su destino.
 
-**PROBLEMA #3:** En móvil, la landing no es suficientemente responsiva (desbordes/solapamientos, objetivos táctiles pequeños, scroll horizontal)
+---
 
-Severidad: 3
+**PROBLEMA #3: En móvil, la landing no es suficientemente responsiva (desbordes/solapamientos, objetivos táctiles pequeños, scroll horizontal)**
 
-Heurística violada: Inclusive Design - Experiencias comparables; Accesibilidad - WCAG 1.4.10 Reflow, 2.5.5 Target Size
-Problema:
-En vistas ~360–390 px se presentan textos e imágenes que se desbordan, elementos superpuestos, objetivos táctiles < 44×44 px y presencia de scroll horizontal, afectando lectura, navegación y clics en botones.
-Recomendación:
-Aplicar diseño mobile-first: tipografías y spacing en rem, imágenes fluidas (max-width: 100%), rejillas adaptativas (1 columna en móvil), breakpoints adecuados, evitar anchos/altos fijos y garantizar tamaño mínimo 44×44 px en objetivos táctiles.
+- **Severidad:** 3
+- **Heurística violada:** Diseño Inclusivo - Experiencias comparables; Accesibilidad - WCAG 1.4.10 Reflow, 2.5.5 Target Size
+
+**Problema:**  
+En vistas ~360–390 px se presentan textos e imágenes que se desbordan, elementos superpuestos, objetivos táctiles < 44×44 px y presencia de scroll horizontal, afectando la lectura, navegación y clics en botones.
+
+**Recomendación:**  
+Aplicar diseño mobile-first: tipografías y espaciado en rem, imágenes fluidas (max-width: 100%), rejillas adaptativas (1 columna en móvil), breakpoints adecuados, evitar anchos/altos fijos y garantizar tamaño mínimo de 44×44 px en objetivos táctiles.
 
 # Conclusiones
 
