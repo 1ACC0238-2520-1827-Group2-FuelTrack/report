@@ -142,6 +142,12 @@ Ingeniería de Software
 
 ![alt text](assets/Chapters/Insights/NetworkGraph_TB1.png)
 
+**TP1**
+
+![alt text](assets/Chapters/Insights/Summary_TP1.png)
+
+![alt text](assets/Chapters/Insights/Contirbutors_TP1.png)
+
 # Table of Contents
 
 - [Registro de versiones del Informe](#registro-de-versiones-del-informe)
