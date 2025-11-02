@@ -100,6 +100,7 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
       </ul>
     </td>
     <td> Se han incluído los siguientes capítulos y secciones:
+    Se han incorporado las mejoras sugeridas por el docente en la entrega anterior. Además, en esta entrega se incluyeron nuevos apartados clave como el Capítulo III: Solution UI/UX Design, Capítulo IV: Product Implementation & Validation, así como un resumen detallado del Sprint 2. También se añadieron las secciones de Conclusiones, Bibliografía y Anexos, proporcionando una visión más completa del progreso del proyecto, la implementación de las soluciones de diseño y las pruebas realizadas hasta el momento.
       <ul>
       </ul>
     </td>
