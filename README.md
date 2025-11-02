@@ -382,6 +382,15 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insigths during Sprint](#4218-team-collaboration-insigths-during-sprint)
+    - [4.2.2. Sprint 2](#422-sprint-2)
+      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
+      - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
+      - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
+      - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
+      - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
+      - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
+      - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
   - [4.3. Entrevistas de Validación](#43-entrevistas-de-validación)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -422,12 +431,13 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
         <b>Rogger Miranda</b><br>
         TB1: Durante el desarrollo del startup y el producto, me di cuenta de la importancia de repasar conceptos fundamentales y de estar siempre dispuesto a adoptar nuevas herramientas y metodologías. En este caso, implementé diagramas C4 (de contexto y componentes), lo que permitió mejorar la claridad y organización de la arquitectura del sistema. Esta experiencia me recordó que, aunque algunos aspectos del trabajo puedan parecer rutinarios, siempre es útil revisarlos y estar preparado para aprender lo necesario para mejorar la calidad y el alcance de los proyectos.<br>
         TP1: Durante el desarrollo del producto y el informe, me di cuenta la importancia de poder estar actualizado en conceptos, tecnicas y teconologias para el correcto desarrollo de la solución de manera agil y eficaz. En esta oportunidad fue muy importante entender conceptos de SEO, entender el funcionamiento de las tecnologias respectivas para el avance tanto de la landing como del backend, conceptos de UX/UI, etc.<br>
+        TB2: Para esta entrega, profundicé en la integración entre la capa de presentación y la lógica del dominio, ademas reforce mis conocimientos en Kotlin, Flutter. Contribui en varios aspectos para el desarrollo del aplicativo lo que me permitio mejorar mis habilidades
         <b>Lynn Meza</b><br>
         TB1: Durante este hito actualicé y apliqué conceptos clave de Domain-Driven Design para mi desarrollo profesional y el proyecto: facilité un Event Storming para depurar el Lenguaje Ubicuo y extraer eventos, comandos y políticas; descubrí y definí Bounded Contexts mediante sus Canvases; y modelé Domain Message Flows que explicitan contratos de integración y decisiones de orquestación/coreografía.<br>
         TP1: Para esta entrega, profundicé en la integración entre la capa de presentación y la lógica del dominio, reforzando mis conocimientos en Kotlin y Java. Además, actualicé mis conocimientos sobre buenas prácticas en consumo de APIs REST, aunque en esta fase trabajamos con una API fake. Este avance técnico me permitió contribuir en la implementación de vistas core funcionales y escalables, alineadas al diseño UX definido.<br>
       </td>
       <td>
-        CONCLUSION CRITERIO 1
+        A lo largo del proyecto, el equipo mostró un compromiso con el aprendizaje continuo y la actualización constante de conocimientos clave en áreas como Lean UX, Domain-Driven Design, UX/UI, y tecnologías como Kotlin y Flutter. Cada miembro profundizó en conceptos técnicos esenciales, desde el desarrollo de diagramas y la creación de prototipos hasta la integración de sistemas y la implementación de arquitecturas eficientes. Este enfoque permitió mejorar la calidad del proyecto, garantizar soluciones escalables y alineadas al diseño, y fortalecer el desarrollo profesional del equipo, evidenciando que la actualización constante es crucial para el éxito en soluciones de ingeniería de software.
       </td>
     </tr>
     <tr>
@@ -450,12 +460,14 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
         <b>Rogger Faryd Miranda Ayasta</b><br>
         TB1: A lo largo del desarrollo del proyecto, me di cuenta de que el aprendizaje constante es fundamental para mejorar el desempeño profesional y desarrollar soluciones efectivas en ingeniería de software. Al enfrentarme a tareas como el diseño de la arquitectura del sistema y la implementación de diagramas C4, comprendí que la adopción de nuevas herramientas y metodologías es crucial para optimizar el proceso. Esta experiencia me reafirmó que, para tener éxito en el campo, es necesario seguir aprendiendo y adaptándose continuamente a nuevas tecnologías y enfoques.
         TP1: En esta oportunidad para el desarrollo  del producto y el informe, me di cuenta la importancia de conocer y aprender conceptos, tecnicas y teconologias para el correcto desarrollo de la solución de manera agil y eficaz. Fue de mucha importancia aprender sobre de Tags y MetaTags, conocerconceptos de UX/UI, etc.
+        TB2: En esta oportunidad, profundicé nuevos conomientos en Kotlin y Flutter lo que me permite contribuir en varios aspectos para el desarrollo del aplicativo lo que representa la mejora continua esperada.
         <br>
       </td>
       <td>
-        CONCLUSION CRITERIO 2
+      A lo largo del proyecto, todos los miembros del equipo coincidieron en la importancia del aprendizaje continuo para el desarrollo profesional y la creación de soluciones efectivas en el campo de la ingeniería de software. Cada integrante del equipo tuvo que aprender nuevas herramientas y tecnologías para abordar los diferentes desafíos del proyecto, como el uso de herramientas de modelado (diagramas ER, UML), el análisis del mercado de combustibles, la integración de APIs en aplicaciones móviles y el desarrollo de componentes de UI. Además, la constante actualización de conocimientos en áreas como UX/UI y backend fue esencial para mejorar la calidad técnica del proyecto. Cada miembro también destacó la importancia de adaptarse a nuevas metodologías, como Domain-Driven Design, Event Storming y diagrama C4, lo cual contribuyó a una arquitectura modular y una integración más clara y eficiente. En general, el proyecto reflejó que el aprendizaje y la adaptación continua son fundamentales para enfrentar los retos del desarrollo de software y garantizar que la solución propuesta sea útil, eficiente y escalable.
       </td>
     </tr>
+
   </tbody>
 </table>
 
@@ -5260,6 +5272,113 @@ Evidencia de despliegue del backend en Render:
   <li>GitHub (control de versiones y manejo de issues)</li>
   <li>WhatsApp (comunicación diaria y aclaraciones rápidas)</li>
   <li>Google Meet (reuniones de planificación de sprint)</li>
+</ul>
+
+### 4.2.2. Sprint 2
+
+#### 4.2.2.1. Sprint Planning 2
+
+<table border>
+    <tr align="center">
+        <td><strong>Sprint #</strong></td>
+        <td><strong>Sprint 2</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Date</td>
+        <td>30/10/2025</td>
+    </tr>
+    <tr align="center">
+        <td>Time</td>
+        <td>10:00 AM</td>
+    </tr>
+    <tr align="center">
+        <td>Location</td>
+        <td>Meet</td>
+    </tr>
+    <tr align="center">
+        <td>Prepared by</td>
+        <td>Rogger Miranda</td>
+    </tr>
+    <tr align="center">
+        <td>Attendess (to planning meeting)</td>
+        <td>
+          Acuña Tomas, Diego Rolin - U202221436<br>
+          Miranda Ayasta, Rogger Faryd - U202319239<br>
+          Arias Segil, Marllely Anahi - U202223984<br>
+          Sanchez Arenas, Manuel Angel - U201817507<br>
+          Meza Camayo, Lynn Jeeferzon - U20201C320
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Review Summary</td>
+        <td>El Sprint 1 finalizó con éxito: Landing Page, vistas core de la app y endpoints de backend completados. Todo se entregó dentro del plazo y con integración entre frontend y backend funcionando correctamente.</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Retrospective Summary</td>
+        <td>El sprint fue positivo, pero se identificaron áreas de mejora en la distribución de tareas y la estimación de tiempos. Se destacó la importancia de mejorar la coordinación y realizar pruebas más tempranas para evitar retrabajos. Se ajustarán estos aspectos en el próximo ciclo.</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+        <td align="center">Sprint 2 Goal</td> 
+            <td>Implementar las correcciones en la Landing Page para un nuevo despliegue.  
+        Desarrollo de las primeras vistas core de la mobile application:
+        <ul>
+            <li>Login (Client & Supplier)</li>
+            <li>Client Order List View</li>
+            <li>Client Detailed Order View</li>
+            <li>Create Order View</li>
+        </ul>
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 2 Velocity</td>
+        <td>12</td>
+    </tr>
+    <tr align="center">
+        <td>Sum of Story Point</td>
+        <td>22</td>
+    </tr>
+</table>
+
+#### 4.2.2.2. Sprint Backlog 2
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+En el Sprint 2, aunque el enfoque principal fue el desarrollo de las vistas core de la aplicación móvil en Kotlin, no se implementaron pruebas unitarias ni de integración completas debido a que el avance estaba centrado en la implementación de la funcionalidad básica de la app. Sin embargo, se llevaron a cabo pruebas de usabilidad para las vistas de la aplicación móvil, asegurando que las pantallas de Login, Listado de Pedidos, Detalle de Pedido y Crear Pedido fueran funcionales en diferentes dispositivos y versiones de Android. Además, se realizaron pruebas funcionales de los endpoints RESTful implementados, validando la correcta autenticación de usuarios y el manejo de pedidos a través de las API. Estas pruebas permitieron asegurar que los elementos clave del sistema estuvieran operativos antes de continuar con la integración de más funcionalidades en los siguientes sprints.
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 4.2.2.8. Team Collaboration Insights during Sprint
+
+<p>
+  <strong>Resumen:</strong><br>
+  Durante el Sprint 2, el equipo mantuvo una estrecha colaboración a través de GitHub, WhatsApp y Google Meet. Las actividades principales se centraron en el desarrollo de la aplicación móvil en Kotlin, completando aproximadamente el 80% del avance esperado en las vistas core de la app.
+</p>
+
+<h4>Evidencia de Colaboración:</h4>
+<ul>
+  <li>Desarrollo y revisión de las vistas principales de la app móvil en Kotlin, incluyendo Login, Client Order List, Client Detailed Order y Create Order.</li>
+  <li>Integración de endpoints RESTful y pruebas de autenticación de usuarios para la plataforma.</li>
+  <li>Commit de código documentado en GitHub con descripciones claras del trabajo realizado por cada miembro del equipo.</li>
+  <li>Revisión continua de las User Stories y ajustes según los comentarios del equipo en las reuniones de Google Meet.</li>
+</ul>
+
+<h4>Principales Herramientas de Comunicación:</h4>
+<ul>
+  <li>GitHub (control de versiones, seguimiento de issues y revisión de código)</li>
+  <li>WhatsApp (comunicación diaria y resolución de dudas rápidas entre los miembros)</li>
+  <li>Google Meet (reuniones de planificación, seguimiento de avances y solución de problemas técnicos en equipo)</li>
 </ul>
 
 ## 4.3. Entrevistas de Validación
