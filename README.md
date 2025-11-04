@@ -4515,45 +4515,35 @@ Esta sección muestra los Mock-ups de las aplicaciones móviles de FuelTrack, do
 
 Se presentan los User Flows correspondientes a los principales objetivos del usuario (User Goals) identificados para el sistema. Cada flujo integra las vistas representativas mediante Mock-ups, evidenciando el recorrido del usuario dentro de la aplicación.
 
-#### **User Goal 01: Crear una nueva orden de combustible**
-
-**User Flow 1:**  
-![img](assets/Chapters/Chapter-III/userFlow01.png)
-
-**Explicación del flujo:**  
-El flujo muestra el proceso mediante el cual el usuario genera una nueva orden desde la sección Orders. Completa los campos requeridos en las etapas de detalles y pagos, y finalmente confirma la solicitud. El sistema valida la información y registra la orden correctamente.
+**User Flow Diagram 1:**
+- **User Goal:** Crear una nueva orden de combustible. Como usuario solicitante, deseo registrar una nueva orden de combustible ingresando los detalles del producto, forma de pago y confirmando la solicitud.
+- **Task Flow:** ![Task Flow - Crear orden](assets/Chapters/Chapter-III/taskFlow01.png)
+- **Wireflow:** ![Wire flow - Crear orden](assets/Chapters/Chapter-III/wireFlow01.png)
+- **User Flow:** ![User Flow - Crear orden](assets/Chapters/Chapter-III/userFlow01.png)
 
 ---
 
-#### **User Goal 02: Visualizar historial de órdenes**
-
-**User Flow 2:**
-
-![img](assets/Chapters/Chapter-III/userFlow02.png)
-
-**Explicación del flujo:**
-
-Este flujo representa la consulta del historial de órdenes registradas. El usuario accede al listado general, navega entre los pedidos y selecciona una orden específica para revisar su información y estado actual dentro del sistema.
+**User Flow Diagram 2:**
+- **User Goal:** Ver listado de órdenes. Como usuario solicitante, deseo consultar las órdenes realizadas para revisar su estado y detalles.
+- **Task Flow:** ![Task Flow - Ver listado de órdenes](assets/Chapters/Chapter-III/taskFlow02.png)
+- **Wireflow:** ![Wire flow - Ver listado de órdenes](assets/Chapters/Chapter-III/wireFlow02.png)
+- **User Flow:** ![User Flow - Ver listado de órdenes](assets/Chapters/Chapter-III/userFlow02.png)
 
 ---
 
-#### **User Goal 03: Registrar proveedor**
-
-**User Flow 3:**  
-![img](assets/Chapters/Chapter-III/userFlow03.png)
-
-**Explicación del flujo:**  
-El flujo describe el proceso que realiza el administrador para registrar un nuevo proveedor. Tras seleccionar el tipo de usuario, completa los datos requeridos del registro. Luego, el sistema valida la información y redirige al panel principal, mostrando las opciones disponibles.
+**User Flow Diagram 3:**
+- **User Goal:** Registro de proveedor. Como administrador, deseo registrar un nuevo proveedor ingresando sus datos empresariales y credenciales de acceso.
+- **Task Flow:** ![Task Flow - Registro de proveedor](assets/Chapters/Chapter-III/taskFlow03.png)
+- **Wireflow:** ![Wire flow - Registro de proveedor](assets/Chapters/Chapter-III/wireFlow03.png)
+- **User Flow:** ![User Flow - Registro de proveedor](assets/Chapters/Chapter-III/userFlow03.png)
 
 ---
 
-#### **User Goal 04: Cargar comprobantes o documentos de pago**
-
-**User Flow 4:**  
-![img](assets/Chapters/Chapter-III/userFlow04.png)
-
-**Explicación del flujo:**  
-Este flujo detalla los pasos para subir comprobantes bancarios o documentos de respaldo. El usuario accede a la sección Conciliations, selecciona la opción de carga, adjunta los archivos y confirma la operación. El sistema asocia los documentos con la orden correspondiente.
+**User Flow Diagram 4:**
+- **User Goal:** Cargar comprobantes o documentos de pago. Como usuario proveedor, deseo subir comprobantes bancarios o documentos de respaldo para asociarlos a mis órdenes.
+- **Task Flow:** ![Task Flow - Cargar comprobantes](assets/Chapters/Chapter-III/taskFlow04.png)
+- **Wireflow:** ![Wire flow - Cargar comprobantes](assets/Chapters/Chapter-III/wireFlow04.png)
+- **User Flow:** ![User Flow - Cargar comprobantes](assets/Chapters/Chapter-III/userFlow04.png)
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
