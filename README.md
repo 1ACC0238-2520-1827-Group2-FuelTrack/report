@@ -2,15 +2,19 @@
 
 <div align="center">
 
-# ✨ Informe Trabajo Final ✨
+<div style="text-align: center; transform: scale(0.7);">
+    <img src="./assets/logo-upc.png" alt="Banner UPC">
+</div>
 
-<img src="./assets/Banner-UPC.png" alt="Banner UPC">
+### Universidad Peruana de Ciencias Aplicadas
 
-### Universidad Peruana de Ciencias Aplicadas 🎓
+Ingeniería de Software
 
-🧑‍💻 Ingeniería de software - 202520
+**Periodo: 202520**
 
-**Sección: 1827**
+**1ACC0238 Aplicaciones para Dispositivos Móviles**
+
+**NCR: 1827**
 
 **Docente: David Gerardo Quevedo Velasco**
 
@@ -18,23 +22,19 @@
 
 **Producto: FuelTrack Pro**
 
-<div align='left'>
+**Integrantes:**
 
-```kotlin
-fun Integrantes(): Array<String> {
-    return arrayOf(
-        "🧑‍💻 Acuña Tomas, Diego Rolin - U202221436",
-        "👩‍💻 Miranda Ayasta, Rogger Faryd - U202319239",
-        "👩‍💻 Marllely Anahi Arias Segil - u202223984",
-        "👩‍💻 Manuel Angel Sanchez Arenas - u201817507",
-        "👩‍💻 Lynn Jeeferzon Meza Camayo - u20201c320"
-    )
-}
-```
+_U202221436 - Acuña Tomas, Diego Rolin_
 
-</div>
+_U202223984 - Arias Segil, Marllely Anahi_
 
-Septiembre del 2025 🗓️
+_U20201c320 - Meza Camayo, Lynn Jeeferzon_
+
+_U202319239 - Miranda Ayasta, Rogger Faryd_
+
+_U201817507 - Sanchez Arenas, Manuel Angel_
+
+**Septiembre 2025**
 
 </div>
 
@@ -100,6 +100,7 @@ Septiembre del 2025 🗓️
       </ul>
     </td>
     <td> Se han incluído los siguientes capítulos y secciones:
+    Se han incorporado las mejoras sugeridas por el docente en la entrega anterior. Además, en esta entrega se incluyeron nuevos apartados clave como el Capítulo III: Solution UI/UX Design, Capítulo IV: Product Implementation & Validation, así como un resumen detallado del Sprint 2. También se añadieron las secciones de Conclusiones, Bibliografía y Anexos, proporcionando una visión más completa del progreso del proyecto, la implementación de las soluciones de diseño y las pruebas realizadas hasta el momento.
       <ul>
       </ul>
     </td>
@@ -140,10 +141,14 @@ Septiembre del 2025 🗓️
 
 ![alt text](assets/Chapters/Insights/NetworkGraph_TB1.png)
 
+**TP1**
+
+![alt text](assets/Chapters/Insights/Summary_TP1.png)
+
+![alt text](assets/Chapters/Insights/Contirbutors_TP1.png)
+
 # Table of Contents
 
-- [✨ Informe Trabajo Final ✨](#-informe-trabajo-final-)
-  - [Universidad Peruana de Ciencias Aplicadas 🎓](#universidad-peruana-de-ciencias-aplicadas-)
 - [Registro de versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Table of Contents](#table-of-contents)
@@ -181,9 +186,17 @@ Septiembre del 2025 🗓️
       - [**A. Proveedores de Combustible**](#a-proveedores-de-combustible-2)
       - [Características Objetivas](#características-objetivas)
       - [Características Subjetivas](#características-subjetivas)
+      - [Analisis Estadistico](#analisis-estadistico)
+        - [Grafico 1:](#grafico-1)
+        - [Grafico 2:](#grafico-2)
+        - [Grafico 3:](#grafico-3)
       - [**B. Empresas Solicitantes**](#b-empresas-solicitantes-2)
       - [Características Objetivas](#características-objetivas-1)
       - [Características Subjetivas](#características-subjetivas-1)
+      - [Analisis Estadistico](#analisis-estadistico-1)
+        - [Grafico 1:](#grafico-1-1)
+        - [Grafico 2:](#grafico-2-1)
+        - [Grafico 3:](#grafico-3-1)
   - [2.3. Needfinding.](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
       - [A. Proveedores de Combustible](#a-proveedores-de-combustible-3)
@@ -297,6 +310,92 @@ Septiembre del 2025 🗓️
       - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
       - [3.1.2.4. Searching Systems](#3124-searching-systems)
       - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
+    - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
+      - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
+      - [3.1.3.2. Landing Page Mock-ups](#3132-landing-page-mock-ups)
+    - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
+      - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+      - [**Bienvenida al aplicativo**](#bienvenida-al-aplicativo)
+      - [**Sección Cliente**](#sección-cliente)
+      - [**Inicio de Sesión (Cliente)**](#inicio-de-sesión-cliente)
+      - [**Crear Cuenta (Cliente)**](#crear-cuenta-cliente)
+      - [**Apartado Principal (Cliente)**](#apartado-principal-cliente)
+      - [**Menú Principal (Cliente)**](#menú-principal-cliente)
+      - [**Listado de Órdenes (Cliente)**](#listado-de-órdenes-cliente)
+      - [**Visualización de una Orden**](#visualización-de-una-orden)
+      - [**Creación de una Orden**](#creación-de-una-orden)
+      - [**Sección Proveedor**](#sección-proveedor)
+      - [**Inicio de Sesión (Proveedor)**](#inicio-de-sesión-proveedor)
+      - [**Crear Cuenta (Proveedor)**](#crear-cuenta-proveedor)
+      - [**Apartado Principal (Proveedor)**](#apartado-principal-proveedor)
+      - [**Menú Principal (Proveedor)**](#menú-principal-proveedor)
+      - [**Gestión de Órdenes (Order Management)**](#gestión-de-órdenes-order-management)
+      - [**Conciliaciones (Subir comprobantes)**](#conciliaciones-subir-comprobantes)
+      - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+      - [**User Goal 01: Crear una nueva orden de combustible**](#user-goal-01-crear-una-nueva-orden-de-combustible)
+      - [**User Goal 02: Visualizar historial de órdenes**](#user-goal-02-visualizar-historial-de-órdenes)
+      - [**User Goal 03: Registrar proveedor**](#user-goal-03-registrar-proveedor)
+      - [**User Goal 04: Cargar comprobantes o documentos de pago**](#user-goal-04-cargar-comprobantes-o-documentos-de-pago)
+      - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+      - [**Bienvenida al aplicativo**](#bienvenida-al-aplicativo-1)
+      - [**Sección Cliente**](#sección-cliente-1)
+      - [**Inicio de Sesión (Cliente)**](#inicio-de-sesión-cliente-1)
+      - [**Crear Cuenta (Cliente)**](#crear-cuenta-cliente-1)
+      - [**Apartado Principal (Cliente)**](#apartado-principal-cliente-1)
+      - [**Menú Principal (Cliente)**](#menú-principal-cliente-1)
+      - [**Listado de Órdenes (Cliente)**](#listado-de-órdenes-cliente-1)
+      - [**Visualización de una Orden**](#visualización-de-una-orden-1)
+      - [**Creación de una Orden**](#creación-de-una-orden-1)
+      - [**Sección Proveedor**](#sección-proveedor-1)
+      - [**Inicio de Sesión (Proveedor)**](#inicio-de-sesión-proveedor-1)
+      - [**Crear Cuenta (Proveedor)**](#crear-cuenta-proveedor-1)
+      - [**Apartado Principal (Proveedor)**](#apartado-principal-proveedor-1)
+      - [**Menú Principal (Proveedor)**](#menú-principal-proveedor-1)
+      - [**Gestión de Órdenes (Order Management)**](#gestión-de-órdenes-order-management-1)
+      - [**Conciliaciones (Subir Comprobantes)**](#conciliaciones-subir-comprobantes-1)
+      - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+      - [**User Goal 01: Crear una nueva orden de combustible**](#user-goal-01-crear-una-nueva-orden-de-combustible-1)
+      - [**User Goal 02: Visualizar historial de órdenes**](#user-goal-02-visualizar-historial-de-órdenes-1)
+      - [**User Goal 03: Registrar proveedor**](#user-goal-03-registrar-proveedor-1)
+      - [**User Goal 04: Cargar comprobantes o documentos de pago**](#user-goal-04-cargar-comprobantes-o-documentos-de-pago-1)
+      - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+- [Capítulo IV: Product Implementation \& Validation](#capítulo-iv-product-implementation--validation)
+  - [4.1 Software Configuration Management](#41-software-configuration-management)
+    - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+    - [**Software Deployment**](#software-deployment)
+    - [4.1.2. Source Code Management](#412-source-code-management)
+    - [4.1.3. Source Code Style Guide \& Conventions](#413-source-code-style-guide--conventions)
+      - [Backend: .NET (C#)](#backend-net-c)
+      - [Landing Page: HTML, CSS y JavaScript](#landing-page-html-css-y-javascript)
+      - [Mobile: Android (Kotlin) \& Jetpack Compose](#mobile-android-kotlin--jetpack-compose)
+      - [Convenciones Generales (Todo el Proyecto)](#convenciones-generales-todo-el-proyecto)
+    - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+      - [Landing Page (HTML/CSS/JS)](#landing-page-htmlcssjs)
+      - [Backend (.NET API)](#backend-net-api)
+      - [Aplicación Móvil (Android)](#aplicación-móvil-android)
+  - [4.2. Landing Page \& Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
+    - [4.2.1. Sprint 1](#421-sprint-1)
+      - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+      - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
+      - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+      - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+      - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+      - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+      - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
+      - [4.2.1.8. Team Collaboration Insigths during Sprint](#4218-team-collaboration-insigths-during-sprint)
+    - [4.2.2. Sprint 2](#422-sprint-2)
+      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
+      - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
+      - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
+      - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
+      - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
+      - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
+      - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
+  - [4.3. Entrevistas de Validación](#43-entrevistas-de-validación)
+    - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
+    - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+    - [4.3.3. Evaluaciones según Heurísticas](#433-evaluaciones-según-heurísticas)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Video App Validation](#video-app-validation)
@@ -322,19 +421,24 @@ Septiembre del 2025 🗓️
       <td>
         <b>Diego Acuña</b><br>
         TB1: Durante el desarrollo del startup y el producto, tuve que repasar conceptos básicos como Lean UX. En particular, necesité investigar nuevas tecnologías para crear diagramas ER y UML directamente desde Visual Studio Code. Esta experiencia me enseñó que, aunque hayas realizado algo muchas veces, siempre es necesario repasar conceptos, incluso los más básicos. Además, debo estar preparado para adquirir nuevos conocimientos que me permitan completar satisfactoriamente cualquier proyecto de software.<br>
+        TP1: Para esta entrega, tuve que indagar aún más y actualizarme sobre las últimas tendencias en diseño UX/UI para poder aplicar enfoques innovadores en nuestra aplicación móvil. Esto se ve puede ver reflejado en mi desarrollo de vistas core.<br>
         <b>Manuel Sanchez</b><br>
-        TB1: Los componentes que conforman la infraestructura de nuestro sistema me llevaron a actualizarme sobre las buenas practicas para un correcto despliegue. <br>
+        TB1: Los componentes que conforman la infraestructura de nuestro sistema me llevaron a actualizarme sobre las buenas practicas para un correcto despliegue.<br>
+        TP1: Para este sprint fue necesario investigar la documentación de las librerías UI para el desarrollo de las vistas core de la aplicación.<br>
         <b>Marllely Arias</b><br>
         TB1: A través del desarrollo del capítulo dos, trabajé en el análisis competitivo, el needfinding y las entrevistas, lo que me permitió adquirir nuevas perspectivas y herramientas que aportan directamente a mi formación profesional y al avance de mi proyecto en soluciones de ingeniería de software.<br>
-        <b>Rogger Miranda</b><br>
-        TB1: Durante el desarrollo del startup y el producto, me di cuenta de la importancia de repasar conceptos fundamentales y de estar siempre dispuesto a adoptar nuevas herramientas y metodologías. En este caso, implementé diagramas C4 (de contexto y componentes), lo que permitió mejorar la claridad y organización de la arquitectura del sistema. Esta experiencia me recordó que, aunque algunos aspectos del trabajo puedan parecer rutinarios, siempre es útil revisarlos y estar preparado para aprender lo necesario para mejorar la calidad y el alcance de los proyectos
-        TP1: Durante el desarrollo del producto y el informe, me di cuenta la importancia de poder estar actualizado en conceptos, tecnicas y teconologias para el correcto desarrollo de la solución de manera agil y eficaz. En esta oportunidad fue muy importante entender conceptos de SEO, entender el funcionamiento de las tecnologias respectivas para el avance tanto de la landing como del backend, conceptos de UX/UI, etc.
+        TP1: Durante esta entrega reforcé mis conocimientos en diseño UX/UI, aplicando principios de diseño, arquitectura de información y diseño inclusivo. Desarrollé wireframes, mockups y prototipos interactivos, lo cual fortaleció mis habilidades para proponer soluciones digitales efectivas.
         <br>
+        <b>Rogger Miranda</b><br>
+        TB1: Durante el desarrollo del startup y el producto, me di cuenta de la importancia de repasar conceptos fundamentales y de estar siempre dispuesto a adoptar nuevas herramientas y metodologías. En este caso, implementé diagramas C4 (de contexto y componentes), lo que permitió mejorar la claridad y organización de la arquitectura del sistema. Esta experiencia me recordó que, aunque algunos aspectos del trabajo puedan parecer rutinarios, siempre es útil revisarlos y estar preparado para aprender lo necesario para mejorar la calidad y el alcance de los proyectos.<br>
+        TP1: Durante el desarrollo del producto y el informe, me di cuenta la importancia de poder estar actualizado en conceptos, tecnicas y teconologias para el correcto desarrollo de la solución de manera agil y eficaz. En esta oportunidad fue muy importante entender conceptos de SEO, entender el funcionamiento de las tecnologias respectivas para el avance tanto de la landing como del backend, conceptos de UX/UI, etc.<br>
+        TB2: Para esta entrega, profundicé en la integración entre la capa de presentación y la lógica del dominio, ademas reforce mis conocimientos en Kotlin, Flutter. Contribui en varios aspectos para el desarrollo del aplicativo lo que me permitio mejorar mis habilidades
         <b>Lynn Meza</b><br>
-        TB1: Durante este hito actualicé y apliqué conceptos clave de Domain-Driven Design para mi desarrollo profesional y el proyecto: facilité un Event Storming para depurar el Lenguaje Ubicuo y extraer eventos, comandos y políticas; descubrí y definí Bounded Contexts mediante sus Canvases; y modelé Domain Message Flows que explicitan contratos de integración y decisiones de orquestación/coreografía.-<br>
+        TB1: Durante este hito actualicé y apliqué conceptos clave de Domain-Driven Design para mi desarrollo profesional y el proyecto: facilité un Event Storming para depurar el Lenguaje Ubicuo y extraer eventos, comandos y políticas; descubrí y definí Bounded Contexts mediante sus Canvases; y modelé Domain Message Flows que explicitan contratos de integración y decisiones de orquestación/coreografía.<br>
+        TP1: Para esta entrega, profundicé en la integración entre la capa de presentación y la lógica del dominio, reforzando mis conocimientos en Kotlin y Java. Además, actualicé mis conocimientos sobre buenas prácticas en consumo de APIs REST, aunque en esta fase trabajamos con una API fake. Este avance técnico me permitió contribuir en la implementación de vistas core funcionales y escalables, alineadas al diseño UX definido.<br>
       </td>
       <td>
-        CONCLUSION CRITERIO 1
+        A lo largo del proyecto, el equipo mostró un compromiso con el aprendizaje continuo y la actualización constante de conocimientos clave en áreas como Lean UX, Domain-Driven Design, UX/UI, y tecnologías como Kotlin y Flutter. Cada miembro profundizó en conceptos técnicos esenciales, desde el desarrollo de diagramas y la creación de prototipos hasta la integración de sistemas y la implementación de arquitecturas eficientes. Este enfoque permitió mejorar la calidad del proyecto, garantizar soluciones escalables y alineadas al diseño, y fortalecer el desarrollo profesional del equipo, evidenciando que la actualización constante es crucial para el éxito en soluciones de ingeniería de software.
       </td>
     </tr>
     <tr>
@@ -342,21 +446,29 @@ Septiembre del 2025 🗓️
       <td>
         <b>Diego Acuña</b><br>
         TB1: Al desarrollar el trabajo, tuve que aprender a usar herramientas para la creación de diagramas ER y UML que nunca había utilizado anteriormente. También repasé conocimientos ya adquiridos pero de gran importancia. Sobre todo, tuve que aprender todo lo que conlleva el mercado de combustibles, tanto su gestión como su logística. Estar abierto a aprender nuevas tecnologías y aspectos más allá de la informática, pero relacionados con el proyecto, ayuda a determinar si tu solución será útil o no para tus posibles clientes.<br>
+        TP1: Para esta entrega, investigué las opciones de configuración de una aplicación móvil desarrollada en Kotlin y Java, con el objetivo de integrar y consumir datos desde una API simulada (fake API) durante el proceso de desarrollo.<br>
         <b>Marllely Arias Segil</b><br>
-        TB1: Al trabajar en el capítulo dos, donde realicé el análisis competitivo, el needfinding y las entrevistas, comprendí que cada etapa del proyecto en soluciones de ingeniería de software exige actualizarme y seguir aprendiendo, ya que los retos y necesidades del entorno cambian constantemente.<br>
+        TB1: Al trabajar en el capítulo dos, donde realicé el análisis competitivo, el needfinding y las entrevistas, comprendí que cada etapa del proyecto en soluciones de ingeniería de software exige actualizarme y seguir aprendiendo, ya que los retos y necesidades del entorno cambian constantemente.
+        TP: Este proyecto me permitió ver la importancia de seguir aprendiendo nuevas herramientas y enfoques en diseño y tecnología. Investigar y aplicar buenas prácticas en UX/UI fue clave para mejorar mi desempeño y adaptarme a los retos del desarrollo de software.
+        <br>
         <b>Manuel Sanchez</b><br>
         TB1: Al actualizar nuestro backend, me di cuenta que no solo la práctica, sino también el aprendizaje debe ser constante para complementar mis habilidades adquiridas y desempeñarme mejor en el desarrollo de soluciones. <br>
+        TP1: Para esta entrega desarrollé parte de las vistas core de la aplicación móvil en Android Studio (Kotlin + Java) y verifiqué el comportamiento de los componentes de UI investigados previamente. Fue necesario investigar nuevamente sobre los componentes UI para asegurar su correcto funcionamiento.<br>
         <b>Lynn Meza</b><br>
-        TB1: Asumí el aprendizaje permanente mientras desarrollé el modelado del dominio: facilité el Event Storming, delimité Bounded Contexts y redacté sus Canvas, y diseñé los Domain Message Flows. Para lograrlo me actualicé con documentación. El resultado fue una arquitectura más modular, integraciones claras y criterios de prueba trazables, elevando la calidad técnica del proyecto.-<br>
+        TB1: Asumí el aprendizaje permanente mientras desarrollé el modelado del dominio: facilité el Event Storming, delimité Bounded Contexts y redacté sus Canvas, y diseñé los Domain Message Flows. Para lograrlo me actualicé con documentación. El resultado fue una arquitectura más modular, integraciones claras y criterios de prueba trazables, elevando la calidad técnica del proyecto.<br>
+        TP1: En este sprint reforcé la importancia de la mejora continua, investigando sobre las mejores prácticas en Kotlin para asegurar un código mantenible.
+        <br>
         <b>Rogger Faryd Miranda Ayasta</b><br>
         TB1: A lo largo del desarrollo del proyecto, me di cuenta de que el aprendizaje constante es fundamental para mejorar el desempeño profesional y desarrollar soluciones efectivas en ingeniería de software. Al enfrentarme a tareas como el diseño de la arquitectura del sistema y la implementación de diagramas C4, comprendí que la adopción de nuevas herramientas y metodologías es crucial para optimizar el proceso. Esta experiencia me reafirmó que, para tener éxito en el campo, es necesario seguir aprendiendo y adaptándose continuamente a nuevas tecnologías y enfoques.
         TP1: En esta oportunidad para el desarrollo  del producto y el informe, me di cuenta la importancia de conocer y aprender conceptos, tecnicas y teconologias para el correcto desarrollo de la solución de manera agil y eficaz. Fue de mucha importancia aprender sobre de Tags y MetaTags, conocerconceptos de UX/UI, etc.
+        TB2: En esta oportunidad, profundicé nuevos conomientos en Kotlin y Flutter lo que me permite contribuir en varios aspectos para el desarrollo del aplicativo lo que representa la mejora continua esperada.
         <br>
       </td>
       <td>
-        CONCLUSION CRITERIO 2
+      A lo largo del proyecto, todos los miembros del equipo coincidieron en la importancia del aprendizaje continuo para el desarrollo profesional y la creación de soluciones efectivas en el campo de la ingeniería de software. Cada integrante del equipo tuvo que aprender nuevas herramientas y tecnologías para abordar los diferentes desafíos del proyecto, como el uso de herramientas de modelado (diagramas ER, UML), el análisis del mercado de combustibles, la integración de APIs en aplicaciones móviles y el desarrollo de componentes de UI. Además, la constante actualización de conocimientos en áreas como UX/UI y backend fue esencial para mejorar la calidad técnica del proyecto. Cada miembro también destacó la importancia de adaptarse a nuevas metodologías, como Domain-Driven Design, Event Storming y diagrama C4, lo cual contribuyó a una arquitectura modular y una integración más clara y eficiente. En general, el proyecto reflejó que el aprendizaje y la adaptación continua son fundamentales para enfrentar los retos del desarrollo de software y garantizar que la solución propuesta sea útil, eficiente y escalable.
       </td>
     </tr>
+
   </tbody>
 </table>
 
@@ -441,6 +553,7 @@ Septiembre del 2025 🗓️
 🤝 Me destaco por mi responsabilidad, mis habilidades
 para el trabajo en equipo y mi motivación constante por
 seguir aprendiendo 📚.</td>
+
 </tr>
 <tr>
 <td><img src="./assets/Chapters/Chapter-I/marlle.jpg" alt="marlle" width="80"></td>
@@ -502,13 +615,11 @@ La problemática principal es la falta de un sistema centralizado y digital para
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Nuestra plataforma, FuelTracks, ofrece una solución para la gestión de pedidos de combustible entre empresas solicitantes y proveedores. El objetivo de este startup es reemplazar los métodos informales que se usan actualmente, tales como las llamadas, correos electrónicos y aplicaciones de mensajería, por un sistema digital y centralizada que permita mejorar principalmente la trazabilidad de los pedidos en tiempo real.
+Las empresas solicitantes de combustible y los proveedores de combustible buscan mantener una operación fluida y segura, garantizando la disponibilidad del recurso sin interrupciones, una gestión ordenada de pedidos y un control adecuado sobre los despachos y entregas. Su objetivo actual es coordinar eficazmente la demanda y el suministro de combustible para no afectar sus actividades productivas.
 
-Luego de analizar la metodología utilizada actualmente en el mercado de combustibles, identificamos un desafío crítico que puede resolver nuestra propuesta: la dependencia de las empresas del sector en canales desorganizados y no integrados, lo cual suele generar errores en los pedidos, retrasos en las entregas y duplicación de esfuerzo. Esta falta de un sistema centralizado impacta negativamente la eficiencia de las operaciones de los proveedores además de reducir la satisfacción de los clientes.
+Sin embargo, los procesos actuales se realizan mediante canales informales como llamadas, correos o mensajería, lo que genera desorganización, duplicidad de información, errores logísticos y ausencia de trazabilidad. Esto provoca incertidumbre sobre los despachos, sobrecarga administrativa en los proveedores y una reducción en la eficiencia operativa y la satisfacción del cliente.
 
-En el contexto actual donde crece cada vez más la demanda por servicios logísticos ágiles e infalibles, es necesaria una plataforma que facilite y compacte el proceso de gestión de pedidos. Con esta, las empresas evitarán pérdidas operativas y se reducirán en gran medida las malas experiencias de los clientes.
-
-¿Cómo podríamos diseñar una solución digital que centralice y automatice la gestión de pedidos de combustible, integrando a proveedores y solicitantes en una misma plataforma, para reducir errores y aumentar la eficiencia operativa?
+Tanto las empresas solicitantes como los proveedores buscan optimizar la gestión de pedidos y despachos, reducir errores y aumentar la eficiencia, mediante un sistema que se adapte a sus procesos actuales, facilite la trazabilidad y mejore la coordinación entre ambas partes sin requerir grandes cambios en su forma de trabajo.
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -527,10 +638,10 @@ En el contexto actual donde crece cada vez más la demanda por servicios logíst
   Los usuarios principales serían los encargados logísticos de los proovedores y las empresas compradoras de combustible.
 
 - _¿Dónde encaja nuestro producto en su trabajo o vida?_
-  FuelTracks encajaría en el día a día de los usuarios como una plataforma de gestión centralizada, que ayudaría a coordinar, rastrear y organizar pedidos de combustible de forma confiable. Reemplazando así los sistemas dispersos que se utilizan hoy en día.
+  FuelTrack encajaría en el día a día de los usuarios como una plataforma de gestión centralizada, que ayudaría a coordinar, rastrear y organizar pedidos de combustible de forma confiable. Reemplazando así los sistemas dispersos que se utilizan hoy en día.
 
 - _¿Qué problemas tiene nuestro producto que resolver?_
-  FuelTracks debe resolver la desorganización causada por métodos informales de venta, reducir errores humanos y mejorar la experiencia del cliente.
+  FuelTrack debe resolver la desorganización causada por métodos informales de venta, reducir errores humanos y mejorar la experiencia del cliente.
 
 - _¿Cuándo y cómo es nuestro producto usado?_
   Será utilizado diariamente por solicitantes y los proveedores por igual. Por el lado de los usuarios solicitantes, usarán la plataforma para registrar y monitorear pedidos de combustible, y por el lado de proveedores para gestionar la recepción, programación y entrega de dichos pedidos.
@@ -551,33 +662,39 @@ En el contexto actual donde crece cada vez más la demanda por servicios logíst
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Hypothesis Statement 01:**
+**Hypothesis Statement 01: Reducción de Errores**
 
-- _Creemos_ que la centralización de los pedidos en nuestra plataforma reducirá el ratio de errores causados por problemas de coordinación entre las empresas solicitantes y los proveedores.
-- _Sabremos_ que hemos tenido éxito
-- _Cuando_ luego de los primeros tres meses de uso se reporte que más de un 70% de los pedidos realizados fueron confirmados sin necesidad de correcciones posteriores.
+- _Creemos que_ al implementar una plataforma centralizada para la gestión de pedidos, los encargados logísticos podrán reducir significativamente los errores causados por la mala comunicación.
+- _Sabremos que_ hemos tenido éxito
+- _Cuando veamos_ que la tasa de pedidos que requieren modificaciones después de ser creados disminuya en un 70% durante los primeros tres meses.
 
-**Hypothesis Statement 02:**
+**Hypothesis Statement 02: Satisfacción del Cliente**
 
-- _Creemos_ que ofrecer más herramientas para el control y seguimiento de pedidos mejorará la satisfacción de los clientes solicitantes.
-- _Sabremos_ que hemos tenido éxito
-- _Cuando_ se observe una reducción del 30% en llamadas de seguimiento.
+- _Creemos que_ al ofrecer una función de seguimiento de pedidos en tiempo real, mejoraremos la confianza y satisfacción de las empresas solicitantes.
+- _Sabremos que_ hemos tenido éxito
+- _Cuando veamos_ que el número de llamadas y correos de clientes preguntando por el estado de su pedido se reduzca en un 30%.
 
-**Hypothesis Statement 03:**
+**Hypothesis Statement 03: Eficiencia del Proveedor**
 
-- _Creemos_ que la plataforma permitirá a los proveedores optimizar el proceso de gestión de los pedidos y reducir el tiempo que toma cumplir con cada uno.
-- _Sabremos_ que hemos tenido éxito
-- _Cuando_ los proveedores logren reducir en un 20% el tiempo promedio entre confirmación y entrega de pedidos.
+- _Creemos que_ al automatizar la recepción y organización de pedidos en la plataforma, los proveedores optimizarán su proceso logístico.
+- _Sabremos que_ hemos tenido éxito
+- _Cuando veamos_ que el tiempo promedio desde que un pedido es confirmado hasta que es entregado se reduzca en un 20%.
 
-**Hypothesis Statement 04:**
+**Hypothesis Statement 04: Optimización de Recursos**
 
-- _Creemos_ que las notificaciones automáticas sobre el estado de los pedidos reducirán la necesidad de una gran cantidad de operadores comerciales de alta disponibilidad.
-- _Sabremos_ que hemos tenido éxito
-- _Cuando_ las solicitudes de información por parte de clientes disminuyan en un 40% y el tiempo promedio de atención se reduzca en un 60% tras el primer trimestre de uso.
+- _Creemos que_ al integrar notificaciones automáticas sobre el estado de los pedidos, reduciremos la carga de trabajo del personal de atención al cliente.
+- _Sabremos que_ hemos tenido éxito
+- _Cuando veamos_ que las solicitudes de información gestionadas manualmente por los operadores comerciales disminuyan en un 40% tras el primer trimestre de uso.
+
+* _Creemos_ que las notificaciones automáticas sobre el estado de los pedidos reducirán la necesidad de una gran cantidad de operadores comerciales de alta disponibilidad.
+* _Sabremos_ que hemos tenido éxito
+* _Cuando_ las solicitudes de información por parte de clientes disminuyan en un 40% y el tiempo promedio de atención se reduzca en un 60% tras el primer trimestre de uso.
 
 #### 1.2.2.4. Lean UX Canvas
 
-<img src="./assets/Chapters/Chapter-I/LeanUxCanvas.png" alt="Lean UX Canvas" width="500">
+<p align="center">
+  <img src="./assets/Chapters/Chapter-I/LeanUxCanvas.png" alt="Lean UX Canvas" width="500">
+</p>
 
 ## 1.3. Segmentos Objetivo
 
@@ -592,14 +709,16 @@ _Necesidades:_
 - Mantener constante comunicación con proveedores.
 
 **B. Proveedores de combustible**
+
 Son empresas dedicadas a la distribución de combustibles, atendiendo principalmente a clientes corporativos o industriales. Buscan herramientas que les permitan, optimizar sus operaciones y diferenciarse en un mercado cada vez más competitivo.
 
-_Motivaciones:_
+_Necesidades:_
 
 - Mejorar la experiencia del cliente mediante canales digitales.
 - Reducir errores en la entrega por información incompleta o mal gestionada.
 - Optimizar la planificación logística y distribución.
 
+----
 # Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores.
@@ -1014,6 +1133,34 @@ El perfil de los proveedores de combustible combina procesos manuales y parcialm
 
 Tambien existe consenso en las principales frustraciones: errores por digitación manual, retrasos en la entrega y falta de integración de procesos. Todos los entrevistados expresaron disposición a adoptar una plataforma centralizada; sin embargo, las empresas con mayor madurez digital condicionan la integración a requisitos de seguridad e interoperabilidad con sus sistemas actuales.
 
+#### Analisis Estadistico
+
+##### Grafico 1:
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-II/Graph1_Segmento1.png" alt="Grafico 1" width="400"/></p>
+
+El gráfico muestra que el 66.7% de los proveedores mantiene procesos manuales o parcialmente digitalizados, mientras que solo el 33.3% ha implementado sistemas integrales.
+Esto evidencia una brecha tecnológica significativa en la mayoría del segmento.
+
+##### Grafico 2:
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-II/Graph2_Segmento1.png" alt="Grafico 2" width="400"/>
+</p>
+
+Las frustraciones más frecuentes son los errores humanos y los retrasos en la entrega (100% de los casos), seguidas por la falta de stock (66.7%).
+Esto confirma la necesidad de automatización e integración para reducir estos problemas.
+
+##### Grafico 3:
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-II/Graph3_Segmento1.png" alt="Grafico 3" width="400"/>
+</p>
+
+El gráfico refleja una predisposición total (100%) de los proveedores a implementar soluciones tecnológicas, aunque con distintos grados de entusiasmo.
+Esto demuestra una alta aceptación del cambio digital dentro del sector.
+
 #### **B. Empresas Solicitantes**
 
 #### Características Objetivas
@@ -1130,6 +1277,32 @@ En cuanto a <strong>características objetivas</strong>, todas dependen de hojas
 
 En cuanto a <strong>características subjetivas</strong>, hay consenso en las principales frustraciones: falta de automatización, informalidad en la gestión, retrasos frecuentes y pérdida de información. Existe un 100% de coincidencia en la necesidad de una plataforma centralizada y trazabilidad en tiempo real, lo que refuerza la propuesta de valor de implementar un sistema digital de gestión de pedidos.
 
+#### Analisis Estadistico
+
+##### Grafico 1:
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-II/Graph1_Segmento2.png" alt="Grafico 1" width="400"/>
+</p>
+
+El 100% de las empresas solicitantes utiliza canales informales (WhatsApp y correo), evidenciando la ausencia de sistemas estructurados de pedidos y la alta dependencia de la comunicación directa con los proveedores.
+
+##### Grafico 2:
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-II/Graph2_Segmento2.png" alt="Grafico 2" width="400"/>
+</p>
+
+Las tres frustraciones se repiten en todos los entrevistados (100%), confirmando que la falta de control y trazabilidad es un problema transversal que afecta directamente la eficiencia del proceso.
+
+##### Grafico 3:
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-II/Graph3_Segmento2.png" alt="Grafico 3" width="400"/>
+</p>
+
+El 100% de las empresas solicitantes mostró una actitud positiva hacia la automatización y digitalización del proceso de pedidos, lo que respalda la viabilidad de implementar una plataforma centralizada.
+
 ## 2.3. Needfinding.
 
 ### 2.3.1. User Personas
@@ -1137,13 +1310,13 @@ En cuanto a <strong>características subjetivas</strong>, hay consenso en las pr
 #### A. Proveedores de Combustible
 
 <p align="center">
-  <img src="./assets/Chapters/Chapter-II/userpersona_segmento1.png" alt="User Persona 1" width="400"/>
+  <img src="./assets/Chapters/Chapter-II/userPersonaSegmento1.png" alt="User Persona 1" width="400"/>
 </p>
 
 #### B. Empresas Solicitantes
 
 <p align="center">
-  <img src="./assets/Chapters/Chapter-II/userpersona_segmento2.png" alt="User Persona 2" width="400"/>
+  <img src="./assets/Chapters/Chapter-II/userPersonaSegmento2.png" alt="User Persona 2" width="400"/>
 </p>
 
 ### 2.3.2. User Task Matrix.
@@ -1334,7 +1507,7 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
   <tbody>
     <tr>
       <td><strong>DOING</strong></td>
-      <td>Utiliza la plataforma centralizada FuelTracks, con historial de comunicación y notificaciones automáticas.</td>
+      <td>Utiliza la plataforma centralizada FuelTrack, con historial de comunicación y notificaciones automáticas.</td>
       <td>Completa un formulario estructurado directamente desde la web o app.</td>
       <td>Revisa el panel de seguimiento con estado del pedido en tiempo real.</td>
       <td>Recibe una confirmación automática con hora estimada y firma digital.</td>
@@ -2193,40 +2366,120 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
 
 ### 2.4.4 Product Backlog
 
-| #Orden | ID (US-..) | User Story (título)                          | Story Point |
-| -----: | :--------: | -------------------------------------------- | :---------: |
-|      1 |    US17    | Aprobar pedido según stock                   |      3      |
-|      2 |    US23    | Asignar vehículo al pedido                   |      5      |
-|      3 |    US25    | Validar disponibilidad de transporte         |      5      |
-|      4 |    US24    | Asignar conductor al pedido                  |      5      |
-|      5 |    US18    | Marcar pedido como despachado                |      3      |
-|      6 |    US31    | Notificar pedido de despacho al solicitante  |      3      |
-|      7 |    US19    | Cerrar el pedido tras confirmación           |      2      |
-|      8 |    US05    | Notificar a clientes sobre cambios de pedido |      8      |
-|      9 |    US30    | Recibir notificación de aprobación/rechazo   |      3      |
-|     10 |    US03    | Editar pedidos (antes de confirmación)       |      3      |
-|     11 |    US06    | Rechazar o cancelar pedidos                  |      3      |
-|     12 |    US28    | Buscar pedido por código                     |      2      |
-|     13 |    US21    | Ver resumen de pedidos (solicitante)         |      3      |
-|     14 |    US22    | Ver resumen de pedidos del proveedor         |      3      |
-|     15 |    US20    | Generar reporte de ventas (proveedor)        |      5      |
-|     16 |    US36    | Descargar reporte en PDF                     |      5      |
-|     17 |    US35    | Ver gráfico de ventas mensual (proveedor)    |      3      |
-|     18 |    US34    | Ver gráfico de consumo mensual (solicitante) |      3      |
-|     19 |    US32    | Ver listado de empresas (proveedor)          |      3      |
-|     20 |    US33    | Ver detalles de empresa (proveedor)          |      3      |
-|     21 |    US26    | Ver perfil de usuario                        |      2      |
-|     22 |    US27    | Editar datos de perfil                       |      3      |
-|     23 |    US10    | Restringir acceso por roles (RBAC)           |      3      |
-|     24 |    US11    | Requerir MFA para emitir pedidos             |      5      |
-|     25 |    US08    | Registrar nueva cuenta de usuario            |      3      |
-|     26 |    US07    | Iniciar sesión en la plataforma              |      3      |
-|     27 |    US09    | Recuperar contraseña                         |      3      |
-|     28 |    US12    | Visualizar landing page informativa          |      1      |
-|     29 |    US13    | Ver sección Home (visitante proveedor)       |      1      |
-|     30 |    US14    | Ver sección About Us                         |      1      |
-|     31 |    US15    | Ver sección How it works?                    |      1      |
-|     32 |    US16    | Enviar mensaje de contacto                   |      2      |
+<table border>
+  <thead>
+    <tr>
+      <th>#Orden</th>
+      <th>ID</th>
+      <th>User Story</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>01</td>
+      <td>US-01</td>
+      <td>Crear nuevo pedido</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>02</td>
+      <td>US-02</td>
+      <td>Consultar historial de pedidos</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>03</td>
+      <td>US-03</td>
+      <td>Editar pedidos</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>04</td>
+      <td>US-04</td>
+      <td>Confirmar pedido recibido</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>05</td>
+      <td>US-05</td>
+      <td>Actualización de un pedido</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>06</td>
+      <td>US-06</td>
+      <td>Notificaciones a clientes sobre cambios</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>07</td>
+      <td>US-07</td>
+      <td>Cancelación o rechazo de pedidos</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>08</td>
+      <td>US-08</td>
+      <td>Inicio de sesión</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>09</td>
+      <td>US-09</td>
+      <td>Registro de cuenta nueva</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>US-10</td>
+      <td>Recuperación de contraseña</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>US-11</td>
+      <td>Acceso restringido por roles</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>US-12</td>
+      <td>Autenticación MFA para realizar pedidos</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>US-13</td>
+      <td>Visualización del landing page</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>TS-01</td>
+      <td>Implementar endpoint REST para pedidos</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>TS-02</td>
+      <td>Servicio de autenticación y token</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>TS-03</td>
+      <td>Envío de notificaciones por cambios de estado</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>TS-04</td>
+      <td>Registro y validación de ubicación GPS</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
@@ -3911,6 +4164,1366 @@ Junto a la búsqueda textual, se integrará un sistema de filtros dinámicos bas
 **📲 Experiencia adaptada a la navegación móvil**
 
 Toda la navegación y búsqueda estará diseñada para funcionar bien en dispositivos móviles, con interacción táctil sencilla y fácil acceso a las funciones.
+
+### 3.1.3. Landing Page UI Design
+
+#### 3.1.3.1. Landing Page Wireframe
+
+En esta sección se presentan los Wireframes del Landing Page de FuelTrack, tanto en versión Desktop como Mobile. Estos bocetos muestran la estructura visual inicial del sitio, aplicando los principios y elementos de diseño, la arquitectura de información y los lineamientos de diseño inclusivo que orientan la experiencia del usuario.
+
+**Desktop Web Browser**
+![landing-page-wireframe](assets/Chapters/Chapter-III/web_wireframe.png)
+
+**Mobile Web Browser**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/iPhone16-1.png" alt="landing-movil1-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-2.png" alt="landing-movil2-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-3.png" alt="landing-movil3-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-4.png" alt="landing-movil4-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-5.png" alt="landing-movil5-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-6.png" alt="landing-movil6-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-8.png" alt="landing-movil8-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-9.png" alt="landing-movil9-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-10.png" alt="landing-movil10-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-11.png" alt="landing-movil11-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-12.png" alt="landing-movil12-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-14.png" alt="landing-movil14-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-15.png" alt="landing-movil15-wireframe" width="250"><br>
+</p>
+
+#### 3.1.3.2. Landing Page Mock-ups
+
+Esta sección muestra los Mock-ups del Landing Page de FuelTrack, en sus versiones para Desktop y Mobile. Aquí se refleja la propuesta visual final del diseño, evidenciando la aplicación de los principios y elementos de diseño.
+
+**Desktop Web Browser**
+![landing-page-mockUps](assets/Chapters/Chapter-III/web_mockUps.png)
+
+**Mobile Web Browser**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/iPhone16-24.png" alt="landing-movil1-mockUps" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-25.png" alt="landing-movil2-mockUps" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-26.png" alt="landing-movil3-mockUps" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-17.png" alt="landing-movil4-mockUps" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-18.png" alt="landing-movil5-mockUps" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-23.png" alt="landing-movil6-mockUps" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-30.png" alt="landing-movil8-mockUps" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-31.png" alt="landing-movil9-mockUps" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-22.png" alt="landing-movil10-mockUps" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-21.png" alt="landing-movil11-mockUps" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-29.png" alt="landing-movil12-mockUps" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-19.png" alt="landing-movil14-mockUps" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-20.png" alt="landing-movil15-mockUps" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-27.png" alt="landing-movil16-mockUps" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/iPhone16-28.png" alt="landing-movil17-mockUps" width="250"><br>
+</p>
+
+### 3.1.4. Mobile Applications UX/UI Design
+
+#### 3.1.4.1. Mobile Applications Wireframes
+
+En esta sección se presentan los Wireframes de las aplicaciones móviles de FuelTrack, diseñados para mostrar la estructura y disposición de los elementos de la interfaz. Reflejan la aplicación de los principios y elementos de diseño, la arquitectura de información y el diseño inclusivo, utilizando las herramientas indicadas para su elaboración.
+
+---
+
+#### **Bienvenida al aplicativo**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w00.png" alt="ui-movil-bienvenida" width="250"><br>
+  <em>Pantalla de bienvenida que introduce al usuario a la aplicación FuelTrack.</em>
+</p>
+
+---
+
+#### **Sección Cliente**
+
+#### **Inicio de Sesión (Cliente)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w01.png" alt="ui-movil1-wireframe" width="250"><br>
+  <em>El usuario cliente accede al sistema ingresando su correo y contraseña.</em>
+</p>
+
+#### **Crear Cuenta (Cliente)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w02.png" alt="ui-movil2-wireframe" width="250"><br>
+  <em>Formulario para registrar un nuevo cliente en la plataforma.</em>
+</p>
+
+#### **Apartado Principal (Cliente)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w03.png" alt="ui-movil3-wireframe" width="250"><br>
+  <em>Panel principal donde el cliente puede acceder a sus órdenes y opciones del sistema.</em>
+</p>
+
+#### **Menú Principal (Cliente)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w04.png" alt="ui-movil4-wireframe" width="250"><br>
+  <em>Menú lateral con accesos a secciones como “Orders”, “Profile” y “Settings”.</em>
+</p>
+
+#### **Listado de Órdenes (Cliente)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w05.png" alt="ui-movil5-wireframe" width="250"><br>
+  <em>Vista donde se muestran las órdenes activas y completadas del cliente.</em>
+</p>
+
+#### **Visualización de una Orden**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w06.png" alt="ui-movil6-wireframe" width="250"><br>
+  <em>Detalle de una orden específica.</em>
+</p>
+
+#### **Creación de una Orden**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w07.png" alt="ui-movil7-wireframe" width="250">
+  <img src="assets/Chapters/Chapter-III/w08.png" alt="ui-movil8-wireframe" width="250">
+  <img src="assets/Chapters/Chapter-III/w09.png" alt="ui-movil9-wireframe" width="250"><br>
+  <em>Secuencia de pantallas donde el cliente registra una nueva orden de combustible.</em>
+</p>
+
+---
+
+#### **Sección Proveedor**
+
+#### **Inicio de Sesión (Proveedor)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w10.png" alt="ui-movil10-wireframe" width="250"><br>
+  <em>El proveedor inicia sesión con sus credenciales registradas.</em>
+</p>
+
+#### **Crear Cuenta (Proveedor)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w11.png" alt="ui-movil11-wireframe" width="250"><br>
+  <em>Formulario para registrar una nueva cuenta de proveedor con RUC y razón social.</em>
+</p>
+
+#### **Apartado Principal (Proveedor)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w12.png" alt="ui-movil12-wireframe" width="250"><br>
+  <em>Panel donde el proveedor puede visualizar sus órdenes.</em>
+</p>
+
+#### **Menú Principal (Proveedor)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w13.png" alt="ui-movil13-wireframe" width="250"><br>
+  <em>Menú lateral con opciones de navegación para gestión de órdenes y conciliaciones.</em>
+</p>
+
+#### **Gestión de Órdenes (Order Management)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w14.png" alt="ui-movil14-wireframe" width="250">
+  
+  <em>Vista donde el proveedor consulta y gestiona las órdenes asignadas por clientes.</em>
+</p>
+
+#### **Conciliaciones (Subir comprobantes)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/w15.png" alt="ui-movil15-wireframe" width="250">
+  <img src="assets/Chapters/Chapter-III/w17.png" alt="ui-movil17-wireframe" width="250"><br>
+  <img src="assets/Chapters/Chapter-III/w16.png" alt="ui-movil16-wireframe" width="250"><br>
+  <em>Flujo de carga de comprobantes bancarios mediante la función “Load Bank Statement”.</em>
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+#### **User Goal 01: Crear una nueva orden de combustible**
+
+**Descripción:**  
+El usuario cliente desea generar una nueva orden de combustible ingresando los detalles del producto, forma de pago y confirmando la solicitud.  
+Este flujo permite registrar un pedido dentro del sistema **FuelTrack**.
+
+**Task Flow:**  
+![Task Flow - Crear orden](assets/Chapters/Chapter-III/taskFlow01.png)
+
+**Wireflow:**  
+![Wireflow - Crear orden](assets/Chapters/Chapter-III/wireFlow01.png)
+
+**Explicación del flujo:**  
+El flujo inicia en la pantalla de órdenes (**w05**). El usuario crea una nueva orden (**w06–w08**) llenando toda la información requerida.  
+Finalmente, confirma la creación en (**w09**), donde el sistema valida los datos y genera la orden.
+
+---
+
+#### **User Goal 02: Visualizar historial de órdenes**
+
+**Descripción:**  
+El usuario desea consultar el listado de órdenes registradas y revisar los detalles de cada una.  
+Este flujo facilita el seguimiento del estado de los pedidos (**pendiente**, **aprobado** o **entregado**).
+
+**Task Flow:**  
+![Task Flow - Historial de órdenes](assets/Chapters/Chapter-III/taskFlow02.png)
+
+**Wireflow:**  
+![Wireflow - Historial de órdenes](assets/Chapters/Chapter-III/wireFlow02.png)
+
+**Explicación del flujo:**  
+El flujo comienza en el listado general (**w05**). El usuario puede desplazarse entre las órdenes y, al seleccionar una, el sistema muestra la información detallada en la pantalla (**w06**).
+
+---
+
+#### **User Goal 03: Registrar proveedor**
+
+**Descripción:**  
+El administrador desea registrar un nuevo proveedor en el sistema para habilitar su acceso a la plataforma.  
+Este flujo permite crear cuentas de proveedores con los datos de empresa, RUC y credenciales.
+
+**Task Flow:**  
+![Task Flow - Registrar proveedor](assets/Chapters/Chapter-III/taskFlow03.png)
+
+**Wireflow:**  
+![Wireflow - Registrar proveedor](assets/Chapters/Chapter-III/wireFlow03.png)
+
+**Explicación del flujo:**  
+El proceso comienza con la selección del tipo de usuario (**w10**). Luego, el administrador completa los campos de registro (**w11**).  
+Tras la validación exitosa, el sistema redirige al panel principal (**w12**) y muestra las opciones de gestión del proveedor (**w13–w14**).
+
+---
+
+#### **User Goal 04: Cargar comprobantes o documentos de pago**
+
+**Descripción:**  
+El usuario desea subir archivos de comprobantes bancarios o documentos de respaldo de sus transacciones.  
+Este flujo facilita la carga de archivos en formato **PDF**, **XLS** o similar.
+
+**Task Flow:**  
+![Task Flow - Cargar comprobantes](assets/Chapters/Chapter-III/taskFlow04.png)
+
+**Wireflow:**  
+![Wireflow - Cargar comprobantes](assets/Chapters/Chapter-III/wireFlow04.png)
+
+**Explicación del flujo:**  
+El flujo inicia en la sección de pagos (**w15**), donde el usuario elige **“Load bank statement”**.  
+Luego, se muestra la zona de carga (**w17**), donde puede seleccionar y subir los archivos.  
+Al completar el proceso, los documentos quedan vinculados a la orden correspondiente.
+
+#### 3.1.4.3. Mobile Applications Mock-ups
+
+Esta sección muestra los Mock-ups de las aplicaciones móviles de FuelTrack, donde se representa la propuesta visual final.
+
+#### **Bienvenida al aplicativo**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u00.png" alt="ui-movil-bienvenida" width="250"><br>
+  <em>Pantalla de bienvenida que introduce al usuario a la aplicación FuelTrack.</em>
+</p>
+
+---
+
+#### **Sección Cliente**
+
+#### **Inicio de Sesión (Cliente)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u01.png" alt="ui-movil1-mockup" width="250"><br>
+  <em>El usuario cliente accede al sistema ingresando sus credenciales.</em>
+</p>
+
+#### **Crear Cuenta (Cliente)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u02.png" alt="ui-movil2-mockup" width="250"><br>
+  <em>Formulario de registro para crear una cuenta de cliente en la aplicación.</em>
+</p>
+
+#### **Apartado Principal (Cliente)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u03.png" alt="ui-movil3-mockup" width="250"><br>
+  <em>Vista principal donde el cliente puede gestionar sus órdenes y acceder a las secciones del sistema.</em>
+</p>
+
+#### **Menú Principal (Cliente)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u04.png" alt="ui-movil4-mockup" width="250"><br>
+  <em>Menú lateral con accesos a “Orders”, “Profile” y “Settings”.</em>
+</p>
+
+#### **Listado de Órdenes (Cliente)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u05.png" alt="ui-movil5-mockup" width="250"><br>
+  <em>Vista donde se muestran todas las órdenes activas y completadas del cliente.</em>
+</p>
+
+#### **Visualización de una Orden**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u06.png" alt="ui-movil6-mockup" width="250"><br>
+  <em>El cliente puede ver los detalles de una orden específica, incluyendo el estado.</em>
+</p>
+
+#### **Creación de una Orden**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u07.png" alt="ui-movil7-mockup" width="250">
+  <img src="assets/Chapters/Chapter-III/u08.png" alt="ui-movil8-mockup" width="250">
+  <img src="assets/Chapters/Chapter-III/u09.png" alt="ui-movil9-mockup" width="250"><br>
+  <em>Secuencia donde el cliente ingresa los datos del pedido, confirma y envía la orden.</em>
+</p>
+
+---
+
+#### **Sección Proveedor**
+
+#### **Inicio de Sesión (Proveedor)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u10.png" alt="ui-movil10-mockup" width="250"><br>
+  <em>El proveedor inicia sesión con su correo y contraseña registrados.</em>
+</p>
+
+#### **Crear Cuenta (Proveedor)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u11.png" alt="ui-movil11-mockup" width="250"><br>
+  <em>Formulario donde el proveedor registra su empresa con datos como RUC y razón social.</em>
+</p>
+
+#### **Apartado Principal (Proveedor)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u12.png" alt="ui-movil12-mockup" width="250"><br>
+  <em>Panel principal con acceso a órdenes, conciliaciones y configuración.</em>
+</p>
+
+#### **Menú Principal (Proveedor)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u13.png" alt="ui-movil13-mockup" width="250"><br>
+  <em>Menú lateral con opciones de gestión como “Orders”, “Conciliations” y “Settings”.</em>
+</p>
+
+#### **Gestión de Órdenes (Order Management)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u14.png" alt="ui-movil14-mockup" width="250"><br>
+  <em>Vista donde el proveedor consulta, acepta y gestiona las órdenes recibidas.</em>
+</p>
+
+#### **Conciliaciones (Subir Comprobantes)**
+
+<p align="center">
+  <img src="assets/Chapters/Chapter-III/u16.png" alt="ui-movil16-mockup" width="250">
+  <img src="assets/Chapters/Chapter-III/u17.png" alt="ui-movil17-mockup" width="250"><br>
+  <em>Flujo donde el proveedor carga documentos bancarios o comprobantes mediante la opción “Load Bank Statement”.</em>
+</p>
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+Se presentan los User Flows correspondientes a los principales objetivos del usuario (User Goals) identificados para el sistema. Cada flujo integra las vistas representativas mediante Mock-ups, evidenciando el recorrido del usuario dentro de la aplicación.
+
+**User Flow Diagram 1:**
+- **User Goal:** Crear una nueva orden de combustible. Como usuario solicitante, deseo registrar una nueva orden de combustible ingresando los detalles del producto, forma de pago y confirmando la solicitud.
+- **Task Flow:** ![Task Flow - Crear orden](assets/Chapters/Chapter-III/taskFlow01.png)
+- **Wireflow:** ![Wire flow - Crear orden](assets/Chapters/Chapter-III/wireFlow01.png)
+- **User Flow:** ![User Flow - Crear orden](assets/Chapters/Chapter-III/userFlow01.png)
+
+---
+
+**User Flow Diagram 2:**
+- **User Goal:** Ver listado de órdenes. Como usuario solicitante, deseo consultar las órdenes realizadas para revisar su estado y detalles.
+- **Task Flow:** ![Task Flow - Ver listado de órdenes](assets/Chapters/Chapter-III/taskFlow02.png)
+- **Wireflow:** ![Wire flow - Ver listado de órdenes](assets/Chapters/Chapter-III/wireFlow02.png)
+- **User Flow:** ![User Flow - Ver listado de órdenes](assets/Chapters/Chapter-III/userFlow02.png)
+
+---
+
+**User Flow Diagram 3:**
+- **User Goal:** Registro de proveedor. Como administrador, deseo registrar un nuevo proveedor ingresando sus datos empresariales y credenciales de acceso.
+- **Task Flow:** ![Task Flow - Registro de proveedor](assets/Chapters/Chapter-III/taskFlow03.png)
+- **Wireflow:** ![Wire flow - Registro de proveedor](assets/Chapters/Chapter-III/wireFlow03.png)
+- **User Flow:** ![User Flow - Registro de proveedor](assets/Chapters/Chapter-III/userFlow03.png)
+
+---
+
+**User Flow Diagram 4:**
+- **User Goal:** Cargar comprobantes o documentos de pago. Como usuario proveedor, deseo subir comprobantes bancarios o documentos de respaldo para asociarlos a mis órdenes.
+- **Task Flow:** ![Task Flow - Cargar comprobantes](assets/Chapters/Chapter-III/taskFlow04.png)
+- **Wireflow:** ![Wire flow - Cargar comprobantes](assets/Chapters/Chapter-III/wireFlow04.png)
+- **User Flow:** ![User Flow - Cargar comprobantes](assets/Chapters/Chapter-III/userFlow04.png)
+
+#### 3.1.4.5. Mobile Applications Prototyping
+
+En esta sección se presentan los prototipos interactivos para Desktop y Mobile, los cuales muestran los principales flujos de navegación definidos en los User Flows.
+
+**Prototipo Mobile:**
+
+<div align="center">
+  <img src="assets/Chapters/Chapter-III/prototipoMobile.png" alt="Prototipo Mobile" width="250"/>
+</div>
+
+🔗 [Ver video del prototipo Mobile](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EbkMNcIxgANFoQdpHLdylroBBPLTV772gJn62IVS69h6Iw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=o4wVdD)
+
+---
+
+**Prototipo Web:**
+
+<div align="center">
+  <img src="assets/Chapters/Chapter-III/prototipoWeb.png" alt="Prototipo Web" width="600"/>
+</div>
+
+🔗 [Ver video del prototipo Web](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223984_upc_edu_pe/EQy0y4y9E5pKkOL-pwOFqkEBLzXdX8GCbsUCoJKIBjpaaw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0xWg0h)
+
+# Capítulo IV: Product Implementation & Validation
+
+## 4.1 Software Configuration Management
+
+En esta sección se establecerán todas las decisiones, reglas y procesos que el equipo seguirá para la creación y despliegue de FuelTrack Pro. El objetivo principal de estas convenciones es garantizar la integridad, calidad y consistencia del software a lo largo de todo su ciclo de vida, desde el desarrollo inicial hasta su mantenimiento futuro.
+
+### 4.1.1. Software Development Environment Configuration
+
+Para garantizar un ciclo de vida de desarrollo consistente y colaborativo para _FuelTrack Pro_, el equipo ha adoptado el siguiente conjunto de herramientas y plataformas estandarizadas. A continuación, se detalla cada producto, su propósito específico dentro del proyecto y el enlace de acceso o descarga correspondiente.
+
+**Project Management**
+
+Para la planificación, seguimiento y comunicación del equipo, se utilizan las siguientes herramientas, asegurando una organización centralizada y una coordinación fluida.
+
+| Herramienta   | Propósito en el Proyecto                                                                             | Enlace                      |
+| :------------ | :--------------------------------------------------------------------------------------------------- | :-------------------------- |
+| _GitHub_      | Repositorio central de código fuente, gestión de versiones y colaboración en el desarrollo.          | `https://github.com/`       |
+| _Trello_      | Planificación de sprints, gestión de tareas (historias de usuario, bugs) y seguimiento del progreso. | `https://trello.com/`       |
+| _Discord_     | Canal principal para discusiones técnicas y sincronizaciones diarias.                                | `https://discord.com/`      |
+| _Google Meet_ | Canal adicional para reuniones de equipo y presentaciones formales.                                  | `https://meet.google.com/`  |
+| _WhatsApp_    | Comunicación rápida y coordinación ágil para asuntos urgentes o de baja formalidad.                  | `https://www.whatsapp.com/` |
+
+**Product UX/UI Design**
+
+El diseño de la experiencia e interfaz de usuario se centraliza en Figma, permitiendo un ciclo de diseño iterativo y colaborativo.
+
+| Herramienta | Propósito en el Proyecto                                                                                                       | Enlace                   |
+| :---------- | :----------------------------------------------------------------------------------------------------------------------------- | :----------------------- |
+| _Figma_     | Diseño de la experiencia (UX) e interfaz (UI), incluyendo wireframes, mockups y el prototipo interactivo de la aplicación web. | `https://www.figma.com/` |
+
+**Software Development**
+
+El stack tecnológico seleccionado para la construcción de _FuelTrack Pro_ se compone de las siguientes herramientas y frameworks, cubriendo el desarrollo backend, frontend y móvil.
+
+| Herramienta        | Propósito en el Proyecto                                                                       | Enlace                                                 |
+| :----------------- | :--------------------------------------------------------------------------------------------- | :----------------------------------------------------- |
+| _.NET (C#)_        | Framework backend para la construcción de la API RESTful y la lógica de negocio.               | `https://dotnet.microsoft.com/`                        |
+| _HTML_             | Lenguaje de marcado para la estructura y contenido de la aplicación web (landing page).        | `https://developer.mozilla.org/es/docs/Web/HTML`       |
+| _CSS_              | Lenguaje de hojas de estilo para el diseño y la presentación visual de la interfaz web.        | `https://developer.mozilla.org/es/docs/Web/CSS`        |
+| _JavaScript_       | Lenguaje de programación para la interactividad y lógica del lado del cliente en la web.       | `https://developer.mozilla.org/es/docs/Web/JavaScript` |
+| _Android (Kotlin)_ | Sistema operativo y lenguaje de programación para el desarrollo de la aplicación móvil nativa. | `https://developer.android.com/`                       |
+| _Jetpack Compose_  | Toolkit de UI moderno para construir la interfaz de usuario de la aplicación Android nativa.   | `https://developer.android.com/jetpack/compose`        |
+
+### **Software Deployment**
+
+La infraestructura para el despliegue y operación de los servicios de _FuelTrack Pro_ se gestiona a través de las siguientes plataformas en la nube.
+
+| Herramienta      | Propósito en el Proyecto                                                                                 | Enlace                                 |
+| :--------------- | :------------------------------------------------------------------------------------------------------- | :------------------------------------- |
+| _Render_         | Plataforma en la nube para el despliegue y hosting del backend (API REST) y la base de datos PostgreSQL. | `https://render.com/`                  |
+| _Vercel_         | Plataforma para el despliegue y hosting de la aplicación web (landing page).                             | `https://vercel.com/`                  |
+| _Android Studio_ | Entorno de desarrollo integrado (IDE) para la compilación y despliegue de la aplicación móvil.           | `https://developer.android.com/studio` |
+
+**Software Documentation**
+
+La creación y mantenimiento de la documentación del proyecto se realiza utilizando herramientas que facilitan la escritura y el control de versiones.
+
+| Herramienta | Propósito en el Proyecto                                                                         | Enlace                           |
+| :---------- | :----------------------------------------------------------------------------------------------- | :------------------------------- |
+| _Markdown_  | Lenguaje de marcado ligero para escribir toda la documentación técnica y funcional del proyecto. | `https://www.markdownguide.org/` |
+| _GitHub_    | Plataforma para versionar y colaborar en la documentación del proyecto junto al código fuente.   | `https://github.com/`            |
+
+### 4.1.2. Source Code Management
+
+Para la gestión del código fuente de _FuelTrack Pro_, se utiliza _GitHub_ como plataforma centralizada y _Git_ como sistema de control de versiones. La estructura de repositorios del proyecto es la siguiente:
+
+| Producto           | Repositorio    | Enlace                                                                |
+| :----------------- | :------------- | :-------------------------------------------------------------------- |
+| Backend            | `backend`      | `https://github.com/1ACC0238-2520-1827-Group2-FuelTrack/backend`      |
+| Landing Page       | `landing-page` | `https://github.com/1ACC0238-2520-1827-Group2-FuelTrack/landing-page` |
+| Mobile Application | `mobile-app`   | `https://github.com/1ACC0238-2520-1827-Group2-FuelTrack/mobile-app`   |
+
+<h4>Flujo de Trabajo: GitFlow</h4>
+
+El equipo adopta el modelo de ramificación _GitFlow_ de Vincent Driessen para asegurar un proceso de desarrollo ordenado y predecible. Este flujo de trabajo define un conjunto estricto de ramas con roles específicos.
+
+- **`main`**: Esta rama refleja el estado actual del código en _producción_. Solo se fusionan en ella las ramas `release` y `hotfix`. Cada commit en `main` debe ser una nueva versión etiquetada (tag) siguiendo Semantic Versioning.
+- **`develop`**: Es la rama principal de integración para el desarrollo. Contiene los últimos cambios y funcionalidades completadas que se incluirán en el próximo lanzamiento. Sirve como base para crear las ramas `feature`.
+
+<h4>Convenciones para Nombres de Ramas</h4>
+
+Para mantener la consistencia, se han definido las siguientes convenciones para nombrar las ramas:
+
+- **Feature Branches:** Se crean a partir de `develop` para trabajar en nuevas funcionalidades.
+
+  - _Convención:_ `feature/[TICKET-ID]-[descripcion-corta]`
+
+- **Release Branches:** Se crean a partir de `develop` cuando se decide iniciar un nuevo ciclo de lanzamiento. En esta rama se realizan los últimos ajustes, pruebas y correcciones de bugs menores antes de pasar a producción.
+
+  - _Convención:_ `release/v[version]`
+
+- **Hotfix Branches:** Se crean a partir de `main` para solucionar errores críticos (`bugs`) detectados en producción. Estas correcciones se fusionan tanto en `main` como en `develop` para asegurar que el bug no reaparezca en futuros lanzamientos.
+  - _Convención:_ `hotfix/[TICKET-ID]-[descripcion-corta]`
+
+<h4>Convención para Mensajes de Commit (Conventional Commits)</h4>
+
+Todos los mensajes de commit deben seguir la especificación de _Conventional Commits_. Esta convención mejora la legibilidad del historial y permite automatizar la generación de changelogs.
+
+**Formato:** `<tipo>[ámbito opcional]: <descripción>`
+
+- **Tipos de commit principales:**
+
+  - `feat`: Para una nueva funcionalidad (`feature`).
+  - `fix`: Para la corrección de un error (`bug`).
+  - `docs`: Cambios exclusivos en la documentación.
+  - `style`: Cambios de formato que no afectan la lógica (espacios, punto y coma, etc.).
+  - `refactor`: Cambios en el código que no corrigen un error ni añaden una funcionalidad.
+  - `test`: Añadir o corregir pruebas.
+  - `chore`: Actualizaciones de tareas de build, configuración, etc.
+
+- **Ejemplos de commits:**
+  - `feat(auth): permitir inicio de sesión con correo y contraseña`
+  - `fix(api): corregir cálculo de impuestos en la creación de pedidos`
+  - `docs(readme): actualizar instrucciones de instalación`
+
+<h4>Versionado Semántico (Semantic Versioning 2.0.0)</h4>
+
+Cada lanzamiento en la rama `main` se etiquetará con una versión siguiendo el formato `MAJOR.MINOR.PATCH`.
+
+- **`MAJOR`**: Se incrementa cuando se introducen cambios incompatibles con la API (breaking changes).
+- **`MINOR`**: Se incrementa cuando se añaden funcionalidades de forma retrocompatible.
+- **`PATCH`**: Se incrementa cuando se realizan correcciones de errores de forma retrocompatible.
+
+Para versiones de desarrollo o pre-lanzamiento, se utilizarán versiones adicionales de la siguiente manera:
+
+- **`alpha`**: Versión inicial, sin estabilidad garantizada.
+- **`beta`**: Versión casi estable, pero aún con características no completamente testeadas.
+- **`rc` (Release Candidate)**: Versión candidata a ser lanzada, con pocas correcciones pendientes.
+
+### 4.1.3. Source Code Style Guide & Conventions
+
+Para asegurar la calidad, legibilidad y mantenibilidad del código de **FuelTrack Pro**, el equipo se compromete a seguir las siguientes guías de estilo y convenciones para cada tecnología del proyecto.
+
+#### Backend: .NET (C#)
+
+- **Nomenclatura:**
+
+  - _Clases, Interfaces, Propiedades y Métodos:_ `PascalCase`.
+  - _Variables locales y parámetros de métodos:_ `camelCase`.
+  - _Campos privados:_ `_camelCase`.
+
+- **Estructura del Proyecto:**
+  - _Organización por capas:_ Se seguirá una arquitectura limpia, separando las responsabilidades en proyectos distintos (e.g., `Domain`, `Application`, `Infrastructure`, `Api`).
+  - _Inyección de Dependencias (DI):_ Utilizar DI para desacoplar las capas, especialmente para inyectar servicios y repositorios en los controladores.
+  - _Nombres de archivo:_ El nombre del archivo (`.cs`) debe coincidir exactamente con el nombre de la clase pública que contiene.
+
+#### Landing Page: HTML, CSS y JavaScript
+
+- **HTML:**
+
+  - _Semántica:_ Utilizar etiquetas semánticas de HTML5 siempre que sea posible (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`).
+  - _Accesibilidad:_ Proveer atributos `alt` descriptivos para todas las imágenes (`<img>`).
+
+- **CSS:**
+
+  - _Nomenclatura:_ Utilizar la metodología **BEM (Block, Element, Modifier)** para nombrar las clases, evitando conflictos y mejorando la legibilidad.
+  - _Organización:_ Agrupar las propiedades CSS por función (Posicionamiento, Modelo de caja, Tipografía, Visual, Otros).
+
+- **JavaScript:**
+  - _Sintaxis:_ Utilizar sintaxis moderna (ES6+), prefiriendo `const` y `let` sobre `var`, y usando funciones de flecha (`=>`).
+  - _Nomenclatura:_ `camelCase` para variables y funciones. `PascalCase` para clases.
+
+#### Mobile: Android (Kotlin) & Jetpack Compose
+
+- **Kotlin (General):**
+
+  - _Nomenclatura:_
+    - Clases y Objetos: `PascalCase`.
+    - Funciones y Variables: `camelCase`.
+    - Constantes (`const val`): `UPPER_SNAKE_CASE`.
+  - _Estructura:_ Seguir la arquitectura recomendada por Google (MVVM), separando la lógica de la UI con `ViewModel`, `UseCase` y `Repository`.
+
+- **Jetpack Compose:**
+  - _Componentes Composable:_ Nombrar las funciones con `PascalCase` (e.g., `SubmitButton()`).
+  - _Rendimiento:_ Evitar cálculos o lógica de negocio pesada dentro de las funciones `@Composable` para prevenir recomposiciones innecesarias.
+
+#### Convenciones Generales (Todo el Proyecto)
+
+- **Comentarios:** El código debe ser auto-explicativo. Usar comentarios solo para explicar el "porqué" de una lógica compleja, no el "qué". Todos los comentarios deben estar en _inglés_.
+- **Commits:** Seguir la especificación de _Conventional Commits_ (`feat:`, `fix:`, `docs:`, `chore:`, etc.) para mantener un historial limpio y legible.
+- **Formato:** Utilizar un formateador de código automático (como el integrado en Visual Studio, VS Code o Android Studio) para mantener un estilo consistente en todo el proyecto.
+
+### 4.1.4. Software Deployment Configuration
+
+En esta sección se especifica la configuración y el proceso de despliegue para cada uno de los componentes de la solución _FuelTrack Pro_. Los siguientes pasos describen cómo, a partir de los repositorios de código fuente, se logra la publicación de la Landing Page, el Backend y la Aplicación Móvil.
+
+#### Landing Page (HTML/CSS/JS)
+
+**Consideraciones antes del despliegue:**
+
+- Verificar que todos los enlaces internos y externos funcionen correctamente.
+- Asegurarse de que el diseño sea completamente responsivo y se visualice correctamente en diferentes tamaños de pantalla.
+- Comprobar que no haya errores de carga de recursos (imágenes, scripts, hojas de estilo) en la consola del navegador.
+
+**Requerimientos para el despliegue:**
+
+- Repositorio de GitHub con el código fuente de la Landing Page.
+- Una cuenta activa en _Vercel_.
+
+**Pasos para el despliegue en Vercel:**
+
+1.  Ingresar al panel de control de Vercel.
+2.  Hacer clic en "Add New..." y seleccionar "Project".
+3.  Importar el repositorio de GitHub correspondiente a la Landing Page (`landing-page`).
+4.  Vercel detectará automáticamente que es un proyecto estático. No se requiere configuración adicional para HTML/CSS/JS.
+5.  Hacer clic en el botón "Deploy".
+6.  Esperar a que Vercel complete el proceso de build y despliegue.
+7.  Acceder a la URL pública generada por Vercel para verificar que la Landing Page esté operativa.
+
+#### Backend (.NET API)
+
+**Consideraciones antes del despliegue:**
+
+- La base de datos en _Render_ debe estar creada y accesible.
+- Se debe tener a la mano el string de conexión de la base de datos para configurarlo en el entorno de producción.
+- El proyecto debe contener un `Dockerfile` para que Render pueda construir y ejecutar la aplicación en un contenedor.
+
+**Requerimientos para el despliegue:**
+
+- Repositorio de GitHub con el código fuente del Backend (.NET).
+- Una cuenta activa en _Render_.
+
+**Pasos para el despliegue en Render:**
+
+1.  Ingresar al panel de control de Render.
+2.  Hacer clic en "New" y seleccionar "Web Service".
+3.  Conectar y seleccionar el repositorio de GitHub correspondiente al Backend (`backend`).
+4.  Configurar el nombre del servicio (e.g., `fueltrack-pro-api`).
+5.  Render detectará el `Dockerfile` y lo seleccionará como entorno de ejecución.
+6.  Ir a la sección "Environment" y añadir una nueva variable de entorno para el string de conexión de la base de datos (e.g., `ConnectionStrings__DefaultConnection` con el valor proporcionado por Render).
+7.  Hacer clic en "Create Web Service" para iniciar el despliegue.
+8.  Render construirá la imagen Docker y desplegará el servicio. Una vez completado, se podrá acceder a la API a través de la URL pública generada.
+
+#### Aplicación Móvil (Android)
+
+**Consideraciones antes del despliegue (en dispositivo de prueba):**
+
+- El Backend (.NET API) debe estar desplegado en Render y su URL pública debe ser accesible.
+- La URL de la API debe estar correctamente configurada en el código fuente de la aplicación móvil antes de compilar.
+
+**Requerimientos para el despliegue:**
+
+- Un dispositivo físico con sistema operativo Android.
+- El archivo APK (Android Package Kit) compilado y firmado de la aplicación.
+- El cable USB para conectar el dispositivo a la computadora.
+
+**Pasos para la instalación en un dispositivo de prueba:**
+
+1.  En el dispositivo Android, activar las "Opciones de desarrollador".
+2.  Dentro de las opciones de desarrollador, habilitar la "Depuración por USB".
+3.  Conectar el dispositivo a la computadora mediante el cable USB.
+4.  Abrir el proyecto en _Android Studio_.
+5.  Seleccionar el dispositivo conectado en la lista de dispositivos de destino.
+6.  Hacer clic en el botón "Run 'app'" (icono de play) en la barra de herramientas.
+7.  Android Studio compilará el código, generará el APK y lo instalará automáticamente en el dispositivo.
+8.  Una vez instalado, abrir la aplicación en el dispositivo y verificar que se conecte correctamente con el backend y que todas las funcionalidades operen como se espera.
+
+## 4.2. Landing Page & Mobile Application Implementation
+
+### 4.2.1. Sprint 1
+
+#### 4.2.1.1. Sprint Planning 1
+
+<table border>
+    <tr align="center">
+        <td><strong>Sprint #</strong></td>
+        <td><strong>Sprint 1</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Date</td>
+        <td>23/09/2025</td>
+    </tr>
+    <tr align="center">
+        <td>Time</td>
+        <td>10:00 AM</td>
+    </tr>
+    <tr align="center">
+        <td>Location</td>
+        <td>Meet</td>
+    </tr>
+    <tr align="center">
+        <td>Prepared by</td>
+        <td>Rogger Miranda</td>
+    </tr>
+    <tr align="center">
+        <td>Attendess (to planning meeting)</td>
+        <td>
+          Acuña Tomas, Diego Rolin - U202221436<br>
+          Miranda Ayasta, Rogger Faryd - U202319239<br>
+          Arias Segil, Marllely Anahi - U202223984<br>
+          Sanchez Arenas, Manuel Angel - U201817507<br>
+          Meza Camayo, Lynn Jeeferzon - U20201C320
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 0 Review Summary</td>
+        <td>No hubo sprint previo</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 0 Retrospective Summary</td>
+        <td>No hubo sprint previo</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+        <td align="center">Sprint 1 Goal</td>
+        <td> Implementar las correcciones en la Landing Page para un nuevo despliegue.
+        Desarrollo de las primeras vistas core de la mobile application:
+        • Login (Client & Supplier)
+        • Client Order List View
+        • Client Detailed Order View
+        • Create Order View
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Velocity</td>
+        <td>12</td>
+    </tr>
+    <tr align="center">
+        <td>Sum of Story Point</td>
+        <td>22</td>
+    </tr>
+</table>
+
+#### 4.2.1.2. Sprint Backlog 1
+
+<table border>
+    <tr align="center">
+        <td colspan="2"><strong>Sprint #</strong></td>
+        <td colspan="6"><strong>Sprint 1</strong></td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"><strong>User Story</strong></td>
+        <td colspan="6"><strong>Work-Item / Task</strong></td>
+    </tr>
+    <tr align="center">
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Id</strong></td>
+        <td><strong>Description</strong></td>
+        <td><strong>Estimation (Hours)</strong></td>
+        <td><strong>Assigned to</strong></td>
+        <td><strong>Status (To do / In process / To review / Done)</strong></td>
+    </tr>
+    <tr align="center">
+        <td>US-01</td>
+        <td>Crear nuevo pedido</td>
+        <td>W-01</td>
+        <td>Como usuario de una empresa solicitante, quiero poder registrar un pedido directamente desde la plataforma agilizar el proceso y evitar llamadas.</td>
+        <td>5 horas</td>
+        <td>Manuel Sanchez</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-02</td>
+        <td>Consultar historial de pedidos</td>
+        <td>W-02</td>
+        <td>Como solicitante, quiero poder consultar mi historial de pedidos anteriores, y poder ver cada uno con información detallada. Además, debo ser capaz de filtrar y ordenar el historial según características específicas de los pedidos.</td>
+        <td>3 horas</td>
+        <td>Manuel Sanchez</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-05</td>
+        <td>Actualización de un pedido</td>
+        <td>W-03</td>
+        <td>Como proveedor de combustible, quiero poder actualizar el estado e información de los pedidos en tiempo real, para mantener a mis clientes informados y organizar mejor mis entregas.</td>
+        <td>5 horas</td>
+        <td>Lynn Meza</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-06</td>
+        <td>Notificaciones a clientes sobre cambios</td>
+        <td>W-04</td>
+        <td>Como proveedor, quiero que mis clientes reciban notificaciones automáticas cuando actualizo un pedido, para que estén al tanto del progreso sin tener que llamarlos.</td>
+        <td>4 horas</td>
+        <td>Diego Acuña</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-13</td>
+        <td>Visualización del landing page</td>
+        <td>W-06</td>
+        <td>Como usuario de la plataforma, quiero que el sistema muestre un landing page informativo para que los interesados conozcan los beneficios antes de registrarse.</td>
+        <td>7 horas</td>
+        <td>Marllely Arias</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>TS-01</td>
+        <td>Implementar endpoint REST para pedidos</td>
+        <td>W-07</td>
+        <td>Como desarrollador, quiero implementar un endpoint RESTful para registrar pedidos, para que la aplicación frontend pueda enviar solicitudes válidas al backend.</td>
+        <td>4 horas</td>
+        <td>Manuel Sanchez</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>TS-02</td>
+        <td>Servicio de autenticación y token</td>
+        <td>W-08</td>
+        <td>Como desarrollador, quiero implementar un servicio de autenticación con generación de tokens, para proteger las rutas privadas de la plataforma.</td>
+        <td>5 horas</td>
+        <td>Rogger Miranda</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-14</td>
+        <td>Ver sección Home</td>
+        <td>W-09</td>
+        <td>Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de FuelTrack para comprender rápidamente el objetivo del sistema.</td>
+        <td>3 horas</td>
+        <td>Marllely Arias</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-15</td>
+        <td>Ver sección About Us</td>
+        <td>W-10</td>
+        <td>Como desarrollador, quiero implementar un servicio de autenticación con generación de tokens, para proteger las rutas privadas de la plataforma.</td>
+        <td>3 horas</td>
+        <td>Marllely Arias</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-16</td>
+        <td>Ver sección How it works?</td>
+        <td>W-11</td>
+        <td>Como visitante de ambos segmentos, quiero entender cómo funciona FuelTrack paso a paso para evaluar si se ajusta a mis necesidades.</td>
+        <td>3 horas</td>
+        <td>Marllely Arias</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>TS-05</td>
+        <td>Endpoint: Login</td>
+        <td>W-12</td>
+        <td>Como developer, quiero un endpoint para autenticar usuarios.</td>
+        <td>5 horas</td>
+        <td>Rogger Miranda</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>TS-06</td>
+        <td>Endpoint: Recuperar contraseña</td>
+        <td>W-13</td>
+        <td>Como developer, quiero un endpoint para que permita enviar correo de recuperación.</td>
+        <td>- horas</td>
+        <td>Diego Acuña</td>
+        <td>In Process</td>
+    </tr>
+    <tr align="center">
+        <td>TS-07</td>
+        <td>Endpoint: Logout</td>
+        <td>W-14</td>
+        <td>Como developer, quiero un endpoint para cerrar sesión.</td>
+        <td>8 horas</td>
+        <td>Rogger Miranda</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-24</td>
+        <td>Asignar vehículo a pedido</td>
+        <td>W-15</td>
+        <td>Como proveedor, quiero asignar un vehículo a un pedido aprobado para organizar la logística.</td>
+        <td>6 horas</td>
+        <td>Lynn Meza</td>
+        <td>Done</td>
+    </tr>
+</table>
+
+#### 4.2.1.3. Development Evidence for Sprint Review
+
+Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Page de Fueltrack junto a la API, cumpliendo con las User Stories determinadas. Se trabajó en la maquetación de las secciones principales, implementación de estilos CSS, diseño responsive para diferentes dispositivos y subida de los cambios al repositorio grupal. Además, trabajamos en el desarrollo de los endpoints necesarios para la funcionalidad básica de la aplicación móvil, incluyendo autenticación y, listado y actualización de pedidos.
+
+<table border>
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Rama</th>
+      <th>ID de Commit</th>
+      <th>Mensaje de Commit</th>
+      <th>Descripción del Commit</th>
+      <th>Fecha de Commit</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/landing-page</td>
+    <td>main</td>
+    <td>61b7f30</td>
+    <td>feat: base HTML and scripts for internationalization and style scrolling</td>
+    <td>-</td>
+    <td>17/09/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/landing-page</td>
+    <td>main</td>
+    <td>f736a38</td>
+    <td>feat: Integradas secciones Benefits, Features y Testimonials</td>
+    <td>-</td>
+    <td>17/09/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/landing-page</td>
+    <td>main</td>
+    <td>1279281</td>
+    <td>feat: section pricing, contact and footer</td>
+    <td>-</td>
+    <td>17/09/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/landing-page</td>
+    <td>main</td>
+    <td>5cd6ee3</td>
+    <td>Stats section, about/video section, How It Works Section</td>
+    <td>-</td>
+    <td>17/09/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/landing-page</td>
+    <td>main</td>
+    <td>49e591e</td>
+    <td>styles: style file added</td>
+    <td>-</td>
+    <td>17/09/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/landing-page</td>
+    <td>main</td>
+    <td>c64084c</td>
+    <td>feat: Hero Section added</td>
+    <td>-</td>
+    <td>18/09/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/backend</td>
+    <td>main</td>
+    <td>b345722</td>
+    <td>feat: full web services implementation</td>
+    <td>-</td>
+    <td>18/09/2025</td>
+  </tr>
+</tbody>
+</table>
+
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+En este Sprint 1 no se implementaron pruebas unitarias ni de integración, ya que el enfoque principal fue el desarrollo inicial de la Landing Page y los endpoints básicos de la API. Sin embargo, se realizaron pruebas para verificar la usabilidad de la Landing Page en diferentes dispositivos y navegadores, así como pruebas funcionales de los endpoints implementados para asegurar que respondieran adecuadamente a las solicitudes.
+
+#### 4.2.1.5. Execution Evidence for Sprint Review
+
+En el sprint 1 se diseñó el primer modelo de la landing page. Esta cuenta con diferentes secciones para acceso de los usuarios. Algunas evidencias son:
+
+- **Home:** Presenta de manera rápida el propósito y valor de FuelTrack para captar la atención del visitante.
+  ![Home](assets/Chapters/Chapter-V/home.png)
+
+- **About Us:** Explica quiénes somos y nuestra misión para generar confianza.
+  ![About Us 1](assets/Chapters/Chapter-V/about-us-1.png)
+  ![About Us 2](assets/Chapters/Chapter-V/about-us-2.png)
+
+- **Benefits:** Explica los beneficios de implementar Fueltrack en el área logística de la empresa.
+  ![How it works?](assets/Chapters/Chapter-V/benefits.png)
+
+- **How it works?:** Describe de forma sencilla y visual el funcionamiento de FuelTrack paso a paso.
+  ![How it works?](assets/Chapters/Chapter-V/how-it-works.png)
+
+- **Testimonials:** Muestra algunas de las empresas o usuarios que confían en FuelTrack como referencia de credibilidad.
+  ![Our Clients](assets/Chapters/Chapter-V/testimonials.png)
+
+- **Pricing:** Propone planes y precios que puedan acomodarse a las necesidades del usuario.
+  ![Join](assets/Chapters/Chapter-V/pricing.png)
+
+- **Contact Us:** Ofrece un formulario y datos de contacto directo para resolver dudas o solicitar soporte.
+  ![Contact Us](assets/Chapters/Chapter-V/contact.png)
+
+Igualmente, se implementaron los primeros endpoints de la API RESTful para la gestión de pedidos y autenticación de usuarios. Algunas evidencias son:
+
+- **Endpoint para crear un nuevo pedido:**
+  ![Create Order Endpoint](assets/Chapters/Chapter-V/create-order-endpoint.png)
+
+- **Endpoint para listar pedidos de un usuario:**
+  ![List Orders Endpoint](assets/Chapters/Chapter-V/list-orders-endpoint.png)
+
+- **Endpoint para iniciar sesión:**
+  ![Login Endpoint](assets/Chapters/Chapter-V/login-endpoint.png)
+
+- **Endpoint para cerrar sesión:**
+  ![Logout Endpoint](assets/Chapters/Chapter-V/logout-endpoint.png)
+
+- **Endpoint asignar vehículo a un pedido:**
+  ![Assign Vehicle Endpoint](assets/Chapters/Chapter-V/assign-vehicle-endpoint.png)
+
+- **Endpoint asignar conductor a un pedido:**
+  ![Assign Driver Endpoint](assets/Chapters/Chapter-V/assign-driver-endpoint.png)
+
+- **Endpoint para notificar al usuario:**
+  ![Notify User Endpoint](assets/Chapters/Chapter-V/notify-user-endpoint.png)
+
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 1 se completó la documentación de los Web Services correspondientes a las funcionalidades de gestión de pedidos y autenticación de usuarios. En esta sección se describen los endpoints implementados, las operaciones soportadas, y el alcance funcional previsto conforme a la especificación OpenAPI, acompañados de evidencias visuales que muestran el resultado de las pruebas realizadas con datos de ejemplo:
+
+<table border>
+  <thead>
+    <tr>
+      <th>Endpoint Simulado (Fake API)</th>
+      <th>Operaciones CRUD Soportadas</th>
+      <th>Futuro Alcance con OpenAPI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/Users/</td>
+      <td>GET, PUT, PATCH</td>
+      <td>Consulta y actualización de información de usuarios.</td>
+    </tr>
+    <tr>
+      <td>/api/Vehicles/</td>
+      <td>GET, POST, PUT, DELETE</td>
+      <td>Gestión completa de vehículos: creación, consulta, edición, eliminación de vehículos.</td>
+    </tr>
+    <tr>
+      <td>/api/Notifications/</td>
+      <td>GET, POST, PATCH</td>
+      <td>Gestión de notificaciones: Listar y crear notificaciones, marcar como leídas y contar las notificaciones no leídas.</td>
+    </tr>
+    <tr>
+      <td>/api/Orders/</td>
+      <td>GET, POST, PATCH</td>
+      <td>Gestión parcial: listado, creación y actualización de pedidos.</td>
+    </tr>
+    <tr>
+      <td>/api/Auth/</td>
+      <td>POST</td>
+      <td>Acciones de autenticación: inicio de sesión, cierre de sesión y gestión de tokens.</td>
+    </tr>
+    <tr>
+      <td>/api/Operators/</td>
+      <td>GET, POST, PUT, DELETE</td>
+      <td>Gestión de operadores: creación, consulta, actualización y eliminación de operadores de transporte.</td>
+    </tr>
+  </tbody>
+</table>
+
+Adicionalmente, se desplego la estructura de los Web Services mediante la herramienta Swagger UI, lo que permitió validar la definición y comportamiento de los endpoints simulados:
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/IZqOB8Q.jpeg"  width="100%" />
+</div>
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+Este proyecto utilizó diversas herramientas para el desarrollo del backend de la aplicación web. A continuación, se detallan las principales herramientas empleadas:
+
+- **Git**: Sistema de control de versiones utilizado para gestionar el código.
+
+- **GitFlow**: Flujo de trabajo colaborativo implementado en el desarrollo del proyecto.
+
+- **GitHub**: Plataforma colaborativa donde se almacenó y gestionó los repositorios remotos del backend.
+
+- **Render**: Plataforma de despliegue en la nube usada para alojar el backend de la aplicación.
+
+Enlaces de despliegue:
+
+- **Backend**: [FuelTrack Backend](https://fueltrack-api.onrender.com/swagger/index.html)
+
+Evidencia de despliegue del backend en Render:
+![Deployment Visual Evidence of Analytics](assets/Chapters/Chapter-V/deployment-evidence.png)
+
+#### 4.2.1.8. Team Collaboration Insigths during Sprint
+
+<p>
+  <strong>Resumen:</strong><br>
+  El equipo colaboró mediante GitHub, WhatsApp y Google Meet durante el Sprint. Las actividades principales se centraron en el desarrollo y despliegue de los web services.
+</p>
+
+<h4>Evidencia de Colaboración:</h4>
+<ul>
+  <li>Identificación y descripción de commits en GitHub mostrando contribuciones del equipo.</li>
+  <li>Implementación de los endpoints documentados para garantizar el cumplimiento y la satisfacción de las User Stories.</li>
+</ul>
+
+<h4>Principales Herramientas de Comunicación:</h4>
+<ul>
+  <li>GitHub (control de versiones y manejo de issues)</li>
+  <li>WhatsApp (comunicación diaria y aclaraciones rápidas)</li>
+  <li>Google Meet (reuniones de planificación de sprint)</li>
+</ul>
+
+### 4.2.2. Sprint 2
+
+#### 4.2.2.1. Sprint Planning 2
+
+<table border>
+    <tr align="center">
+        <td><strong>Sprint #</strong></td>
+        <td><strong>Sprint 2</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Date</td>
+        <td>30/10/2025</td>
+    </tr>
+    <tr align="center">
+        <td>Time</td>
+        <td>10:00 AM</td>
+    </tr>
+    <tr align="center">
+        <td>Location</td>
+        <td>Meet</td>
+    </tr>
+    <tr align="center">
+        <td>Prepared by</td>
+        <td>Rogger Miranda</td>
+    </tr>
+    <tr align="center">
+        <td>Attendess (to planning meeting)</td>
+        <td>
+          Acuña Tomas, Diego Rolin - U202221436<br>
+          Miranda Ayasta, Rogger Faryd - U202319239<br>
+          Arias Segil, Marllely Anahi - U202223984<br>
+          Sanchez Arenas, Manuel Angel - U201817507<br>
+          Meza Camayo, Lynn Jeeferzon - U20201C320
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Review Summary</td>
+        <td>El Sprint 1 finalizó con éxito: Landing Page, vistas core de la app y endpoints de backend completados. Todo se entregó dentro del plazo y con integración entre frontend y backend funcionando correctamente.</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Retrospective Summary</td>
+        <td>El sprint fue positivo, pero se identificaron áreas de mejora en la distribución de tareas y la estimación de tiempos. Se destacó la importancia de mejorar la coordinación y realizar pruebas más tempranas para evitar retrabajos. Se ajustarán estos aspectos en el próximo ciclo.</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+        <td align="center">Sprint 2 Goal</td> 
+            <td>Implementar las correcciones en la Landing Page para un nuevo despliegue.  
+        Desarrollo de las primeras vistas core de la mobile application:
+        <ul>
+            <li>Login (Client & Supplier)</li>
+            <li>Client Order List View</li>
+            <li>Client Detailed Order View</li>
+            <li>Create Order View</li>
+        </ul>
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 2 Velocity</td>
+        <td>12</td>
+    </tr>
+    <tr align="center">
+        <td>Sum of Story Point</td>
+        <td>22</td>
+    </tr>
+</table>
+
+#### 4.2.2.2. Sprint Backlog 2
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+En el Sprint 2, aunque el enfoque principal fue el desarrollo de las vistas core de la aplicación móvil en Kotlin, no se implementaron pruebas unitarias ni de integración completas debido a que el avance estaba centrado en la implementación de la funcionalidad básica de la app. Sin embargo, se llevaron a cabo pruebas de usabilidad para las vistas de la aplicación móvil, asegurando que las pantallas de Login, Listado de Pedidos, Detalle de Pedido y Crear Pedido fueran funcionales en diferentes dispositivos y versiones de Android. Además, se realizaron pruebas funcionales de los endpoints RESTful implementados, validando la correcta autenticación de usuarios y el manejo de pedidos a través de las API. Estas pruebas permitieron asegurar que los elementos clave del sistema estuvieran operativos antes de continuar con la integración de más funcionalidades en los siguientes sprints.
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 4.2.2.8. Team Collaboration Insights during Sprint
+
+<p>
+  <strong>Resumen:</strong><br>
+  Durante el Sprint 2, el equipo mantuvo una estrecha colaboración a través de GitHub, WhatsApp y Google Meet. Las actividades principales se centraron en el desarrollo de la aplicación móvil en Kotlin, completando aproximadamente el 80% del avance esperado en las vistas core de la app.
+</p>
+
+<h4>Evidencia de Colaboración:</h4>
+<ul>
+  <li>Desarrollo y revisión de las vistas principales de la app móvil en Kotlin, incluyendo Login, Client Order List, Client Detailed Order y Create Order.</li>
+  <li>Integración de endpoints RESTful y pruebas de autenticación de usuarios para la plataforma.</li>
+  <li>Commit de código documentado en GitHub con descripciones claras del trabajo realizado por cada miembro del equipo.</li>
+  <li>Revisión continua de las User Stories y ajustes según los comentarios del equipo en las reuniones de Google Meet.</li>
+</ul>
+
+<h4>Principales Herramientas de Comunicación:</h4>
+<ul>
+  <li>GitHub (control de versiones, seguimiento de issues y revisión de código)</li>
+  <li>WhatsApp (comunicación diaria y resolución de dudas rápidas entre los miembros)</li>
+  <li>Google Meet (reuniones de planificación, seguimiento de avances y solución de problemas técnicos en equipo)</li>
+</ul>
+
+## 4.3. Entrevistas de Validación
+
+### 4.3.1. Diseño de Entrevistas
+
+Preguntas relacionadas con la Landing Page:
+
+1. ¿La información presentada en la página principal le resulta clara y fácil de entender para su negocio?
+2. ¿Cómo calificarías la facilidad de navegación de la plataforma?
+3. ¿Consideras que se debería añadir alguna información adicional?
+4. ¿Qué tan confiable le pareció la página al primer vistazo?
+5. ¿El formulario de contacto o registro le inspiró confianza para dejar sus datos?
+6. ¿Qué lo motivaría a registrarse o probar la plataforma después de visitar la página?
+
+### 4.3.2. Registro de Entrevistas
+
+**A) Empresa Solicitante:**
+
+**Entrevista 1**
+
+- **Nombres:** Dennis
+- **Apellidos:** Castañeda Vilcapoma
+- **Edad:** 23
+- **Distrito:** San Juan de Lurigancho
+- **Captura de la entrevista:**
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/interview-validation-solicitante-3.png" alt="Captura entrevista 6" width="400"/>
+</p>
+
+- **Duración:** 9:33
+- **URL de la Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/ESEt8NVZpiBFrdi2rDsF-vIB0Y6cHCpU9fuDeLdgXp--Kw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5iADbQ)
+
+---
+
+**Entrevista 2**
+
+- **Nombres:** Cris
+- **Apellidos:** Meza Camayo
+- **Edad:** 20
+- **Distrito:** Chupaca-Junín
+- **Captura de la entrevista:**
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/interview-validation-solicitante-1.png" alt="Captura entrevista 6" width="400"/>
+</p>
+
+- **Duración:** 7:57
+- **URL de la Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/ESwzEeIMh0FEmNXho8kKSNoBXHyIshzIDZcbqELwDhoSmQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=wsfV0j)
+
+---
+
+**Entrevista 3**
+
+- **Nombres:** Piero
+- **Apellidos:** Ricaldi Solis
+- **Edad:** 23
+- **Distrito:** Puente Piedra
+- **Captura de la entrevista:**
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/interview-validation-solicitante-2.png" alt="Captura entrevista 6" width="400"/>
+</p>
+
+- **Duración:** 3:58
+- **URL de la Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EU1GcCmh0udAs0919oZr62QBu4hQor3AQKfTIjWmflYBfw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=gUdCYh)
+
+### 4.3.3. Evaluaciones según Heurísticas
+
+La evaluación heurística identifica problemas de usabilidad comparando la interfaz con principios reconocidos.
+
+**Sitio o App a Evaluar:** FuelTrap — Landing Page
+
+**Tareas a Evaluar:**
+
+1. La propuesta de valor en el “hero”.
+2. Navegar por las secciones de la landing usando el menú y enlaces internos.
+3. Explorar el bloque de Precios/Planes y distinguir el plan recomendado.
+4. Revisar el footer.
+5. Verificar la experiencia móvil (~360–390 px) y escritorio (≥1280 px).
+6. Comprobar accesibilidad básica: navegación por teclado, foco visible, textos alternativos en imágenes relevantes y contraste suficiente.
+
+**No Incluido en Esta Evaluación:**
+
+- Registro/Login completos, recuperación de contraseña.
+- Operaciones dentro del producto.
+- Procesos de pago/facturación, integración con pasarelas.
+
+**Escala de Severidad:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción                                                                                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: Puede ser fácilmente superado por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                    |
+| 2     | Problema menor: Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                  |
+| 4     | Problema muy grave: Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
+
+**Tabla Resumen:**
+
+| #   | Problema                                                                                                                             | Severidad | Heurística/Principio Violado                                                                     |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------ | :-------: | ------------------------------------------------------------------------------------------------ |
+| 1   | Los botones del "hero" (“Conócenos más” / “Ver demo”) no redirigen y solo refrescan la página.                                       |     3     | Arquitectura de la Información: ¿Es usable?                                                      |
+| 2   | Faltan anclas/destinos internos en los botones de la sección "Planes".                                                               |     3     | Arquitectura de la Información: ¿Es encontrable?                                                 |
+| 3   | En móvil, la landing **no es suficientemente responsiva** (desbordes/solapamientos, objetivos táctiles pequeños, scroll horizontal). |     3     | Diseño Inclusivo: Experiencias comparables; Accesibilidad: WCAG 1.4.10 Reflow, 2.5.5 Target Size |
+
+**Descripción de Problemas:**
+
+**PROBLEMA #1: Los botones del "hero" (“Conócenos más” / “Ver demo”) no redirigen y solo refrescan la página**
+
+- **Severidad:** 3
+- **Heurística violada:** Arquitectura de la Información - ¿Es usable?
+
+**Problema:**  
+Al hacer clic en los botones del hero, la página se actualiza o no realiza navegación alguna. Esto impide acceder rápidamente a la información clave (sección “Sobre nosotros” o una demo funcional), rompiendo el flujo de exploración inicial.
+
+**Recomendación:**  
+Asignar destinos válidos y coherentes con el texto del botón (por ejemplo, #nosotros, #demo o ruta /demo), habilitar scroll suave y actualizar la URL (ancla o ruta) para dar feedback de navegación. Verificar el comportamiento con analítica (eventos de clic) y estados :focus/:active visibles. (Incluir además una captura de pantalla ilustrando el problema).
+
+---
+
+**PROBLEMA #2: Faltan anclas/destinos internos en los botones de la sección “Planes”**
+
+- **Severidad:** 3
+- **Heurística violada:** Arquitectura de la Información - ¿Es encontrable?
+
+**Problema:**  
+Los botones de la sección “Planes” (“Empezar ahora” , “Comprar prueba”) no llevan al flujo esperado (lead/checkout) y, en algunos casos, retornan al inicio. Esto dificulta encontrar y completar la acción principal de conversión.
+
+**Recomendación:**  
+Definir rutas o anclas claras que conecten cada botón con su destino.
+
+---
+
+**PROBLEMA #3: En móvil, la landing no es suficientemente responsiva (desbordes/solapamientos, objetivos táctiles pequeños, scroll horizontal)**
+
+- **Severidad:** 3
+- **Heurística violada:** Diseño Inclusivo - Experiencias comparables; Accesibilidad - WCAG 1.4.10 Reflow, 2.5.5 Target Size
+
+**Problema:**  
+En vistas ~360–390 px se presentan textos e imágenes que se desbordan, elementos superpuestos, objetivos táctiles < 44×44 px y presencia de scroll horizontal, afectando la lectura, navegación y clics en botones.
+
+**Recomendación:**  
+Aplicar diseño mobile-first: tipografías y espaciado en rem, imágenes fluidas (max-width: 100%), rejillas adaptativas (1 columna en móvil), breakpoints adecuados, evitar anchos/altos fijos y garantizar tamaño mínimo de 44×44 px en objetivos táctiles.
 
 # Conclusiones
 
