@@ -5544,7 +5544,7 @@ En el Sprint 2, aunque el enfoque principal fue el desarrollo de las vistas core
     </tr>
 </table>
 
-#### 4.2.2.3. Development Evidence for Sprint Review
+#### 4.2.3.3. Development Evidence for Sprint Review
 
 En el transcurso de este Sprint, el equipo realizó importantes correcciones en la configuración de la base de datos desplegada para el backend de la aplicación, además del desarrollo de la aplicación móvil de Fueltrack en Flutter. Además, se logró conectar nuestra API RESTful con la aplicación móvil, permitiendo la autenticación de usuarios y la gestión de pedidos directamente desde la app. A continuación, se detallan las evidencias de desarrollo correspondientes:
 
@@ -5659,29 +5659,48 @@ En el transcurso de este Sprint, el equipo realizó importantes correcciones en 
 </tbody>
 </table>
 
-#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
 
 Durante el Sprint 3 no se implementaron pruebas unitarias ni de integración, ya que el enfoque principal estuvo centrado en el desarrollo inicial de la aplicación móvil en Flutter y en su conexión con la API ya operativa. Sin embargo, se realizaron algunas pruebas exploratorias (no documentadas) con el fin de verificar la correcta visualización y funcionamiento de los datos dentro de la aplicación móvil.
 
-#### 4.2.2.5. Execution Evidence for Sprint Review
+#### 4.2.3.5. Execution Evidence for Sprint Review
 
-#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
-#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+Para este Sprint, no se hizo desarrollo o mantenimiento adicional de los Web Services, ya que el enfoque principal estuvo en el desarrollo de la aplicación móvil en Flutter y su integración con la API RESTful ya existente. Por lo tanto, no se generaron nuevas evidencias de documentación de servicios en esta etapa del proyecto.
+Sin embargo, se realizaron correcciones en el despliegue de la base de datos para el backend, asegurando que estuviera correctamente configurada y optimizada para soportar las operaciones de la aplicación móvil. Estas correcciones incluyeron inserción de data, y reestablecimiento de conexiones entre la API y la base de datos para garantizar un rendimiento adecuado durante las pruebas y el uso de la aplicación móvil.
 
-#### 4.2.2.8. Team Collaboration Insights during Sprint
+- Top Queries de la Base de Datos Desplegada:
+![Deployed Database Top Queries](assets/Chapters/Chapter-V/database_deployed_top_queries.png)
+
+- Métricas de la Base de Datos Desplegada:
+![Deployed Database Metrics](assets/Chapters/Chapter-V/database_metrics.png)
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+Este proyecto utilizó Flutter y Android Studio para el desarrollo de la aplicación móvil. Además, de ello, se utilizaron las siguientes herramientas para su control de version e invitaciones de testeo:
+
+- **Git**: Sistema de control de versiones utilizado para gestionar el código.
+
+- **GitFlow**: Flujo de trabajo colaborativo implementado en el desarrollo del proyecto.
+
+- **GitHub**: Plataforma colaborativa donde se almacenó y gestionó los repositorios remotos del backend.
+
+- **Firebase App**: Plataforma utilizada para el despliegue y distribución de la aplicación móvil, facilitando las pruebas y el acceso a la app por parte de los usuarios.
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint
 
 <p>
   <strong>Resumen:</strong><br>
-  Durante el Sprint 2, el equipo mantuvo una estrecha colaboración a través de GitHub, WhatsApp y Google Meet. Las actividades principales se centraron en el desarrollo de la aplicación móvil en Kotlin, completando aproximadamente el 80% del avance esperado en las vistas core de la app.
+  Durante el Sprint 3, el equipo logró completar las vistas core de la aplicación móvil en Flutter, alcanzando aproximadamente un 100% del avance esperado. La colaboración se mantuvo activa a través de GitHub, WhatsApp y Google Meet, facilitando la comunicación y coordinación entre los miembros del equipo.
 </p>
 
 <h4>Evidencia de Colaboración:</h4>
 <ul>
-  <li>Desarrollo y revisión de las vistas principales de la app móvil en Kotlin, incluyendo Login, Client Order List, Client Detailed Order y Create Order.</li>
-  <li>Integración de endpoints RESTful y pruebas de autenticación de usuarios para la plataforma.</li>
+  <li>Desarrollo de las vistas core de la app móvil (Flutter), incluyendo Login, Register, Orders List, Create Order, etc.</li>
+  <li>Implementación de API RESTful en la aplicación móvil.</li>
   <li>Commit de código documentado en GitHub con descripciones claras del trabajo realizado por cada miembro del equipo.</li>
-  <li>Revisión continua de las User Stories y ajustes según los comentarios del equipo en las reuniones de Google Meet.</li>
+  <li>Corrección y manipulación en despliegue de base de datos</li>
 </ul>
 
 <h4>Principales Herramientas de Comunicación:</h4>
@@ -5690,7 +5709,6 @@ Durante el Sprint 3 no se implementaron pruebas unitarias ni de integración, ya
   <li>WhatsApp (comunicación diaria y resolución de dudas rápidas entre los miembros)</li>
   <li>Google Meet (reuniones de planificación, seguimiento de avances y solución de problemas técnicos en equipo)</li>
 </ul>
-
 
 ## 4.3. Entrevistas de Validación
 
