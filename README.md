@@ -5762,6 +5762,7 @@ Durante este tercer sprint, se realizó la aplicación móvil diseñada únicame
 </p>
 
 <h5>Pasos simples para App Distribution</h5>
+
 - Crear el proyecto en Firebase y registrar la app Android.
 - Conectar la app con Firebase (archivo de configuración en Android).
 - Generar el APK de release desde Flutter.
