@@ -5725,11 +5725,50 @@ Durante este tercer sprint, se realizó la aplicación móvil diseñada únicame
 <p><strong>Descripción:</strong> Visualiza y edita información personal del perfil. Incluye opción para cerrar sesión.</p>
 
 
-
-
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+<h4>Firebase App Distribution (Resumen)</h4>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/proyect.png" alt="Firebase Project" width="560"><br>
+  <em>Comprobamos que la app Flutter funciona y creamos el proyecto en Firebase.</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/configuration.png" alt="Project Created" width="560"><br>
+  <em>Proyecto listo. Elegimos “Agregar app” y seleccionamos Android.</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/app_add.png" alt="Add Android App" width="560"><br>
+  <em>Registramos la app Android con su paquete. Firebase guía los pasos básicos.</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/code.png" alt="Android config" width="560"><br>
+  <em>Conectamos la app con Firebase desde la carpeta Android (archivo de configuración).</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/app.png" alt="App Registered" width="560"><br>
+  <em>App registrada. Guardamos el ID para distribuir más adelante.</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/app_distribution.png" alt="App Distribution" width="560"><br>
+  <em>Subimos el APK, elegimos testers o grupos y agregamos notas.</em>
+</p>
+
+<h5>Pasos simples para App Distribution</h5>
+- Crear el proyecto en Firebase y registrar la app Android.
+- Conectar la app con Firebase (archivo de configuración en Android).
+- Generar el APK de release desde Flutter.
+- En Firebase App Distribution, cargar el APK.
+- Elegir testers/grupos y enviar la versión.
+- Los testers reciben un enlace para instalar y comentar.
+
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 
