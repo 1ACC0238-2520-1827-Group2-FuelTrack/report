@@ -100,6 +100,7 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
       </ul>
     </td>
     <td> Se han incluído los siguientes capítulos y secciones:
+    Se han incorporado las mejoras sugeridas por el docente en la entrega anterior. Además, en esta entrega se incluyeron nuevos apartados clave como el Capítulo III: Solution UI/UX Design, Capítulo IV: Product Implementation & Validation, así como un resumen detallado del Sprint 2. También se añadieron las secciones de Conclusiones, Bibliografía y Anexos, proporcionando una visión más completa del progreso del proyecto, la implementación de las soluciones de diseño y las pruebas realizadas hasta el momento.
       <ul>
       </ul>
     </td>
@@ -116,9 +117,7 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
         <li>Diego Rolin Acuña Tomas</li>
       </ul>
     </td>
-    <td> Se han incluído los siguientes capítulos y secciones:
-      <ul>
-      </ul>
+    <td> Se han incluído los siguientes capítulos y secciones: Se han incorporado la mayoría de mejoras sugeridas por el docente, la principal de ellas, el Sprint 2 completado, que documenta nuestro avance previo. Además, en esta entrega se incluyeron los avances y el apartado referente al Sprint 3. También se mejoraron las secciones de Conclusiones, Bibliografía y Anexos, proporcionando una visión más completa del progreso del proyecto, la implementación de las soluciones de diseño y las pruebas realizadas.
     </td>
   </tr>
 </table>
@@ -134,17 +133,31 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
 **Link del Event Storming**
 [https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021](https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021)
 
-![alt text](assets/Chapters/Insights/Summary_TB1.png)
+**TB1**
 
-![alt text](assets/Chapters/Insights/Contirbutors_TB1.png)
+![TB1 summary](assets/Chapters/Insights/Summary_TB1.png)
 
-![alt text](assets/Chapters/Insights/NetworkGraph_TB1.png)
+![TB1 contributors](assets/Chapters/Insights/Contirbutors_TB1.png)
+
+![TB1 network graph](assets/Chapters/Insights/NetworkGraph_TB1.png)
 
 **TP1**
 
-![alt text](assets/Chapters/Insights/Summary_TP1.png)
+![TP1 summary](assets/Chapters/Insights/Summary_TP1.png)
 
-![alt text](assets/Chapters/Insights/Contirbutors_TP1.png)
+![TP1 contributors](assets/Chapters/Insights/Contirbutors_TP1.png)
+
+**TB2**
+
+![TB2 summary](assets/Chapters/Insights/Summary_TB2.png)
+
+![alt text](image.png)![TB2 contributors](assets/Chapters/Insights/Contributors_TB2.png)
+
+**TF**
+
+![TF summary](assets/Chapters/Insights/Summary_TF.png)
+
+![TF contributors](assets/Chapters/Insights/Contributors_TF.png)
 
 # Table of Contents
 
@@ -353,10 +366,6 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
       - [**Gestión de Órdenes (Order Management)**](#gestión-de-órdenes-order-management-1)
       - [**Conciliaciones (Subir Comprobantes)**](#conciliaciones-subir-comprobantes-1)
       - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
-      - [**User Goal 01: Crear una nueva orden de combustible**](#user-goal-01-crear-una-nueva-orden-de-combustible-1)
-      - [**User Goal 02: Visualizar historial de órdenes**](#user-goal-02-visualizar-historial-de-órdenes-1)
-      - [**User Goal 03: Registrar proveedor**](#user-goal-03-registrar-proveedor-1)
-      - [**User Goal 04: Cargar comprobantes o documentos de pago**](#user-goal-04-cargar-comprobantes-o-documentos-de-pago-1)
       - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
 - [Capítulo IV: Product Implementation \& Validation](#capítulo-iv-product-implementation--validation)
   - [4.1 Software Configuration Management](#41-software-configuration-management)
@@ -364,7 +373,14 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
     - [**Software Deployment**](#software-deployment)
     - [4.1.2. Source Code Management](#412-source-code-management)
     - [4.1.3. Source Code Style Guide \& Conventions](#413-source-code-style-guide--conventions)
+      - [Backend: .NET (C#)](#backend-net-c)
+      - [Landing Page: HTML, CSS y JavaScript](#landing-page-html-css-y-javascript)
+      - [Mobile: Android (Kotlin) \& Jetpack Compose](#mobile-android-kotlin--jetpack-compose)
+      - [Convenciones Generales (Todo el Proyecto)](#convenciones-generales-todo-el-proyecto)
     - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+      - [Landing Page (HTML/CSS/JS)](#landing-page-htmlcssjs)
+      - [Backend (.NET API)](#backend-net-api)
+      - [Aplicación Móvil (Android)](#aplicación-móvil-android)
   - [4.2. Landing Page \& Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
     - [4.2.1. Sprint 1](#421-sprint-1)
       - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
@@ -375,10 +391,28 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insigths during Sprint](#4218-team-collaboration-insigths-during-sprint)
-  - [4.3. Validation Interviews](#43-validation-interviews)
+    - [4.2.2. Sprint 2](#422-sprint-2)
+      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+      - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
+      - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
+      - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
+      - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
+      - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
+      - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
+      - [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
+    - [4.2.2. Sprint 3](#422-sprint-3)
+      - [4.2.2.1. Sprint Planning 3](#4221-sprint-planning-3)
+      - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3-1)
+      - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review-1)
+      - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review-1)
+      - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
+      - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
+      - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
+      - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
+  - [4.3. Entrevistas de Validación](#43-entrevistas-de-validación)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
-    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
+    - [4.3.3. Evaluaciones según Heurísticas](#433-evaluaciones-según-heurísticas)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Video App Validation](#video-app-validation)
@@ -405,22 +439,26 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
         <b>Diego Acuña</b><br>
         TB1: Durante el desarrollo del startup y el producto, tuve que repasar conceptos básicos como Lean UX. En particular, necesité investigar nuevas tecnologías para crear diagramas ER y UML directamente desde Visual Studio Code. Esta experiencia me enseñó que, aunque hayas realizado algo muchas veces, siempre es necesario repasar conceptos, incluso los más básicos. Además, debo estar preparado para adquirir nuevos conocimientos que me permitan completar satisfactoriamente cualquier proyecto de software.<br>
         TP1: Para esta entrega, tuve que indagar aún más y actualizarme sobre las últimas tendencias en diseño UX/UI para poder aplicar enfoques innovadores en nuestra aplicación móvil. Esto se ve puede ver reflejado en mi desarrollo de vistas core.<br>
+        TF: En esta entrega me encargué de gran parte del desarrollo de nuestra aplicación Fueltrack en Flutter, por lo que tuve que ir más allá de lo aprendido en clase. Esta experiencia me permitió mejorar mis habilidades de desarrollo móvil y comprender mejor cómo crear aplicaciones escalables y mantenibles.
         <b>Manuel Sanchez</b><br>
         TB1: Los componentes que conforman la infraestructura de nuestro sistema me llevaron a actualizarme sobre las buenas practicas para un correcto despliegue.<br>
         TP1: Para este sprint fue necesario investigar la documentación de las librerías UI para el desarrollo de las vistas core de la aplicación.<br>
+        TF: En este Sprint me encargué de insertar y modificar datos en nuestra instancia de base de datos desplegada, por lo que tuve que volver a investigar sobre MySQL y PgAdmin 4.
         <b>Marllely Arias</b><br>
         TB1: A través del desarrollo del capítulo dos, trabajé en el análisis competitivo, el needfinding y las entrevistas, lo que me permitió adquirir nuevas perspectivas y herramientas que aportan directamente a mi formación profesional y al avance de mi proyecto en soluciones de ingeniería de software.<br>
-        TP1: Durante esta entrega reforcé mis conocimientos en diseño UX/UI, aplicando principios de diseño, arquitectura de información y diseño inclusivo. Desarrollé wireframes, mockups y prototipos interactivos, lo cual fortaleció mis habilidades para proponer soluciones digitales efectivas.
-        <br>
+        TP1: Durante esta entrega reforcé mis conocimientos en diseño UX/UI, aplicando principios de diseño, arquitectura de información y diseño inclusivo. Desarrollé wireframes, mockups y prototipos interactivos, lo cual fortaleció mis habilidades para proponer soluciones digitales efectivas.<br>
+        TF: Completé parte del desarrollo de nuestra vista de órdenes de nuestra aplicación en Kotlin, por lo que revisé nuevamente el material de clase para implementar las funcionalidades faltantes.<br>
         <b>Rogger Miranda</b><br>
         TB1: Durante el desarrollo del startup y el producto, me di cuenta de la importancia de repasar conceptos fundamentales y de estar siempre dispuesto a adoptar nuevas herramientas y metodologías. En este caso, implementé diagramas C4 (de contexto y componentes), lo que permitió mejorar la claridad y organización de la arquitectura del sistema. Esta experiencia me recordó que, aunque algunos aspectos del trabajo puedan parecer rutinarios, siempre es útil revisarlos y estar preparado para aprender lo necesario para mejorar la calidad y el alcance de los proyectos.<br>
         TP1: Durante el desarrollo del producto y el informe, me di cuenta la importancia de poder estar actualizado en conceptos, tecnicas y teconologias para el correcto desarrollo de la solución de manera agil y eficaz. En esta oportunidad fue muy importante entender conceptos de SEO, entender el funcionamiento de las tecnologias respectivas para el avance tanto de la landing como del backend, conceptos de UX/UI, etc.<br>
+        TB2: Para esta entrega, profundicé en la integración entre la capa de presentación y la lógica del dominio, ademas reforce mis conocimientos en Kotlin, Flutter. Contribui en varios aspectos para el desarrollo del aplicativo lo que me permitio mejorar mis habilidades.<br>
+        TF: Para esta entrega mejore aprendizaje para el desarrollo de la aplicación en Kotlin segmento objetivo proveedores. Además, contribuí en varios aspectos como el desarrollo del ppt para la exposición, corrección del documento, organizar el trabajo, etc.<br>
         <b>Lynn Meza</b><br>
         TB1: Durante este hito actualicé y apliqué conceptos clave de Domain-Driven Design para mi desarrollo profesional y el proyecto: facilité un Event Storming para depurar el Lenguaje Ubicuo y extraer eventos, comandos y políticas; descubrí y definí Bounded Contexts mediante sus Canvases; y modelé Domain Message Flows que explicitan contratos de integración y decisiones de orquestación/coreografía.<br>
         TP1: Para esta entrega, profundicé en la integración entre la capa de presentación y la lógica del dominio, reforzando mis conocimientos en Kotlin y Java. Además, actualicé mis conocimientos sobre buenas prácticas en consumo de APIs REST, aunque en esta fase trabajamos con una API fake. Este avance técnico me permitió contribuir en la implementación de vistas core funcionales y escalables, alineadas al diseño UX definido.<br>
       </td>
       <td>
-        CONCLUSION CRITERIO 1
+        En el transcurso del proyecto, el equipo demostró la capacidad de actualizar conceptos y conocimientos necesarios para fortalecer su desarrollo profesional y garantizar la calidad del trabajo realizado en soluciones de ingeniería de software. Para ello, se profundizó en tecnologías y prácticas contemporáneas, como el desarrollo móvil con Flutter, la creación y despliegue de servicios backend, y la gestión de bases de datos MySQL en entornos remotos.Adicionalmente, se consolidaron habilidades relacionadas con la planificación, comunicación efectiva y trabajo colaborativo, lo cual permitió integrar nuevas herramientas, resolver problemas técnicos y optimizar procesos del proyecto. En conjunto, estas acciones reflejan la actualización constante de conocimientos como parte fundamental del ejercicio profesional y del desarrollo de soluciones tecnológicas robustas.
       </td>
     </tr>
     <tr>
@@ -429,26 +467,29 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
         <b>Diego Acuña</b><br>
         TB1: Al desarrollar el trabajo, tuve que aprender a usar herramientas para la creación de diagramas ER y UML que nunca había utilizado anteriormente. También repasé conocimientos ya adquiridos pero de gran importancia. Sobre todo, tuve que aprender todo lo que conlleva el mercado de combustibles, tanto su gestión como su logística. Estar abierto a aprender nuevas tecnologías y aspectos más allá de la informática, pero relacionados con el proyecto, ayuda a determinar si tu solución será útil o no para tus posibles clientes.<br>
         TP1: Para esta entrega, investigué las opciones de configuración de una aplicación móvil desarrollada en Kotlin y Java, con el objetivo de integrar y consumir datos desde una API simulada (fake API) durante el proceso de desarrollo.<br>
+        TF: Al concluir con el desarrollo del proyecto me di cuenta de algo importante: Para mantener la calidad de mi código, debo actualizar constantemente mis conocimientos sobre Flutter.<br>
         <b>Marllely Arias Segil</b><br>
         TB1: Al trabajar en el capítulo dos, donde realicé el análisis competitivo, el needfinding y las entrevistas, comprendí que cada etapa del proyecto en soluciones de ingeniería de software exige actualizarme y seguir aprendiendo, ya que los retos y necesidades del entorno cambian constantemente.
-        TP: Este proyecto me permitió ver la importancia de seguir aprendiendo nuevas herramientas y enfoques en diseño y tecnología. Investigar y aplicar buenas prácticas en UX/UI fue clave para mejorar mi desempeño y adaptarme a los retos del desarrollo de software.
-        <br>
+        TP: Este proyecto me permitió ver la importancia de seguir aprendiendo nuevas herramientas y enfoques en diseño y tecnología. Investigar y aplicar buenas prácticas en UX/UI fue clave para mejorar mi desempeño y adaptarme a los retos del desarrollo de software.<br>
+        TF: Para completar la vista de órdenes me dediqué a revisar la documentación de Kotlin, la cual se actualizó recientemente. Es por ello que para mantener mis aportes en alta calidad, debo hacer constantes revisiones sobre estas tecnologías.<br>
         <b>Manuel Sanchez</b><br>
         TB1: Al actualizar nuestro backend, me di cuenta que no solo la práctica, sino también el aprendizaje debe ser constante para complementar mis habilidades adquiridas y desempeñarme mejor en el desarrollo de soluciones. <br>
         TP1: Para esta entrega desarrollé parte de las vistas core de la aplicación móvil en Android Studio (Kotlin + Java) y verifiqué el comportamiento de los componentes de UI investigados previamente. Fue necesario investigar nuevamente sobre los componentes UI para asegurar su correcto funcionamiento.<br>
+        TF: Debido a un error de configuración en la herramienta de despliegue de nuestra base de datos y backend, asumí la responsabilidad de investigar la causa del problema y solucionarlo. Tras revisar la configuración y realizar los ajustes necesarios, logré corregir el error y contribuir de manera significativa al avance del proyecto. Esta experiencia me permitió reconocer la importancia del aprendizaje continuo para aprovechar adecuadamente las herramientas utilizadas y resolver incidencias con mayor eficiencia.<br>
         <b>Lynn Meza</b><br>
         TB1: Asumí el aprendizaje permanente mientras desarrollé el modelado del dominio: facilité el Event Storming, delimité Bounded Contexts y redacté sus Canvas, y diseñé los Domain Message Flows. Para lograrlo me actualicé con documentación. El resultado fue una arquitectura más modular, integraciones claras y criterios de prueba trazables, elevando la calidad técnica del proyecto.<br>
-        TP1: En este sprint reforcé la importancia de la mejora continua, investigando sobre las mejores prácticas en Kotlin para asegurar un código mantenible.
-        <br>
+        TP1: En este sprint reforcé la importancia de la mejora continua, investigando sobre las mejores prácticas en Kotlin para asegurar un código mantenible.<br>
         <b>Rogger Faryd Miranda Ayasta</b><br>
-        TB1: A lo largo del desarrollo del proyecto, me di cuenta de que el aprendizaje constante es fundamental para mejorar el desempeño profesional y desarrollar soluciones efectivas en ingeniería de software. Al enfrentarme a tareas como el diseño de la arquitectura del sistema y la implementación de diagramas C4, comprendí que la adopción de nuevas herramientas y metodologías es crucial para optimizar el proceso. Esta experiencia me reafirmó que, para tener éxito en el campo, es necesario seguir aprendiendo y adaptándose continuamente a nuevas tecnologías y enfoques.
-        TP1: En esta oportunidad para el desarrollo  del producto y el informe, me di cuenta la importancia de conocer y aprender conceptos, tecnicas y teconologias para el correcto desarrollo de la solución de manera agil y eficaz. Fue de mucha importancia aprender sobre de Tags y MetaTags, conocerconceptos de UX/UI, etc.
-        <br>
+        TB1: A lo largo del desarrollo del proyecto, me di cuenta de que el aprendizaje constante es fundamental para mejorar el desempeño profesional y desarrollar soluciones efectivas en ingeniería de software. Al enfrentarme a tareas como el diseño de la arquitectura del sistema y la implementación de diagramas C4, comprendí que la adopción de nuevas herramientas y metodologías es crucial para optimizar el proceso. Esta experiencia me reafirmó que, para tener éxito en el campo, es necesario seguir aprendiendo y adaptándose continuamente a nuevas tecnologías y enfoques.<br>
+        TP1: En esta oportunidad para el desarrollo  del producto y el informe, me di cuenta la importancia de conocer y aprender conceptos, tecnicas y teconologias para el correcto desarrollo de la solución de manera agil y eficaz. Fue de mucha importancia aprender sobre de Tags y MetaTags, conocerconceptos de UX/UI, etc.<br>
+        TB2: En esta oportunidad, profundicé nuevos conomientos en Kotlin y Flutter lo que me permite contribuir en varios aspectos para el desarrollo del aplicativo lo que representa la mejora continua esperada.<br>
+        TF: Para esta entrega mejore aprendizaje para el desarrollo de la aplicación en Kotlin segmento objetivo proveedores. Además, contribuí en varios aspectos como el desarrollo del ppt para la exposición, corrección del documento, organizar el trabajo, etc.<br>
       </td>
       <td>
-        CONCLUSION CRITERIO 2
+      Durante el desarrollo del proyecto, nuestro equipo demostró una comprensión sólida de la importancia del aprendizaje continuo para abordar los desafíos técnicos y organizativos propios de las soluciones de ingeniería de software. A lo largo del proceso, adquirimos y aplicamos nuevos conocimientos relacionados con el desarrollo móvil en Flutter, la implementación de un backend funcional y su despliegue en un entorno productivo, así como la administración de una base de datos MySQL en un servidor remoto.Asimismo, integramos buenas prácticas de trabajo colaborativo mediante la coordinación de reuniones periódicas, la planificación de actividades y la asignación estratégica de tareas, lo que nos permitió adaptarnos a nuevas herramientas, metodologías y requerimientos. Esta experiencia reforzó nuestra capacidad de actualizar y ampliar continuamente nuestras competencias técnicas y profesionales, evidenciando el valor del aprendizaje permanente para el desarrollo exitoso de proyectos de software.
       </td>
     </tr>
+
   </tbody>
 </table>
 
@@ -595,19 +636,11 @@ La problemática principal es la falta de un sistema centralizado y digital para
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-**Solicitantes de Combustible (Empresas Compradoras)**
+Las empresas solicitantes de combustible y los proveedores de combustible buscan mantener una operación fluida y segura, garantizando la disponibilidad del recurso sin interrupciones, una gestión ordenada de pedidos y un control adecuado sobre los despachos y entregas. Su objetivo actual es coordinar eficazmente la demanda y el suministro de combustible para no afectar sus actividades productivas.
 
-- **Problema:** Empresas de sectores industriales, mineros y de construcción coordinan sus pedidos de combustible mediante canales informales (llamadas, correos, mensajería), lo que genera desorganización, errores y ausencia de trazabilidad.
-- **Impacto:** Incertidumbre sobre el estado de los despachos y posibles interrupciones en sus operaciones debido a errores por mala coordinación.
-- **Riesgo:** La facilidad a la adaptación puede verse afectada si la plataforma no es intuitiva o no se adapta a procesos actuales.
-- **How Might We...?:** ¿Cómo podemos diseñar una experiencia que permita registrar y gestionar pedidos en menos de 3 minutos, con tasa de error <5% y adopción del 80% en el primer mes?
+Sin embargo, los procesos actuales se realizan mediante canales informales como llamadas, correos o mensajería, lo que genera desorganización, duplicidad de información, errores logísticos y ausencia de trazabilidad. Esto provoca incertidumbre sobre los despachos, sobrecarga administrativa en los proveedores y una reducción en la eficiencia operativa y la satisfacción del cliente.
 
-**Proveedores de Combustible (Empresas Distribuidoras)**
-
-- **Problema:** Gestionan múltiples pedidos, conciliaciones y despachos con procesos manuales, lo que aumenta la carga administrativa (asumida por los operadores del área) y el riesgo de errores logísticos.
-- **Impacto:** Baja eficiencia operativa y menor satisfacción del cliente.
-- **Riesgo:** Posible resistencia a la implementación si los beneficios no son inmediatos.
-- **How Might We...?:** ¿Cómo podemos demostrar que nuestra plataforma reduce el tiempo de gestión en un 40%, disminuye errores logísticos en un 60% y mejora la satisfacción del cliente en +1 punto en encuestas durante los primeros 3 meses?
+Tanto las empresas solicitantes como los proveedores buscan optimizar la gestión de pedidos y despachos, reducir errores y aumentar la eficiencia, mediante un sistema que se adapte a sus procesos actuales, facilite la trazabilidad y mejore la coordinación entre ambas partes sin requerir grandes cambios en su forma de trabajo.
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -626,10 +659,10 @@ La problemática principal es la falta de un sistema centralizado y digital para
   Los usuarios principales serían los encargados logísticos de los proovedores y las empresas compradoras de combustible.
 
 - _¿Dónde encaja nuestro producto en su trabajo o vida?_
-  FuelTracks encajaría en el día a día de los usuarios como una plataforma de gestión centralizada, que ayudaría a coordinar, rastrear y organizar pedidos de combustible de forma confiable. Reemplazando así los sistemas dispersos que se utilizan hoy en día.
+  FuelTrack encajaría en el día a día de los usuarios como una plataforma de gestión centralizada, que ayudaría a coordinar, rastrear y organizar pedidos de combustible de forma confiable. Reemplazando así los sistemas dispersos que se utilizan hoy en día.
 
 - _¿Qué problemas tiene nuestro producto que resolver?_
-  FuelTracks debe resolver la desorganización causada por métodos informales de venta, reducir errores humanos y mejorar la experiencia del cliente.
+  FuelTrack debe resolver la desorganización causada por métodos informales de venta, reducir errores humanos y mejorar la experiencia del cliente.
 
 - _¿Cuándo y cómo es nuestro producto usado?_
   Será utilizado diariamente por solicitantes y los proveedores por igual. Por el lado de los usuarios solicitantes, usarán la plataforma para registrar y monitorear pedidos de combustible, y por el lado de proveedores para gestionar la recepción, programación y entrega de dichos pedidos.
@@ -680,7 +713,9 @@ La problemática principal es la falta de un sistema centralizado y digital para
 
 #### 1.2.2.4. Lean UX Canvas
 
-<img src="./assets/Chapters/Chapter-I/LeanUxCanvas.png" alt="Lean UX Canvas" width="500">
+<p align="center">
+  <img src="./assets/Chapters/Chapter-I/LeanUxCanvas.png" alt="Lean UX Canvas" width="500">
+</p>
 
 ## 1.3. Segmentos Objetivo
 
@@ -695,14 +730,16 @@ _Necesidades:_
 - Mantener constante comunicación con proveedores.
 
 **B. Proveedores de combustible**
+
 Son empresas dedicadas a la distribución de combustibles, atendiendo principalmente a clientes corporativos o industriales. Buscan herramientas que les permitan, optimizar sus operaciones y diferenciarse en un mercado cada vez más competitivo.
 
-_Motivaciones:_
+_Necesidades:_
 
 - Mejorar la experiencia del cliente mediante canales digitales.
 - Reducir errores en la entrega por información incompleta o mal gestionada.
 - Optimizar la planificación logística y distribución.
 
+----
 # Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores.
@@ -1491,7 +1528,7 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
   <tbody>
     <tr>
       <td><strong>DOING</strong></td>
-      <td>Utiliza la plataforma centralizada FuelTracks, con historial de comunicación y notificaciones automáticas.</td>
+      <td>Utiliza la plataforma centralizada FuelTrack, con historial de comunicación y notificaciones automáticas.</td>
       <td>Completa un formulario estructurado directamente desde la web o app.</td>
       <td>Revisa el panel de seguimiento con estado del pedido en tiempo real.</td>
       <td>Recibe una confirmación automática con hora estimada y firma digital.</td>
@@ -1566,13 +1603,35 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
       <td>EP01</td>
       <td>Gestión de pedidos de combustible de solicitante</td>
       <td>Como usuario solicitante de combustible, quiero poder registrar mis pedidos fácilmente y con la capacidad de establecer parámetros específicos para evitar errores en la comunicación y recibir lo que necesito.</td>
-      <td><strong>Escenario 1</strong>: Registro de pedido exitoso. En la plataforma, debería ver una sección en la plataforma para realizar nuevos pedidos, donde encuentre un formulario en el que pueda especificar lo que necesito y posteriormente registrar la orden. <br/> <strong>Escenario 2</strong>: Visualización de historial de pedidos. Debería ser capaz de visualizar una sección que muestre todos mis pedidos anteriores. <br/> <strong>Escenario 3</strong>: Edición antes de la confirmación. Antes de que los pedidos sean confirmados por los proovedores, debería tener la posibilidad de hacer ediciones a este o incluso poder cancelarlo.</td>
+      <td><strong>Escenario 1</strong>: Registro de pedido exitoso.<br>
+       Dado que el solicitante está autenticado y tiene permisos vigentes para registrar pedidos <br/> 
+       Y cuenta con la información necesaria del requerimiento<br>
+       Cuando registra un nuevo pedido proporcionando todos los datos obligatorios válidos <br>
+       Y confirma el envío del pedido
+       Entonces el sistema valida la información
+       Y crea el pedido<br>
+       <strong>Escenario 2</strong>: Visualización de historial de pedidos. Dado que el solicitante está autenticado y existen pedidos asociados a su cuenta<br>
+       Cuando solicita el historial de sus pedidos <br>
+       Entonces el sistema retorna la lista completa de pedidos del solicitante<br>
+       Y si no existen pedidos, el sistema retorna una lista vacía sin error<br>
+       </td>
     </tr>
     <tr>
       <td>EP02</td>
       <td>Gestión de pedidos recibidos por el proovedoor</td>
       <td>Como usuario proovedor de combustible, quiero poder revisar los pedidos realizados por mis clientes, actualizar el estado de cada uno y dar actualizaciones en tiempo real a mis clientes.</td>
-      <td><strong>Escenario 1</strong>: Visualización de pedidos entrantes. Dado que haya pedidos activos, Cuando el proveedor acceda a su panel, Entonces debería poder ver una lista de pedidos con detalles clave (cliente, ubicación, volumen, estado). <br/> <strong>Escenario 2</strong>: Actualización de estado del pedido.Dado que un pedido esté en curso,Cuando el proveedor actualice su estado (confirmado, en ruta, entregado),Entonces el sistema deberá reflejar el cambio en tiempo real. <br/> <strong>Escenario 3</strong>: Notificación a los clientes. Dado que el proveedor realice un cambio o actualización a un pedido, Cuando el cliente esté en la plataforma, entonces deberá ver una notificación con información de los cambios ocurridos.</td>
+      <td><strong>Escenario 1</strong>: Visualización de pedidos entrantes. Dado que haya pedidos activos<br>
+      Cuando solicita el listado de pedidos entrantes<br>
+      Entonces el sistema retorna la colección de pedidos activos visibles para ese proveedor 
+      <br/> <strong>Escenario 2</strong>: Actualización de estado del pedido.Dado que un pedido esté en curso
+      Cuando solicita actualizar el estado del pedido<br>
+      Entonces el sistema valida la transición si este esta en estado pendiente<br>
+      Y aplica el nuevo estado
+       <br/> <strong>Escenario 3</strong>: Notificación a los clientes.<br> Dado que el cliente está autenticado y es titular del pedido<br>
+       Y el sistema ha confirmado un cambio realizado por el proveedor sobre ese pedido<br>
+       Cuando el sistema procesa dicho cambio<br>
+       Entonces emite y entrega al cliente una notificación en tiempo real<br>
+       </td>
     </tr>
     <tr>
       <td>EP03</td>
@@ -1604,105 +1663,228 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
       <td>US01</td>
       <td>Crear nuevo pedido</td>
       <td>Como usuario de una empresa solicitante, quiero poder registrar un pedido directamente desde la plataforma agilizar el proceso y evitar llamadas.</td>
-      <td>Dado que el usuario ingrese todos los campos requeridos, Cuando envíe el pedido, Entonces el sistema deberá procesarlo, asignar un ID único y enviarlo a los proovedores para que confirmen la orden.</td>
+      <td>
+      <strong>Escenario 1</strong>:Crear un nuevo pedido exitosamente<br> 
+      Dado que el usuario solicitante autenticado y cuenta con permisos para registrar pedidos<br>
+      Cuando registra un nuevo pedido proporcionando todos los datos obligatorios válidos<br>
+      Y confirma el envío<br>
+      Entonces el sistema valida la información <br>
+      Y crea el pedido <br>
+      Y asigna un identificador único<br>
+      <strong>Escenario 2</strong>:Error por información obligatoria faltante o inválida<br>
+      Dado que el solicitante esta registrando un nuevo pedido<br>
+      Cuando intenta registrar un pedido omitiendo uno o más campos obligatorios o ingresando valores inválidos<br>
+      Entonces el sistema rechaza la creación del pedido <br>
+      <strong>Escenario 3</strong>:Visualización en lista de pedidos<br>
+      Dado que el pedido fue registrado correctamente<br>
+      Cuando el solicitante consulta su listado de pedidos<br>
+      Entonces el sistema incluye el pedido en los resultados<br>
+      Y muestra su estado actual “Pendiente” 
+          </td>
       <td>EP01</td>
     </tr>
     <tr>
       <td>US02</td>
       <td>Consultar historial de pedidos</td>
-      <td>Como solicitante, quiero poder consultar mi historial de pedidos anteriores, y poder ver cada uno con información detallada. Además, debo ser capaz de filtrar y ordenar el historial según características específicas de los pedidos.</td>
-      <td>Dado que el usuario acceda a la sección de seguimiento,Cuando seleccione un pedido,Entonces podrá ver si fue recibido, confirmado, en ruta o entregado.</td>
+      <td>Como solicitante, quiero poder consultar mi historial de pedidos anteriores, y poder ver cada u no con información detallada. Además, debo ser capaz de filtrar y ordenar el historial según características específicas de los pedidos.</td>
+      <td>
+      <strong>Escenario 1</strong>:Visualización del historial de pedidos<br>
+      Dado que el solicitante tiene pedidos asociados <br>
+      Cuando solicita el historial<br>
+      Entonces retorna los pedidos asociados del solicitante.<br>
       <td>EP01</td>
     </tr>
     <tr>
       <td>US03</td>
       <td>Editar pedidos</td>
-      <td>Como solicitante, quiero tener la posibilidad de editar parámetros, como el monto o dirección de entrega, de mis pedidos siempre y cuando estos todavía no hayan sido confirmados por el rpoovedor</td>
-      <td>Dado que el usuario acceda a la sección de pedidos activo, Cuando seleccione un pedido que se encuentra sin confirmar ,Entonces podrá editar los parámetros del pedido.</td>
+      <td>Como solicitante, quiero tener la posibilidad de editar parámetros, como el monto o dirección de entrega, de mis pedidos siempre y cuando estos todavía no hayan sido confirmados por el proveedor</td>
+      <td>
+      <strong>Escenario 1</strong>:Edición habilitado solo antes de confirmación<br>
+      Dado que el solicitante es titular del pedido <br>
+      Y el pedido esta en estado "Pendiente"<br>
+      Cuando solicita editar uno o más campos permitidos con datos válidos <br>
+      Entonces el sistema valida y aplica los cambios<br>
+      <strong>Escenario 2</strong>:Bloquea edición cuando el pedido está confirmado<br>
+      Dado que pedido está en estado Confirmado por proveedor<br>
+      Cuando intenta editar el pedido<br>
+      Entonces el sistema rechaza la operación por estado no editable<br>
+      Y no persiste cambios<br>
+      </td>
       <td>EP01</td>
     </tr>
     <tr>
-      <td>US05</td>
-      <td>Actualización de un pedido</td>
+      <td>US04</td>
+      <td>Actualizar estado e información de pedido</td>
       <td>Como proveedor de combustible, quiero poder actualizar el estado e información de los pedidos en tiempo real, para mantener a mis clientes informados y organizar mejor mis entregas.</td>
-      <td>Dado que existan pedidos activos para el proveedor, Cuando el proveedor los seleccione,Entonces el sistema deberá darle la posibilidad de hacerle cambios o darle actualizaciones.</td>
+      <td>
+      <strong>Escenario 1</strong>:Cambio de estado  <br>
+      Dado que existan pedidos activos para el proveedor <br> 
+      Cuando solicita actualizar el estado del pedido a Confirmado, En ruta o Entregado<br>
+      Entonces el sistema aplica la actualización.
+      </td>
       <td>-</td>
     </tr>
     <tr>
-      <td>US06</td>
-      <td>Notificaciones a clientes sobre cambios</td>
+      <td>US05</td>
+      <td>Notificar a clientes sobre cambios de pedido</td>
       <td>Como proovedor, quiero que mis clientes reciban notificaciones automáticas cuando actualizo un pedido, para que estén al tanto del progreso sin tener que llamarlos.</td>
-      <td>Dado que se modifique el estado o datos del pedido, Cuando se actualice a "confirmado", "en ruta" o "entregado", Entonces el sistema debe enviar una notificación push, correo o WhatsApp al cliente.</td>
+      <td>
+      <strong>Escenario 1</strong>:Notifica al actualizar estado  <br>
+      Dado que el sistema registra un cambio válido sobre un pedido del cliente titular<br>
+      Cuando modifica datos operativos relevantes del pedido<br> 
+      Entonces el sistema envía una notificación al cliente con el detalle del cambio en tiempo real.</td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US06</td>
+      <td>Rechazar o cancelar pedidos</td>
+      <td>Como proveedor de combustible, quiero poder rechazar o cancelar un pedido y enviar un mensaje al cliente explicando los motivos, para mantener una comunicación clara y evitar confusiones.</td>
+      <td>
+      <strong>Escenario 1</strong>:Rechazo de pedido pendiente <br>
+      Dado que el proveedor no pueda atender un pedido<br>
+      Cuando el proveedor registra el rechazo indicando un motivo válido<br>
+      Entonces el sistema cambia el estado a Rechazado por proveedor<br>
+      Y notifica al cliente con el mensaje correspondiente.<br>
+      <strong>Escenario 2</strong>:Estados no editables<br>
+      Dado que el pedido está en estado "Entregado" o "Pendiente"<br>
+      Cuando el proveedor intenta rechazarlo o cancelar el pedido <br>
+      Entonces el sistema la operación<br>
+      </td>
       <td>EP02</td>
     </tr>
     <tr>
       <td>US07</td>
-      <td>Cancelación o rechazo de pedidos</td>
-      <td>Como proveedor de combustible, quiero poder rechazar o cancelar un pedido y enviar un mensaje al cliente explicando los motivos, para mantener una comunicación clara y evitar confusiones.</td>
-      <td>Dado que el proveedor no pueda atender un pedido,Cuando seleccione la opción de cancelar o rechazar,Entonces el sistema deberá solicitarle ingresar un mensaje explicando el motivo y notificar al cliente con dicha información.</td>
-      <td>EP02</td>
+      <td>Iniciar sesión en la Plataforma</td>
+      <td>Como usuario registrado, quiero iniciar sesión con mi correo y contraseña, para acceder a mi cuenta de forma segura.</td>
+      <td>
+      <strong>Escenario 1</strong>:Inicio de sesión exitoso <br>
+      Dado que el usuario tenga una cuenta valida<br>
+      Cuando ingresa el correo y contraseña correctos <br>
+      Entonces el sistema deberá validar sus credenciales<br>
+      Y permitir el acceso a la plataforma.<br> 
+      <strong>Escenario 2</strong>:Error por credenciales incorrectas <br>
+      Dado que el usuario ingresa un correo o contraseña Incorrecto<br>
+      Cuando intenta iniciar sesión<br>
+      Entonces el sistema rechaza la autenticación por credenciales inválidas<br>
+      Y no permite el acceso<br>
+      <td>EP03</td>
     </tr>
     <tr>
       <td>US08</td>
-      <td>Inicio de sesión</td>
-      <td>Como usuario registrado, quiero iniciar sesión con mi correo y contraseña, para acceder a mi cuenta de forma segura.</td>
-      <td>Dado que el usuario tenga una cuenta, Cuando intente iniciar sesión,Entonces el sistema deberá validar sus credenciales y permitir el acceso solo si son correctas.</td>
+      <td>Registrar una nueva cuenta de usuario</td>
+      <td>Como visitante, Quiero crear una cuenta con correo, contraseña y rol (cliente o proveedor), Para acceder y comenzar a utilizar la plataforma.</td>
+      <td>
+      <strong>Escenario 1</strong>:Registro exitoso<br>
+      Dado que el visitante complete todos los campos requeridos <br>
+      Cuando confirma la solicitud de registro<br>
+      Entonces el sistema crea la cuenta, <br>
+      Y redirigirlo al panel de inicio segun su rol de registro.<br>
+      <strong>Escenario 2</strong>:Registro invalido<br>
+      Dado que el visitante intenta registrarse <br>
+      Cuando omite campos obligatorios o envía valores con formato inválido<br>
+      Entonces el sistema rechaza la creación de la cuenta<br>
+      Y no crea una nueva cuenta<br>
+      </td>
       <td>EP03</td>
     </tr>
     <tr>
       <td>US09</td>
-      <td>Registro de cuenta nueva</td>
-      <td>Como visitante, Quiero crear una cuenta con correo, contraseña y rol (cliente o proveedor), Para acceder y comenzar a utilizar la plataforma.</td>
-      <td>Dado que el usuario complete todos los campos requeridos, Cuando presione “Crear cuenta”, Entonces la cuenta deberá crearse correctamente y redirigirlo a su panel.</td>
+      <td>Recuperar contraseña</td>
+      <td>Como usuario, Quiero tener la posibilidad de recuperar mi contraseña mediante correo electrónico, Para no perder el acceso a mi cuenta en caso la olvide.</td>
+      <td>
+      <strong>Escenario 1</strong>:Solicitud de recuperación exitosa<br>
+      Dado que el usuario no recuerde su contraseña<br>
+      Cuando solicita la recuperación de contraseña<br>
+      Y proporciona el correo registrado en la cuenta <br>
+      Entonces el sistema envía un correo con instrucciones de recuperación o enlace seguro. <br>
+      <strong>Escenario 2</strong>:Correo no registrado<br>
+      Dado que el usuario ingresa un correo que no está registrado en el sistema <br>
+      Cuando intenta solicitar la recuperación <br>
+      Entonces el sistema no realizara la solicitud de recuperación.<br>
+      </td>
       <td>EP03</td>
     </tr>
     <tr>
       <td>US10</td>
-      <td>Recuperación de contraseña</td>
-      <td>Como usuario, Quiero tener la posibilidad de recuperar mi contraseña mediante correo electrónico, Para no perder el acceso a mi cuenta en caso la olvide.</td>
-      <td>Dado que el usuario no recuerde su contraseña, Cuando seleccione “¿Olvidaste tu contraseña?”,Entonces deberá recibir un correo con un enlace para restablecerla.</td>
+      <td>Restringir acceso por roles</td>
+      <td>Como administrador de la plataforma, Quiero que los usuarios solo accedan a las secciones según su rol, Para evitar errores en el sistema</td>
+      <td>
+      <strong>Escenario 1</strong>:Acceso permitido según rol<br>
+      Dado que un usuario acceda a la plataforma<br>
+      Cuando vea las secciones que tiene disponible<br>
+      Entonces el sistema muestra únicamente las que son correspondientes a su rol.</td>
       <td>EP03</td>
     </tr>
     <tr>
       <td>US11</td>
-      <td>Acceso restringido por roles</td>
-      <td>Como administrador de la plataforma, Quiero que los usuarios solo accedan a las secciones según su tipo de cuenta, Para evitar errores en el sistema</td>
-      <td>Dado que un usuario acceda a la plataforma, Cuando vea las secciones que tiene disponible, Entonces verá únicamente las que son correspondientes a su rol.</td>
+      <td>Requerir MFA para emitir pedidos</td>
+      <td>Como empresa solicitante, Quiero que se me solicite una autenticación multifactor al momento de realizar un pedido, Para asegurar que solo personal autorizado pueda emitir órdenes de compra</td>
+      <td>
+      <strong>Escenario 1</strong>:MFA obligatorio al emitir pedido<br>
+      Dado que el solicitante quiera registrar un pedido <br>
+      Cuando complete los datos del formulario de registro <br>
+      Entonces el sistema requiere un segundo factor de autenticación (MFA) antes de confirmar la operación<br>
+      <strong>Escenario 2</strong>:Emisión exitosa tras MFA válido<br>
+      Dado que el solicitante recibe/posee un código MFA válido y vigente<br>
+      Cuando ingresa el código y confirma la operación <br>
+      Entonces el sistema valida el MFA y registra el pedido<br>
+      <strong>Escenario 3</strong>:Bloqueo por MFA inválido o expirado<br>
+      Dado que el solicitante ingresa un código incorrecto o vencido<br>
+      Cuando intenta confirmar<br>
+      Entonces el sistema rechaza la operación por MFA no válido, detalla la causa operativa y permite reintentar hasta el límite configurado sin registrar el pedido<br>
+      </td>
       <td>EP03</td>
     </tr>
     <tr>
       <td>US12</td>
-      <td>Autenticación MFA para realizar pedidos</td>
-      <td>Como empresa solicitante, Quiero que se me solicite una autenticación multifactor al momento de realizar un pedido, Para asegurar que solo personal autorizado pueda emitir órdenes de compra</td>
-      <td>Dado que el cliente quiera registrar un pedido, Cuando complete los datos del formulario de registro, Entonces deberá recibir un código de autenticación y solo podrá finalizar el pedido tras ingresarlo correctamente.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US13</td>
-      <td>Visualización del landing page</td>
+      <td>Visualizar landing page informativa</td>
       <td>Como usuario de la plataforma, quiero que el sistema muestre un landing page informativo para que los interesados conozcan los beneficios antes de registrarse.</td>
-      <td>Dado que alguien acceda a la URL principal, Cuando no esté autenticado, Entonces deberá visualizar el landing page con secciones informativas y botones hacia login o registro.</td>
+      <td>
+      <strong>Escenario 1</strong>:Acceso público sin autenticación <br>
+      Dado que el visitante acceda a la URL principal sin estar autenticado<br>
+      Cuando solicita el recurso público de presentación<br>
+      Entonces el sistema entrega la página informativa<br>
+      </td>
       <td>EP04</td>
     </tr>
     <tr>
       <td>TS01</td>
       <td>Implementar endpoint REST para pedidos</td>
       <td>Como desarrollador, quiero implementar un endpoint RESTful para registrar pedidos, para que la aplicación frontend pueda enviar solicitudes válidas al backend.</td>
-      <td>Dado que se realice una solicitud POST con datos válidos, Cuando se procese en el backend, Entonces deberá guardarse el pedido en la base de datos y devolver un código 201 con ID.</td>
+      <td>
+      <strong>Escenario 1</strong>:Creación exitosa <br>
+      Dado que se realice una solicitud POST con datos válidos <br>
+      Cuando el backend procesa la creación<br>
+      Entonces deberá guardarse el pedido en la base de datos y devolver un código 201 con ID.
+      </td>
       <td>EP01</td>
     </tr>
     <tr>
       <td>TS02</td>
       <td>Servicio de autenticación y token</td>
       <td>Como desarrollador, quiero implementar un servicio de autenticación con generación de tokens, para proteger las rutas privadas de la plataforma.</td>
-      <td>Dado que un usuario inicie sesión, Cuando las credenciales sean válidas, Entonces el sistema deberá generar un token JWT para acceso a recursos protegidos.</td>
+      <td>
+      <strong>Escenario 1</strong>:Login exitoso y emisión de tokens <br>
+      Dado que un usuario envía credenciales válidas<br>
+      Cuando se procesa el POST<br>
+      Entonces el sistema deberá generar un token JWT para acceso a recursos protegidos.
+      <strong>Escenario 2</strong>:Credenciales inválidas <br>
+      Dado que las credenciales no coinciden o la cuenta está bloqueada/inactiva<br>
+      Cuando se procesa el POST<br>
+      Entonces el sistema retorna 401 (o 403 si está bloqueada) sin emitir tokens
+      </td>
       <td>EP03</td>
     </tr>
     <tr>
       <td>TS03</td>
       <td>Envío de notificaciones por cambios de estado</td>
       <td>Como desarrollador, quiero implementar un servicio que envíe notificaciones automáticas cuando un pedido cambie de estado, para mantener informados a los usuarios.</td>
-      <td>Dado que el estado de un pedido sea actualizado, Cuando se complete la acción, Entonces deberá enviarse una notificación por correo o WhatsApp al usuario correspondiente.</td>
+      <td>
+      <strong>Escenario 1</strong>:Notificación tras cambio válido <br>
+      Dado un evento PedidoEstadoActualizado con transición válida<br> 
+      Cuando el servicio lo procesa<br>
+      Entonces emite notificaciones a los canales permitidos del titular, en tiempo casi real, y registra la trazabilidad.
+      </td>
       <td>EP02</td>
     </tr>
     <tr>
@@ -1713,88 +1895,113 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
       <td>EP02</td>
     </tr>
     <tr>
-      <td>US14</td>
+      <td>US13</td>
       <td>Ver sección Home</td>
       <td>Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de FuelTrack para comprender rápidamente el objetivo del sistema.</td>
       <td>
         Escenario 1: Visualización de resumen del sistema.<br/>
-        Escenario 2: Acceso a call to action desde Home.
+        Dado que un visitante sin autenticación accede a la ruta pública de inicio<br>
+        Cuando solicita el recurso Home<br>
+        Entonces el sistema entrega contenido informativo que describe el objetivo de FuelTrack <br>
+        y los beneficios clave para proveedores<br>
+        Escenario 2: Acceso a acciones principales desde Home<br>
+        Dado que el visitante se encuentra en Home sin autenticación<br>
+        Cuando solicita una acción principal definida por el negocio<br>
+        Entonces el sistema direcciona a la ruta correspondiente<br>
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Ver sección About Us</td>
+      <td>Como visitante de ambos segmentos, quiero conocer quiénes están detrás de FuelTrack para confiar en el sistema.</td>
+      <td>
+        Escenario 1: Información visible del equipo.<br/>
+        Dado que un visitante accede al recurso público About Us sin autenticación<br>
+        Cuando solicita la información del equipo responsable<br>
+        Entonces el sistema entrega los datos permitidos<br>
+        Escenario 2: Ver valores o misión<br>
+        Dado que un visitante accede al recurso público About Us<br>
+        Cuando solicita el contenido institucional<br>
+        Entonces el sistema retorna la misión, visión y valores vigentes de FuelTrack <br>
       </td>
       <td>EP04</td>
     </tr>
     <tr>
       <td>US15</td>
-      <td>Ver sección About Us</td>
-      <td>Como visitante de ambos segmentos, quiero conocer quiénes están detrás de FuelTrack para confiar en el sistema.</td>
+      <td>Ver sección How it works?</td>
+      <td>Como visitante de ambos segmentos, quiero entender cómo funciona FuelTrack paso a paso para evaluar si se ajusta a mis necesidades.</td>
       <td>
-        Escenario 1: Información visible del equipo.<br/>
-        Escenario 2: Ver valores o misión.
+        Escenario 1: Comprensión del flujo de pedidos.<br/>
+        Dado que un visitante sin autenticación accede al recurso público How it works<br>
+        Cuando solicita el contenido del flujo de punta a punta<br>
+        Entonces el sistema entrega un resumen paso a paso que cubre.<br>
       </td>
       <td>EP04</td>
     </tr>
     <tr>
       <td>US16</td>
-      <td>Ver sección How it works?</td>
-      <td>Como visitante de ambos segmentos, quiero entender cómo funciona FuelTrack paso a paso para evaluar si se ajusta a mis necesidades.</td>
+      <td>Enviar mensaje de contacto</td>
+      <td>Como visitante de ambos segmentos, quiero enviar un mensaje desde Contact Us para solicitar más información.</td>
       <td>
-        Escenario 1: Comprensión del flujo de pedidos.<br/>
-        Escenario 2: Interacción clara entre usuarios.
+        Escenario 1: Envío exitoso de mensaje.<br/>
+        Dado que el visitante proporciona todos los campos obligatorios con valores válidos<br>
+        Cuando envía la solicitud de contacto<br>
+        Entonces el sistema crea el registro con un ID de seguimiento<br>
+        Escenario 2: Validación de campos obligatorios.<br/>
+        Dado que el visitante omite campos obligatorios o envía formatos inválidos <br>
+        Cuando envia la solicitud<br>
+        Entonces el sistema rechaza el envío<br>
       </td>
       <td>EP04</td>
     </tr>
     <tr>
       <td>US17</td>
-      <td>Enviar mensaje de contacto</td>
-      <td>Como visitante de ambos segmentos, quiero enviar un mensaje desde Contact Us para solicitar más información.</td>
-      <td>
-        Escenario 1: Envío exitoso de mensaje.<br/>
-        Escenario 2: Validación de campos obligatorios.<br/>
-        Escenario 3: Confirmación visual del envío.
-      </td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <td>US18</td>
       <td>Aprobar pedido</td>
       <td>Como proveedor, quiero aceptar según el stock disponible para evitar conflictos de distribución.</td>
       <td>
-        <ul>
-          <li><strong>Escenario 1: Aprobación de pedido con stock disponible</strong>
-            <ul>
-              <li>Dado que el proveedor tiene stock suficiente,</li>
-              <li>Cuando aprueba el pedido,</li>
-              <li>Entonces el estado cambia a “Aprobado”.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Envío de motivo</strong>
-            <ul>
-              <li>Dado que el proveedor decide no aprobar un pedido por un periodo de tiempo,</li>
-              <li>Cuando revise los pedidos,</li>
-              <li>Entonces el sistema solicita ingresar una razón.</li>
-            </ul>
-          </li>
-        </ul>
+          <strong>Escenario 1: Aprobación de pedido con stock disponible</strong><br>
+          Dado que el proveedor tiene stock suficiente<br>
+          Cuando aprueba el pedido<br>
+          Entonces el estado cambia a Aprobado<br>
+          <strong>Escenario 2: Envío de motivo</strong><br>
+          Dado que el proveedor decide no aprobar un pedido<br>
+          Cuando registra el motivo de no aprobación<br>
+          Entonces el sistema cambia el estado a Rechazado<br>
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US18</td>
+      <td>Marcar el pedido como despachado.</td>
+      <td>Como proveedor, quiero marcar cuándo un pedido sale a entrega para notificar al cliente.</td>
+      <td>
+        <strong>Escenario 1: Despacho exitoso de un pedido</strong>
+        Dado que el proveedor tiene un pedido aprobado<br>
+        Cuando marca el pedido como despachado<br>
+        Entonces el sistema cambia el estado a Despachado<br>
+        <strong>Escenario 2: Restricción de despacho sin aprobación previa</strong>
+         Dado que el proveedor intenta despachar un pedido sin aprobación<br>
+         Cuando ejecuta la acción<br>
+         Entonces el sistema impide el cambio de estado<br>
       </td>
       <td>EP02</td>
     </tr>
     <tr>
       <td>US19</td>
-      <td>Marcar pedido como despachado</td>
-      <td>Como proveedor, quiero marcar cuándo un pedido sale a entrega para notificar al cliente.</td>
+      <td>Cerrar el pedido</td>
+      <td>Como proveedor, quiero cerrar el pedido cuando el cliente confirme la entrega para finalizar el proceso.</td>
       <td>
         <ul>
-          <li><strong>Escenario 1: Despacho exitoso de un pedido</strong>
-            <ul>
-              <li>Dado que el proveedor tiene un pedido aprobado,</li>
-              <li>Cuando marca el pedido como despachado,</li>
-              <li>Entonces el estado cambia a “Despachado”.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Restricción de despacho sin aprobación previa</strong>
-            <ul>
-              <li>Dado que el proveedor intenta despachar un pedido sin aprobación,</li>
-              <li>Cuando ejecuta la acción,</li>
-              <li>Entonces el sistema impide el cambio de estado y muestra un mensaje.</li>
+          <strong>Escenario 1: Cierre correcto del pedido tras confirmación</strong>
+              Dado que el solicitante ya confirmó la entrega<br>
+              Cuando el proveedor solicita cerrar el pedido<br>
+              Entonces el sistema cambia el estado a Cerrado<br>
+              Y bloquea modificaciones posteriores<br>
+          <strong>Escenario 2: Intento de cierre sin confirmación previa</strong><br>
+              Dado que el proveedor intenta cerrar el pedido<br>
+              Cuando el solicitante aún no ha confirmado la entrega<br>
+              Entonces el sistema impide esta acción<br>
             </ul>
           </li>
         </ul>
@@ -1803,149 +2010,61 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
     </tr>
     <tr>
       <td>US20</td>
-      <td>Cerrar pedido</td>
-      <td>Como proveedor, quiero cerrar el pedido cuando el cliente confirme la entrega para finalizar el proceso.</td>
+      <td>Generar reporte de ventas</td>
+      <td>Como proveedor, quiero generar reportes de ventas para tener registro de operaciones realizadas.</td>
       <td>
-        <ul>
-          <li><strong>Escenario 1: Cierre correcto del pedido tras confirmación</strong>
-            <ul>
-              <li>Dado que el solicitante ya confirmó la entrega,</li>
-              <li>Cuando el proveedor cierra el pedido,</li>
-              <li>Entonces este no puede modificarse más.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Intento de cierre sin confirmación previa</strong>
-            <ul>
-              <li>Dado que el proveedor intenta cerrar el pedido,</li>
-              <li>Cuando el solicitante aún no ha confirmado la entrega,</li>
-              <li>Entonces el sistema impide esta acción.</li>
-            </ul>
-          </li>
-        </ul>
+          <strong>Escenario 1: Generación de reporte con datos disponibles</strong><br>
+            Dado que el proveedor envía un rango de fechas válido<br>
+            Cuando solicita generar reporte<br>
+            Entonces se genera un archivo con los datos de ventas<br>
+          <strong>Escenario 2: Generación sin datos en el rango</strong><br>
+            Dado que el proveedor selecciona un rango sin ventas<br>
+            Cuando solicita el reporte<br>
+            Entonces el sistema informa que no hay resultados<br>
+          <strong>Escenario 3: Descarga del archivo generado</strong><br>
+            Dado que el reporte se genera correctamente<br>
+            Cuando finaliza el proceso<br>
+            Entonces el proveedor puede descargar el archivo<br>
       </td>
       <td>EP02</td>
     </tr>
     <tr>
       <td>US21</td>
-      <td>Generar reporte de ventas</td>
-      <td>Como proveedor, quiero generar reportes de ventas para tener registro de operaciones realizadas.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Generación de reporte con datos disponibles</strong>
-            <ul>
-              <li>Dado que el proveedor selecciona un rango de fechas válido,</li>
-              <li>Cuando solicita el reporte,</li>
-              <li>Entonces se genera un archivo con los datos de ventas.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Generación sin datos en el rango</strong>
-            <ul>
-              <li>Dado que el proveedor selecciona un rango sin ventas,</li>
-              <li>Cuando solicita el reporte,</li>
-              <li>Entonces el sistema informa que no hay resultados.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Descarga del archivo generado</strong>
-            <ul>
-              <li>Dado que el reporte se genera correctamente,</li>
-              <li>Cuando finaliza el proceso,</li>
-              <li>Entonces el proveedor puede descargar el archivo.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US22</td>
-      <td>Ver resumen de pedidos (Solicitante)</td>
+      <td>Ver resumen de pedidos</td>
       <td>Como solicitante, quiero ver un resumen de mis pedidos para identificar cuántos están en proceso o completados.</td>
       <td>
-        <ul>
-          <li><strong>Escenario 1: Visualización de resumen con datos disponibles</strong>
-            <ul>
-              <li>Dado que el solicitante tiene pedidos registrados,</li>
-              <li>Cuando accede a su dashboard,</li>
-              <li>Entonces visualiza los KPIs por estado: pendientes, aprobados, despachados, finalizados y rechazados.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Sin pedidos registrados</strong>
-            <ul>
-              <li>Dado que el solicitante no tiene pedidos,</li>
-              <li>Cuando accede al dashboard,</li>
-              <li>Entonces ve un mensaje informando “No hay pedidos registrados”.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Error al cargar datos del resumen</strong>
-            <ul>
-              <li>Dado que el solicitante accede al dashboard,</li>
-              <li>Cuando ocurre un error de carga,</li>
-              <li>Entonces el sistema muestra un mensaje e intenta recargar los datos automáticamente.</li>
-            </ul>
-          </li>
-        </ul>
+          <strong>Escenario 1: Visualización de resumen con datos disponibles</strong>
+            Dado que el solicitante tiene pedidos registrados<br>
+            Cuando solicita el resumen de pedidos<br>
+            Entonces el sistema calcula y retorna los KPIs por estado (Pendientes, Confirmados, Despachados, Finalizados y Rechazados) junto con el total y la marca temporal del cálculo<br>
+          <strong>Escenario 2: Sin pedidos registrados</strong>
+            Dado que el solicitante no tiene pedidos<br>
+            Cuando solicita el resumen<br>
+            Entonces el sistema retorna contadores en cero para todos los estados y el total<br>
+          <strong>Escenario 3: Error al cargar datos del resumen</strong>
+            Dado que ocurre una falla al consultar/aggregar los datos<br>
+            Cuando el solicitante solicita el resumen<br>
+            Entonces el sistema rechaza la operación con un error operativo.<br>
       </td>
       <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US23</td>
-      <td>Ver resumen de pedidos (Proveedor)</td>
-      <td>Como proveedor, quiero ver un resumen de pedidos gestionados y pendientes para organizar a los clientes.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Visualización de KPIs con datos</strong>
-            <ul>
-              <li>Dado que el proveedor tiene pedidos registrados,</li>
-              <li>Cuando accede a su dashboard,</li>
-              <li>Entonces ve KPIs de pedidos: pendientes, aprobados, rechazados, despachados y finalizados.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Sin datos registrados</strong>
-            <ul>
-              <li>Dado que no hay pedidos registrados,</li>
-              <li>Cuando se carga el dashboard,</li>
-              <li>Entonces los KPIs se muestran con valor cero y un mensaje informativo.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Fallo en la carga del resumen</strong>
-            <ul>
-              <li>Dado que el proveedor accede al dashboard,</li>
-              <li>Cuando hay un error de conexión,</li>
-              <li>Entonces se muestra una alerta con opción para reintentar.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
     </tr>
     <tr>
       <td>TS05</td>
       <td>Endpoint: Login</td>
       <td>Como developer, quiero un endpoint para autenticar usuarios.</td>
       <td>
-        <ul>
-          <li><strong>Escenario 1: Autenticación exitosa</strong>
-            <ul>
-              <li>Dado que el developer incluye credenciales válidas en el request,</li>
-              <li>Cuando lo envía al endpoint de autenticación,</li>
-              <li>Entonces recibe un token JWT y un status 200 como respuesta.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Credenciales inválidas</strong>
-            <ul>
-              <li>Dado que el developer incluye credenciales incorrectas en el request,</li>
-              <li>Cuando se procesa la solicitud,</li>
-              <li>Entonces se retorna status 401 con un mensaje de error.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Error interno del servidor</strong>
-            <ul>
-              <li>Dado que el developer realiza un request y ocurre un problema en el backend,</li>
-              <li>Cuando se procesa la autenticación,</li>
-              <li>Entonces se retorna status 500 con un mensaje genérico de error.</li>
-            </ul>
-          </li>
-        </ul>
+        <strong>Escenario 1: Autenticación exitosa</strong><br>
+            Dado que el developer incluye credenciales válidas en el requests<br>
+            Cuando lo envía al endpoint de autenticación<br>
+            Entonces recibe un token JWT y un status 200 como respuesta<br>
+          <strong>Escenario 2: Credenciales inválidas</strong><br>
+            Dado que el developer incluye credenciales incorrectas en el request<br>
+            Cuando se procesa la solicitud<br>
+            Entonces se retorna status 401 con un mensaje de error<br>
+          <strong>Escenario 3: Error interno del servidor</strong><br>
+            Dado que el developer realiza un request y ocurre un problema en el backend<br>
+            Cuando se procesa la autenticación<br>
+            Entonces se retorna status 500 con un mensaje genérico de error<br>
       </td>
       <td>EP03</td>
     </tr>
@@ -2012,162 +2131,100 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
       <td>EP03</td>
     </tr>
     <tr>
-      <td>US24</td>
-      <td>Asignar vehículo a pedido</td>
+      <td>US23</td>
+      <td>Asignar un vehículo al pedido.</td>
       <td>Como proveedor, quiero asignar un vehículo a un pedido aprobado para organizar la logística.</td>
       <td>
-        <ul>
-          <li><strong>Escenario 1: Asignación válida</strong>
-            <ul>
-              <li>Dado que el proveedor tiene un pedido aprobado y un vehículo libre disponible,</li>
-              <li>Cuando selecciona el vehículo para asignarlo,</li>
-              <li>Entonces queda asignado correctamente al pedido.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Vehículo ocupado</strong>
-            <ul>
-              <li>Dado que el proveedor intenta asignar un vehículo que ya está ocupado,</li>
-              <li>Cuando realiza la acción,</li>
-              <li>Entonces el sistema muestra un mensaje indicando que el vehículo no está disponible.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Falla durante la asignación</strong>
-            <ul>
-              <li>Dado que el proveedor intenta asignar un vehículo y ocurre un error en el backend,</li>
-              <li>Cuando se ejecuta la asignación,</li>
-              <li>Entonces se muestra un mensaje de error y no se vincula ningún vehículo.</li>
-            </ul>
-          </li>
-        </ul>
+        <strong>Escenario 1: Asignación válida</strong>
+            Dado que el proveedor tiene un pedido aprobado y un vehículo libre disponible<br>
+            Cuando el proveedor registra la asignación del vehículo<br>
+            Entonces el sistema vincula el vehículo al pedido<br>
+         <strong>Escenario 2: Vehículo ocupado</strong>
+            Dado que el vehículo seleccionado tiene conflicto de disponibilidad
+            Cuando el proveedor intenta asignarlo
+            Entonces l sistema rechaza la operación por no disponibilidad
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US24</td>
+      <td>Asignar un conductor al pedido.</td>
+      <td>Como proveedor, quiero asignar un conductor para completar la información de despacho.</td>
+      <td>
+        <strong>Escenario 1: Conductor disponible</strong><br>
+            Dado que el proveedor tiene un pedido con vehículo asignado y el conductor está libre<br>
+            Cuando el proveedor registra la asignación del conductor<br>
+            Entonces el sistema vincula al conductor con el pedido.<br>
+          <strong>Escenario 2: Conductor ya asignado en misma franja horaria</strong><br>
+            Dado que el conductor está asignado a otro pedido en el mismo horario<br>
+            Cuando se intenta asignarlo al pedido<br>
+            Entonces el sistema rechaza la operación por no disponibilidad e indica la causa.<br> 
       </td>
       <td>EP02</td>
     </tr>
     <tr>
       <td>US25</td>
-      <td>Asignar conductor a pedido</td>
-      <td>Como proveedor, quiero asignar un conductor para completar la información de despacho.</td>
+      <td>Validar la disponibilidad de transporte</td>
+      <td>Como proveedor, quiero saber qué vehículos están disponibles antes de asignarlos para vincularlos correctamente.</td>
       <td>
-        <ul>
-          <li><strong>Escenario 1: Conductor disponible</strong>
-            <ul>
-              <li>Dado que el proveedor tiene un pedido con vehículo asignado y el conductor está libre,</li>
-              <li>Cuando selecciona al conductor,</li>
-              <li>Entonces este se vincula correctamente al pedido.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Conductor ya asignado en misma franja horaria</strong>
-            <ul>
-              <li>Dado que el conductor está asignado a otro pedido en el mismo horario,</li>
-              <li>Cuando se intenta asignarlo,</li>
-              <li>Entonces el sistema bloquea la acción y muestra un mensaje de conflicto.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Error al guardar</strong>
-            <ul>
-              <li>Dado que el proveedor intenta guardar la asignación y ocurre una falla técnica,</li>
-              <li>Cuando realiza la acción,</li>
-              <li>Entonces se muestra un mensaje de error y no se realiza el vínculo.</li>
-            </ul>
-          </li>
-        </ul>
+        <strong>Escenario 1: Vehículo no disponible por superposición</strong><br>
+            Dado que el proveedor solicita el listado de vehículos disponibles <br>
+            Cuando un vehículo está asignado a otro pedido para la misma fecha y hora estimada</li>
+            Entonces el sistema lo marca como no disponible<br>
+          <strong>Escenario 2: Vehículo disponible</strong><br>
+            Dado que el proveedor solicita el listado de disponibilidad
+            Cuando un vehículo no presenta conflictos de agenda ni restricciones operativas<br>
+            Entonces el sistema lo considera disponible<br>
+         <strong>Escenario 3: Conflicto en tiempo real</strong><br>
+            Dado que un vehículo fue asignado recientemente<br>
+            Cuando el proveedor intenta seleccionarlo para otro pedido<br>
+            Entonces el sistema rechaza la selección por conflicto de disponibilidad<br>
       </td>
-      <td>EP02</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td>US26</td>
-      <td>Validar disponibilidad de transporte</td>
-      <td>Como proveedor, quiero saber qué vehículos están disponibles antes de asignarlos para vincularlos correctamente.</td>
+      <td>Ver perfil de usuario</td>
+      <td>Como usuario registrado, quiero ver mis datos de perfil para revisar mi información registrada.</td>
       <td>
-        <ul>
-          <li><strong>Escenario 1: Vehículo no disponible por superposición</strong>
-            <ul>
-              <li>Dado que el proveedor visualiza el listado de vehículos,</li>
-              <li>Cuando un vehículo está asignado a otro pedido para la misma fecha y hora estimada,</li>
-              <li>Entonces el sistema lo muestra como no disponible.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Vehículo disponible</strong>
-            <ul>
-              <li>Dado que el proveedor visualiza un vehículo sin conflictos de agenda,</li>
-              <li>Cuando se carga el listado de vehículos,</li>
-              <li>Entonces dicho vehículo se muestra como seleccionable.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Conflicto en tiempo real</strong>
-            <ul>
-              <li>Dado que el proveedor intenta seleccionar un vehículo que fue asignado recientemente por otro usuario,</li>
-              <li>Cuando realiza la acción,</li>
-              <li>Entonces el sistema bloquea la selección y muestra un mensaje de actualización.</li>
-            </ul>
-          </li>
-        </ul>
+          <strong>Escenario 1: Visualización exitosa del perfil</strong><br>
+            Dado que el usuario tiene sesión activa<br>
+            Cuando accede a su perfil<br>
+            Entonces el sistema retorna su nombre, correo y rol<br>
+          <strong>Escenario 2: Error en la carga de datos</strong><br>
+            Dado que el usuario está autenticado<br>
+            Cuando ocurre un error al recuperar la información del perfil<br>
+            Entonces el sistema rechaza la operación con un error operativo<br>
+          <strong>Escenario 3: Restricción de datos de otros usuarios</strong>
+          <br>
+            Dado que el usuario tiene sesión activa<br>
+            Cuando intenta ver otro perfil<br>
+            Entonces el sistema deniega la operación por falta de autorización<br>
       </td>
       <td>EP03</td>
     </tr>
     <tr>
       <td>US27</td>
-      <td>Ver perfil de usuario</td>
-      <td>Como usuario registrado, quiero ver mis datos de perfil para revisar mi información registrada.</td>
+      <td>Editar datos de perfil</td>
+      <td>Como usuario registrado, quiero editar mis datos para mantener mi información actualizada.</td>
       <td>
-        <ul>
-          <li><strong>Escenario 1: Visualización exitosa del perfil</strong>
-            <ul>
-              <li>Dado que el usuario tiene sesión activa,</li>
-              <li>Cuando accede a su perfil,</li>
-              <li>Entonces ve su nombre, correo y rol.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Error en la carga de datos</strong>
-            <ul>
-              <li>Dado que el usuario accede a su perfil y ocurre un error al obtener los datos,</li>
-              <li>Cuando se carga la vista,</li>
-              <li>Entonces se muestra un mensaje de error y se sugiere reintentar.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Restricción de datos de otros usuarios</strong>
-            <ul>
-              <li>Dado que el usuario tiene sesión activa,</li>
-              <li>Cuando intenta ver otro perfil,</li>
-              <li>Entonces el sistema restringe el acceso y muestra su propia información.</li>
-            </ul>
-          </li>
-        </ul>
+        <strong>Escenario 1: Edición y guardado exitoso</strong><br>
+            Dado que el usuario modifica uno o más campos del formulario<br>
+            Cuando envía la solicitud de actualización<br>
+            Entonces el sistema valida y aplica los cambios<br>
+          <strong>Escenario 2: Campo obligatorio vacío</strong><br>
+            Dado que el usuario deja un campo obligatorio vacío<br>
+            Cuando se procesa la solicitud<br>
+            Entonces el sistema rechaza la actualización por validación fallida<br>
+          <strong>Escenario 3: Error del servidor al guardar</strong><br>
+            Dado que ocurre un error interno durante la persistencia<br>
+            Cuando se procesa la actualización<br>
+            Entonces el sistema rechaza la operación con error operativo<br>
       </td>
       <td>EP03</td>
     </tr>
     <tr>
       <td>US28</td>
-      <td>Editar datos de perfil</td>
-      <td>Como usuario registrado, quiero editar mis datos para mantener mi información actualizada.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Edición y guardado exitoso</strong>
-            <ul>
-              <li>Dado que el usuario modifica uno o más campos del formulario,</li>
-              <li>Cuando la información ingresada es válida,</li>
-              <li>Entonces el sistema guarda los cambios correctamente.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Campo obligatorio vacío</strong>
-            <ul>
-              <li>Dado que el usuario deja un campo obligatorio vacío,</li>
-              <li>Cuando intenta guardar,</li>
-              <li>Entonces el sistema muestra un mensaje de validación indicando el campo requerido.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Error del servidor al guardar</strong>
-            <ul>
-              <li>Dado que el usuario intenta guardar y ocurre un fallo en el servidor,</li>
-              <li>Cuando se realiza la acción,</li>
-              <li>Entonces se muestra un mensaje de error y los datos ingresados permanecen visibles.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US29</td>
       <td>Buscar pedido por código</td>
       <td>Como usuario de ambos segmentos, quiero buscar un pedido específico por su código para encontrarlo rápidamente.</td>
       <td>
@@ -2198,136 +2255,128 @@ En el caso del proveedor, el flujo parte desde la recepción del pedido, luego i
       <td>EP03</td>
     </tr>
     <tr>
-      <td>US30</td>
+      <td>US29</td>
       <td>Filtrar pedidos por estado</td>
       <td>Como usuario de ambos segmentos, quiero filtrar mis pedidos por estado (pendiente, aprobado, entregado) para facilitar la revisión.</td>
       <td>
-        <ul>
-          <li><strong>Escenario 1: Aplicar filtro correctamente</strong>
-            <ul>
-              <li>Dado que el usuario selecciona un estado,</li>
-              <li>Cuando se aplica el filtro,</li>
-              <li>Entonces solo se muestran los pedidos con ese estado.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: No hay pedidos en ese estado</strong>
-            <ul>
-              <li>Dado que el usuario selecciona un estado que no tiene coincidencias,</li>
-              <li>Cuando ejecuta el filtro,</li>
-              <li>Entonces se muestra un mensaje indicando que no hay pedidos para ese estado.</li>
-            </ul>
-          </li>
-        </ul>
+        <strong>Escenario 1: Aplicar filtro correctamente</strong><br>
+          Dado que el usuario está autenticado<br>
+          Cuando se procesa la búsqueda<br>
+          Entonces el sistema retorna el pedido correspondientes al filtro<br>
+        <strong>Escenario 2: No hay pedidos en ese estado</strong><br>
+          Dado que el usuario selecciona un estado que no tiene coincidencias<br>
+          Cuando se procesa la búsqueda<br>
+          Entonces el sistema retorna resultado vacío sin error e informa que no hay coincidencias<br>
       </td>
       <td>EP03</td>
     </tr>
     <tr>
-      <td>US31</td>
+      <td>US30</td>
       <td>Recibir notificación de aprobación</td>
       <td>Como solicitante, quiero recibir una notificación cuando un pedido sea aprobado o rechazado para estar informado.</td>
       <td>
-        <ul>
-          <li><strong>Escenario 1: Visualización de notificación</strong>
-            <ul>
-              <li>Dado que el proveedor cambia el estado del pedido,</li>
-              <li>Cuando el solicitante inicia sesión,</li>
-              <li>Entonces recibe la notificación del evento en la página y en las notificaciones.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Pedido actualizado desde otra sesión</strong>
-            <ul>
-              <li>Dado que el solicitante aún no ha leído la notificación,</li>
-              <li>Cuando actualiza la interfaz,</li>
-              <li>Entonces la notificación se mantiene visible hasta que sea marcada como leída.</li>
-            </ul>
-          </li>
-        </ul>
+        <strong>Escenario 1: Visualización de notificación</strong><br>
+          Dado que el proveedor cambia el estado del pedido del solicitante a Aprobado o Rechazado<br>
+          Cuando el solicitante inicia sesión<br>
+          Entonces el sistema entrega las notificaciones pendientes del evento<br>
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US31</td>
+      <td>Notificar el pedido de despacho.</td>
+      <td>Como solicitante, quiero recibir una notificación cuando un pedido haya sido despachado para estar informado.</td>
+      <td>
+        <strong>Escenario 1: Pedido marcado como despachado</strong><br>
+          Dado que el proveedor marca el pedido como despachado<br>
+          Cuando el solicitante accede a su cuenta<br>
+          Entonces el sistema entrega la notificación <br>
+        <strong>Escenario 2: Visualización posterior del evento</strong><br>
+          Dado que el pedido fue despachado anteriormente<br>
+          Cuando el solicitante accede en otro momento<br>
+          Entonces la notificación permanece visible hasta que sea marcada como leída<br>
       </td>
       <td>EP01</td>
     </tr>
     <tr>
       <td>US32</td>
-      <td>Notificación de pedido despachado</td>
-      <td>Como solicitante, quiero recibir una notificación cuando un pedido haya sido despachado para estar informado.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Pedido marcado como despachado</strong>
-            <ul>
-              <li>Dado que el proveedor marca el pedido como despachado,</li>
-              <li>Cuando el solicitante consulta su cuenta,</li>
-              <li>Entonces recibirá la notificación correspondiente en la página como en las notificaciones.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Visualización posterior del evento</strong>
-            <ul>
-              <li>Dado que el pedido fue despachado anteriormente,</li>
-              <li>Cuando el solicitante accede en otro momento,</li>
-              <li>Entonces la notificación sigue disponible hasta ser archivada o leída.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US33</td>
       <td>Ver listado de empresas</td>
       <td>Como proveedor, quiero ver una lista de empresas solicitantes para identificar a mis clientes frecuentes.</td>
       <td>
-        <ul>
-          <li><strong>Escenario 1: Visualización del listado</strong>
-            <ul>
-              <li>Dado que el proveedor accede al módulo de empresas,</li>
-              <li>Cuando se carga el listado,</li>
-              <li>Entonces se muestran nombre, pedidos activos y total histórico por empresa.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Lista vacía o sin datos</strong>
-            <ul>
-              <li>Dado que el proveedor accede al módulo y no hay empresas registradas,</li>
-              <li>Cuando se carga la vista,</li>
-              <li>Entonces se muestra un mensaje indicando que no hay empresas disponibles.</li>
-            </ul>
-          </li>
-        </ul>
+        <strong>Escenario 1: Visualización del listado</strong><br>
+          Dado que el proveedor accede al módulo de empresas<br>
+          Cuando solicita el listado<br>
+          Entonces se retorna nombre, pedidos activos y total histórico por empresa<br>
+        <strong>Escenario 2: Lista vacía o sin datos</strong><br>
+          Dado que el proveedor accede al módulo y no hay empresas registradas<br>
+          Cuando se solicita el listado<br>
+          Entonces el sistema retorna una lista vacía sin error<br>
       </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+        <td>US33</td>
+        <td>Ver detalles de empresa</td>
+        <td>Como proveedor, quiero ver información detallada de una empresa solicitante para analizar su historial de pedidos.</td>
+        <td>
+        <strong>Escenario 1: Visualización de detalles con historial disponible</strong><br>
+          Dado que el proveedor selecciona una empresa<br>
+          Cuando solicita el detalle de la empresa<br> 
+          Entonces el sistema retorna los datos básicos de la empresa autorizados<br>
+          <strong>Escenario 2: Empresa sin historial de pedidos</strong><br>
+          Dado que el proveedor selecciona una empresa que aún no ha realizado pedidos<br>
+          Cuando se accede a su perfil<br>
+          Entonces l sistema retorna lista vacía de pedidos sin error<br>
+        </td>
       <td>EP02</td>
     </tr>
     <tr>
       <td>US34</td>
-      <td>Ver detalles de empresa</td>
-      <td>Como proveedor, quiero ver información detallada de una empresa solicitante para analizar su historial de pedidos.</td>
-      <td>
-        Dado que el proveedor selecciona una empresa, Cuando se carga el detalle, Entonces visualiza pedidos realizados, cantidades solicitadas y fechas. Escenario 2: Dado que el proveedor selecciona una empresa que aún no ha realizado pedidos, Cuando se accede a su perfil, Entonces se muestra un mensaje indicando que no hay historial disponible.
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US35</td>
-      <td>Ver gráfico de consumo (Solicitante)</td>
+      <td>Ver gráfico de consumo</td>
       <td>Como solicitante, quiero ver un gráfico de mi consumo mensual para tener control sobre el uso del combustible.</td>
       <td>
-        Escenario 1: Dado que el solicitante ha realizado pedidos,Cuando accede al módulo de reportes, Entonces se visualiza un gráfico con galones consumidos por mes. Escenario 2: Dado que el solicitante no ha hecho pedidos aún, Cuando accede al gráfico, Entonces se muestra un mensaje de que no hay datos suficientes.
+        <strong>Escenario 1:Consumo mensual con datos disponibles</strong><br>
+         Dado que el solicitante ha realizado pedidos<br>
+         Cuando solicita el reporte de consumo mensual<br>
+         Entonces el sistema muestra un gráfico con galones consumidos por mes<br>
+        <strong>Escenario 2:Sin datos suficientes</strong><br>
+        Dado que el solicitante no tiene pedidos entregados en el período<br>
+        Cuando accede al gráfico de consumo<br>
+        Entonces el sistema retorna una serie vacía sin error e informa que no hay datos suficientes para el cálculo<br>
       </td>
       <td>EP01</td>
     </tr>
     <tr>
-      <td>US36</td>
-      <td>Ver gráfico de ventas (Proveedor)</td>
+      <td>US35</td>
+      <td>Ver gráfico de ventas </td>
       <td>Como proveedor, quiero ver un gráfico de ventas por mes para monitorear el rendimiento del negocio.</td>
       <td>
-        Dado que el proveedor ha despachado pedidos, Cuando accede al módulo de reportes, Entonces se visualiza un gráfico con las ventas mensuales totales. Escenario 2: Dado que el proveedor no ha realizado ventas aún, Cuando accede al gráfico, Entonces se muestra un mensaje de que no hay datos suficientes.
+        <strong>Escenario 1:Consumo mensual con datos disponibles</strong><br>
+          Dado que el proveedor ha despachado pedidos<br>
+          Cuando accede al módulo de reportes<br>
+          Entonces realiza un gráfico con las ventas mensuales totales<br>
+        <strong>Escenario 2:Consumo mensual sin datos disponibles</strong><br> 
+        Dado que el proveedor no ha realizado ventas aún<br>
+        Cuando accede al gráfico<br>
+        Entonces el sistema retorna una serie vacía sin error e informa que no hay datos suficientes para mostrar el gráfico<br>
       </td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>US37</td>
-      <td>Descargar reporte PDF</td>
+      <td>US36</td>
+      <td>Descargar reporte</td>
       <td>Como usuario de ambos segmentos, quiero descargar un resumen de pedidos o ventas en formato PDF para archivarlo o compartirlo.</td>
       <td>
-        Escenario 1: Dado que el usuario hace clic en "Descargar", Cuando hay datos en el periodo seleccionado, Entonces se genera un archivo PDF descargable. Escenario 2: Dado que el usuario no tiene registros en el periodo seleccionado, Cuando se solicita la descarga, Entonces el sistema notifica que no hay contenido para exportar. Escenario 3: Dado que el usuario intenta descargar el archivo y ocurre un error en el backend al generar el PDF, Cuando hace clic en el botón de descargar, Entonces se muestra un mensaje de error sin afectar la sesión.
+        <strong>Escenario 1:Generar reporte con datos disponibles</strong><br>
+         Dado que el proveedor está autenticado y existen ventas en el periodo solicitado<br>
+         Cuando solicita descargar el reporte en PDF indicando fechas válidas<br>
+         Entonces el sistema genera un archivo PDF<br>
+        <strong>Escenario 2:Generar reporte Sin datos en el periodo</strong><br> 
+          Dado que el periodo solicitado no contiene ventas elegibles<br>
+          Cuando el proveedor solicita la descarga<br>
+          Entonces el sistema no genera el PDF<br>
       </td>
-      <td>-</td>
+      <td>EP02</td>
     </tr>
   </tbody>
 </table>
@@ -4498,45 +4547,35 @@ Esta sección muestra los Mock-ups de las aplicaciones móviles de FuelTrack, do
 
 Se presentan los User Flows correspondientes a los principales objetivos del usuario (User Goals) identificados para el sistema. Cada flujo integra las vistas representativas mediante Mock-ups, evidenciando el recorrido del usuario dentro de la aplicación.
 
-#### **User Goal 01: Crear una nueva orden de combustible**
-
-**User Flow 1:**  
-![img](assets/Chapters/Chapter-III/userFlow01.png)
-
-**Explicación del flujo:**  
-El flujo muestra el proceso mediante el cual el usuario genera una nueva orden desde la sección Orders. Completa los campos requeridos en las etapas de detalles y pagos, y finalmente confirma la solicitud. El sistema valida la información y registra la orden correctamente.
+**User Flow Diagram 1:**
+- **User Goal:** Crear una nueva orden de combustible. Como usuario solicitante, deseo registrar una nueva orden de combustible ingresando los detalles del producto, forma de pago y confirmando la solicitud.
+- **Task Flow:** ![Task Flow - Crear orden](assets/Chapters/Chapter-III/taskFlow01.png)
+- **Wireflow:** ![Wire flow - Crear orden](assets/Chapters/Chapter-III/wireFlow01.png)
+- **User Flow:** ![User Flow - Crear orden](assets/Chapters/Chapter-III/userFlow01.png)
 
 ---
 
-#### **User Goal 02: Visualizar historial de órdenes**
-
-**User Flow 2:**
-
-![img](assets/Chapters/Chapter-III/userFlow02.png)
-
-**Explicación del flujo:**
-
-Este flujo representa la consulta del historial de órdenes registradas. El usuario accede al listado general, navega entre los pedidos y selecciona una orden específica para revisar su información y estado actual dentro del sistema.
+**User Flow Diagram 2:**
+- **User Goal:** Ver listado de órdenes. Como usuario solicitante, deseo consultar las órdenes realizadas para revisar su estado y detalles.
+- **Task Flow:** ![Task Flow - Ver listado de órdenes](assets/Chapters/Chapter-III/taskFlow02.png)
+- **Wireflow:** ![Wire flow - Ver listado de órdenes](assets/Chapters/Chapter-III/wireFlow02.png)
+- **User Flow:** ![User Flow - Ver listado de órdenes](assets/Chapters/Chapter-III/userFlow02.png)
 
 ---
 
-#### **User Goal 03: Registrar proveedor**
-
-**User Flow 3:**  
-![img](assets/Chapters/Chapter-III/userFlow03.png)
-
-**Explicación del flujo:**  
-El flujo describe el proceso que realiza el administrador para registrar un nuevo proveedor. Tras seleccionar el tipo de usuario, completa los datos requeridos del registro. Luego, el sistema valida la información y redirige al panel principal, mostrando las opciones disponibles.
+**User Flow Diagram 3:**
+- **User Goal:** Registro de proveedor. Como administrador, deseo registrar un nuevo proveedor ingresando sus datos empresariales y credenciales de acceso.
+- **Task Flow:** ![Task Flow - Registro de proveedor](assets/Chapters/Chapter-III/taskFlow03.png)
+- **Wireflow:** ![Wire flow - Registro de proveedor](assets/Chapters/Chapter-III/wireFlow03.png)
+- **User Flow:** ![User Flow - Registro de proveedor](assets/Chapters/Chapter-III/userFlow03.png)
 
 ---
 
-#### **User Goal 04: Cargar comprobantes o documentos de pago**
-
-**User Flow 4:**  
-![img](assets/Chapters/Chapter-III/userFlow04.png)
-
-**Explicación del flujo:**  
-Este flujo detalla los pasos para subir comprobantes bancarios o documentos de respaldo. El usuario accede a la sección Conciliations, selecciona la opción de carga, adjunta los archivos y confirma la operación. El sistema asocia los documentos con la orden correspondiente.
+**User Flow Diagram 4:**
+- **User Goal:** Cargar comprobantes o documentos de pago. Como usuario proveedor, deseo subir comprobantes bancarios o documentos de respaldo para asociarlos a mis órdenes.
+- **Task Flow:** ![Task Flow - Cargar comprobantes](assets/Chapters/Chapter-III/taskFlow04.png)
+- **Wireflow:** ![Wire flow - Cargar comprobantes](assets/Chapters/Chapter-III/wireFlow04.png)
+- **User Flow:** ![User Flow - Cargar comprobantes](assets/Chapters/Chapter-III/userFlow04.png)
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
@@ -4683,15 +4722,17 @@ Cada lanzamiento en la rama `main` se etiquetará con una versión siguiendo el 
 - **`MINOR`**: Se incrementa cuando se añaden funcionalidades de forma retrocompatible.
 - **`PATCH`**: Se incrementa cuando se realizan correcciones de errores de forma retrocompatible.
 
-Para versiones de pre-lanzamiento, se pueden usar sufijos como `-alpha`, `-beta` o `-rc` (Release Candidate).
+Para versiones de desarrollo o pre-lanzamiento, se utilizarán versiones adicionales de la siguiente manera:
 
-- **Ejemplo:** `v1.0.0-beta.1`
+- **`alpha`**: Versión inicial, sin estabilidad garantizada.
+- **`beta`**: Versión casi estable, pero aún con características no completamente testeadas.
+- **`rc` (Release Candidate)**: Versión candidata a ser lanzada, con pocas correcciones pendientes.
 
 ### 4.1.3. Source Code Style Guide & Conventions
 
 Para asegurar la calidad, legibilidad y mantenibilidad del código de **FuelTrack Pro**, el equipo se compromete a seguir las siguientes guías de estilo y convenciones para cada tecnología del proyecto.
 
-<h4>Backend: .NET (C#)</h4>
+#### Backend: .NET (C#)
 
 - **Nomenclatura:**
 
@@ -4704,7 +4745,7 @@ Para asegurar la calidad, legibilidad y mantenibilidad del código de **FuelTrac
   - _Inyección de Dependencias (DI):_ Utilizar DI para desacoplar las capas, especialmente para inyectar servicios y repositorios en los controladores.
   - _Nombres de archivo:_ El nombre del archivo (`.cs`) debe coincidir exactamente con el nombre de la clase pública que contiene.
 
-<h4>Landing Page: HTML, CSS y JavaScript</h4>
+#### Landing Page: HTML, CSS y JavaScript
 
 - **HTML:**
 
@@ -4714,13 +4755,13 @@ Para asegurar la calidad, legibilidad y mantenibilidad del código de **FuelTrac
 - **CSS:**
 
   - _Nomenclatura:_ Utilizar la metodología **BEM (Block, Element, Modifier)** para nombrar las clases, evitando conflictos y mejorando la legibilidad.
-  - \*Organización:\*\* Agrupar las propiedades CSS por función (Posicionamiento, Modelo de caja, Tipografía, Visual, Otros).
+  - _Organización:_ Agrupar las propiedades CSS por función (Posicionamiento, Modelo de caja, Tipografía, Visual, Otros).
 
 - **JavaScript:**
   - _Sintaxis:_ Utilizar sintaxis moderna (ES6+), prefiriendo `const` y `let` sobre `var`, y usando funciones de flecha (`=>`).
   - _Nomenclatura:_ `camelCase` para variables y funciones. `PascalCase` para clases.
 
-<h4>Mobile: Android (Kotlin) & Jetpack Compose</h4>
+#### Mobile: Android (Kotlin) & Jetpack Compose
 
 - **Kotlin (General):**
 
@@ -4734,7 +4775,7 @@ Para asegurar la calidad, legibilidad y mantenibilidad del código de **FuelTrac
   - _Componentes Composable:_ Nombrar las funciones con `PascalCase` (e.g., `SubmitButton()`).
   - _Rendimiento:_ Evitar cálculos o lógica de negocio pesada dentro de las funciones `@Composable` para prevenir recomposiciones innecesarias.
 
-<h4>Convenciones Generales (Todo el Proyecto)</h4>
+#### Convenciones Generales (Todo el Proyecto)
 
 - **Comentarios:** El código debe ser auto-explicativo. Usar comentarios solo para explicar el "porqué" de una lógica compleja, no el "qué". Todos los comentarios deben estar en _inglés_.
 - **Commits:** Seguir la especificación de _Conventional Commits_ (`feat:`, `fix:`, `docs:`, `chore:`, etc.) para mantener un historial limpio y legible.
@@ -4744,7 +4785,7 @@ Para asegurar la calidad, legibilidad y mantenibilidad del código de **FuelTrac
 
 En esta sección se especifica la configuración y el proceso de despliegue para cada uno de los componentes de la solución _FuelTrack Pro_. Los siguientes pasos describen cómo, a partir de los repositorios de código fuente, se logra la publicación de la Landing Page, el Backend y la Aplicación Móvil.
 
-<h4>Landing Page (HTML/CSS/JS)</h4>
+#### Landing Page (HTML/CSS/JS)
 
 **Consideraciones antes del despliegue:**
 
@@ -4767,7 +4808,7 @@ En esta sección se especifica la configuración y el proceso de despliegue para
 6.  Esperar a que Vercel complete el proceso de build y despliegue.
 7.  Acceder a la URL pública generada por Vercel para verificar que la Landing Page esté operativa.
 
-<h4>Backend (.NET API)</h4>
+#### Backend (.NET API)
 
 **Consideraciones antes del despliegue:**
 
@@ -4791,7 +4832,7 @@ En esta sección se especifica la configuración y el proceso de despliegue para
 7.  Hacer clic en "Create Web Service" para iniciar el despliegue.
 8.  Render construirá la imagen Docker y desplegará el servicio. Una vez completado, se podrá acceder a la API a través de la URL pública generada.
 
-<h4>Aplicación Móvil (Android)</h4>
+#### Aplicación Móvil (Android)
 
 **Consideraciones antes del despliegue (en dispositivo de prueba):**
 
@@ -5253,18 +5294,526 @@ Evidencia de despliegue del backend en Render:
   <li>Google Meet (reuniones de planificación de sprint)</li>
 </ul>
 
-## 4.3. Validation Interviews
+### 4.2.2. Sprint 2
+
+#### 4.2.2.1. Sprint Planning 2
+
+<table border>
+    <tr align="center">
+        <td><strong>Sprint #</strong></td>
+        <td><strong>Sprint 2</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Date</td>
+        <td>30/10/2025</td>
+    </tr>
+    <tr align="center">
+        <td>Time</td>
+        <td>10:00 AM</td>
+    </tr>
+    <tr align="center">
+        <td>Location</td>
+        <td>Meet</td>
+    </tr>
+    <tr align="center">
+        <td>Prepared by</td>
+        <td>Rogger Miranda</td>
+    </tr>
+    <tr align="center">
+        <td>Attendess (to planning meeting)</td>
+        <td>
+          Acuña Tomas, Diego Rolin - U202221436<br>
+          Miranda Ayasta, Rogger Faryd - U202319239<br>
+          Arias Segil, Marllely Anahi - U202223984<br>
+          Sanchez Arenas, Manuel Angel - U201817507<br>
+          Meza Camayo, Lynn Jeeferzon - U20201C320
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Review Summary</td>
+        <td>El Sprint 1 finalizó con éxito: Landing Page, vistas core de la app y endpoints de backend completados. Todo se entregó dentro del plazo y con integración entre frontend y backend funcionando correctamente.</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Retrospective Summary</td>
+        <td>El sprint fue positivo, pero se identificaron áreas de mejora en la distribución de tareas y la estimación de tiempos. Se destacó la importancia de mejorar la coordinación y realizar pruebas más tempranas para evitar retrabajos. Se ajustarán estos aspectos en el próximo ciclo.</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+        <td align="center">Sprint 2 Goal</td> 
+            <td>Implementar las correcciones en la Landing Page para un nuevo despliegue.  
+        Desarrollo de las primeras vistas core de la mobile application:
+        <ul>
+            <li>Login (Client & Supplier)</li>
+            <li>Client Order List View</li>
+            <li>Client Detailed Order View</li>
+            <li>Create Order View</li>
+        </ul>
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 2 Velocity</td>
+        <td>12</td>
+    </tr>
+    <tr align="center">
+        <td>Sum of Story Point</td>
+        <td>22</td>
+    </tr>
+</table>
+
+#### 4.2.3.2. Sprint Backlog 3
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+En el Sprint 2, aunque el enfoque principal fue el desarrollo de las vistas core de la aplicación móvil en Kotlin, no se implementaron pruebas unitarias ni de integración completas debido a que el avance estaba centrado en la implementación de la funcionalidad básica de la app. Sin embargo, se llevaron a cabo pruebas de usabilidad para las vistas de la aplicación móvil, asegurando que las pantallas de Login, Listado de Pedidos, Detalle de Pedido y Crear Pedido fueran funcionales en diferentes dispositivos y versiones de Android. Además, se realizaron pruebas funcionales de los endpoints RESTful implementados, validando la correcta autenticación de usuarios y el manejo de pedidos a través de las API. Estas pruebas permitieron asegurar que los elementos clave del sistema estuvieran operativos antes de continuar con la integración de más funcionalidades en los siguientes sprints.
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint
+
+<p>
+  <strong>Resumen:</strong><br>
+  Durante el Sprint 2, el equipo mantuvo una estrecha colaboración a través de GitHub, WhatsApp y Google Meet. Las actividades principales se centraron en el desarrollo de la aplicación móvil en Kotlin, completando aproximadamente el 80% del avance esperado en las vistas core de la app.
+</p>
+
+<h4>Evidencia de Colaboración:</h4>
+<ul>
+  <li>Desarrollo y revisión de las vistas principales de la app móvil en Kotlin, incluyendo Login, Client Order List, Client Detailed Order y Create Order.</li>
+  <li>Integración de endpoints RESTful y pruebas de autenticación de usuarios para la plataforma.</li>
+  <li>Commit de código documentado en GitHub con descripciones claras del trabajo realizado por cada miembro del equipo.</li>
+  <li>Revisión continua de las User Stories y ajustes según los comentarios del equipo en las reuniones de Google Meet.</li>
+</ul>
+
+<h4>Principales Herramientas de Comunicación:</h4>
+<ul>
+  <li>GitHub (control de versiones, seguimiento de issues y revisión de código)</li>
+  <li>WhatsApp (comunicación diaria y resolución de dudas rápidas entre los miembros)</li>
+  <li>Google Meet (reuniones de planificación, seguimiento de avances y solución de problemas técnicos en equipo)</li>
+</ul>
+
+
+### 4.2.3. Sprint 3
+
+#### 4.2.3.1. Sprint Planning 3
+
+<table border>
+    <tr align="center">
+        <td><strong>Sprint #</strong></td>
+        <td><strong>Sprint 3</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Date</td>
+        <td>22/11/2025</td>
+    </tr>
+    <tr align="center">
+        <td>Time</td>
+        <td>02:00 PM</td>
+    </tr>
+    <tr align="center">
+        <td>Location</td>
+        <td>Meet</td>
+    </tr>
+    <tr align="center">
+        <td>Prepared by</td>
+        <td>Rogger Miranda</td>
+    </tr>
+    <tr align="center">
+        <td>Attendess (to planning meeting)</td>
+        <td>
+          Acuña Tomas, Diego Rolin - U202221436<br>
+          Miranda Ayasta, Rogger Faryd - U202319239<br>
+          Arias Segil, Marllely Anahi - U202223984<br>
+          Sanchez Arenas, Manuel Angel - U201817507<br>
+          Meza Camayo, Lynn Jeeferzon - U20201C320
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 2 Review Summary</td>
+        <td>Se concluyó parcialmente el Sprint 2: Entregables en este Sprint como lo fueron el JPC y actualizaciones en la Landing Page no fueron concluidos debido a la falta de coordinación y agilidad del equipo.</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 2 Retrospective Summary</td>
+        <td>Una de las áreas de mejora más importantes que logramos identificar fue el mapear correctamente las partes del reporte de proyecto, así como los entregables y en lo que consisten. A pesar de este gran obstáculo, el sprint resultó, en términos generales, bastante positivo, y gracias a la retroalimentación dada, el siguiente Sprint no será perjudicado de la misma forma.</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+        <td align="center">Sprint 3 Goal</td> 
+        <td>Desarrollo de la Flutter app de Fueltrack (vistas Core).
+        Implementar las correcciones en la Landing Page para un nuevo despliegue. Desarrollo de las primeras vistas core de la mobile application:
+          <ul>
+              <li>Login (Client & Supplier)</li>
+              <li>Client Order List View</li>
+              <li>Client Detailed Order View</li>
+              <li>Create Order View</li>
+          </ul>
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 2 Velocity</td>
+        <td>12</td>
+    </tr>
+    <tr align="center">
+        <td>Sum of Story Point</td>
+        <td>22</td>
+    </tr>
+</table>
+
+#### 4.2.3.2. Sprint Backlog 3
+
+<table border>
+    <tr align="center">
+        <td colspan="2"><strong>Sprint #</strong></td>
+        <td colspan="6"><strong>Sprint 3</strong></td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"><strong>User Story</strong></td>
+        <td colspan="6"><strong>Work-Item / Task</strong></td>
+    </tr>
+    <tr align="center">
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Id</strong></td>
+        <td><strong>Description</strong></td>
+        <td><strong>Estimation (Hours)</strong></td>
+        <td><strong>Assigned to</strong></td>
+        <td><strong>Status (To do / In process / To review / Done)</strong></td>
+    </tr>
+    <tr align="center">
+        <td>US-01</td>
+        <td>Crear nuevo pedido</td>
+        <td>W-01</td>
+        <td>Como usuario de una empresa solicitante, quiero poder registrar un pedido directamente desde la plataforma agilizar el proceso y evitar llamadas.</td>
+        <td>6</td>
+        <td>Diego Acuña</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-02</td>
+        <td>Consultar historial de pedidos</td>
+        <td>W-02</td>
+        <td>Como solicitante, quiero poder consultar mi historial de pedidos anteriores, y poder ver cada uno con información detallada. Además, debo ser capaz de filtrar y ordenar el historial según características específicas de los pedidos.</td>
+        <td>4</td>
+        <td>Diego Acuña</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-05</td>
+        <td>Notificar a clientes sobre cambios de pedido</td>
+        <td>W-03</td>
+        <td>Como proveedor de combustible, quiero poder actualizar el estado e información de los pedidos en tiempo real, para mantener a mis clientes informados y organizar mejor mis entregas.</td>
+        <td>5 horas</td>
+        <td>Lynn Meza</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-07</td>
+        <td>Iniciar sesión en la Plataforma</td>
+        <td>W-04</td>
+        <td>Como usuario registrado, quiero iniciar sesión con mi correo y contraseña, para acceder a mi cuenta de forma segura.</td>
+        <td>5 horas</td>
+        <td>Diego Acuña</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-08</td>
+        <td>Registro de cuenta nueva</td>
+        <td>W-05</td>
+        <td>Como visitante, Quiero crear una cuenta con correo, contraseña y rol (cliente o proveedor), Para acceder y comenzar a utilizar la plataforma.</td>
+        <td>7 horas</td>
+        <td>Diego Acuña</td>
+        <td>Done</td>
+    </tr>
+</table>
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+En el transcurso de este Sprint, el equipo realizó importantes correcciones en la configuración de la base de datos desplegada para el backend de la aplicación, además del desarrollo de la aplicación móvil de Fueltrack en Flutter. Además, se logró conectar nuestra API RESTful con la aplicación móvil, permitiendo la autenticación de usuarios y la gestión de pedidos directamente desde la app. A continuación, se detallan las evidencias de desarrollo correspondientes:
+
+<table border>
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Rama</th>
+      <th>ID de Commit</th>
+      <th>Mensaje de Commit</th>
+      <th>Descripción del Commit</th>
+      <th>Fecha de Commit</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>3e9f1a5</td>
+    <td>Primer commit y donde agrego las dependencias necesarias</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>aa134bc</td>
+    <td>Añadir imágenes en assets/images</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>037fe0d</td>
+    <td>Añadir modelos: Method, Notification, Order</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>e10ea89</td>
+    <td>Añadir modelos: Payment, Profile, User</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>0998d80</td>
+    <td>Añadir db_helper para usar la BD sqlite</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>65f3c65</td>
+    <td>Añadir lib/utils/http_helper.dart — esto usa los endpoints para que se relacione con nuestro backend</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>0b729f1</td>
+    <td>Añadir UI auth — esto es para iniciar sesión y registrarse</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>0b729f1</td>
+    <td>Añadir UI auth — esto es para iniciar sesión y registrarse</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>886c808</td>
+    <td>Añadir UI/navigation — Home</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>4a86966</td>
+    <td>Añadir UI/view — Orders y OrderCreate</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>29ac40f</td>
+    <td>Añadir views: CardAddView, OrderPaymentView y PaymentsView</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>2026269</td>
+    <td>Actualizar .gitignore</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+</tbody>
+</table>
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 3 no se implementaron pruebas unitarias ni de integración, ya que el enfoque principal estuvo centrado en el desarrollo inicial de la aplicación móvil en Flutter y en su conexión con la API ya operativa. Sin embargo, se realizaron algunas pruebas exploratorias (no documentadas) con el fin de verificar la correcta visualización y funcionamiento de los datos dentro de la aplicación móvil.
+
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+Durante este tercer sprint, se realizó la aplicación móvil diseñada únicamente para clientes con el framework Flutter. La construimos para el segmento objetivo, incorporando la retroalimentación de la app previa en JPC. A continuación, se presentan las evidencias de ejecución en el orden indicado.
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/login.jpeg" alt="Login" width="260"><br>
+  <em>Pantalla de inicio de sesión (Login)</em>
+</p>
+<p><strong>Descripción:</strong> Permite ingresar con correo y contraseña o navegar al registro.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/register.jpeg" alt="Register" width="260"><br>
+  <em>Pantalla de registro (Register)</em>
+</p>
+<p><strong>Descripción:</strong> Registra cuentas de clientes. Antes de crear la cuenta, redirige a Términos y condiciones.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/terms.jpeg" alt="Terms and Conditions" width="260"><br>
+  <em>Términos y condiciones (Term)</em>
+</p>
+<p><strong>Descripción:</strong> Muestra los términos y condiciones. Para continuar, se deben aceptar.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/notifications.jpeg" alt="Notifications" width="260"><br>
+  <em>Centro de notificaciones (Notifications)</em>
+</p>
+<p><strong>Descripción:</strong> Lista mensajes automáticos cuando un pedido propio cambia de estado o es actualizado.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/orders.jpeg" alt="Orders List" width="260"><br>
+  <em>Listado de pedidos (Orders)</em>
+</p>
+<p><strong>Descripción:</strong> Muestra las órdenes del cliente con información actualizada y un botón para crear un nuevo pedido.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/order_create.jpeg" alt="Create Order" width="260"><br>
+  <em>Creación de pedido (Create Order)</em>
+</p>
+<p><strong>Descripción:</strong> Formulario para registrar una nueva orden de combustible.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/payments.jpeg" alt="Payments" width="260"><br>
+  <em>Pagos (Payments)</em>
+</p>
+<p><strong>Descripción:</strong> Gestiona métodos de pago y permite elegir con cuál pagar. Incluye accesos a “Agregar tarjeta” y “Pago de pedido”.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/card_add.jpeg" alt="Add New Card" width="260"><br>
+  <em>Agregar nueva tarjeta (Add New Card)</em>
+</p>
+<p><strong>Descripción:</strong> Registra un nuevo método de pago y permite marcarlo como predeterminado.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/order_payment.jpeg" alt="Order Payment" width="260"><br>
+  <em>Pago de pedido (Order Payment)</em>
+</p>
+<p><strong>Descripción:</strong> Procesa el pago de una orden ingresando su código. Muestra un historial de pagos realizados.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/profile.jpeg" alt="Profile" width="260"><br>
+  <em>Perfil de usuario (Profile)</em>
+</p>
+<p><strong>Descripción:</strong> Visualiza y edita información personal del perfil. Incluye opción para cerrar sesión.</p>
+
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+Para este Sprint, no se hizo desarrollo o mantenimiento adicional de los Web Services, ya que el enfoque principal estuvo en el desarrollo de la aplicación móvil en Flutter y su integración con la API RESTful ya existente. Por lo tanto, no se generaron nuevas evidencias de documentación de servicios en esta etapa del proyecto.
+Sin embargo, se realizaron correcciones en el despliegue de la base de datos para el backend, asegurando que estuviera correctamente configurada y optimizada para soportar las operaciones de la aplicación móvil. Estas correcciones incluyeron inserción de data, y reestablecimiento de conexiones entre la API y la base de datos para garantizar un rendimiento adecuado durante las pruebas y el uso de la aplicación móvil.
+
+- Top Queries de la Base de Datos Desplegada:
+![Deployed Database Top Queries](assets/Chapters/Chapter-V/database_deployed_top_queries.png)
+
+- Métricas de la Base de Datos Desplegada:
+![Deployed Database Metrics](assets/Chapters/Chapter-V/database_metrics.png)
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+<h4>Firebase App Distribution (Resumen)</h4>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/proyect.png" alt="Firebase Project" width="560"><br>
+  <em>Comprobamos que la app Flutter funciona y creamos el proyecto en Firebase.</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/configuration.png" alt="Project Created" width="560"><br>
+  <em>Proyecto listo. Elegimos “Agregar app” y seleccionamos Android.</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/app_add.png" alt="Add Android App" width="560"><br>
+  <em>Registramos la app Android con su paquete. Firebase guía los pasos básicos.</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/code.png" alt="Android config" width="560"><br>
+  <em>Conectamos la app con Firebase desde la carpeta Android (archivo de configuración).</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/app.png" alt="App Registered" width="560"><br>
+  <em>App registrada. Guardamos el ID para distribuir más adelante.</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/app_distribution.png" alt="App Distribution" width="560"><br>
+  <em>Subimos el APK, elegimos testers o grupos y agregamos notas.</em>
+</p>
+
+<h5>Pasos simples para App Distribution</h5>
+
+- Crear el proyecto en Firebase y registrar la app Android.
+- Conectar la app con Firebase (archivo de configuración en Android).
+- Generar el APK de release desde Flutter.
+- En Firebase App Distribution, cargar el APK.
+- Elegir testers/grupos y enviar la versión.
+- Los testers reciben un enlace para instalar y comentar.
+
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint
+
+<p>
+  <strong>Resumen:</strong><br>
+  Durante el Sprint 3, el equipo logró completar las vistas core de la aplicación móvil en Flutter, alcanzando aproximadamente un 100% del avance esperado. La colaboración se mantuvo activa a través de GitHub, WhatsApp y Google Meet, facilitando la comunicación y coordinación entre los miembros del equipo.
+</p>
+
+<h4>Evidencia de Colaboración:</h4>
+<ul>
+  <li>Desarrollo de las vistas core de la app móvil (Flutter), incluyendo Login, Register, Orders List, Create Order, etc.</li>
+  <li>Implementación de API RESTful en la aplicación móvil.</li>
+  <li>Commit de código documentado en GitHub con descripciones claras del trabajo realizado por cada miembro del equipo.</li>
+  <li>Corrección y manipulación en despliegue de base de datos</li>
+</ul>
+
+<h4>Principales Herramientas de Comunicación:</h4>
+<ul>
+  <li>GitHub (control de versiones, seguimiento de issues y revisión de código)</li>
+  <li>WhatsApp (comunicación diaria y resolución de dudas rápidas entre los miembros)</li>
+  <li>Google Meet (reuniones de planificación, seguimiento de avances y solución de problemas técnicos en equipo)</li>
+</ul>
+
+## 4.3. Entrevistas de Validación
 
 ### 4.3.1. Diseño de Entrevistas
 
-Preguntas relacionadas al Landing Page
+Preguntas relacionadas con la Landing Page:
 
-¿La información presentada en la pagina principal le resulta clara y fácil de entender para su negocio?
-¿Cómo calificarías la facilidad de navegación de la plataforma?
-¿Consideras que se deberia añadir alguna información adicional?
-¿Qué tan confiable le pareció la página al primer vistazo?
-¿El formulario de contacto o registro le inspiró confianza para dejar sus datos?
-¿Qué lo motivaría a registrarse o probar la plataforma después de visitar la página?
+1. ¿La información presentada en la página principal le resulta clara y fácil de entender para su negocio?
+2. ¿Cómo calificarías la facilidad de navegación de la plataforma?
+3. ¿Consideras que se debería añadir alguna información adicional?
+4. ¿Qué tan confiable le pareció la página al primer vistazo?
+5. ¿El formulario de contacto o registro le inspiró confianza para dejar sus datos?
+6. ¿Qué lo motivaría a registrarse o probar la plataforma después de visitar la página?
 
 ### 4.3.2. Registro de Entrevistas
 
@@ -5276,14 +5825,14 @@ Preguntas relacionadas al Landing Page
 - **Apellidos:** Castañeda Vilcapoma
 - **Edad:** 23
 - **Distrito:** San Juan de Lurigancho
-- **Captura de la entrevista**
+- **Captura de la entrevista:**
 
 <p align="center">
   <img src="./assets/Chapters/Chapter-IV/interview-validation-solicitante-3.png" alt="Captura entrevista 6" width="400"/>
 </p>
 
 - **Duración:** 9:33
-- **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/ESEt8NVZpiBFrdi2rDsF-vIB0Y6cHCpU9fuDeLdgXp--Kw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5iADbQ)
+- **URL de la Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/ESEt8NVZpiBFrdi2rDsF-vIB0Y6cHCpU9fuDeLdgXp--Kw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5iADbQ)
 
 ---
 
@@ -5293,14 +5842,14 @@ Preguntas relacionadas al Landing Page
 - **Apellidos:** Meza Camayo
 - **Edad:** 20
 - **Distrito:** Chupaca-Junín
-- **Captura de la entrevista**
+- **Captura de la entrevista:**
 
 <p align="center">
   <img src="./assets/Chapters/Chapter-IV/interview-validation-solicitante-1.png" alt="Captura entrevista 6" width="400"/>
 </p>
 
 - **Duración:** 7:57
-- **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/ESwzEeIMh0FEmNXho8kKSNoBXHyIshzIDZcbqELwDhoSmQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=wsfV0j)
+- **URL de la Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/ESwzEeIMh0FEmNXho8kKSNoBXHyIshzIDZcbqELwDhoSmQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=wsfV0j)
 
 ---
 
@@ -5310,87 +5859,93 @@ Preguntas relacionadas al Landing Page
 - **Apellidos:** Ricaldi Solis
 - **Edad:** 23
 - **Distrito:** Puente Piedra
-- **Captura de la entrevista**
+- **Captura de la entrevista:**
 
 <p align="center">
   <img src="./assets/Chapters/Chapter-IV/interview-validation-solicitante-2.png" alt="Captura entrevista 6" width="400"/>
 </p>
 
 - **Duración:** 3:58
-- **URL de Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EU1GcCmh0udAs0919oZr62QBu4hQor3AQKfTIjWmflYBfw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=gUdCYh)
+- **URL de la Entrevista:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EU1GcCmh0udAs0919oZr62QBu4hQor3AQKfTIjWmflYBfw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=gUdCYh)
 
-### 4.3.3. Evaluaciones según heurísticas
+### 4.3.3. Evaluaciones según Heurísticas
 
 La evaluación heurística identifica problemas de usabilidad comparando la interfaz con principios reconocidos.
 
-SITE o APP A EVALUAR: FuelTrap — Landing Page
+**Sitio o App a Evaluar:** FuelTrap — Landing Page
 
-TAREAS A EVALUAR
+**Tareas a Evaluar:**
 
-1. La propuesta de valor en el “hero”
-2. Navegar por las secciones de la landing usando el menú y enlaces internos
+1. La propuesta de valor en el “hero”.
+2. Navegar por las secciones de la landing usando el menú y enlaces internos.
 3. Explorar el bloque de Precios/Planes y distinguir el plan recomendado.
-4. Revisar el footer
-5. Verificar la experiencia móvil (≈360–390 px) y escritorio (≥1280 px).
+4. Revisar el footer.
+5. Verificar la experiencia móvil (~360–390 px) y escritorio (≥1280 px).
 6. Comprobar accesibilidad básica: navegación por teclado, foco visible, textos alternativos en imágenes relevantes y contraste suficiente.
 
-NO INCLUIDO EN ESTA EVALUACIÓN
+**No Incluido en Esta Evaluación:**
 
-Registro/Login completos, recuperación de contraseña.
-Operaciones dentro del producto.
-Procesos de pago/facturación, integración con pasarelas.
+- Registro/Login completos, recuperación de contraseña.
+- Operaciones dentro del producto.
+- Procesos de pago/facturación, integración con pasarelas.
 
-ESCALA DE SEVERIDAD:
+**Escala de Severidad:**
 
-Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
-| Nivel | Descriptión                                                                                                                                                                                    |
-| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1     | Problema superficial: Puede ser fácilmente superador por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                  |
-| 2     | Problema menor: Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
-| 3     | Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                |
-| 4     | Problema muy grave: Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                              |
+| Nivel | Descripción                                                                                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: Puede ser fácilmente superado por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                    |
+| 2     | Problema menor: Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                  |
+| 4     | Problema muy grave: Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
 
-TABLA RESUMEN:
+**Tabla Resumen:**
 
-| #   | Problema                                                                                                                             | Escala de severidad | Heurística/Principio violada(o)                                                                  |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------ | :-----------------: | ------------------------------------------------------------------------------------------------ |
-| 1   | Los botones del hero (“Conócenos más” / “Ver demo”) no redirigen y solo refrescan la página.                                         |          3          | Information Architecture: Is it usable?                                                          |
-| 2   | Faltan anclas/destinos internos de los botones de la seccion Planes.                                                                 |          3          | Information Architecture: Is it findable?                                                        |
-| 3   | En móvil, la landing **no es suficientemente responsiva** (desbordes/solapamientos, objetivos táctiles pequeños, scroll horizontal). |          3          | Inclusive Design: Experiencias comparables; Accesibilidad: WCAG 1.4.10 Reflow, 2.5.5 Target Size |
+| #   | Problema                                                                                                                             | Severidad | Heurística/Principio Violado                                                                     |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------ | :-------: | ------------------------------------------------------------------------------------------------ |
+| 1   | Los botones del "hero" (“Conócenos más” / “Ver demo”) no redirigen y solo refrescan la página.                                       |     3     | Arquitectura de la Información: ¿Es usable?                                                      |
+| 2   | Faltan anclas/destinos internos en los botones de la sección "Planes".                                                               |     3     | Arquitectura de la Información: ¿Es encontrable?                                                 |
+| 3   | En móvil, la landing **no es suficientemente responsiva** (desbordes/solapamientos, objetivos táctiles pequeños, scroll horizontal). |     3     | Diseño Inclusivo: Experiencias comparables; Accesibilidad: WCAG 1.4.10 Reflow, 2.5.5 Target Size |
 
-DESCRIPCIÓN DE PROBLEMAS
+**Descripción de Problemas:**
 
-**PROBLEMA #1: Los botones del hero (“Conócenos más” / “Ver demo”) no redirigen y solo refrescan la página**
+**PROBLEMA #1: Los botones del "hero" (“Conócenos más” / “Ver demo”) no redirigen y solo refrescan la página**
 
-Severidad: 3
-Heurística violada: Information Architecture - Is it usable?
+- **Severidad:** 3
+- **Heurística violada:** Arquitectura de la Información - ¿Es usable?
 
-Problema:
+**Problema:**  
 Al hacer clic en los botones del hero, la página se actualiza o no realiza navegación alguna. Esto impide acceder rápidamente a la información clave (sección “Sobre nosotros” o una demo funcional), rompiendo el flujo de exploración inicial.
 
-Recomendación:
-Asignar destinos válidos y coherentes con el texto del botón (p. ej., #nosotros, #demo o ruta /demo), habilitar scroll suave y actualizar la URL (ancla o ruta) para dar feedback de navegación. Verificar el comportamiento con analítica (eventos de clic) y estados :focus/:active visibles. (Incluir además una captura de pantalla ilustrando el problema).
+**Recomendación:**  
+Asignar destinos válidos y coherentes con el texto del botón (por ejemplo, #nosotros, #demo o ruta /demo), habilitar scroll suave y actualizar la URL (ancla o ruta) para dar feedback de navegación. Verificar el comportamiento con analítica (eventos de clic) y estados :focus/:active visibles. (Incluir además una captura de pantalla ilustrando el problema).
 
-**PROBLEMA #2:** Faltan anclas/destinos internos de los botones de la sección “Planes”
-Severidad: 3
-Heurística violada: Information Architecture - Is it findable?
+---
 
-Problema:
+**PROBLEMA #2: Faltan anclas/destinos internos en los botones de la sección “Planes”**
+
+- **Severidad:** 3
+- **Heurística violada:** Arquitectura de la Información - ¿Es encontrable?
+
+**Problema:**  
 Los botones de la sección “Planes” (“Empezar ahora” , “Comprar prueba”) no llevan al flujo esperado (lead/checkout) y, en algunos casos, retornan al inicio. Esto dificulta encontrar y completar la acción principal de conversión.
 
-Recomendación:
+**Recomendación:**  
 Definir rutas o anclas claras que conecten cada botón con su destino.
 
-**PROBLEMA #3:** En móvil, la landing no es suficientemente responsiva (desbordes/solapamientos, objetivos táctiles pequeños, scroll horizontal)
+---
 
-Severidad: 3
+**PROBLEMA #3: En móvil, la landing no es suficientemente responsiva (desbordes/solapamientos, objetivos táctiles pequeños, scroll horizontal)**
 
-Heurística violada: Inclusive Design - Experiencias comparables; Accesibilidad - WCAG 1.4.10 Reflow, 2.5.5 Target Size
-Problema:
-En vistas ~360–390 px se presentan textos e imágenes que se desbordan, elementos superpuestos, objetivos táctiles < 44×44 px y presencia de scroll horizontal, afectando lectura, navegación y clics en botones.
-Recomendación:
-Aplicar diseño mobile-first: tipografías y spacing en rem, imágenes fluidas (max-width: 100%), rejillas adaptativas (1 columna en móvil), breakpoints adecuados, evitar anchos/altos fijos y garantizar tamaño mínimo 44×44 px en objetivos táctiles.
+- **Severidad:** 3
+- **Heurística violada:** Diseño Inclusivo - Experiencias comparables; Accesibilidad - WCAG 1.4.10 Reflow, 2.5.5 Target Size
+
+**Problema:**  
+En vistas ~360–390 px se presentan textos e imágenes que se desbordan, elementos superpuestos, objetivos táctiles < 44×44 px y presencia de scroll horizontal, afectando la lectura, navegación y clics en botones.
+
+**Recomendación:**  
+Aplicar diseño mobile-first: tipografías y espaciado en rem, imágenes fluidas (max-width: 100%), rejillas adaptativas (1 columna en móvil), breakpoints adecuados, evitar anchos/altos fijos y garantizar tamaño mínimo de 44×44 px en objetivos táctiles.
 
 # Conclusiones
 
