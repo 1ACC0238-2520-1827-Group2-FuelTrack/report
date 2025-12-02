@@ -117,9 +117,7 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
         <li>Diego Rolin Acuña Tomas</li>
       </ul>
     </td>
-    <td> Se han incluído los siguientes capítulos y secciones:
-      <ul>
-      </ul>
+    <td> Se han incluído los siguientes capítulos y secciones: Se han incorporado la mayoría de mejoras sugeridas por el docente, la principal de ellas, el Sprint 2 completado, que documenta nuestro avance previo. Además, en esta entrega se incluyeron los avances y el apartado referente al Sprint 3. También se mejoraron las secciones de Conclusiones, Bibliografía y Anexos, proporcionando una visión más completa del progreso del proyecto, la implementación de las soluciones de diseño y las pruebas realizadas.
     </td>
   </tr>
 </table>
@@ -135,17 +133,31 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
 **Link del Event Storming**
 [https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021](https://miro.com/app/board/uXjVJG4nnMM=/?share_link_id=175103855021)
 
-![alt text](assets/Chapters/Insights/Summary_TB1.png)
+**TB1**
 
-![alt text](assets/Chapters/Insights/Contirbutors_TB1.png)
+![TB1 summary](assets/Chapters/Insights/Summary_TB1.png)
 
-![alt text](assets/Chapters/Insights/NetworkGraph_TB1.png)
+![TB1 contributors](assets/Chapters/Insights/Contirbutors_TB1.png)
+
+![TB1 network graph](assets/Chapters/Insights/NetworkGraph_TB1.png)
 
 **TP1**
 
-![alt text](assets/Chapters/Insights/Summary_TP1.png)
+![TP1 summary](assets/Chapters/Insights/Summary_TP1.png)
 
-![alt text](assets/Chapters/Insights/Contirbutors_TP1.png)
+![TP1 contributors](assets/Chapters/Insights/Contirbutors_TP1.png)
+
+**TB2**
+
+![TB2 summary](assets/Chapters/Insights/Summary_TB2.png)
+
+![alt text](image.png)![TB2 contributors](assets/Chapters/Insights/Contributors_TB2.png)
+
+**TF**
+
+![TF summary](assets/Chapters/Insights/Summary_TF.png)
+
+![TF contributors](assets/Chapters/Insights/Contributors_TF.png)
 
 # Table of Contents
 
@@ -354,10 +366,6 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
       - [**Gestión de Órdenes (Order Management)**](#gestión-de-órdenes-order-management-1)
       - [**Conciliaciones (Subir Comprobantes)**](#conciliaciones-subir-comprobantes-1)
       - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
-      - [**User Goal 01: Crear una nueva orden de combustible**](#user-goal-01-crear-una-nueva-orden-de-combustible-1)
-      - [**User Goal 02: Visualizar historial de órdenes**](#user-goal-02-visualizar-historial-de-órdenes-1)
-      - [**User Goal 03: Registrar proveedor**](#user-goal-03-registrar-proveedor-1)
-      - [**User Goal 04: Cargar comprobantes o documentos de pago**](#user-goal-04-cargar-comprobantes-o-documentos-de-pago-1)
       - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
 - [Capítulo IV: Product Implementation \& Validation](#capítulo-iv-product-implementation--validation)
   - [4.1 Software Configuration Management](#41-software-configuration-management)
@@ -385,9 +393,18 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
       - [4.2.1.8. Team Collaboration Insigths during Sprint](#4218-team-collaboration-insigths-during-sprint)
     - [4.2.2. Sprint 2](#422-sprint-2)
       - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
-      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
+      - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
       - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
       - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
+      - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
+      - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
+      - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
+      - [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
+    - [4.2.2. Sprint 3](#422-sprint-3)
+      - [4.2.2.1. Sprint Planning 3](#4221-sprint-planning-3)
+      - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3-1)
+      - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review-1)
+      - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review-1)
       - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
       - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
       - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
@@ -422,23 +439,26 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
         <b>Diego Acuña</b><br>
         TB1: Durante el desarrollo del startup y el producto, tuve que repasar conceptos básicos como Lean UX. En particular, necesité investigar nuevas tecnologías para crear diagramas ER y UML directamente desde Visual Studio Code. Esta experiencia me enseñó que, aunque hayas realizado algo muchas veces, siempre es necesario repasar conceptos, incluso los más básicos. Además, debo estar preparado para adquirir nuevos conocimientos que me permitan completar satisfactoriamente cualquier proyecto de software.<br>
         TP1: Para esta entrega, tuve que indagar aún más y actualizarme sobre las últimas tendencias en diseño UX/UI para poder aplicar enfoques innovadores en nuestra aplicación móvil. Esto se ve puede ver reflejado en mi desarrollo de vistas core.<br>
+        TF: En esta entrega me encargué de gran parte del desarrollo de nuestra aplicación Fueltrack en Flutter, por lo que tuve que ir más allá de lo aprendido en clase. Esta experiencia me permitió mejorar mis habilidades de desarrollo móvil y comprender mejor cómo crear aplicaciones escalables y mantenibles.
         <b>Manuel Sanchez</b><br>
         TB1: Los componentes que conforman la infraestructura de nuestro sistema me llevaron a actualizarme sobre las buenas practicas para un correcto despliegue.<br>
         TP1: Para este sprint fue necesario investigar la documentación de las librerías UI para el desarrollo de las vistas core de la aplicación.<br>
+        TF: En este Sprint me encargué de insertar y modificar datos en nuestra instancia de base de datos desplegada, por lo que tuve que volver a investigar sobre MySQL y PgAdmin 4.
         <b>Marllely Arias</b><br>
         TB1: A través del desarrollo del capítulo dos, trabajé en el análisis competitivo, el needfinding y las entrevistas, lo que me permitió adquirir nuevas perspectivas y herramientas que aportan directamente a mi formación profesional y al avance de mi proyecto en soluciones de ingeniería de software.<br>
-        TP1: Durante esta entrega reforcé mis conocimientos en diseño UX/UI, aplicando principios de diseño, arquitectura de información y diseño inclusivo. Desarrollé wireframes, mockups y prototipos interactivos, lo cual fortaleció mis habilidades para proponer soluciones digitales efectivas.
-        <br>
+        TP1: Durante esta entrega reforcé mis conocimientos en diseño UX/UI, aplicando principios de diseño, arquitectura de información y diseño inclusivo. Desarrollé wireframes, mockups y prototipos interactivos, lo cual fortaleció mis habilidades para proponer soluciones digitales efectivas.<br>
+        TF: Completé parte del desarrollo de nuestra vista de órdenes de nuestra aplicación en Kotlin, por lo que revisé nuevamente el material de clase para implementar las funcionalidades faltantes.<br>
         <b>Rogger Miranda</b><br>
         TB1: Durante el desarrollo del startup y el producto, me di cuenta de la importancia de repasar conceptos fundamentales y de estar siempre dispuesto a adoptar nuevas herramientas y metodologías. En este caso, implementé diagramas C4 (de contexto y componentes), lo que permitió mejorar la claridad y organización de la arquitectura del sistema. Esta experiencia me recordó que, aunque algunos aspectos del trabajo puedan parecer rutinarios, siempre es útil revisarlos y estar preparado para aprender lo necesario para mejorar la calidad y el alcance de los proyectos.<br>
         TP1: Durante el desarrollo del producto y el informe, me di cuenta la importancia de poder estar actualizado en conceptos, tecnicas y teconologias para el correcto desarrollo de la solución de manera agil y eficaz. En esta oportunidad fue muy importante entender conceptos de SEO, entender el funcionamiento de las tecnologias respectivas para el avance tanto de la landing como del backend, conceptos de UX/UI, etc.<br>
-        TB2: Para esta entrega, profundicé en la integración entre la capa de presentación y la lógica del dominio, ademas reforce mis conocimientos en Kotlin, Flutter. Contribui en varios aspectos para el desarrollo del aplicativo lo que me permitio mejorar mis habilidades
+        TB2: Para esta entrega, profundicé en la integración entre la capa de presentación y la lógica del dominio, ademas reforce mis conocimientos en Kotlin, Flutter. Contribui en varios aspectos para el desarrollo del aplicativo lo que me permitio mejorar mis habilidades.<br>
+        TF: Para esta entrega mejore aprendizaje para el desarrollo de la aplicación en Kotlin segmento objetivo proveedores. Además, contribuí en varios aspectos como el desarrollo del ppt para la exposición, corrección del documento, organizar el trabajo, etc.<br>
         <b>Lynn Meza</b><br>
         TB1: Durante este hito actualicé y apliqué conceptos clave de Domain-Driven Design para mi desarrollo profesional y el proyecto: facilité un Event Storming para depurar el Lenguaje Ubicuo y extraer eventos, comandos y políticas; descubrí y definí Bounded Contexts mediante sus Canvases; y modelé Domain Message Flows que explicitan contratos de integración y decisiones de orquestación/coreografía.<br>
         TP1: Para esta entrega, profundicé en la integración entre la capa de presentación y la lógica del dominio, reforzando mis conocimientos en Kotlin y Java. Además, actualicé mis conocimientos sobre buenas prácticas en consumo de APIs REST, aunque en esta fase trabajamos con una API fake. Este avance técnico me permitió contribuir en la implementación de vistas core funcionales y escalables, alineadas al diseño UX definido.<br>
       </td>
       <td>
-        A lo largo del proyecto, el equipo mostró un compromiso con el aprendizaje continuo y la actualización constante de conocimientos clave en áreas como Lean UX, Domain-Driven Design, UX/UI, y tecnologías como Kotlin y Flutter. Cada miembro profundizó en conceptos técnicos esenciales, desde el desarrollo de diagramas y la creación de prototipos hasta la integración de sistemas y la implementación de arquitecturas eficientes. Este enfoque permitió mejorar la calidad del proyecto, garantizar soluciones escalables y alineadas al diseño, y fortalecer el desarrollo profesional del equipo, evidenciando que la actualización constante es crucial para el éxito en soluciones de ingeniería de software.
+        En el transcurso del proyecto, el equipo demostró la capacidad de actualizar conceptos y conocimientos necesarios para fortalecer su desarrollo profesional y garantizar la calidad del trabajo realizado en soluciones de ingeniería de software. Para ello, se profundizó en tecnologías y prácticas contemporáneas, como el desarrollo móvil con Flutter, la creación y despliegue de servicios backend, y la gestión de bases de datos MySQL en entornos remotos.Adicionalmente, se consolidaron habilidades relacionadas con la planificación, comunicación efectiva y trabajo colaborativo, lo cual permitió integrar nuevas herramientas, resolver problemas técnicos y optimizar procesos del proyecto. En conjunto, estas acciones reflejan la actualización constante de conocimientos como parte fundamental del ejercicio profesional y del desarrollo de soluciones tecnológicas robustas.
       </td>
     </tr>
     <tr>
@@ -447,25 +467,26 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
         <b>Diego Acuña</b><br>
         TB1: Al desarrollar el trabajo, tuve que aprender a usar herramientas para la creación de diagramas ER y UML que nunca había utilizado anteriormente. También repasé conocimientos ya adquiridos pero de gran importancia. Sobre todo, tuve que aprender todo lo que conlleva el mercado de combustibles, tanto su gestión como su logística. Estar abierto a aprender nuevas tecnologías y aspectos más allá de la informática, pero relacionados con el proyecto, ayuda a determinar si tu solución será útil o no para tus posibles clientes.<br>
         TP1: Para esta entrega, investigué las opciones de configuración de una aplicación móvil desarrollada en Kotlin y Java, con el objetivo de integrar y consumir datos desde una API simulada (fake API) durante el proceso de desarrollo.<br>
+        TF: Al concluir con el desarrollo del proyecto me di cuenta de algo importante: Para mantener la calidad de mi código, debo actualizar constantemente mis conocimientos sobre Flutter.<br>
         <b>Marllely Arias Segil</b><br>
         TB1: Al trabajar en el capítulo dos, donde realicé el análisis competitivo, el needfinding y las entrevistas, comprendí que cada etapa del proyecto en soluciones de ingeniería de software exige actualizarme y seguir aprendiendo, ya que los retos y necesidades del entorno cambian constantemente.
-        TP: Este proyecto me permitió ver la importancia de seguir aprendiendo nuevas herramientas y enfoques en diseño y tecnología. Investigar y aplicar buenas prácticas en UX/UI fue clave para mejorar mi desempeño y adaptarme a los retos del desarrollo de software.
-        <br>
+        TP: Este proyecto me permitió ver la importancia de seguir aprendiendo nuevas herramientas y enfoques en diseño y tecnología. Investigar y aplicar buenas prácticas en UX/UI fue clave para mejorar mi desempeño y adaptarme a los retos del desarrollo de software.<br>
+        TF: Para completar la vista de órdenes me dediqué a revisar la documentación de Kotlin, la cual se actualizó recientemente. Es por ello que para mantener mis aportes en alta calidad, debo hacer constantes revisiones sobre estas tecnologías.<br>
         <b>Manuel Sanchez</b><br>
         TB1: Al actualizar nuestro backend, me di cuenta que no solo la práctica, sino también el aprendizaje debe ser constante para complementar mis habilidades adquiridas y desempeñarme mejor en el desarrollo de soluciones. <br>
         TP1: Para esta entrega desarrollé parte de las vistas core de la aplicación móvil en Android Studio (Kotlin + Java) y verifiqué el comportamiento de los componentes de UI investigados previamente. Fue necesario investigar nuevamente sobre los componentes UI para asegurar su correcto funcionamiento.<br>
+        TF: Debido a un error de configuración en la herramienta de despliegue de nuestra base de datos y backend, asumí la responsabilidad de investigar la causa del problema y solucionarlo. Tras revisar la configuración y realizar los ajustes necesarios, logré corregir el error y contribuir de manera significativa al avance del proyecto. Esta experiencia me permitió reconocer la importancia del aprendizaje continuo para aprovechar adecuadamente las herramientas utilizadas y resolver incidencias con mayor eficiencia.<br>
         <b>Lynn Meza</b><br>
         TB1: Asumí el aprendizaje permanente mientras desarrollé el modelado del dominio: facilité el Event Storming, delimité Bounded Contexts y redacté sus Canvas, y diseñé los Domain Message Flows. Para lograrlo me actualicé con documentación. El resultado fue una arquitectura más modular, integraciones claras y criterios de prueba trazables, elevando la calidad técnica del proyecto.<br>
-        TP1: En este sprint reforcé la importancia de la mejora continua, investigando sobre las mejores prácticas en Kotlin para asegurar un código mantenible.
-        <br>
+        TP1: En este sprint reforcé la importancia de la mejora continua, investigando sobre las mejores prácticas en Kotlin para asegurar un código mantenible.<br>
         <b>Rogger Faryd Miranda Ayasta</b><br>
-        TB1: A lo largo del desarrollo del proyecto, me di cuenta de que el aprendizaje constante es fundamental para mejorar el desempeño profesional y desarrollar soluciones efectivas en ingeniería de software. Al enfrentarme a tareas como el diseño de la arquitectura del sistema y la implementación de diagramas C4, comprendí que la adopción de nuevas herramientas y metodologías es crucial para optimizar el proceso. Esta experiencia me reafirmó que, para tener éxito en el campo, es necesario seguir aprendiendo y adaptándose continuamente a nuevas tecnologías y enfoques.
-        TP1: En esta oportunidad para el desarrollo  del producto y el informe, me di cuenta la importancia de conocer y aprender conceptos, tecnicas y teconologias para el correcto desarrollo de la solución de manera agil y eficaz. Fue de mucha importancia aprender sobre de Tags y MetaTags, conocerconceptos de UX/UI, etc.
-        TB2: En esta oportunidad, profundicé nuevos conomientos en Kotlin y Flutter lo que me permite contribuir en varios aspectos para el desarrollo del aplicativo lo que representa la mejora continua esperada.
-        <br>
+        TB1: A lo largo del desarrollo del proyecto, me di cuenta de que el aprendizaje constante es fundamental para mejorar el desempeño profesional y desarrollar soluciones efectivas en ingeniería de software. Al enfrentarme a tareas como el diseño de la arquitectura del sistema y la implementación de diagramas C4, comprendí que la adopción de nuevas herramientas y metodologías es crucial para optimizar el proceso. Esta experiencia me reafirmó que, para tener éxito en el campo, es necesario seguir aprendiendo y adaptándose continuamente a nuevas tecnologías y enfoques.<br>
+        TP1: En esta oportunidad para el desarrollo  del producto y el informe, me di cuenta la importancia de conocer y aprender conceptos, tecnicas y teconologias para el correcto desarrollo de la solución de manera agil y eficaz. Fue de mucha importancia aprender sobre de Tags y MetaTags, conocerconceptos de UX/UI, etc.<br>
+        TB2: En esta oportunidad, profundicé nuevos conomientos en Kotlin y Flutter lo que me permite contribuir en varios aspectos para el desarrollo del aplicativo lo que representa la mejora continua esperada.<br>
+        TF: Para esta entrega mejore aprendizaje para el desarrollo de la aplicación en Kotlin segmento objetivo proveedores. Además, contribuí en varios aspectos como el desarrollo del ppt para la exposición, corrección del documento, organizar el trabajo, etc.<br>
       </td>
       <td>
-      A lo largo del proyecto, todos los miembros del equipo coincidieron en la importancia del aprendizaje continuo para el desarrollo profesional y la creación de soluciones efectivas en el campo de la ingeniería de software. Cada integrante del equipo tuvo que aprender nuevas herramientas y tecnologías para abordar los diferentes desafíos del proyecto, como el uso de herramientas de modelado (diagramas ER, UML), el análisis del mercado de combustibles, la integración de APIs en aplicaciones móviles y el desarrollo de componentes de UI. Además, la constante actualización de conocimientos en áreas como UX/UI y backend fue esencial para mejorar la calidad técnica del proyecto. Cada miembro también destacó la importancia de adaptarse a nuevas metodologías, como Domain-Driven Design, Event Storming y diagrama C4, lo cual contribuyó a una arquitectura modular y una integración más clara y eficiente. En general, el proyecto reflejó que el aprendizaje y la adaptación continua son fundamentales para enfrentar los retos del desarrollo de software y garantizar que la solución propuesta sea útil, eficiente y escalable.
+      Durante el desarrollo del proyecto, nuestro equipo demostró una comprensión sólida de la importancia del aprendizaje continuo para abordar los desafíos técnicos y organizativos propios de las soluciones de ingeniería de software. A lo largo del proceso, adquirimos y aplicamos nuevos conocimientos relacionados con el desarrollo móvil en Flutter, la implementación de un backend funcional y su despliegue en un entorno productivo, así como la administración de una base de datos MySQL en un servidor remoto.Asimismo, integramos buenas prácticas de trabajo colaborativo mediante la coordinación de reuniones periódicas, la planificación de actividades y la asignación estratégica de tareas, lo que nos permitió adaptarnos a nuevas herramientas, metodologías y requerimientos. Esta experiencia reforzó nuestra capacidad de actualizar y ampliar continuamente nuestras competencias técnicas y profesionales, evidenciando el valor del aprendizaje permanente para el desarrollo exitoso de proyectos de software.
       </td>
     </tr>
 
@@ -5344,7 +5365,7 @@ Evidencia de despliegue del backend en Render:
     </tr>
 </table>
 
-#### 4.2.2.2. Sprint Backlog 2
+#### 4.2.3.2. Sprint Backlog 3
 
 #### 4.2.2.3. Development Evidence for Sprint Review
 
@@ -5352,13 +5373,13 @@ Evidencia de despliegue del backend en Render:
 
 En el Sprint 2, aunque el enfoque principal fue el desarrollo de las vistas core de la aplicación móvil en Kotlin, no se implementaron pruebas unitarias ni de integración completas debido a que el avance estaba centrado en la implementación de la funcionalidad básica de la app. Sin embargo, se llevaron a cabo pruebas de usabilidad para las vistas de la aplicación móvil, asegurando que las pantallas de Login, Listado de Pedidos, Detalle de Pedido y Crear Pedido fueran funcionales en diferentes dispositivos y versiones de Android. Además, se realizaron pruebas funcionales de los endpoints RESTful implementados, validando la correcta autenticación de usuarios y el manejo de pedidos a través de las API. Estas pruebas permitieron asegurar que los elementos clave del sistema estuvieran operativos antes de continuar con la integración de más funcionalidades en los siguientes sprints.
 
-#### 4.2.2.5. Execution Evidence for Sprint Review
+#### 4.2.3.5. Execution Evidence for Sprint Review
 
-#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
-#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
-#### 4.2.2.8. Team Collaboration Insights during Sprint
+#### 4.2.3.8. Team Collaboration Insights during Sprint
 
 <p>
   <strong>Resumen:</strong><br>
@@ -5371,6 +5392,407 @@ En el Sprint 2, aunque el enfoque principal fue el desarrollo de las vistas core
   <li>Integración de endpoints RESTful y pruebas de autenticación de usuarios para la plataforma.</li>
   <li>Commit de código documentado en GitHub con descripciones claras del trabajo realizado por cada miembro del equipo.</li>
   <li>Revisión continua de las User Stories y ajustes según los comentarios del equipo en las reuniones de Google Meet.</li>
+</ul>
+
+<h4>Principales Herramientas de Comunicación:</h4>
+<ul>
+  <li>GitHub (control de versiones, seguimiento de issues y revisión de código)</li>
+  <li>WhatsApp (comunicación diaria y resolución de dudas rápidas entre los miembros)</li>
+  <li>Google Meet (reuniones de planificación, seguimiento de avances y solución de problemas técnicos en equipo)</li>
+</ul>
+
+
+### 4.2.3. Sprint 3
+
+#### 4.2.3.1. Sprint Planning 3
+
+<table border>
+    <tr align="center">
+        <td><strong>Sprint #</strong></td>
+        <td><strong>Sprint 3</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Date</td>
+        <td>22/11/2025</td>
+    </tr>
+    <tr align="center">
+        <td>Time</td>
+        <td>02:00 PM</td>
+    </tr>
+    <tr align="center">
+        <td>Location</td>
+        <td>Meet</td>
+    </tr>
+    <tr align="center">
+        <td>Prepared by</td>
+        <td>Rogger Miranda</td>
+    </tr>
+    <tr align="center">
+        <td>Attendess (to planning meeting)</td>
+        <td>
+          Acuña Tomas, Diego Rolin - U202221436<br>
+          Miranda Ayasta, Rogger Faryd - U202319239<br>
+          Arias Segil, Marllely Anahi - U202223984<br>
+          Sanchez Arenas, Manuel Angel - U201817507<br>
+          Meza Camayo, Lynn Jeeferzon - U20201C320
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 2 Review Summary</td>
+        <td>Se concluyó parcialmente el Sprint 2: Entregables en este Sprint como lo fueron el JPC y actualizaciones en la Landing Page no fueron concluidos debido a la falta de coordinación y agilidad del equipo.</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 2 Retrospective Summary</td>
+        <td>Una de las áreas de mejora más importantes que logramos identificar fue el mapear correctamente las partes del reporte de proyecto, así como los entregables y en lo que consisten. A pesar de este gran obstáculo, el sprint resultó, en términos generales, bastante positivo, y gracias a la retroalimentación dada, el siguiente Sprint no será perjudicado de la misma forma.</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+        <td align="center">Sprint 3 Goal</td> 
+        <td>Desarrollo de la Flutter app de Fueltrack (vistas Core).
+        Implementar las correcciones en la Landing Page para un nuevo despliegue. Desarrollo de las primeras vistas core de la mobile application:
+          <ul>
+              <li>Login (Client & Supplier)</li>
+              <li>Client Order List View</li>
+              <li>Client Detailed Order View</li>
+              <li>Create Order View</li>
+          </ul>
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 2 Velocity</td>
+        <td>12</td>
+    </tr>
+    <tr align="center">
+        <td>Sum of Story Point</td>
+        <td>22</td>
+    </tr>
+</table>
+
+#### 4.2.3.2. Sprint Backlog 3
+
+<table border>
+    <tr align="center">
+        <td colspan="2"><strong>Sprint #</strong></td>
+        <td colspan="6"><strong>Sprint 3</strong></td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"><strong>User Story</strong></td>
+        <td colspan="6"><strong>Work-Item / Task</strong></td>
+    </tr>
+    <tr align="center">
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Id</strong></td>
+        <td><strong>Description</strong></td>
+        <td><strong>Estimation (Hours)</strong></td>
+        <td><strong>Assigned to</strong></td>
+        <td><strong>Status (To do / In process / To review / Done)</strong></td>
+    </tr>
+    <tr align="center">
+        <td>US-01</td>
+        <td>Crear nuevo pedido</td>
+        <td>W-01</td>
+        <td>Como usuario de una empresa solicitante, quiero poder registrar un pedido directamente desde la plataforma agilizar el proceso y evitar llamadas.</td>
+        <td>6</td>
+        <td>Diego Acuña</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-02</td>
+        <td>Consultar historial de pedidos</td>
+        <td>W-02</td>
+        <td>Como solicitante, quiero poder consultar mi historial de pedidos anteriores, y poder ver cada uno con información detallada. Además, debo ser capaz de filtrar y ordenar el historial según características específicas de los pedidos.</td>
+        <td>4</td>
+        <td>Diego Acuña</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-05</td>
+        <td>Notificar a clientes sobre cambios de pedido</td>
+        <td>W-03</td>
+        <td>Como proveedor de combustible, quiero poder actualizar el estado e información de los pedidos en tiempo real, para mantener a mis clientes informados y organizar mejor mis entregas.</td>
+        <td>5 horas</td>
+        <td>Lynn Meza</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-07</td>
+        <td>Iniciar sesión en la Plataforma</td>
+        <td>W-04</td>
+        <td>Como usuario registrado, quiero iniciar sesión con mi correo y contraseña, para acceder a mi cuenta de forma segura.</td>
+        <td>5 horas</td>
+        <td>Diego Acuña</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-08</td>
+        <td>Registro de cuenta nueva</td>
+        <td>W-05</td>
+        <td>Como visitante, Quiero crear una cuenta con correo, contraseña y rol (cliente o proveedor), Para acceder y comenzar a utilizar la plataforma.</td>
+        <td>7 horas</td>
+        <td>Diego Acuña</td>
+        <td>Done</td>
+    </tr>
+</table>
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+En el transcurso de este Sprint, el equipo realizó importantes correcciones en la configuración de la base de datos desplegada para el backend de la aplicación, además del desarrollo de la aplicación móvil de Fueltrack en Flutter. Además, se logró conectar nuestra API RESTful con la aplicación móvil, permitiendo la autenticación de usuarios y la gestión de pedidos directamente desde la app. A continuación, se detallan las evidencias de desarrollo correspondientes:
+
+<table border>
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Rama</th>
+      <th>ID de Commit</th>
+      <th>Mensaje de Commit</th>
+      <th>Descripción del Commit</th>
+      <th>Fecha de Commit</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>3e9f1a5</td>
+    <td>Primer commit y donde agrego las dependencias necesarias</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>aa134bc</td>
+    <td>Añadir imágenes en assets/images</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>037fe0d</td>
+    <td>Añadir modelos: Method, Notification, Order</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>e10ea89</td>
+    <td>Añadir modelos: Payment, Profile, User</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>0998d80</td>
+    <td>Añadir db_helper para usar la BD sqlite</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>65f3c65</td>
+    <td>Añadir lib/utils/http_helper.dart — esto usa los endpoints para que se relacione con nuestro backend</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>0b729f1</td>
+    <td>Añadir UI auth — esto es para iniciar sesión y registrarse</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>0b729f1</td>
+    <td>Añadir UI auth — esto es para iniciar sesión y registrarse</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>886c808</td>
+    <td>Añadir UI/navigation — Home</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>4a86966</td>
+    <td>Añadir UI/view — Orders y OrderCreate</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>29ac40f</td>
+    <td>Añadir views: CardAddView, OrderPaymentView y PaymentsView</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+  <tr>
+    <td>1ACC0238-2520-1827-Group2-FuelTrack/fueltrack-clients-flutter-mobile-app</td>
+    <td>main</td>
+    <td>2026269</td>
+    <td>Actualizar .gitignore</td>
+    <td>-</td>
+    <td>02/12/2025</td>
+  </tr>
+</tbody>
+</table>
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 3 no se implementaron pruebas unitarias ni de integración, ya que el enfoque principal estuvo centrado en el desarrollo inicial de la aplicación móvil en Flutter y en su conexión con la API ya operativa. Sin embargo, se realizaron algunas pruebas exploratorias (no documentadas) con el fin de verificar la correcta visualización y funcionamiento de los datos dentro de la aplicación móvil.
+
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+Durante este tercer sprint, se realizó la aplicación móvil diseñada únicamente para clientes con el framework Flutter. La construimos para el segmento objetivo, incorporando la retroalimentación de la app previa en JPC. A continuación, se presentan las evidencias de ejecución en el orden indicado.
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/login.jpeg" alt="Login" width="260"><br>
+  <em>Pantalla de inicio de sesión (Login)</em>
+</p>
+<p><strong>Descripción:</strong> Permite ingresar con correo y contraseña o navegar al registro.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/register.jpeg" alt="Register" width="260"><br>
+  <em>Pantalla de registro (Register)</em>
+</p>
+<p><strong>Descripción:</strong> Registra cuentas de clientes. Antes de crear la cuenta, redirige a Términos y condiciones.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/terms.jpeg" alt="Terms and Conditions" width="260"><br>
+  <em>Términos y condiciones (Term)</em>
+</p>
+<p><strong>Descripción:</strong> Muestra los términos y condiciones. Para continuar, se deben aceptar.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/notifications.jpeg" alt="Notifications" width="260"><br>
+  <em>Centro de notificaciones (Notifications)</em>
+</p>
+<p><strong>Descripción:</strong> Lista mensajes automáticos cuando un pedido propio cambia de estado o es actualizado.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/orders.jpeg" alt="Orders List" width="260"><br>
+  <em>Listado de pedidos (Orders)</em>
+</p>
+<p><strong>Descripción:</strong> Muestra las órdenes del cliente con información actualizada y un botón para crear un nuevo pedido.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/order_create.jpeg" alt="Create Order" width="260"><br>
+  <em>Creación de pedido (Create Order)</em>
+</p>
+<p><strong>Descripción:</strong> Formulario para registrar una nueva orden de combustible.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/payments.jpeg" alt="Payments" width="260"><br>
+  <em>Pagos (Payments)</em>
+</p>
+<p><strong>Descripción:</strong> Gestiona métodos de pago y permite elegir con cuál pagar. Incluye accesos a “Agregar tarjeta” y “Pago de pedido”.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/card_add.jpeg" alt="Add New Card" width="260"><br>
+  <em>Agregar nueva tarjeta (Add New Card)</em>
+</p>
+<p><strong>Descripción:</strong> Registra un nuevo método de pago y permite marcarlo como predeterminado.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/order_payment.jpeg" alt="Order Payment" width="260"><br>
+  <em>Pago de pedido (Order Payment)</em>
+</p>
+<p><strong>Descripción:</strong> Procesa el pago de una orden ingresando su código. Muestra un historial de pagos realizados.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/profile.jpeg" alt="Profile" width="260"><br>
+  <em>Perfil de usuario (Profile)</em>
+</p>
+<p><strong>Descripción:</strong> Visualiza y edita información personal del perfil. Incluye opción para cerrar sesión.</p>
+
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+Para este Sprint, no se hizo desarrollo o mantenimiento adicional de los Web Services, ya que el enfoque principal estuvo en el desarrollo de la aplicación móvil en Flutter y su integración con la API RESTful ya existente. Por lo tanto, no se generaron nuevas evidencias de documentación de servicios en esta etapa del proyecto.
+Sin embargo, se realizaron correcciones en el despliegue de la base de datos para el backend, asegurando que estuviera correctamente configurada y optimizada para soportar las operaciones de la aplicación móvil. Estas correcciones incluyeron inserción de data, y reestablecimiento de conexiones entre la API y la base de datos para garantizar un rendimiento adecuado durante las pruebas y el uso de la aplicación móvil.
+
+- Top Queries de la Base de Datos Desplegada:
+![Deployed Database Top Queries](assets/Chapters/Chapter-V/database_deployed_top_queries.png)
+
+- Métricas de la Base de Datos Desplegada:
+![Deployed Database Metrics](assets/Chapters/Chapter-V/database_metrics.png)
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+<h4>Firebase App Distribution (Resumen)</h4>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/proyect.png" alt="Firebase Project" width="560"><br>
+  <em>Comprobamos que la app Flutter funciona y creamos el proyecto en Firebase.</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/configuration.png" alt="Project Created" width="560"><br>
+  <em>Proyecto listo. Elegimos “Agregar app” y seleccionamos Android.</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/app_add.png" alt="Add Android App" width="560"><br>
+  <em>Registramos la app Android con su paquete. Firebase guía los pasos básicos.</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/code.png" alt="Android config" width="560"><br>
+  <em>Conectamos la app con Firebase desde la carpeta Android (archivo de configuración).</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/app.png" alt="App Registered" width="560"><br>
+  <em>App registrada. Guardamos el ID para distribuir más adelante.</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/app_distribution.png" alt="App Distribution" width="560"><br>
+  <em>Subimos el APK, elegimos testers o grupos y agregamos notas.</em>
+</p>
+
+<h5>Pasos simples para App Distribution</h5>
+
+- Crear el proyecto en Firebase y registrar la app Android.
+- Conectar la app con Firebase (archivo de configuración en Android).
+- Generar el APK de release desde Flutter.
+- En Firebase App Distribution, cargar el APK.
+- Elegir testers/grupos y enviar la versión.
+- Los testers reciben un enlace para instalar y comentar.
+
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint
+
+<p>
+  <strong>Resumen:</strong><br>
+  Durante el Sprint 3, el equipo logró completar las vistas core de la aplicación móvil en Flutter, alcanzando aproximadamente un 100% del avance esperado. La colaboración se mantuvo activa a través de GitHub, WhatsApp y Google Meet, facilitando la comunicación y coordinación entre los miembros del equipo.
+</p>
+
+<h4>Evidencia de Colaboración:</h4>
+<ul>
+  <li>Desarrollo de las vistas core de la app móvil (Flutter), incluyendo Login, Register, Orders List, Create Order, etc.</li>
+  <li>Implementación de API RESTful en la aplicación móvil.</li>
+  <li>Commit de código documentado en GitHub con descripciones claras del trabajo realizado por cada miembro del equipo.</li>
+  <li>Corrección y manipulación en despliegue de base de datos</li>
 </ul>
 
 <h4>Principales Herramientas de Comunicación:</h4>
