@@ -28,8 +28,6 @@ _U202221436 - Acuña Tomas, Diego Rolin_
 
 _U202223984 - Arias Segil, Marllely Anahi_
 
-_U20201c320 - Meza Camayo, Lynn Jeeferzon_
-
 _U202319239 - Miranda Ayasta, Rogger Faryd_
 
 _U201817507 - Sanchez Arenas, Manuel Angel_
@@ -154,10 +152,8 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
 ![alt text](image.png)![TB2 contributors](assets/Chapters/Insights/Contributors_TB2.png)
 
 **TF**
-
-![TF summary](assets/Chapters/Insights/Summary_TF.png)
-
-![TF contributors](assets/Chapters/Insights/Contributors_TF.png)
+![alt text](assets/Chapters/Insights/Contributors_TF.png)
+![alt text](<assets/Chapters/Sprint2/Screenshot 2025-12-02 075432.png>)
 
 # Table of Contents
 
