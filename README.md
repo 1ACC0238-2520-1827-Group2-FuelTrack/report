@@ -28,8 +28,6 @@ _U202221436 - Acuña Tomas, Diego Rolin_
 
 _U202223984 - Arias Segil, Marllely Anahi_
 
-_U20201c320 - Meza Camayo, Lynn Jeeferzon_
-
 _U202319239 - Miranda Ayasta, Rogger Faryd_
 
 _U201817507 - Sanchez Arenas, Manuel Angel_
@@ -154,10 +152,8 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
 ![alt text](image.png)![TB2 contributors](assets/Chapters/Insights/Contributors_TB2.png)
 
 **TF**
-
-![TF summary](assets/Chapters/Insights/Summary_TF.png)
-
-![TF contributors](assets/Chapters/Insights/Contributors_TF.png)
+![alt text](assets/Chapters/Insights/Contributors_TF.png)
+![alt text](<assets/Chapters/Sprint2/Screenshot 2025-12-02 075432.png>)
 
 # Table of Contents
 
@@ -400,15 +396,15 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
       - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
       - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
       - [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
-    - [4.2.2. Sprint 3](#422-sprint-3)
-      - [4.2.2.1. Sprint Planning 3](#4221-sprint-planning-3)
+    - [4.2.3. Sprint 3](#423-sprint-3)
+      - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
       - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3-1)
-      - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review-1)
-      - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review-1)
-      - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
-      - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
-      - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
-      - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
+      - [4.2.3.3. Development Evidence for Sprint Review](#4233-development-evidence-for-sprint-review)
+      - [4.2.3.4. Testing Suite Evidence for Sprint Review](#4234-testing-suite-evidence-for-sprint-review)
+      - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review-1)
+      - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review-1)
+      - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review-1)
+      - [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint-1)
   - [4.3. Entrevistas de Validación](#43-entrevistas-de-validación)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -739,7 +735,8 @@ _Necesidades:_
 - Reducir errores en la entrega por información incompleta o mal gestionada.
 - Optimizar la planificación logística y distribución.
 
-----
+---
+
 # Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores.
@@ -4548,6 +4545,7 @@ Esta sección muestra los Mock-ups de las aplicaciones móviles de FuelTrack, do
 Se presentan los User Flows correspondientes a los principales objetivos del usuario (User Goals) identificados para el sistema. Cada flujo integra las vistas representativas mediante Mock-ups, evidenciando el recorrido del usuario dentro de la aplicación.
 
 **User Flow Diagram 1:**
+
 - **User Goal:** Crear una nueva orden de combustible. Como usuario solicitante, deseo registrar una nueva orden de combustible ingresando los detalles del producto, forma de pago y confirmando la solicitud.
 - **Task Flow:** ![Task Flow - Crear orden](assets/Chapters/Chapter-III/taskFlow01.png)
 - **Wireflow:** ![Wire flow - Crear orden](assets/Chapters/Chapter-III/wireFlow01.png)
@@ -4556,6 +4554,7 @@ Se presentan los User Flows correspondientes a los principales objetivos del usu
 ---
 
 **User Flow Diagram 2:**
+
 - **User Goal:** Ver listado de órdenes. Como usuario solicitante, deseo consultar las órdenes realizadas para revisar su estado y detalles.
 - **Task Flow:** ![Task Flow - Ver listado de órdenes](assets/Chapters/Chapter-III/taskFlow02.png)
 - **Wireflow:** ![Wire flow - Ver listado de órdenes](assets/Chapters/Chapter-III/wireFlow02.png)
@@ -4564,6 +4563,7 @@ Se presentan los User Flows correspondientes a los principales objetivos del usu
 ---
 
 **User Flow Diagram 3:**
+
 - **User Goal:** Registro de proveedor. Como administrador, deseo registrar un nuevo proveedor ingresando sus datos empresariales y credenciales de acceso.
 - **Task Flow:** ![Task Flow - Registro de proveedor](assets/Chapters/Chapter-III/taskFlow03.png)
 - **Wireflow:** ![Wire flow - Registro de proveedor](assets/Chapters/Chapter-III/wireFlow03.png)
@@ -4572,6 +4572,7 @@ Se presentan los User Flows correspondientes a los principales objetivos del usu
 ---
 
 **User Flow Diagram 4:**
+
 - **User Goal:** Cargar comprobantes o documentos de pago. Como usuario proveedor, deseo subir comprobantes bancarios o documentos de respaldo para asociarlos a mis órdenes.
 - **Task Flow:** ![Task Flow - Cargar comprobantes](assets/Chapters/Chapter-III/taskFlow04.png)
 - **Wireflow:** ![Wire flow - Cargar comprobantes](assets/Chapters/Chapter-III/wireFlow04.png)
@@ -5329,7 +5330,6 @@ Evidencia de despliegue del backend en Render:
           Miranda Ayasta, Rogger Faryd - U202319239<br>
           Arias Segil, Marllely Anahi - U202223984<br>
           Sanchez Arenas, Manuel Angel - U201817507<br>
-          Meza Camayo, Lynn Jeeferzon - U20201C320
         </td>
     </tr>
     <tr align="center">
@@ -5367,17 +5367,94 @@ Evidencia de despliegue del backend en Render:
 
 #### 4.2.3.2. Sprint Backlog 3
 
+| User Story | Trabajo / Task | Id                       | Título                                                                                                                                        | Descripción | Estimación     | Asignado a | Estado |
+| ---------- | -------------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | -------------- | ---------- | ------ |
+| **US-08**  | W-01           | Inicio de sesión         | Como usuario registrado, quiero iniciar sesión con mi correo y contraseña, para acceder a mi cuenta de forma segura.                          | 7 horas     | Rogger Faryd   | **Done**   |        |
+| **US-09**  | W-02           | Registro de cuenta nueva | Como visitante, quiero crear una cuenta con correo, contraseña y rol (cliente o proveedor), para acceder y comenzar a utilizar la plataforma. | 4 horas     | Rogger Faryd   | **Done**   |        |
+| **TS-05**  | W-03           | Endpoint: Login          | Como developer, quiero un endpoint para autenticar usuarios.                                                                                  | 5 horas     | Manuel Sanchez | **Done**   |        |
+
 #### 4.2.2.3. Development Evidence for Sprint Review
+
+Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Page de FuelTrack junto a la API, cumpliendo con las User Stories determinadas. Se trabajó en la maquetación de las secciones principales, implementación de estilos CSS, diseño responsive para diferentes dispositivos y subida de los cambios al repositorio grupal.
+
+Además, se desarrollaron los endpoints necesarios para la funcionalidad básica de la aplicación móvil, incluyendo autenticación, listado y actualización de pedidos.
+
+| Repositorio                                 | Rama | ID de Commit | Mensaje                                                       | Descripción | Fecha      |
+| ------------------------------------------- | ---- | ------------ | ------------------------------------------------------------- | ----------- | ---------- |
+| 1ACC0238-2520-1827-Group2-FuelTrack/backend | main | **ccf1660**  | update: update database connection string in appsettings.json | -           | 04/11/2025 |
+| 1ACC0238-2520-1827-Group2-FuelTrack/report  | main | **2d850b2**  | fix: user flow diagrams follows the respective template       | -           | 04/11/2025 |
+| 1ACC0238-2520-1827-Group2-FuelTrack/report  | main | **d419bea**  | feat: version register update                                 | -           | 02/11/2025 |
+| 1ACC0238-2520-1827-Group2-FuelTrack/report  | main | **284f2d8**  | Update Chapter 1                                              | -           | 02/11/2025 |
+
+| Repositorio / Rama                          | Rama | Autor   | ID de Commit | Mensaje                                  | Fecha      |
+| ------------------------------------------- | ---- | ------- | ------------ | ---------------------------------------- | ---------- |
+| 1ACC0238-2520-1827-Group2-FuelTrack (merge) | main | r0ggdev | 541efa7      | Merge pull request #2 from feat/provider | 01/12/2025 |
+| 1ACC0238-2520-1827-Group2-FuelTrack         | main | r0ggdev | fa4f7d7      | ✨ Feat: Operators details added         | 01/12/2025 |
+| 1ACC0238-2520-1827-Group2-FuelTrack         | main | r0ggdev | 9720362      | ✨ Feat: MainScreen Operators update     | 01/12/2025 |
+| 1ACC0238-2520-1827-Group2-FuelTrack         | main | r0ggdev | 3233841      | 🐛 Fix: NavGraph provider fixed          | 01/12/2025 |
+| 1ACC0238-2520-1827-Group2-FuelTrack         | main | r0ggdev | 0349c47d     | Merge branch new features                | 01/12/2025 |
+| 1ACC0238-2520-1827-Group2-FuelTrack         | main | kuwuk0  | c04f23df     | Subiendo rol proveedor                   | 01/12/2025 |
+| 1ACC0238-2520-1827-Group2-FuelTrack (merge) | main | r0ggdev | 128b35b0     | Merge pull request #1 from feat/app      | 14/11/2025 |
+| 1ACC0238-2520-1827-Group2-FuelTrack         | main | r0ggdev | a72daabA3    | 🐛 Fix: endpoint base                    | 14/11/2025 |
+| 1ACC0238-2520-1827-Group2-FuelTrack         | main | r0ggdev | edda84336    | 🐛 Fix: base api                         | 14/11/2025 |
+| 1ACC0238-2520-1827-Group2-FuelTrack         | main | r0ggdev | d6715bf5e    | ♻️ Feat: project JPC added               | 13/11/2025 |
 
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
 En el Sprint 2, aunque el enfoque principal fue el desarrollo de las vistas core de la aplicación móvil en Kotlin, no se implementaron pruebas unitarias ni de integración completas debido a que el avance estaba centrado en la implementación de la funcionalidad básica de la app. Sin embargo, se llevaron a cabo pruebas de usabilidad para las vistas de la aplicación móvil, asegurando que las pantallas de Login, Listado de Pedidos, Detalle de Pedido y Crear Pedido fueran funcionales en diferentes dispositivos y versiones de Android. Además, se realizaron pruebas funcionales de los endpoints RESTful implementados, validando la correcta autenticación de usuarios y el manejo de pedidos a través de las API. Estas pruebas permitieron asegurar que los elementos clave del sistema estuvieran operativos antes de continuar con la integración de más funcionalidades en los siguientes sprints.
+Durante el Sprint 2, aunque el enfoque principal fue el desarrollo de las vistas core de la aplicación móvil (Kotlin), no se implementaron pruebas unitarias ni de integración completas debido a que el avance estaba centrado en la funcionalidad básica.
+
+Sin embargo, sí se realizaron:
+
+Pruebas de usabilidad
+
+Se verificó que las pantallas:
+
+Login
+
+Listado de Pedidos
+
+Detalle de Pedido
+
+Crear Pedido
+
+funcionaran correctamente en distintos dispositivos y versiones de Android.
+
+Pruebas funcionales de API
+
+Se validó:
+
+autenticación de usuarios
+
+manejo de pedidos mediante endpoints REST
+
+Estas pruebas aseguraron que los elementos esenciales estuvieran operativos antes de avanzar hacia nuevas funcionalidades.
 
 #### 4.2.3.5. Execution Evidence for Sprint Review
 
+![alt text](<assets/Chapters/Sprint2/Screenshot 2025-12-02 075432.png>)
+![alt text](<assets/Chapters/Sprint2/Screenshot 2025-12-02 075544.png>)
+
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
+Evidencias del desarrollo de la aplicaion
+
+Pantalla de inicio de sesion
+![alt text](assets/Chapters/Sprint2/Img.jpg)
+
+Pantalla de Operadores
+![alt text](assets/Chapters/Sprint2/Img2.jpg)
+
+Pantalla de edicion de operadores
+![alt text](assets/Chapters/Sprint2/Img3.jpg)
+
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+![alt text](assets/Chapters/Sprint2/Evidencias1.png)
+![alt text](assets/Chapters/Sprint2/Evidencias2.png)
+![alt text](assets/Chapters/Sprint2/Evidencias3.png)
+![alt text](assets/Chapters/Sprint2/Evidencia4.png)
+![alt text](assets/Chapters/Sprint2/Evidencia5.png)
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
@@ -5400,7 +5477,6 @@ En el Sprint 2, aunque el enfoque principal fue el desarrollo de las vistas core
   <li>WhatsApp (comunicación diaria y resolución de dudas rápidas entre los miembros)</li>
   <li>Google Meet (reuniones de planificación, seguimiento de avances y solución de problemas técnicos en equipo)</li>
 </ul>
-
 
 ### 4.2.3. Sprint 3
 
@@ -5437,7 +5513,6 @@ En el Sprint 2, aunque el enfoque principal fue el desarrollo de las vistas core
           Miranda Ayasta, Rogger Faryd - U202319239<br>
           Arias Segil, Marllely Anahi - U202223984<br>
           Sanchez Arenas, Manuel Angel - U201817507<br>
-          Meza Camayo, Lynn Jeeferzon - U20201C320
         </td>
     </tr>
     <tr align="center">
@@ -5659,7 +5734,6 @@ En el transcurso de este Sprint, el equipo realizó importantes correcciones en 
 
 Durante el Sprint 3 no se implementaron pruebas unitarias ni de integración, ya que el enfoque principal estuvo centrado en el desarrollo inicial de la aplicación móvil en Flutter y en su conexión con la API ya operativa. Sin embargo, se realizaron algunas pruebas exploratorias (no documentadas) con el fin de verificar la correcta visualización y funcionamiento de los datos dentro de la aplicación móvil.
 
-
 #### 4.2.3.5. Execution Evidence for Sprint Review
 
 Durante este tercer sprint, se realizó la aplicación móvil diseñada únicamente para clientes con el framework Flutter. La construimos para el segmento objetivo, incorporando la retroalimentación de la app previa en JPC. A continuación, se presentan las evidencias de ejecución en el orden indicado.
@@ -5724,17 +5798,16 @@ Durante este tercer sprint, se realizó la aplicación móvil diseñada únicame
 </p>
 <p><strong>Descripción:</strong> Visualiza y edita información personal del perfil. Incluye opción para cerrar sesión.</p>
 
-
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
 Para este Sprint, no se hizo desarrollo o mantenimiento adicional de los Web Services, ya que el enfoque principal estuvo en el desarrollo de la aplicación móvil en Flutter y su integración con la API RESTful ya existente. Por lo tanto, no se generaron nuevas evidencias de documentación de servicios en esta etapa del proyecto.
 Sin embargo, se realizaron correcciones en el despliegue de la base de datos para el backend, asegurando que estuviera correctamente configurada y optimizada para soportar las operaciones de la aplicación móvil. Estas correcciones incluyeron inserción de data, y reestablecimiento de conexiones entre la API y la base de datos para garantizar un rendimiento adecuado durante las pruebas y el uso de la aplicación móvil.
 
 - Top Queries de la Base de Datos Desplegada:
-![Deployed Database Top Queries](assets/Chapters/Chapter-V/database_deployed_top_queries.png)
+  ![Deployed Database Top Queries](assets/Chapters/Chapter-V/database_deployed_top_queries.png)
 
 - Métricas de la Base de Datos Desplegada:
-![Deployed Database Metrics](assets/Chapters/Chapter-V/database_metrics.png)
+  ![Deployed Database Metrics](assets/Chapters/Chapter-V/database_metrics.png)
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -5778,7 +5851,6 @@ Sin embargo, se realizaron correcciones en el despliegue de la base de datos par
 - En Firebase App Distribution, cargar el APK.
 - Elegir testers/grupos y enviar la versión.
 - Los testers reciben un enlace para instalar y comentar.
-
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
