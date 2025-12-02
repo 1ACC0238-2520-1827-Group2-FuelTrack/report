@@ -5402,9 +5402,9 @@ En el Sprint 2, aunque el enfoque principal fue el desarrollo de las vistas core
 </ul>
 
 
-### 4.2.2. Sprint 3
+### 4.2.3. Sprint 3
 
-#### 4.2.2.1. Sprint Planning 3
+#### 4.2.3.1. Sprint Planning 3
 
 <table border>
     <tr align="center">
