@@ -366,10 +366,6 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
       - [**Gestión de Órdenes (Order Management)**](#gestión-de-órdenes-order-management-1)
       - [**Conciliaciones (Subir Comprobantes)**](#conciliaciones-subir-comprobantes-1)
       - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
-      - [**User Goal 01: Crear una nueva orden de combustible**](#user-goal-01-crear-una-nueva-orden-de-combustible-1)
-      - [**User Goal 02: Visualizar historial de órdenes**](#user-goal-02-visualizar-historial-de-órdenes-1)
-      - [**User Goal 03: Registrar proveedor**](#user-goal-03-registrar-proveedor-1)
-      - [**User Goal 04: Cargar comprobantes o documentos de pago**](#user-goal-04-cargar-comprobantes-o-documentos-de-pago-1)
       - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
 - [Capítulo IV: Product Implementation \& Validation](#capítulo-iv-product-implementation--validation)
   - [4.1 Software Configuration Management](#41-software-configuration-management)
@@ -397,22 +393,22 @@ _U201817507 - Sanchez Arenas, Manuel Angel_
       - [4.2.1.8. Team Collaboration Insigths during Sprint](#4218-team-collaboration-insigths-during-sprint)
     - [4.2.2. Sprint 2](#422-sprint-2)
       - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
-      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
+      - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
       - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
       - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
-      - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
-      - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
-      - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
-      - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
-    - [4.2.3. Sprint 3](#423-sprint-3)
-      - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
-      - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
-      - [4.2.3.3. Development Evidence for Sprint Review](#4233-development-evidence-for-sprint-review)
-      - [4.2.3.4. Testing Suite Evidence for Sprint Review](#4234-testing-suite-evidence-for-sprint-review)
       - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
       - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
       - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
       - [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
+    - [4.2.2. Sprint 3](#422-sprint-3)
+      - [4.2.2.1. Sprint Planning 3](#4221-sprint-planning-3)
+      - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3-1)
+      - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review-1)
+      - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review-1)
+      - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
+      - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
+      - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
+      - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
   - [4.3. Entrevistas de Validación](#43-entrevistas-de-validación)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -5663,7 +5659,71 @@ En el transcurso de este Sprint, el equipo realizó importantes correcciones en 
 
 Durante el Sprint 3 no se implementaron pruebas unitarias ni de integración, ya que el enfoque principal estuvo centrado en el desarrollo inicial de la aplicación móvil en Flutter y en su conexión con la API ya operativa. Sin embargo, se realizaron algunas pruebas exploratorias (no documentadas) con el fin de verificar la correcta visualización y funcionamiento de los datos dentro de la aplicación móvil.
 
+
 #### 4.2.3.5. Execution Evidence for Sprint Review
+
+Durante este tercer sprint, se realizó la aplicación móvil diseñada únicamente para clientes con el framework Flutter. La construimos para el segmento objetivo, incorporando la retroalimentación de la app previa en JPC. A continuación, se presentan las evidencias de ejecución en el orden indicado.
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/login.jpeg" alt="Login" width="260"><br>
+  <em>Pantalla de inicio de sesión (Login)</em>
+</p>
+<p><strong>Descripción:</strong> Permite ingresar con correo y contraseña o navegar al registro.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/register.jpeg" alt="Register" width="260"><br>
+  <em>Pantalla de registro (Register)</em>
+</p>
+<p><strong>Descripción:</strong> Registra cuentas de clientes. Antes de crear la cuenta, redirige a Términos y condiciones.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/terms.jpeg" alt="Terms and Conditions" width="260"><br>
+  <em>Términos y condiciones (Term)</em>
+</p>
+<p><strong>Descripción:</strong> Muestra los términos y condiciones. Para continuar, se deben aceptar.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/notifications.jpeg" alt="Notifications" width="260"><br>
+  <em>Centro de notificaciones (Notifications)</em>
+</p>
+<p><strong>Descripción:</strong> Lista mensajes automáticos cuando un pedido propio cambia de estado o es actualizado.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/orders.jpeg" alt="Orders List" width="260"><br>
+  <em>Listado de pedidos (Orders)</em>
+</p>
+<p><strong>Descripción:</strong> Muestra las órdenes del cliente con información actualizada y un botón para crear un nuevo pedido.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/order_create.jpeg" alt="Create Order" width="260"><br>
+  <em>Creación de pedido (Create Order)</em>
+</p>
+<p><strong>Descripción:</strong> Formulario para registrar una nueva orden de combustible.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/payments.jpeg" alt="Payments" width="260"><br>
+  <em>Pagos (Payments)</em>
+</p>
+<p><strong>Descripción:</strong> Gestiona métodos de pago y permite elegir con cuál pagar. Incluye accesos a “Agregar tarjeta” y “Pago de pedido”.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/card_add.jpeg" alt="Add New Card" width="260"><br>
+  <em>Agregar nueva tarjeta (Add New Card)</em>
+</p>
+<p><strong>Descripción:</strong> Registra un nuevo método de pago y permite marcarlo como predeterminado.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/order_payment.jpeg" alt="Order Payment" width="260"><br>
+  <em>Pago de pedido (Order Payment)</em>
+</p>
+<p><strong>Descripción:</strong> Procesa el pago de una orden ingresando su código. Muestra un historial de pagos realizados.</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/profile.jpeg" alt="Profile" width="260"><br>
+  <em>Perfil de usuario (Profile)</em>
+</p>
+<p><strong>Descripción:</strong> Visualiza y edita información personal del perfil. Incluye opción para cerrar sesión.</p>
+
 
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -5678,15 +5738,47 @@ Sin embargo, se realizaron correcciones en el despliegue de la base de datos par
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
-Este proyecto utilizó Flutter y Android Studio para el desarrollo de la aplicación móvil. Además, de ello, se utilizaron las siguientes herramientas para su control de version e invitaciones de testeo:
+<h4>Firebase App Distribution (Resumen)</h4>
 
-- **Git**: Sistema de control de versiones utilizado para gestionar el código.
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/proyect.png" alt="Firebase Project" width="560"><br>
+  <em>Comprobamos que la app Flutter funciona y creamos el proyecto en Firebase.</em>
+</p>
 
-- **GitFlow**: Flujo de trabajo colaborativo implementado en el desarrollo del proyecto.
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/configuration.png" alt="Project Created" width="560"><br>
+  <em>Proyecto listo. Elegimos “Agregar app” y seleccionamos Android.</em>
+</p>
 
-- **GitHub**: Plataforma colaborativa donde se almacenó y gestionó los repositorios remotos del backend.
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/app_add.png" alt="Add Android App" width="560"><br>
+  <em>Registramos la app Android con su paquete. Firebase guía los pasos básicos.</em>
+</p>
 
-- **Firebase App**: Plataforma utilizada para el despliegue y distribución de la aplicación móvil, facilitando las pruebas y el acceso a la app por parte de los usuarios.
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/code.png" alt="Android config" width="560"><br>
+  <em>Conectamos la app con Firebase desde la carpeta Android (archivo de configuración).</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/app.png" alt="App Registered" width="560"><br>
+  <em>App registrada. Guardamos el ID para distribuir más adelante.</em>
+</p>
+
+<p align="center">
+  <img src="./assets/Chapters/Chapter-IV/Flutter/firebase/app_distribution.png" alt="App Distribution" width="560"><br>
+  <em>Subimos el APK, elegimos testers o grupos y agregamos notas.</em>
+</p>
+
+<h5>Pasos simples para App Distribution</h5>
+
+- Crear el proyecto en Firebase y registrar la app Android.
+- Conectar la app con Firebase (archivo de configuración en Android).
+- Generar el APK de release desde Flutter.
+- En Firebase App Distribution, cargar el APK.
+- Elegir testers/grupos y enviar la versión.
+- Los testers reciben un enlace para instalar y comentar.
+
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
